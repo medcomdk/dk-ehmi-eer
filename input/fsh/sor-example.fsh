@@ -179,7 +179,7 @@ Usage: #example
 * entry[=].request.url = "Practitioner/SORPractitioner-Example"
 * entry[=].request.method = #PUT
 * entry[=].resource = SORPractitioner-Example
-
+/*
 * entry[+].fullUrl = "http://www.example.org/fhir/OrganizationAffiliation/ex-OrgAff"
 * entry[=].request.url = "OrganizationAffiliation/ex-OrgAff"
 * entry[=].request.method = #PUT
@@ -219,3 +219,4 @@ Usage: #example
 * entry[=].request.url = "Endpoint/ex-endpointDicom"
 * entry[=].request.method = #PUT
 * entry[=].resource = ex-endpointDicom
+*/
