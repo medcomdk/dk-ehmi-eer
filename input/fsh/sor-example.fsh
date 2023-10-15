@@ -1,4 +1,4 @@
-// jurisdiction pair
+/*// jurisdiction pair
 
 Instance: SORJurisdictionOrganization-Example
 InstanceOf: SORJurisdictionOrganization
