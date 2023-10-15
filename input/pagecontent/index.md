@@ -1,3 +1,3 @@
 # ehmi_mCSD
 
-Feel free to modify this index page with your own awesome content!
+![Model of mCSD Relationships](./images/mCSDRelationships.png)
