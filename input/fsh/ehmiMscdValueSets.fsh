@@ -7,8 +7,11 @@ Description: "ehmi-connection-types for the EHMI Messaging Infrastructure"
 * ^date  =  "2023-09-01"
 * ^experimental = false
 * ^caseSensitive = true
-* #ehmiMessaging "EHMI message events"
-* #vansMessaging "EHMI message events"
+* #eDeliveryMessaging "EHMI messaging via eDelivery"
+* #vansMessaging "EHMI messaging"
+* #hl7-fhir-msg "hl7-fhir-msg"
+* #hl7-fhir-rest "hl7-fhir-rest"
+* #ihe-xds "ihe-xds - Cross-domain Document Sharing"
 
 ValueSet: EHMIEndpointConnectionTypeVS
 Id: ehmi-connection-type-valueset
@@ -18,10 +21,10 @@ Description: "ValueSet containing codes for EHMI connectionTypes"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
 * ^experimental = false
-* include codes from system $EHMIEndpointConnectionType
-* include #hl7-fhir-msg from system $mCSDEndpointConnectionType
-* include #hl7-fhir-rest from system $mCSDEndpointConnectionType
-* include #ihe-xds from system $mCSDEndpointConnectionType
+* include codes from system ehmi-connection-type
+//* include #hl7-fhir-msg from system $mCSDEndpointConnectionType
+//* include #hl7-fhir-rest from system $mCSDEndpointConnectionType
+//* include #ihe-xds from system $mCSDEndpointConnectionType
 
 CodeSystem: EHMIEndpointPayloadType
 Id: ehmi-payload-type
@@ -47,4 +50,4 @@ Description: "ValueSet containing codes for EHMI payloadTypes"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
 * ^experimental = false
-* include codes from system $EHMIEndpointPayloadType
+* include codes from system ehmi-payload-type
