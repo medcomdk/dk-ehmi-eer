@@ -51,8 +51,8 @@ Description:  "EHMI eDelivery Oioxml Messaging Endpoint"
 Profile:      EHMIMessagingVansEndpoint
 Parent:       EHMIMessagingEndpoint
 Id:           medcom.ehmi.dk.mcsd.messaging.vans
-Title:        "VANS Messaging Endpoint"
-Description:  "VANS Messaging Endpoint"
+Title:        "EHMI VANS Messaging Endpoint"
+Description:  "EHMI VANS Messaging Endpoint"
 * connectionType = $EHMIEndpointConnectionType#vansMessaging
 
 Profile:      EHMIMessagingVansFhirEndpoint
