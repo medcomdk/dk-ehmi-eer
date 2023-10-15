@@ -1,6 +1,6 @@
 Profile:      EHMIMessagingEndpoint
 Parent:       MCSDEndpoint
-Id:           ehmi.sor.endpoint.messaging
+Id:           medcom.ehmi.dk.mcsd.messaging
 Title:        "EHMI Messaging Endpoint"
 Description:  """
 A profile on the mCSD Endpoint.
@@ -16,15 +16,15 @@ Given that in FHIR R4 the .connnectionType is 1..1, each type of endpoint will b
 * identifier.system = $EHMIAuditEventAgentWhoIdentifierTypes
 * identifier.type = $EHMIAuditEventAgentWhoIdentifierTypes#GLN
 * identifier.value 1..1 MS SU
-* connectionType from $EHMIEndpointConnectionTypeVS
+* connectionType from ehmi-connection-type-valueset
 * period 1..1 MS SU
-* payloadType from $EHMIEndpointPayloadTypeVS
+* payloadType from ehmi-payload-type-valueset
 * payloadType 1..1 MS SU
 * payloadMimeType 1..1 MS SU
 
 Profile:      SOREndpointDocShare
 Parent:       MCSDEndpointDocShare
-Id:           medcom.sor.Endpoint.DocShare
+Id:           medcom.ehmi.dk.mcsd.DocShare
 Title:        "MedCom SOR DocShare Endpoint"
 Description:  """ SOR """
 
