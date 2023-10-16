@@ -2,7 +2,7 @@ Instance: EMCSD_01.1_SampleEHMIMessagingEdeliveryFhirEndpoint
 InstanceOf: EHMIMessagingEdeliveryFhirEndpoint
 Description: "An example of an EHMIMessagingEdeliveryFhirEndpoint."
 * id = "EMCSD01.1"
-* identifier.value = "EMCSD01.1"
+* identifier.value = "Endpoint.EMCSD.01.1"
 //* identifier.use = "official"
 * status = #active
 * managingOrganization = Reference(Organization/EMCSD.SOR.IO.01.1)

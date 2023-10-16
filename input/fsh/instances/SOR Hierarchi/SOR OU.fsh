@@ -6,3 +6,9 @@ Description: "An example of an SOR OU Organization."
 //* type = #IO
 * name = "SOR-OU-Organization"
 * partOf = Reference(Organization/EMCSD.SOR.HI.01.1)
+* endpoint = Reference(Endpoint/Endpoint.EMCSD.01.1)
+* endpoint = Reference(Endpoint/Endpoint.EMCSD.02.1)
+* endpoint = Reference(Endpoint/Endpoint.EMCSD.03.1)
+* endpoint = Reference(Endpoint/Endpoint.EMCSD.04.1)
+* endpoint = Reference(Endpoint/Endpoint.EMCSD.05.1)
+* endpoint = Reference(Endpoint/Endpoint.EMCSD.06.1)
