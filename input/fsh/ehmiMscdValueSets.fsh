@@ -55,3 +55,26 @@ Description: "ValueSet containing codes for EHMI payloadTypes"
 * ^date  =  "2023-09-01"
 * ^experimental = false
 * include codes from system ehmi-payload-type
+
+CodeSystem: EHMISOROrganization
+Id: ehmi-sor-organization-type
+Title: "EHMI SOR Organization Types CS"
+Description: "ehmi-sor-organization-type for the EHMI Messaging Infrastructure"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2023-09-01"
+* ^experimental = false
+* ^caseSensitive = true
+* #IO "SOR Organization - Institution Owner IO (DK:IE)"
+* #HI "SOR Organization - Healthcare Institution HI (DK:SI)"
+* #OU "SOR Organization - Organizational Unit OU (DK:OE)"
+
+ValueSet: EHMISOROrganizationVS
+Id: ehmi-sor-organization-type-valueset
+Title: "EHMI SOR Organization Types Valueset"
+Description: "ValueSet containing codes for EHMI ehmi-sor-organization-type"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2023-09-01"
+* ^experimental = false
+* include codes from system ehmi-sor-organization-type
