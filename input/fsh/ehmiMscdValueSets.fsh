@@ -35,12 +35,16 @@ Description: "ehmi-payload-types for the EHMI Messaging Infrastructure"
 * ^date  =  "2023-09-01"
 * ^experimental = false
 * ^caseSensitive = true
-* #urn:dk:medcom:edelivery:messaging:fhir "MedCom FHIR message on eDelivery"
-* #urn:dk:medcom:vans:messaging:fhir "MedCom FHIR message on VANS"
-* #urn:dk:medcom:edelivery:messaging:edi "MedCom edi message on eDelivery"
-* #urn:dk:medcom:vans:messaging:edi "MedCom edi message on VANS"
-* #urn:dk:medcom:edelivery:messaging:oioxml "MedCom oioxml message on eDelivery"
-* #urn:dk:medcom:vans:messaging:oioxml "MedCom oioxml message on VANS"
+* #urn:dk:medcom:prod:messaging:fhir "MedCom FHIR message as a production message"
+* #urn:dk:medcom:test:messaging:fhir "MedCom FHIR message as a test message"
+* #urn:dk:medcom:prod:messaging:edi "MedCom edi message as a production message"
+* #urn:dk:medcom:test:messaging:edi "MedCom edi message as a test message"
+* #urn:dk:medcom:prod:messaging:oioxml "MedCom oioxml message as a production message"
+* #urn:dk:medcom:test:messaging:oioxml "MedCom oioxml message as a test message"
+* #urn:dk:medcom:prod:messaging:sbdh "MedCom SBDH envelope as a production message"
+* #urn:dk:medcom:test:messaging:sbdh "MedCom SBDH envelope as a test message"
+* #urn:dk:medcom:prod:messaging:sbdhack "MedCom SBDH Ack message as a production message"
+* #urn:dk:medcom:test:messaging:sbdhack "MedCom SBDH Ack message as a test message"
 
 ValueSet: EHMIEndpointPayloadTypeVS
 Id: ehmi-payload-type-valueset
