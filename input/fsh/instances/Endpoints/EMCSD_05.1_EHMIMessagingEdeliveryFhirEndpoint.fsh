@@ -1,7 +1,7 @@
 Instance: EMCSD_02.1_SampleEHMIMessagingVansEdiEndpoint
 InstanceOf: EHMIMessagingVansEdiEndpoint
 Description: "An example of an EHMIMessagingVansEdiEndpoint."
-* id = "EMCSD05.1"
+* id = "Endpoint.EMCSD.05.1"
 * identifier.value = "Endpoint.EMCSD.05.1"
 //* identifier.use = "official"
 * status = #active

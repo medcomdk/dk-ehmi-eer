@@ -1,7 +1,7 @@
 Instance: EMCSD_01.1_SampleEHMIMessagingVansFhirEndpoint
 InstanceOf: EHMIMessagingVansFhirEndpoint
 Description: "An example of an EHMIMessagingEdeliveryFhirEndpoint."
-* id = "EMCSD04.1"
+* id = "Endpoint.EMCSD.04.1"
 * identifier.value = "Endpoint.EMCSD.04.1"
 //* identifier.use = "official"
 * status = #active

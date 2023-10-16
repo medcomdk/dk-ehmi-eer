@@ -1,7 +1,7 @@
 Instance: EMCSD_03.1_SampleEHMIMessagingEdeliveryOioxmlEndpoint
 InstanceOf: EHMIMessagingEdeliveryOioxmlEndpoint
 Description: "An example of an EHMIMessagingEdeliveryOioxmlEndpoint."
-* id = "EMCSD03.1"
+* id = "Endpoint.EMCSD.03.1"
 * identifier.value = "Endpoint.EMCSD.03.1"
 //* identifier.use = "official"
 * status = #active
