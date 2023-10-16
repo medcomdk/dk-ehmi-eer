@@ -32,49 +32,49 @@ Parent:       EHMIMessagingEdeliveryEndpoint
 Id:           medcom.ehmi.dk.mcsd.messaging.edelivery.fhir
 Title:        "EHMI eDelivery FHIR Messaging Endpoint"
 Description:  "EHMI eDelivery FHIR Messaging Endpoint"
-* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:edelivery:messaging:fhir (exactly)
+* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:fhir (exactly)
 
 Profile:      EHMIMessagingEdeliveryEdiEndpoint
 Parent:       EHMIMessagingEdeliveryEndpoint
 Id:           medcom.ehmi.dk.mcsd.messaging.edelivery.edi
 Title:        "EHMI eDelivery EDI Messaging Endpoint"
 Description:  "EHMI eDelivery EDI Messaging Endpoint"
-* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:edelivery:messaging:edi
+* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:edi (exactly)
 
 Profile:      EHMIMessagingEdeliveryOioxmlEndpoint
 Parent:       EHMIMessagingEdeliveryEndpoint
 Id:           medcom.ehmi.dk.mcsd.messaging.edelivery.oioxml
 Title:        "EHMI eDelivery Oioxml Messaging Endpoint"
 Description:  "EHMI eDelivery Oioxml Messaging Endpoint"
-* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:edelivery:messaging:oioxml
+* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:oioxml (exactly)
 
 Profile:      EHMIMessagingVansEndpoint
 Parent:       EHMIMessagingEndpoint
 Id:           medcom.ehmi.dk.mcsd.messaging.vans
 Title:        "EHMI VANS Messaging Endpoint"
 Description:  "EHMI VANS Messaging Endpoint"
-* connectionType = $EHMIEndpointConnectionType#vansMessaging
+* connectionType = $EHMIEndpointConnectionType#vansMessaging (exactly)
 
 Profile:      EHMIMessagingVansFhirEndpoint
 Parent:       EHMIMessagingVansEndpoint
 Id:           medcom.ehmi.dk.mcsd.messaging.vans.fhir
 Title:        "EHMI VANS FHIR Messaging Endpoint"
 Description:  "EHMI VANS FHIR Messaging Endpoint"
-* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:edelivery:messaging:fhir
+* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:fhir (exactly)
 
 Profile:      EHMIMessagingVansEdiEndpoint
 Parent:       EHMIMessagingVansEndpoint
 Id:           medcom.ehmi.dk.mcsd.messaging.vans.edi
 Title:        "EHMI VANS EDI Messaging Endpoint"
 Description:  "EHMI VANS EDI Messaging Endpoint"
-* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:edelivery:messaging:edi
+* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:edi (exactly)
 
 Profile:      EHMIMessagingVansOioxmlEndpoint
 Parent:       EHMIMessagingVansEndpoint
 Id:           medcom.ehmi.dk.mcsd.messaging.vans.oioxml
 Title:        "EHMI VANS Oioxml Messaging Endpoint"
 Description:  "EHMI VANS Oioxml Messaging Endpoint"
-* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:vans:messaging:oioxml
+* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:oioxml (exactly)
 
 /*
 Profile:      SOREndpointDocShare
