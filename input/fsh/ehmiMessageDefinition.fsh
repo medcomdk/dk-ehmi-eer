@@ -16,9 +16,16 @@ Description: "An example profile of the MessageDefinition resource."
 * name 1..1 MS SU
 * title 1..1 MS SU
 * publisher 1..1 MS SU
-//* contact 1..1 MS SU
-* contact.telecom.value = "medcom@medcom.dk" 
-* contact.name = "MedCom"
+/* contact 1..1 MS SU
+* contact[0].name = "Interoperability Consultant, Michael Johansen"
+* contact[=].telecom.system = #email
+* contact[=].telecom.value = "mjo@medcom.dk" 
+* contact[=].telecom.use = #work
+* contact[+].name = "Subject Matter Expert, Gitte Henriksen"
+* contact[=].telecom.system = #email
+* contact[=].telecom.value = "ghe@medcom.dk" 
+* contact[=].telecom.use = #work
+*/
 //* description 1..1 MS SU
 //* description.value[x] = "Natural language description of the message definition"
 //* useContext 1..1 MS SU
@@ -27,24 +34,3 @@ Description: "An example profile of the MessageDefinition resource."
 * jurisdiction = #DNK
 * category = #notification
 * responseRequired = #always
-
-
-Instance: EHMIMessageDefinition_bin02:b0210x
-InstanceOf: EHMIMessageDefinition
-Description: "An example of an EHMIMessageDefinition for bin02:b0210x."
-* id = "EHMIMessageDefinition01.0"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:edifact:mig:medbin:bin02:b0210x
-* identifier.system = "www.medcom.dk"
-* identifier.period.start = "2020-01-01"
-* identifier.type = $EHMIMedComMessageDefinitionType#EDIFACT
-* identifier.use = #official 
-* identifier.value = "bin02:b0210x"
-* version = "b0210x"
-* name = "Binary document transport for attachments to all referral types"
-* title = "binary-document-transport-for-attachments-to-all-referral-types"
-* status = #draft
-* date = "2023-01-01"
-* publisher = "MedCom"
-// 2015-02-07T13:28:17-05:00
-* eventCoding = $MessageEvents#empty-message
-//http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-messaging-eventCodes

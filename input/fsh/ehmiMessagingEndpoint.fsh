@@ -17,7 +17,7 @@ mechanism).
 * connectionType from ehmi-connection-type-valueset
 * period 1..1 MS SU
 * payloadType from ehmi-payload-type-valueset
-* payloadType 1..1 MS SU
+* payloadType 1..* MS SU
 * payloadMimeType 1..1 MS SU
 
 Profile:      EHMIMessagingEdeliveryEndpoint
