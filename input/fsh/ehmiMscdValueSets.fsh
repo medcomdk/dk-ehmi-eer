@@ -132,3 +132,26 @@ Description: "ehmi-sor-net-operator-type for the EHMI Messaging Infrastructure"
 * ^experimental = false
 * include codes from system ehmi-sor-net-operator-type
 
+CodeSystem: EHMIMedComMessageDefinitionType
+Id: ehmi-medcom-message-definition-type
+Title: "EHMIMedComMessageDefinitionType CodeSystem"
+Description: "EHMIMedComMessageDefinitionTypeCS for the EHMI Messaging Infrastructure"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2023-09-01"
+* ^experimental = false
+* ^caseSensitive = true
+* #EDIFACT "Edifact"
+* #OIOXML "OIOXML"
+* #FHIR "FHIR"
+
+ValueSet: EHMIMedComMessageDefinitionTypeVS
+Id: ehmi-medcom-message-definition-type-valueset
+Title: "EHMIMedComMessageDefinitionType Valueset"
+Description: "EHMIMedComMessageDefinitionTypeVS for the EHMI Messaging Infrastructure"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2023-09-01"
+* ^experimental = false
+* include codes from system ehmi-medcom-message-definition-type
+

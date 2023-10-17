@@ -25,6 +25,12 @@ Alias: $EHMIEndpointPayloadType = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/e
 Alias: $EHMIEndpointPayloadTypeVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-payload-type-valueset
 Alias: $EHMISOROrganizationType = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-sor-organization-type
 Alias: $EHMISOROrganizationTypeVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-sor-organization-type-valueset
+Alias: $MedComMessageDefinitionUri = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-medcom-message-definition-uri
+Alias: $MedComMessageDefinitionUriVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-medcom-message-definition-uri-valueset
+Alias: $EHMIMedComMessageDefinitionType = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-medcom-message-definition-type
+Alias: $EHMIMedComMessageDefinitionTypeVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-medcom-message-definition-type-valueset
+
+Alias: $MessageEvents = http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-messaging-eventCodes
 
 /*
 Alias: $StatusCodes = http://hl7.org/fhir/encounter-status
