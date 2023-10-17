@@ -9,8 +9,8 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:3.
 * identifier.use = #official 
 * identifier.value = "hospitalnotification.3.0.0"
 * version = "3.0.0"
-* name = "HospitalNotification"
-* title = "hospital-notification"
+* name = "HospitalNotification 3.0.0"
+* title = "hospital-notification-3-0-0"
 * status = #draft
 * date = "2023-01-06"
 * publisher = "MedCom"
@@ -29,8 +29,8 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:2.
 * identifier.use = #official 
 * identifier.value = "hospitalnotification.2.0.0"
 * version = "2.0.0"
-* name = "HospitalNotification"
-* title = "hospital-notification"
+* name = "HospitalNotification 2.0.0"
+* title = "hospital-notification-2-0-0"
 * status = #draft
 * date = "2022-10-05"
 * publisher = "MedCom"
@@ -49,8 +49,8 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:1.
 * identifier.use = #official 
 * identifier.value = "hospitalnotification.1.0.0"
 * version = "1.0.0"
-* name = "HospitalNotification"
-* title = "hospital-notification"
+* name = "HospitalNotification 1.0.0"
+* title = "hospital-notification-1-0-0"
 * status = #draft
 * date = "2021-03-23"
 * publisher = "MedCom"
