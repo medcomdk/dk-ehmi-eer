@@ -11,6 +11,7 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:3.
 * version = "3.0.0"
 * name = "HospitalNotification 3.0.0"
 * title = "hospital-notification-3-0-0"
+* replaces = canonical("hospitalnotification.2.0.0")
 * status = #draft
 * date = "2023-01-06"
 * publisher = "MedCom"
@@ -32,6 +33,7 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:2.
 * version = "2.0.0"
 * name = "HospitalNotification 2.0.0"
 * title = "hospital-notification-2-0-0"
+* replaces = canonical("hospitalnotification.1.0.0")
 * status = #retired
 * date = "2022-10-05"
 * publisher = "MedCom"
