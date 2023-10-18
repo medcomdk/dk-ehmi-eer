@@ -15,6 +15,7 @@ Description: "An example profile of the MessageDefinition resource."
 * version 1..1 MS SU
 * name 1..1 MS SU
 * title 1..1 MS SU
+* replaces 0..1 MS SU
 * publisher 1..1 MS SU
 /* contact 1..1 MS SU
 * contact[0].name = "Interoperability Consultant, Michael Johansen"
