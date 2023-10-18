@@ -11,7 +11,7 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:3.
 * version = "3.0.0"
 * name = "HospitalNotification 3.0.0"
 * title = "hospital-notification-3-0-0"
-* replaces = canonical("hospitalnotification.2.0.0")
+* replaces = canonical("EHMI.fhir.MessageDefinition.hospitalNotification.2.0.0")
 * status = #draft
 * date = "2023-01-06"
 * publisher = "MedCom"
