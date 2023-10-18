@@ -1,7 +1,7 @@
 Profile: EHMIMessageDefinition
 Parent: MessageDefinition
 Description: "An example profile of the MessageDefinition resource."
-* url from ehmi-medcom-message-definition-uri-valueset
+//* url from ehmi-medcom-message-definition-uri-valueset
 * url 1..1 MS SU
 * identifier 1..1 MS SU
 //* identifier.system from ehmi-medcom-message-definition-uri-valueset
