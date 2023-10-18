@@ -3,6 +3,8 @@ InstanceOf: EHMIMessageDefinition
 Description: "An example of an EHMIMessageDefinition for hospitalnotification:3.0.0"
 * id = "EHMI.fhir.MessageDefinition.hospitalNotification.3.0.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:fhir:structuredefinition:hospitalnotification:3.0.0
+// http://medcomehmi.dk/ig/ehmi_mcsd/MessageDefinition/hospital-notification-3-0-0
+// $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:fhir:structuredefinition:hospitalnotification:3.0.0
 * identifier.system = "www.medcom.dk"
 * identifier.period.start = "2021-03-23"
 * identifier.type = $EHMIMedComMessageDefinitionType#FHIR
@@ -11,10 +13,10 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:3.
 * version = "3.0.0"
 * name = "HospitalNotification 3.0.0"
 * title = "hospital-notification-3-0-0"
-* replaces = canonical(http://medcomehmi.dk/ig/ehmi_mcsd/EHMIMessageDefinition/EHMI.fhir.MessageDefinition.hospitalNotification.2.0.0|2.0.0)
-https://fhir.nhs.uk/STU3/MessageDefinition/ITK-Response-MessageDefinition-1
+//* replaces = http://medcomehmi.dk/ig/ehmi_mcsd/MessageDefinition/EHMI.fhir.MessageDefinition.hospitalNotification:2.0.0
 * status = #draft
 * date = "2023-01-06"
+* copyright = "Copyright © 2023 MedCom"
 * publisher = "MedCom"
 // 2015-02-07T13:28:17-05:00
 * eventCoding = $MessageEvents#hospital-notification-message
@@ -24,6 +26,7 @@ Instance: EHMI.fhir.MessageDefinition.hospitalNotification:2.0.0
 InstanceOf: EHMIMessageDefinition
 Description: "An example of an EHMIMessageDefinition for hospitalnotification:2.0.0"
 * id = "EHMI.fhir.MessageDefinition.hospitalNotification.2.0.0"
+//* url = http://medcomehmi.dk/ig/ehmi_mcsd/MessageDefinition/hospital-notification-2-0-0
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:fhir:structuredefinition:hospitalnotification:2.0.0
 * identifier.system = "www.medcom.dk"
 * identifier.period.start = "2021-03-23"
@@ -34,9 +37,10 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:2.
 * version = "2.0.0"
 * name = "HospitalNotification 2.0.0"
 * title = "hospital-notification-2-0-0"
-* replaces = canonical("http://medcomehmi.dk/ig/ehmi_mcsd/MedComMessageDefinition/EHMI.fhir.MessageDefinition.hospitalNotification.2.0.0|2.0.0")
+//* replaces = canonical(http://medcomehmi.dk/ig/ehmi_mcsd/EHMIMessageDefinition/EHMI.fhir.MessageDefinition.hospitalNotification:1.0.0)
 * status = #retired
 * date = "2022-10-05"
+* copyright = "Copyright © 2022 MedCom"
 * publisher = "MedCom"
 // 2015-02-07T13:28:17-05:00
 * eventCoding = $MessageEvents#hospital-notification-message
@@ -46,6 +50,7 @@ Instance: EHMI.fhir.MessageDefinition.hospitalNotification:1.0.0
 InstanceOf: EHMIMessageDefinition
 Description: "An example of an EHMIMessageDefinition for hospitalnotification:1.0.0"
 * id = "EHMI.fhir.MessageDefinition.hospitalNotification.1.0.0"
+//* url = http://medcomehmi.dk/ig/ehmi_mcsd/MessageDefinition/hospital-notification-1-0-0
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:fhir:structuredefinition:hospitalnotification:1.0.0
 * identifier.system = "www.medcom.dk"
 * identifier.period.start = "2021-03-23"
@@ -58,6 +63,7 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:1.
 * title = "hospital-notification-1-0-0"
 * status = #retired
 * date = "2021-03-23"
+* copyright = "Copyright © 2021 MedCom"
 * publisher = "MedCom"
 // 2015-02-07T13:28:17-05:00
 * eventCoding = $MessageEvents#hospital-notification-message
