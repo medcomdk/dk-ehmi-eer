@@ -19,6 +19,8 @@ Alias: $EHMIAuditEventEntityMessageType = http://medcomehmi.dk/ig/ehmi_balp/Code
 
 Alias: $mCSDEndpointConnectionType = http://hl7.org/fhir/R4/valueset-endpoint-connection-type.html
 
+Alias: $EHMIMessageDefinition​IdentifierSystem = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-messagedefinition​-identifier-system
+Alias: $EHMIMessageDefinition​IdentifierSystemVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-messagedefinition​-identifier-system-valueset
 Alias: $EHMIEndpointConnectionType = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-connection-type
 Alias: $EHMIEndpointConnectionTypeVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-connection-type-valueset
 Alias: $EHMIEndpointPayloadType = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-payload-type

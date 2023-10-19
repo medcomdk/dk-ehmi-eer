@@ -4,7 +4,9 @@ Description: "An example profile of the MessageDefinition resource."
 //* url from ehmi-medcom-message-definition-uri-valueset
 * identifier 1..1 MS SU
 //* identifier.system from ehmi-medcom-message-definition-uri-valueset
+* identifier.system from ehmi-messagedefinition​-identifier-system
 * identifier.system 1..1 MS SU
+* identifier.system = $EHMIMessageDefinition​IdentifierSystem#MedCom
 * identifier.period.start 1..1 MS SU
 * identifier.period.end 0..1 MS SU
 * identifier.type from ehmi-medcom-message-definition-type-valueset
@@ -18,7 +20,7 @@ Description: "An example profile of the MessageDefinition resource."
 * publisher 1..1 MS SU
 * contact 1.. MS SU
 * contact ^slicing.discriminator.type = #value
-  * ^slicing.discriminator.path = type
+  * ^slicing.discriminator.path = id
   * ^slicing.rules = #open //#closed eller #open 
 * contact contains
     InteroperabilityConsultant 1..1 MS SU and

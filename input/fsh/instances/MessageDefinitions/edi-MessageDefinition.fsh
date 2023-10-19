@@ -24,4 +24,10 @@ Description: "An example of an EHMIMessageDefinition for bin02:b0210x."
 //* contact[=].telecom.system = #email
 * contact[=].telecom.value = "ghe@medcom.dk" 
 //* contact[=].telecom.use = #work
+* description = "BIN01 bliver i dag brugt til mange forskellige formål, hvoraf kun en delmængde er i form af vedhæftelse af bilag til en henvisning. Derfor indføres en ny MEDBIN-standard, BIN02, som skal bruges til vedhæftelse af bilag i forbindelse med henvisninger (REF01, REF02 og REF06). Når VANS-leverandørerne møder en BIN02, skal de sørge for at route den til henvisningshotellet (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
+* useContext.code = #workflow
+* useContext.valueCodeableConcept.text = "Regioner, Private parter i sundhedsvæsenet, Kommuner"
+* purpose = "Denne standard anvendes, når man ønsker at sende en binær fil sammen med henvisningstyperne REF01, RFE02 og REF06 (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
+* copyright = "Copyright © 2022 MedCom"
 * eventCoding = $MessageEvents#empty-message
+

@@ -22,10 +22,10 @@ Description: "An example of an EHMIMessageDefinition for xref15:xh1530r"
 * contact[=].telecom.system = #email
 * contact[=].telecom.value = "ghe@medcom.dk" 
 * contact[=].telecom.use = #work
-* description = "<div>Patienter med kronisk sygdom, som ud fra en sundhedsfaglig vurdering af funktionsevne og helbredsforhold kan have gavn af et forebyggelsestilbud, eller patienter, der ikke har kronisk sygdom, kan have behov for at blive henvist til et forebyggelsestilbud i kommunen. Dette kan ske fra lægepraksis eller fra sygehuset i forbindelse med udskrivelse eller ambulant behandling.</div><div>RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen</div>"
+* description = "Patienter med kronisk sygdom, som ud fra en sundhedsfaglig vurdering af funktionsevne og helbredsforhold kan have gavn af et forebyggelsestilbud, eller patienter, der ikke har kronisk sygdom, kan have behov for at blive henvist til et forebyggelsestilbud i kommunen. Dette kan ske fra lægepraksis eller fra sygehuset i forbindelse med udskrivelse eller ambulant behandling (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
 * useContext.code = #workflow
 * useContext.valueCodeableConcept.text = "Regioner, Private parter i sundhedsvæsenet, Kommuner"
-* purpose = "<div>Denne standard anvendes til henvisning til kommunal forebyggelse</div><div>RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen</div>"
+* purpose = "Denne standard anvendes til henvisning til kommunal forebyggelse (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * copyright = "Copyright © 2022 MedCom"
 * eventCoding = $MessageEvents#empty-message
 

@@ -155,3 +155,23 @@ Description: "EHMIMedComMessageDefinitionTypeVS for the EHMI Messaging Infrastru
 * ^experimental = false
 * include codes from system ehmi-medcom-message-definition-type
 
+CodeSystem: EHMIMessageDefinition​IdentifierSystem
+Id: ehmi-messagedefinition​-identifier-system
+Title: "EHMIMessageDefinition​IdentifierSystem CodeSystem"
+Description: "EHMIMessageDefinition​IdentifierSystemCS for the EHMI Messaging Infrastructure"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2023-09-01"
+* ^experimental = false
+* ^caseSensitive = true
+* #MedCom "www.medcom.dk"
+
+ValueSet: EHMIMessageDefinition​IdentifierSystemVS
+Id: ehmi-messagedefinition​-identifier-system-valueset
+Title: "EHMIMessageDefinition​IdentifierSystem Valueset"
+Description: "EHMIMessageDefinition​IdentifierSystemVS for the EHMI Messaging Infrastructure"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2023-09-01"
+* ^experimental = false
+* include codes from system ehmi-messagedefinition​-identifier-system
