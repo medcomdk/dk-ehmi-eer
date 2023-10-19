@@ -15,7 +15,7 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:3.
 * status = #draft
 * date = "2023-01-06"
 * copyright = "Copyright © 2023 MedCom"
-* publisher = "MedCom"
+//* publisher = "MedCom"
 * contact[InteroperabilityConsultant].name = "Interoperability Consultant, Thea Mentz Sørensen"
 * contact[InteroperabilityConsultant].telecom.system = #email
 * contact[InteroperabilityConsultant].telecom.value = "tms@medcom.dk" 
@@ -48,7 +48,7 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:2.
 * status = #retired
 * date = "2022-10-05"
 * copyright = "Copyright © 2022 MedCom"
-* publisher = "MedCom"
+//* publisher = "MedCom"
 * contact[InteroperabilityConsultant].name = "Interoperability Consultant, Thea Mentz Sørensen"
 * contact[InteroperabilityConsultant].telecom.system = #email
 * contact[InteroperabilityConsultant].telecom.value = "tms@medcom.dk" 
@@ -80,7 +80,7 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:1.
 * status = #retired
 * date = "2021-03-23"
 * copyright = "Copyright © 2021 MedCom"
-* publisher = "MedCom"
+//* publisher = "MedCom"
 * contact[InteroperabilityConsultant].name = "Interoperability Consultant, Thea Mentz Sørensen"
 * contact[InteroperabilityConsultant].telecom.system = #email
 * contact[InteroperabilityConsultant].telecom.value = "tms@medcom.dk" 
