@@ -4,9 +4,9 @@ Description: "An example profile of the MessageDefinition resource."
 //* url from ehmi-medcom-message-definition-uri-valueset
 * identifier 1..1 MS SU
 //* identifier.system from ehmi-medcom-message-definition-uri-valueset
-* identifier.system from ehmi-messagedefinition​-identifier-system-valueset
+* identifier.system from ehmi-messagedefinition-identifer-system-valueset
 * identifier.system 1..1 //MS SU
-* identifier.system = $EHMIMessageDefinition​IdentifierSystem#MedCom
+* identifier.system = $EHMIMessageDefinitionIdentifierSystem#MedCom
 * identifier.period.start 1..1 MS SU
 * identifier.period.end 0..1 MS SU
 * identifier.type from ehmi-medcom-message-definition-type-valueset

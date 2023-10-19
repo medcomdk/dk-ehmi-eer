@@ -3,7 +3,7 @@ InstanceOf: EHMIMessageDefinition
 Description: "An example of an EHMIMessageDefinition for bin02:b0210x."
 * id = "EHMI.edi.bin02.b0210x.MessageDefinition"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:edifact:medbin:bin02:b0210x
-* identifier.system = "www.medcom.dk"
+//* identifier.system = "www.medcom.dk"
 * identifier.period.start = "2012-07-01"
 * identifier.type = $EHMIMedComMessageDefinitionType#EDIFACT
 * identifier.use = #official 
