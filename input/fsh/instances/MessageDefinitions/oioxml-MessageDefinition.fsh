@@ -9,11 +9,23 @@ Description: "An example of an EHMIMessageDefinition for xref15:xh1530r"
 * identifier.use = #official 
 * identifier.value = "xref15:xh1530r"
 * version = "xh1530r"
-* name = "XML Kommunehenvisning"
+* name = "XML-Kommunehenvisning"
 * title = "xml-kommunehenvisning"
-* status = #draft
+* status = #active
 * date = "2023-01-01"
 * publisher = "MedCom"
-// 2015-02-07T13:28:17-05:00
+* contact[InteroperabilityConsultant].name = "Interoperability Consultant, Michael Johansen"
+* contact[=].telecom.system = #email
+* contact[=].telecom.value = "mjo@medcom.dk" 
+* contact[=].telecom.use = #work
+* contact[SubjectMatterExpert].name = "Subject Matter Expert, Gitte Henriksen"
+* contact[=].telecom.system = #email
+* contact[=].telecom.value = "ghe@medcom.dk" 
+* contact[=].telecom.use = #work
+* description = "<div>Patienter med kronisk sygdom, som ud fra en sundhedsfaglig vurdering af funktionsevne og helbredsforhold kan have gavn af et forebyggelsestilbud, eller patienter, der ikke har kronisk sygdom, kan have behov for at blive henvist til et forebyggelsestilbud i kommunen. Dette kan ske fra lægepraksis eller fra sygehuset i forbindelse med udskrivelse eller ambulant behandling.</div><div>RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen</div>"
+* useContext.code = #workflow
+* useContext.valueCodeableConcept.text = "Regioner, Private parter i sundhedsvæsenet, Kommuner"
+* purpose = "<div>Denne standard anvendes til henvisning til kommunal forebyggelse</div><div>RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen</div>"
+* copyright = "Copyright © 2022 MedCom"
 * eventCoding = $MessageEvents#empty-message
-//http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-messaging-eventCodes
+

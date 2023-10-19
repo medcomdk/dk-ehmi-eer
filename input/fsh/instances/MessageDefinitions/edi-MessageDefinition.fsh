@@ -8,13 +8,20 @@ Description: "An example of an EHMIMessageDefinition for bin02:b0210x."
 * identifier.type = $EHMIMedComMessageDefinitionType#EDIFACT
 * identifier.use = #official 
 * identifier.value = "bin02:b0210x"
-//* identifier.assigner.identifier = "MedCom"
 * version = "b0210x"
 * name = "Binary document transport for attachments to all referral types"
 * title = "binary-document-transport-for-attachments-to-all-referral-types"
-* status = #draft
+* status = #active
 * date = "2020-06-26"
 * publisher = "MedCom"
-// 2015-02-07T13:28:17-05:00
+* copyright = "Copyright © 2022 MedCom"
+* publisher = "MedCom"
+* contact[InteroperabilityConsultant].name = "Interoperability Consultant, Michael Johansen"
+//* contact[=].telecom.system = #email
+* contact[=].telecom.value = "mjo@medcom.dk" 
+//* contact[=].telecom.use = #work
+* contact[SubjectMatterExpert].name = "Subject Matter Expert, Gitte Henriksen"
+//* contact[=].telecom.system = #email
+* contact[=].telecom.value = "ghe@medcom.dk" 
+//* contact[=].telecom.use = #work
 * eventCoding = $MessageEvents#empty-message
-//http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-messaging-eventCodes
