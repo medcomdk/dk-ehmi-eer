@@ -14,10 +14,12 @@ Description: "An example of an EHMIMessageDefinition for xref15:xh1530r"
 * status = #active
 * date = "2023-01-01"
 * publisher = "MedCom"
+* contact[InteroperabilityConsultant].id = "InteroperabilityConsultant"
 * contact[InteroperabilityConsultant].name = "Interoperability Consultant, Michael Johansen"
 * contact[InteroperabilityConsultant].telecom.system = #email
 * contact[InteroperabilityConsultant].telecom.value = "mjo@medcom.dk" 
 * contact[InteroperabilityConsultant].telecom.use = #work
+* contact[SubjectMatterExpert].id = "SubjectMatterExpert"
 * contact[SubjectMatterExpert].name = "Subject Matter Expert, Gitte Henriksen"
 * contact[SubjectMatterExpert].telecom.system = #email
 * contact[SubjectMatterExpert].telecom.value = "ghe@medcom.dk" 
