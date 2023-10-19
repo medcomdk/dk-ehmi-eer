@@ -2,8 +2,8 @@ Instance: EHMI.oioxml.MessageDefinition.xref15.xh1530r
 InstanceOf: EHMIMessageDefinition
 Description: "An example of an EHMIMessageDefinition for xref15:xh1530r"
 * id = "EHMI.edi.MessageDefinition.xref15.xh1530r"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:oioxml:schema:xsd:medref:xref15:xh1530r
-//* identifier.system = "www.medcom.dk"
+* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:medref:xref15:xh1530r
+* identifier.system = $EHMIMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:oioxml
 * identifier.period.start = "2020-01-01"
 * identifier.type = $EHMIMedComMessageDefinitionType#OIOXML
 * identifier.use = #official 

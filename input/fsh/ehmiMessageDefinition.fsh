@@ -6,7 +6,7 @@ Description: "An example profile of the MessageDefinition resource."
 //* identifier.system from ehmi-medcom-message-definition-uri-valueset
 * identifier.system from ehmi-messagedefinition-identifer-system-valueset
 * identifier.system 1..1 //MS SU
-* identifier.system = $EHMIMessageDefinitionIdentifierSystem#MedCom
+//* identifier.system = $EHMIMessageDefinitionIdentifierSystem#MedCom
 * identifier.period.start 1..1 MS SU
 * identifier.period.end 0..1 MS SU
 * identifier.type from ehmi-medcom-message-definition-type-valueset
@@ -26,7 +26,7 @@ Description: "An example profile of the MessageDefinition resource."
     InteroperabilityConsultant 1..1 MS SU and
     SubjectMatterExpert 0..1 MS SU
 // InteroperabilityConsultant
-* contact[InteroperabilityConsultant].id 1..1 MS SU
+* contact[InteroperabilityConsultant].id 1..1 MS
 * contact[InteroperabilityConsultant].id = "InteroperabilityConsultant"
 * contact[InteroperabilityConsultant].name 1..1 MS SU
 * contact[InteroperabilityConsultant].telecom.system 1..1 MS SU
@@ -35,7 +35,7 @@ Description: "An example profile of the MessageDefinition resource."
 * contact[InteroperabilityConsultant].telecom.use = #work (exactly)
 * contact[InteroperabilityConsultant].telecom.value 1..1 MS SU
 // SubjectMatterExpert
-* contact[SubjectMatterExpert].id 1..1 MS SU
+* contact[SubjectMatterExpert].id 1..1 MS
 * contact[SubjectMatterExpert].id = "SubjectMatterExpert"
 * contact[SubjectMatterExpert].name 1..1 MS SU
 * contact[SubjectMatterExpert].telecom.system 1..1 MS SU

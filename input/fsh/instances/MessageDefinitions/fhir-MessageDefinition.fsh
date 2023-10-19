@@ -2,8 +2,8 @@ Instance: EHMI.fhir.MessageDefinition.hospitalNotification:3.0.0
 InstanceOf: EHMIMessageDefinition
 Description: "An example of an EHMIMessageDefinition for hospitalnotification:3.0.0"
 * id = "EHMI.fhir.MessageDefinition.hospitalNotification.3.0.0"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:fhir:structuredefinition:hospitalnotification:3.0.0
-//* identifier.system = "www.medcom.dk"
+* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:3.0.0
+* identifier.system = $EHMIMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:fhir
 * identifier.period.start = "2021-03-23"
 * identifier.type = $EHMIMedComMessageDefinitionType#FHIR
 * identifier.use = #official 
@@ -34,8 +34,8 @@ Instance: EHMI.fhir.MessageDefinition.hospitalNotification:2.0.0
 InstanceOf: EHMIMessageDefinition
 Description: "An example of an EHMIMessageDefinition for hospitalnotification:2.0.0"
 * id = "EHMI.fhir.MessageDefinition.hospitalNotification.2.0.0"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:fhir:structuredefinition:hospitalnotification:2.0.0
-//* identifier.system = "www.medcom.dk"
+* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:2.0.0
+* identifier.system = $EHMIMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:fhir
 * identifier.period.start = "2021-03-23"
 * identifier.period.end = "2023-01-05"
 * identifier.type = $EHMIMedComMessageDefinitionType#FHIR
@@ -67,8 +67,8 @@ Instance: EHMI.fhir.MessageDefinition.hospitalNotification:1.0.0
 InstanceOf: EHMIMessageDefinition
 Description: "An example of an EHMIMessageDefinition for hospitalnotification:1.0.0"
 * id = "EHMI.fhir.MessageDefinition.hospitalNotification.1.0.0"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:fhir:structuredefinition:hospitalnotification:1.0.0
-//* identifier.system = "www.medcom.dk"
+* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:1.0.0
+* identifier.system = $EHMIMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:fhir
 * identifier.period.start = "2021-03-23"
 * identifier.period.end = "2022-10-04"
 * identifier.type = $EHMIMedComMessageDefinitionType#FHIR

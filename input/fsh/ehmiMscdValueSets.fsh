@@ -164,7 +164,9 @@ Description: "EHMIMessageDefinitionIdentifierSystemCS for the EHMI Messaging Inf
 * ^date  =  "2023-09-01"
 * ^experimental = false
 * ^caseSensitive = true
-* #MedCom "www.medcom.dk"
+* #urn:dk:healthcare:medcom:messaging:edifact "urn:dk:healthcare:medcom:messaging:edifact"
+* #urn:dk:healthcare:medcom:messaging:fhir "urn:dk:healthcare:medcom:messaging:fhir"
+* #urn:dk:healthcare:medcom:messaging:oioxml "urn:dk:healthcare:medcom:messaging:oioxml"
 
 ValueSet: EHMIMessageDefinitionIdentifierSystemVS
 Id: ehmi-messagedefinition-identifer-system-valueset
