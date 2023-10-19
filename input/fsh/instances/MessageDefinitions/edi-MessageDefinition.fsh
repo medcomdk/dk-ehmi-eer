@@ -17,13 +17,13 @@ Description: "An example of an EHMIMessageDefinition for bin02:b0210x."
 * copyright = "Copyright © 2022 MedCom"
 * publisher = "MedCom"
 * contact[InteroperabilityConsultant].name = "Interoperability Consultant, Michael Johansen"
-//* contact[=].telecom.system = #email
-* contact[=].telecom.value = "mjo@medcom.dk" 
-//* contact[=].telecom.use = #work
+* contact[InteroperabilityConsultant].telecom.system = #email
+* contact[InteroperabilityConsultant].telecom.value = "mjo@medcom.dk" 
+* contact[InteroperabilityConsultant].telecom.use = #work
 * contact[SubjectMatterExpert].name = "Subject Matter Expert, Gitte Henriksen"
-//* contact[=].telecom.system = #email
-* contact[=].telecom.value = "ghe@medcom.dk" 
-//* contact[=].telecom.use = #work
+* contact[SubjectMatterExpert].telecom.system = #email
+* contact[SubjectMatterExpert].telecom.value = "ghe@medcom.dk" 
+* contact[SubjectMatterExpert].telecom.use = #work
 * description = "BIN01 bliver i dag brugt til mange forskellige formål, hvoraf kun en delmængde er i form af vedhæftelse af bilag til en henvisning. Derfor indføres en ny MEDBIN-standard, BIN02, som skal bruges til vedhæftelse af bilag i forbindelse med henvisninger (REF01, REF02 og REF06). Når VANS-leverandørerne møder en BIN02, skal de sørge for at route den til henvisningshotellet (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
 * useContext.code = #workflow
 * useContext.valueCodeableConcept.text = "Regioner, Private parter i sundhedsvæsenet, Kommuner"

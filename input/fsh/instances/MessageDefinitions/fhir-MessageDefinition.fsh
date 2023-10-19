@@ -17,13 +17,13 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:3.
 * copyright = "Copyright © 2023 MedCom"
 * publisher = "MedCom"
 * contact[InteroperabilityConsultant].name = "Interoperability Consultant, Thea Mentz Sørensen"
-* contact[=].telecom.system = #email
-* contact[=].telecom.value = "tms@medcom.dk" 
-* contact[=].telecom.use = #work
+* contact[InteroperabilityConsultant].telecom.system = #email
+* contact[InteroperabilityConsultant].telecom.value = "tms@medcom.dk" 
+* contact[InteroperabilityConsultant].telecom.use = #work
 * contact[SubjectMatterExpert].name = "Subject Matter Expert, Mie Borch Dahl Ballegaard"
-* contact[=].telecom.system = #email
-* contact[=].telecom.value = "mbk@medcom.dk" 
-* contact[=].telecom.use = #work
+* contact[SubjectMatterExpert].telecom.system = #email
+* contact[SubjectMatterExpert].telecom.value = "mbk@medcom.dk" 
+* contact[SubjectMatterExpert].telecom.use = #work
 * description = "DK: Advis om sygehusophold (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
 * useContext.code = #workflow
 * useContext.valueCodeableConcept.text = "DK: Regioner sender og kommuner modtager (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
@@ -50,13 +50,13 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:2.
 * copyright = "Copyright © 2022 MedCom"
 * publisher = "MedCom"
 * contact[InteroperabilityConsultant].name = "Interoperability Consultant, Thea Mentz Sørensen"
-* contact[=].telecom.system = #email
-* contact[=].telecom.value = "tms@medcom.dk" 
-* contact[=].telecom.use = #work
+* contact[InteroperabilityConsultant].telecom.system = #email
+* contact[InteroperabilityConsultant].telecom.value = "tms@medcom.dk" 
+* contact[InteroperabilityConsultant].telecom.use = #work
 * contact[SubjectMatterExpert].name = "Subject Matter Expert, Mie Borch Dahl Ballegaard"
-* contact[=].telecom.system = #email
-* contact[=].telecom.value = "mbk@medcom.dk" 
-* contact[=].telecom.use = #work
+* contact[SubjectMatterExpert].telecom.system = #email
+* contact[SubjectMatterExpert].telecom.value = "mbk@medcom.dk" 
+* contact[SubjectMatterExpert].telecom.use = #work
 * description = "DK: Advis om sygehusophold (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
 * useContext.code = #workflow
 * useContext.valueCodeableConcept.text = "DK: Regioner sender og kommuner modtager (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
@@ -82,13 +82,13 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:1.
 * copyright = "Copyright © 2021 MedCom"
 * publisher = "MedCom"
 * contact[InteroperabilityConsultant].name = "Interoperability Consultant, Thea Mentz Sørensen"
-* contact[=].telecom.system = #email
-* contact[=].telecom.value = "tms@medcom.dk" 
-* contact[=].telecom.use = #work
+* contact[InteroperabilityConsultant].telecom.system = #email
+* contact[InteroperabilityConsultant].telecom.value = "tms@medcom.dk" 
+* contact[InteroperabilityConsultant].telecom.use = #work
 * contact[SubjectMatterExpert].name = "Subject Matter Expert, Mie Borch Dahl Ballegaard"
-* contact[=].telecom.system = #email
-* contact[=].telecom.value = "mbk@medcom.dk" 
-* contact[=].telecom.use = #work
+* contact[SubjectMatterExpert].telecom.system = #email
+* contact[SubjectMatterExpert].telecom.value = "mbk@medcom.dk" 
+* contact[SubjectMatterExpert].telecom.use = #work
 * description = "DK: Advis om sygehusophold (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
 * useContext.code = #workflow
 * useContext.valueCodeableConcept.text = "DK: Regioner sender og kommuner modtager (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
