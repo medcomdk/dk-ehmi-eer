@@ -13,9 +13,8 @@ Description: "An example of an EHMIMessageDefinition for bin02:b0210x."
 * title = "binary-document-transport-for-attachments-to-all-referral-types"
 * status = #active
 * date = "2020-06-26"
-* publisher = "MedCom"
 * copyright = "Copyright © 2022 MedCom"
-* publisher = "MedCom"
+//* publisher = "MedCom"
 * contact[InteroperabilityConsultant].id = "InteroperabilityConsultant"
 * contact[InteroperabilityConsultant].name = "Interoperability Consultant, Michael Johansen"
 * contact[InteroperabilityConsultant].telecom.system = #email
