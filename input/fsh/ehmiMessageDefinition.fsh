@@ -25,12 +25,14 @@ Description: "An example profile of the MessageDefinition resource."
 * contact contains
     InteroperabilityConsultant 1..1 MS SU and
     SubjectMatterExpert 0..1 MS SU
+// InteroperabilityConsultant
 * contact[InteroperabilityConsultant].id 1..1 MS 
 * contact[InteroperabilityConsultant].id = "InteroperabilityConsultant"
 * contact[InteroperabilityConsultant].name 1..1 MS SU
 * contact[InteroperabilityConsultant].telecom.system = #email (exactly)
 * contact[InteroperabilityConsultant].telecom.use = #work (exactly)
 * contact[InteroperabilityConsultant].telecom.value 1..1 MS SU
+// SubjectMatterExpert
 * contact[SubjectMatterExpert].id 1..1 MS 
 * contact[SubjectMatterExpert].id = "SubjectMatterExpert"
 * contact[SubjectMatterExpert].name 1..1 MS SU
@@ -43,7 +45,7 @@ Description: "An example profile of the MessageDefinition resource."
 //* useContext 1..1 MS SU
 //* useContext = "Message Context"
 * jurisdiction 1..1 MS SU
-* jurisdiction = #DNK
+* jurisdiction = #DK
 * category 1..1 MS SU
 * category = #notification (exactly)
 * responseRequired 1..1 MS 
