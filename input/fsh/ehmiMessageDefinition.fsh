@@ -18,6 +18,7 @@ Description: "An example profile of the MessageDefinition resource."
 * title 1..1 MS SU
 * replaces.value 0..1 MS
 * publisher 1..1 MS SU
+* publisher = "MedCom, https://www.medcom.dk"
 * contact 1.. MS SU
 * contact ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = id
