@@ -10,7 +10,7 @@ Description: "An example of an EHMIMessageDefinition for Acknowledgement:2.0.1"
 * name = "Acknowledgement-2.0.1"
 * title = "acknowledgement-3-0-0"
 * replaces.value = "EHMI.fhir.MessageDefinition.Acknowledgement:2.0.0"
-* status = #official
+* status = #active
 * date = "2023-03-10"
 * copyright = "Copyright © 2023 MedCom"
 //* publisher = "MedCom"
@@ -37,7 +37,7 @@ Description: "An example of an EHMIMessageDefinition for Acknowledgement:2.0.0"
 * name = "Acknowledgement-2.0.0"
 * title = "acknowledgement-2-0-0"
 * replaces.value = "EHMI.fhir.MessageDefinition.Acknowledgement:1.0.0"
-* status = #retired
+* status = #active
 * date = "2022-10-05"
 * copyright = "Copyright © 2022 MedCom"
 //* publisher = "MedCom"
