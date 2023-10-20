@@ -112,6 +112,14 @@ Description: "CodeSystem containing codes for EHMI ehmi-medcom-message-definitio
 * #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:1.0.0 "HospitalNotification 1.0.0"
 * #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:2.0.0 "HospitalNotification 2.0.0"
 * #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:3.0.0 "HospitalNotification 3.0.0"
+* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:1.0.0 "CareCommunication 1.0.0"
+* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:2.0.0 "CareCommunication 2.0.0"
+* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:2.1.0 "CareCommunication 2.1.0"
+* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:3.0.0 "CareCommunication 3.0.0"
+* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:1.0.0 "HomeCareObservation 1.0.0"
+* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:1.0.0 "Acknowledgement 1.0.0"
+* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0.0 "Acknowledgement 3.0.0"
+* #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0.1 "Acknowledgement 3.0.1"
 
 ValueSet: MedComMessageDefinitionUriVS
 Id: ehmi-medcom-message-definition-uri-valueset

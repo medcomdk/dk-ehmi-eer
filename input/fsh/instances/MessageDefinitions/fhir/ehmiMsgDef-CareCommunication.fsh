@@ -1,17 +1,17 @@
-Instance: EHMI.fhir.MessageDefinition.hospitalNotification:3.0.0
-InstanceOf: EHMIMessageDefinition
-Description: "An example of an EHMIMessageDefinition for hospitalnotification:3.0.0"
-* id = "EHMI.fhir.MessageDefinition.hospitalNotification.3.0.0"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:3.0.0
-* identifier.system = $EHMIMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:fhir
+Instance: EHMI.fhir.MessageDefinition.CareCommunication:3.0.0
+InstanceOf: EHMIMessageDefinition_fhir
+Description: "An example of an EHMIMessageDefinition for CareCommunication:3.0.0"
+* id = "EHMI.fhir.MessageDefinition.CareCommunication.3.0.0"
+* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:3.0.0
+//* identifier.system = $EHMIMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:fhir
 * identifier.period.start = "2021-03-23"
-* identifier.type = $EHMIMedComMessageDefinitionType#FHIR
+//* identifier.type = $EHMIMedComMessageDefinitionType#FHIR
 * identifier.use = #official 
-* identifier.value = "hospitalnotification.3.0.0"
+* identifier.value = "CareCommunication.3.0.0"
 * version = "3.0.0"
-* name = "HospitalNotification-3.0.0"
-* title = "hospital-notification-3-0-0"
-* replaces.value = "EHMI.fhir.MessageDefinition.hospitalNotification:2.0.0"
+* name = "CareCommunication-3.0.0"
+* title = "care-communication-3-0-0"
+* replaces.value = "EHMI.fhir.MessageDefinition.CareCommunication:2.0.0"
 * status = #draft
 * date = "2023-01-06"
 * copyright = "Copyright © 2023 MedCom"
@@ -20,31 +20,31 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:3.
 * contact[InteroperabilityConsultant].telecom.system = #email
 * contact[InteroperabilityConsultant].telecom.value = "tms@medcom.dk" 
 * contact[InteroperabilityConsultant].telecom.use = #work
-* contact[SubjectMatterExpert].name = "Subject Matter Expert, Mie Borch Dahl Ballegaard"
+* contact[SubjectMatterExpert].name = "Subject Matter Expert, Kirsten Christiansen"
 * contact[SubjectMatterExpert].telecom.system = #email
-* contact[SubjectMatterExpert].telecom.value = "mbk@medcom.dk" 
+* contact[SubjectMatterExpert].telecom.value = "krc@medcom.dk" 
 * contact[SubjectMatterExpert].telecom.use = #work
 * description = "DK: Advis om sygehusophold (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
 * useContext.code = #workflow
 * useContext.valueCodeableConcept.text = "DK: Regioner sender og kommuner modtager (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
 * purpose = "DK: Sende information fra sygehus til kommune, når patient opholder sig på sygehuset, enten indlagt eller andet fysisk ophold (fx på et ambulatorium) (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
-* eventCoding = $MessageEvents#hospital-notification-message
+* eventCoding = $MessageEvents#care-communication-message
 
-Instance: EHMI.fhir.MessageDefinition.hospitalNotification:2.0.0
-InstanceOf: EHMIMessageDefinition
-Description: "An example of an EHMIMessageDefinition for hospitalnotification:2.0.0"
-* id = "EHMI.fhir.MessageDefinition.hospitalNotification.2.0.0"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:2.0.0
-* identifier.system = $EHMIMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:fhir
+Instance: EHMI.fhir.MessageDefinition.CareCommunication:2.0.0
+InstanceOf: EHMIMessageDefinition_fhir
+Description: "An example of an EHMIMessageDefinition for CareCommunication:2.0.0"
+* id = "EHMI.fhir.MessageDefinition.CareCommunication.2.0.0"
+* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:2.0.0
+//* identifier.system = $EHMIMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:fhir
 * identifier.period.start = "2021-03-23"
 * identifier.period.end = "2023-01-05"
-* identifier.type = $EHMIMedComMessageDefinitionType#FHIR
+//* identifier.type = $EHMIMedComMessageDefinitionType#FHIR
 * identifier.use = #old
-* identifier.value = "hospitalnotification.2.0.0"
+* identifier.value = "CareCommunication.2.0.0"
 * version = "2.0.0"
-* name = "HospitalNotification-2.0.0"
-* title = "hospital-notification-2-0-0"
-* replaces.value = "EHMI.fhir.MessageDefinition.hospitalNotification:1.0.0"
+* name = "CareCommunication-2.0.0"
+* title = "care-communication-2-0-0"
+* replaces.value = "EHMI.fhir.MessageDefinition.CareCommunication:1.0.0"
 * status = #retired
 * date = "2022-10-05"
 * copyright = "Copyright © 2022 MedCom"
@@ -53,30 +53,30 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:2.
 * contact[InteroperabilityConsultant].telecom.system = #email
 * contact[InteroperabilityConsultant].telecom.value = "tms@medcom.dk" 
 * contact[InteroperabilityConsultant].telecom.use = #work
-* contact[SubjectMatterExpert].name = "Subject Matter Expert, Mie Borch Dahl Ballegaard"
+* contact[SubjectMatterExpert].name = "Subject Matter Expert, Kirsten Christiansen"
 * contact[SubjectMatterExpert].telecom.system = #email
-* contact[SubjectMatterExpert].telecom.value = "mbk@medcom.dk" 
+* contact[SubjectMatterExpert].telecom.value = "krc@medcom.dk" 
 * contact[SubjectMatterExpert].telecom.use = #work
 * description = "DK: Advis om sygehusophold (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
 * useContext.code = #workflow
 * useContext.valueCodeableConcept.text = "DK: Regioner sender og kommuner modtager (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
 * purpose = "DK: Sende information fra sygehus til kommune, når patient opholder sig på sygehuset, enten indlagt eller andet fysisk ophold (fx på et ambulatorium) (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
-* eventCoding = $MessageEvents#hospital-notification-message
+* eventCoding = $MessageEvents#care-communication-message
 
-Instance: EHMI.fhir.MessageDefinition.hospitalNotification:1.0.0
-InstanceOf: EHMIMessageDefinition
-Description: "An example of an EHMIMessageDefinition for hospitalnotification:1.0.0"
-* id = "EHMI.fhir.MessageDefinition.hospitalNotification.1.0.0"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:1.0.0
-* identifier.system = $EHMIMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:fhir
+Instance: EHMI.fhir.MessageDefinition.CareCommunication:1.0.0
+InstanceOf: EHMIMessageDefinition_fhir
+Description: "An example of an EHMIMessageDefinition for CareCommunication:1.0.0"
+* id = "EHMI.fhir.MessageDefinition.CareCommunication.1.0.0"
+* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:1.0.0
+//* identifier.system = $EHMIMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:fhir
 * identifier.period.start = "2021-03-23"
 * identifier.period.end = "2022-10-04"
-* identifier.type = $EHMIMedComMessageDefinitionType#FHIR
+//* identifier.type = $EHMIMedComMessageDefinitionType#FHIR
 * identifier.use = #old
-* identifier.value = "hospitalnotification.1.0.0"
+* identifier.value = "CareCommunication.1.0.0"
 * version = "1.0.0"
-* name = "HospitalNotification-1.0.0"
-* title = "hospital-notification-1-0-0"
+* name = "CareCommunication-1.0.0"
+* title = "care-communication-1-0-0"
 * status = #retired
 * date = "2021-03-23"
 * copyright = "Copyright © 2021 MedCom"
@@ -85,14 +85,14 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:1.
 * contact[InteroperabilityConsultant].telecom.system = #email
 * contact[InteroperabilityConsultant].telecom.value = "tms@medcom.dk" 
 * contact[InteroperabilityConsultant].telecom.use = #work
-* contact[SubjectMatterExpert].name = "Subject Matter Expert, Mie Borch Dahl Ballegaard"
+* contact[SubjectMatterExpert].name = "Subject Matter Expert, Kirsten Christiansen"
 * contact[SubjectMatterExpert].telecom.system = #email
-* contact[SubjectMatterExpert].telecom.value = "mbk@medcom.dk" 
+* contact[SubjectMatterExpert].telecom.value = "krc@medcom.dk" 
 * contact[SubjectMatterExpert].telecom.use = #work
 * description = "DK: Advis om sygehusophold (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
 * useContext.code = #workflow
 * useContext.valueCodeableConcept.text = "DK: Regioner sender og kommuner modtager (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
 * purpose = "DK: Sende information fra sygehus til kommune, når patient opholder sig på sygehuset, enten indlagt eller andet fysisk ophold (fx på et ambulatorium) (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * copyright = "Copyright © 2022 MedCom"
-* eventCoding = $MessageEvents#hospital-notification-message
+* eventCoding = $MessageEvents#care-communication-message
 
