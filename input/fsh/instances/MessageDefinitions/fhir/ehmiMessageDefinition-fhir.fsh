@@ -5,4 +5,3 @@ Description: "An example profile of the MessageDefinition-fhir resource."
 * identifier.type = $EHMIMedComMessageDefinitionType#FHIR
 * useContext.code = $EHMIUseContextCodeSystem#workflow (exactly)
 * useContext.code.system = $EHMIUseContextCodeSystem (exactly)
-
