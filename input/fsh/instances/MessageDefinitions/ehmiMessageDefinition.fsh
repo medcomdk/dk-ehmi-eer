@@ -58,4 +58,3 @@ Description: "An example profile of the MessageDefinition resource."
 * category 1..1 MS SU
 * category = #notification (exactly)
 * responseRequired 1..1 MS 
-* responseRequired = #always (exactly)
