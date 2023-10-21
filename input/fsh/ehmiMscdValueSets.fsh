@@ -144,6 +144,7 @@ Description: "EHMIMedComMessageDefinitionTypeCS for the EHMI Messaging Infrastru
 * #EDIFACT "Edifact"
 * #OIOXML "OIOXML"
 * #FHIR "FHIR"
+* #ENVELOPE "Envelope"
 
 ValueSet: EHMIMedComMessageDefinitionTypeVS
 Id: ehmi-medcom-message-definition-type-valueset
