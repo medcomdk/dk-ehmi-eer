@@ -179,3 +179,13 @@ Description: "EHMIMessageDefinitionIdentifierSystemVS for the EHMI Messaging Inf
 * ^date  =  "2023-09-01"
 * ^experimental = false
 * include codes from system ehmi-messagedefinition-identifer-system
+
+ValueSet: EHMIUseContextCodeSystemVS
+Id: ehmi-messagedefinition-use-context-code-valueset
+Title: "EHMIUseContextCodeSystem Valueset"
+Description: "EHMIUseContextCodeSystemVS for the EHMI Messaging Infrastructure"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2023-09-01"
+* ^experimental = false
+* include codes from system http://terminology.hl7.org/CodeSystem/usage-context-type
