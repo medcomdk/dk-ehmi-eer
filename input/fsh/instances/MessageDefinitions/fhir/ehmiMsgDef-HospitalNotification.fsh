@@ -27,6 +27,9 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:3.
 * purpose = "DK: Sende information fra sygehus til kommune, når patient opholder sig på sygehuset, enten indlagt eller andet fysisk ophold (fx på et ambulatorium) (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * eventCoding = $MessageEvents#hospital-notification-message
 * responseRequired = #always
+* allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.Acknowledgement:2.0.0"
+* allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.Acknowledgement:2.0.1"
+* allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.CareCommunication:3.0.0"
 
 Instance: EHMI.fhir.MessageDefinition.hospitalNotification:2.0.0
 InstanceOf: EHMIMessageDefinitionFhir
@@ -58,6 +61,9 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:2.
 * purpose = "DK: Sende information fra sygehus til kommune, når patient opholder sig på sygehuset, enten indlagt eller andet fysisk ophold (fx på et ambulatorium) (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * eventCoding = $MessageEvents#hospital-notification-message
 * responseRequired = #always
+* allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.Acknowledgement:2.0.0"
+* allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.Acknowledgement:2.0.1"
+* allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.CareCommunication:3.0.0"
 
 Instance: EHMI.fhir.MessageDefinition.hospitalNotification:1.0.0
 InstanceOf: EHMIMessageDefinitionFhir
@@ -89,4 +95,7 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:1.
 * copyright = "Copyright © 2022 MedCom"
 * eventCoding = $MessageEvents#hospital-notification-message
 * responseRequired = #always
+* allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.Acknowledgement:2.0.0"
+* allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.Acknowledgement:2.0.1"
+* allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.CareCommunication:3.0.0"
 
