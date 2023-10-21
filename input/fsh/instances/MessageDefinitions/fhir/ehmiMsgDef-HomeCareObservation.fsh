@@ -27,3 +27,6 @@ Description: "An example of an EHMIMessageDefinition for HomeCareObservation:1.0
 * purpose = "DK: Sende sundhedsobservationer mellem kommuners akutsygepleje og en patients praktiserende læge (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * eventCoding = $MessageEvents#home-care-observation-message
 * responseRequired = #always
+* allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.Acknowledgement:2.0.0"
+* allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.Acknowledgement:2.0.1"
+* allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.CareCommunication:3.0.0"
