@@ -19,7 +19,6 @@ Description: "An example of an EHMIMessageDefinition for Acknowledgement:2.0.1"
 * contact[InteroperabilityConsultant].telecom.value = "mbu@medcom.dk" 
 * contact[InteroperabilityConsultant].telecom.use = #work
 * description = "DK: Kvitteringsmeddelelse (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
-* useContext.code = #workflow
 * useContext.valueCodeableConcept.text = "DK: Alle som kvittering på en fhir meddelelse (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
 * purpose = "DK: Sende kvittering på en fhir meddelelse  (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * eventCoding = $MessageEvents#acknowledgement-message
@@ -46,7 +45,6 @@ Description: "An example of an EHMIMessageDefinition for Acknowledgement:2.0.0"
 * contact[InteroperabilityConsultant].telecom.value = "mbu@medcom.dk" 
 * contact[InteroperabilityConsultant].telecom.use = #work
 * description = "DK: Kvitteringsmeddelelse (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
-* useContext.code = #workflow
 * useContext.valueCodeableConcept.text = "DK: Alle som kvittering på en fhir meddelelse (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
 * purpose = "DK: Sende kvittering på en fhir meddelelse  (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * eventCoding = $MessageEvents#acknowledgement-message
@@ -72,7 +70,6 @@ Description: "An example of an EHMIMessageDefinition for Acknowledgement:1.0.0"
 * contact[InteroperabilityConsultant].telecom.value = "mbu@medcom.dk" 
 * contact[InteroperabilityConsultant].telecom.use = #work
 * description = "DK: Kvitteringsmeddelelse (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
-* useContext.code = #workflow
 * useContext.valueCodeableConcept.text = "DK: Alle som kvittering på en fhir meddelelse (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
 * purpose = "DK: Sende kvittering på en fhir meddelelse  (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * copyright = "Copyright © 2022 MedCom"
