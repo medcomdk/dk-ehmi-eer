@@ -34,7 +34,7 @@ Alias: $EHMIMedComMessageDefinitionTypeVS = http://medcomehmi.dk/ig/ehmi_mcsd/Va
 
 Alias: $MessageEvents = http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-messaging-eventCodes
 Alias: $EHMIUseContextCodeSystem = http://terminology.hl7.org/CodeSystem/usage-context-type
-
+Alias: $EHMIUseContextCodeSystemVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-messagedefinition-use-context-code-valueset
 /*
 Alias: $StatusCodes = http://hl7.org/fhir/encounter-status
 Alias: $ActCodes = http://terminology.hl7.org/CodeSystem/v3-ActCode 
