@@ -23,4 +23,4 @@ Description: "An example of an EHMIMessageDefinition for SBDH."
 * useContext.valueCodeableConcept.text = "Alle eDelivery kommunikerende parter"
 * purpose = "Denne standard anvendes, når man ønsker at kvittere på en sendt SBDH-envelope over eDelivery netværket (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * eventCoding = $MessageEvents#empty-message
-
+* responseRequired = #never 
