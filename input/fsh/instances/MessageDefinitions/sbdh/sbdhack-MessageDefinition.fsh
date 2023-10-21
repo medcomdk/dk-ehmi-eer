@@ -1,16 +1,16 @@
-Instance: EHMI.envelope.sbdh.sbd.MessageDefinition
+Instance: EHMI.envelope.sbdh.sbdhack.MessageDefinition
 InstanceOf: EHMIMessageDefinition_envelope
-Description: "An example of an EHMIMessageDefinition for bin02:b0210x."
-* id = "EHMI.MessageDefinition.envelope.sbdh.1.0"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:envelope:xml:sbdh:1.0
+Description: "An example of an EHMIMessageDefinition for SBDH."
+* id = "EHMI.MessageDefinition.envelope.sbdhach.1.0"
+* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:envelope:xml:sbdh_ack:1.0
 * identifier.system = $EHMIMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:envelope
 * identifier.period.start = "2012-07-01"
 * identifier.type = $EHMIMedComMessageDefinitionType#ENVELOPE
 * identifier.use = #official 
-* identifier.value = "sbdh.1.0"
+* identifier.value = "sbdhack.1.0"
 * version = "1.0"
-* name = "SBDH-Envelope"
-* title = "SBDH Envelope"
+* name = "SBDH-Ack"
+* title = "SBDH ACK"
 * status = #active
 * date = "2020-06-26"
 * copyright = "Copyright © 2023 MedCom"
@@ -23,6 +23,6 @@ Description: "An example of an EHMIMessageDefinition for bin02:b0210x."
 * description = "SBDH Envelope (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
 * useContext.code = #workflow
 * useContext.valueCodeableConcept.text = "Alle eDelivery kommunikerende parter"
-* purpose = "Denne standard anvendes, når man ønsker at sende en meddelelse over eDelivery netværket (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
+* purpose = "Denne standard anvendes, når man ønsker at kvittere på en sendt SBDH-envelope over eDelivery netværket (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * eventCoding = $MessageEvents#empty-message
 
