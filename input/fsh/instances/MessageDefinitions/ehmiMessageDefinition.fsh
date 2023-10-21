@@ -51,7 +51,8 @@ Description: "An example profile of the MessageDefinition resource."
 //* Message Context
 //* useContext.code.system from http://terminology.hl7.org/CodeSystem/usage-context-type
 * useContext.code.system = $EHMIUseContextCodeSystem
-* useContext.code from http://terminology.hl7.org/CodeSystem/usage-context-type
+* useContext.code from $EHMIUseContextCodeSystemVS
+// http://terminology.hl7.org/CodeSystem/usage-context-type
 * jurisdiction 1..1 MS SU
 * jurisdiction = #DK
 * category 1..1 MS SU
