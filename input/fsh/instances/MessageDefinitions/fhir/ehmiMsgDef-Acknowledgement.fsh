@@ -22,6 +22,7 @@ Description: "An example of an EHMIMessageDefinition for Acknowledgement:2.0.1"
 * useContext.valueCodeableConcept.text = "DK: Alle som kvittering på en fhir meddelelse (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
 * purpose = "DK: Sende kvittering på en fhir meddelelse  (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * eventCoding = $MessageEvents#acknowledgement-message
+* responseRequired = #never
 
 Instance: EHMI.fhir.MessageDefinition.Acknowledgement:2.0.0
 InstanceOf: EHMIMessageDefinitionFhir
@@ -48,6 +49,7 @@ Description: "An example of an EHMIMessageDefinition for Acknowledgement:2.0.0"
 * useContext.valueCodeableConcept.text = "DK: Alle som kvittering på en fhir meddelelse (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
 * purpose = "DK: Sende kvittering på en fhir meddelelse  (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * eventCoding = $MessageEvents#acknowledgement-message
+* responseRequired = #never
 
 Instance: EHMI.fhir.MessageDefinition.Acknowledgement:1.0.0
 InstanceOf: EHMIMessageDefinitionFhir
@@ -74,4 +76,5 @@ Description: "An example of an EHMIMessageDefinition for Acknowledgement:1.0.0"
 * purpose = "DK: Sende kvittering på en fhir meddelelse  (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * copyright = "Copyright © 2022 MedCom"
 * eventCoding = $MessageEvents#acknowledgement-message
+* responseRequired = #never
 
