@@ -1,4 +1,4 @@
-Profile: EHMIMessageDefinition_envelope
+Profile: EHMIMessageDefinitionEnvelope
 Parent: EHMIMessageDefinition
 Description: "An example profile of the MessageDefinition-edi resource."
 //* id = 

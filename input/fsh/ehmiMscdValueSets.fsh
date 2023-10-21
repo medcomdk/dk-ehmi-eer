@@ -168,6 +168,7 @@ Description: "EHMIMessageDefinitionIdentifierSystemCS for the EHMI Messaging Inf
 * #urn:dk:healthcare:medcom:messaging:edifact "urn:dk:healthcare:medcom:messaging:edifact"
 * #urn:dk:healthcare:medcom:messaging:fhir "urn:dk:healthcare:medcom:messaging:fhir"
 * #urn:dk:healthcare:medcom:messaging:oioxml "urn:dk:healthcare:medcom:messaging:oioxml"
+* #urn:dk:healthcare:medcom:messaging:envelope "urn:dk:healthcare:medcom:messaging:envelope"
 
 ValueSet: EHMIMessageDefinitionIdentifierSystemVS
 Id: ehmi-messagedefinition-identifer-system-valueset

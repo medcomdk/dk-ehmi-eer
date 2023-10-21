@@ -1,5 +1,5 @@
 Instance: EHMI.oioxml.MessageDefinition.xref15.xh1530r
-InstanceOf: EHMIMessageDefinition
+InstanceOf: EHMIMessageDefinitionOioxml
 Description: "An example of an EHMIMessageDefinition for xref15:xh1530r"
 * id = "EHMI.edi.MessageDefinition.xref15.xh1530r"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:medref:xref15:xh1530r

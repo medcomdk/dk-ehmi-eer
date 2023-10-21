@@ -1,5 +1,5 @@
 Instance: EHMI.fhir.MessageDefinition.Acknowledgement:2.0.1
-InstanceOf: EHMIMessageDefinition_fhir
+InstanceOf: EHMIMessageDefinitionFhir
 Description: "An example of an EHMIMessageDefinition for Acknowledgement:2.0.1"
 * id = "EHMI.fhir.MessageDefinition.Acknowledgement.2.0.1"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0.1
@@ -25,7 +25,7 @@ Description: "An example of an EHMIMessageDefinition for Acknowledgement:2.0.1"
 * eventCoding = $MessageEvents#acknowledgement-message
 
 Instance: EHMI.fhir.MessageDefinition.Acknowledgement:2.0.0
-InstanceOf: EHMIMessageDefinition_fhir
+InstanceOf: EHMIMessageDefinitionFhir
 Description: "An example of an EHMIMessageDefinition for Acknowledgement:2.0.0"
 * id = "EHMI.fhir.MessageDefinition.Acknowledgement.2.0.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0.0
@@ -52,7 +52,7 @@ Description: "An example of an EHMIMessageDefinition for Acknowledgement:2.0.0"
 * eventCoding = $MessageEvents#acknowledgement-message
 
 Instance: EHMI.fhir.MessageDefinition.Acknowledgement:1.0.0
-InstanceOf: EHMIMessageDefinition_fhir
+InstanceOf: EHMIMessageDefinitionFhir
 Description: "An example of an EHMIMessageDefinition for Acknowledgement:1.0.0"
 * id = "EHMI.fhir.MessageDefinition.Acknowledgement.1.0.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:1.0.0

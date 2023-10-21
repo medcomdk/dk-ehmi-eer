@@ -1,5 +1,5 @@
 Instance: EHMI.fhir.MessageDefinition.CareCommunication:3.0.0
-InstanceOf: EHMIMessageDefinition_fhir
+InstanceOf: EHMIMessageDefinitionFhir
 Description: "An example of an EHMIMessageDefinition for CareCommunication:3.0.0"
 * id = "EHMI.fhir.MessageDefinition.CareCommunication.3.0.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:3.0.0
@@ -29,7 +29,7 @@ Description: "An example of an EHMIMessageDefinition for CareCommunication:3.0.0
 * eventCoding = $MessageEvents#care-communication-message
 
 Instance: EHMI.fhir.MessageDefinition.CareCommunication:2.0.0
-InstanceOf: EHMIMessageDefinition_fhir
+InstanceOf: EHMIMessageDefinitionFhir
 Description: "An example of an EHMIMessageDefinition for CareCommunication:2.0.0"
 * id = "EHMI.fhir.MessageDefinition.CareCommunication.2.0.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:2.0.0
@@ -60,7 +60,7 @@ Description: "An example of an EHMIMessageDefinition for CareCommunication:2.0.0
 * eventCoding = $MessageEvents#care-communication-message
 
 Instance: EHMI.fhir.MessageDefinition.CareCommunication:1.0.0
-InstanceOf: EHMIMessageDefinition_fhir
+InstanceOf: EHMIMessageDefinitionFhir
 Description: "An example of an EHMIMessageDefinition for CareCommunication:1.0.0"
 * id = "EHMI.fhir.MessageDefinition.CareCommunication.1.0.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:1.0.0

@@ -1,18 +1,18 @@
-Instance: EHMI.envelope.sbdh.sbdhack.MessageDefinition
-InstanceOf: EHMIMessageDefinition_envelope
+Instance: EHMI.envelope.sbdh.sbdhacknowledgement.MessageDefinition
+InstanceOf: EHMIMessageDefinitionEnvelope
 Description: "An example of an EHMIMessageDefinition for SBDH."
-* id = "EHMI.MessageDefinition.envelope.sbdhach.1.0"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:envelope:xml:sbdh_ack:1.0
+* id = "EHMI.MessageDefinition.envelope.sbdhacknowledgement.1.0"
+* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:envelope:xml:sbdhacknowledgement:1.0
 * identifier.system = $EHMIMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:envelope
-* identifier.period.start = "2012-07-01"
+* identifier.period.start = "2024-01-01"
 * identifier.type = $EHMIMedComMessageDefinitionType#ENVELOPE
 * identifier.use = #official 
-* identifier.value = "sbdhack.1.0"
+* identifier.value = "sbdhacknowledgement.1.0"
 * version = "1.0"
-* name = "SBDH-Ack"
-* title = "SBDH ACK"
+* name = "SBDHacknowledgement"
+* title = "SBDHacknowledgement"
 * status = #active
-* date = "2020-06-26"
+* date = "2024-01-01"
 * copyright = "Copyright © 2023 MedCom"
 //* publisher = "MedCom"
 * contact[InteroperabilityConsultant].id = "InteroperabilityConsultant"

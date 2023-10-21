@@ -1,5 +1,5 @@
 Instance: EHMI.fhir.MessageDefinition.hospitalNotification:3.0.0
-InstanceOf: EHMIMessageDefinition_fhir
+InstanceOf: EHMIMessageDefinitionFhir
 Description: "An example of an EHMIMessageDefinition for hospitalnotification:3.0.0"
 * id = "EHMI.fhir.MessageDefinition.hospitalNotification.3.0.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:3.0.0
@@ -29,7 +29,7 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:3.
 * eventCoding = $MessageEvents#hospital-notification-message
 
 Instance: EHMI.fhir.MessageDefinition.hospitalNotification:2.0.0
-InstanceOf: EHMIMessageDefinition_fhir
+InstanceOf: EHMIMessageDefinitionFhir
 Description: "An example of an EHMIMessageDefinition for hospitalnotification:2.0.0"
 * id = "EHMI.fhir.MessageDefinition.hospitalNotification.2.0.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:2.0.0
@@ -60,7 +60,7 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:2.
 * eventCoding = $MessageEvents#hospital-notification-message
 
 Instance: EHMI.fhir.MessageDefinition.hospitalNotification:1.0.0
-InstanceOf: EHMIMessageDefinition_fhir
+InstanceOf: EHMIMessageDefinitionFhir
 Description: "An example of an EHMIMessageDefinition for hospitalnotification:1.0.0"
 * id = "EHMI.fhir.MessageDefinition.hospitalNotification.1.0.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:1.0.0

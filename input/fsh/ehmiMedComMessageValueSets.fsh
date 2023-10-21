@@ -121,7 +121,7 @@ Description: "CodeSystem containing codes for EHMI ehmi-medcom-message-definitio
 * #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0.0 "Acknowledgement 2.0.0"
 * #urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0.1 "Acknowledgement 2.0.1"
 * #urn:dk:healthcare:medcom:messaging:envelope:xml:sbdh:1.0 "SBDH 1.0"
-* #urn:dk:healthcare:medcom:messaging:envelope:xml:sbdh_ack:1.0 "SBDH Ack 1.0"
+* #urn:dk:healthcare:medcom:messaging:envelope:xml:sbdhacknowledgement:1.0 "SBDH Ack 1.0"
 
 ValueSet: MedComMessageDefinitionUriVS
 Id: ehmi-medcom-message-definition-uri-valueset

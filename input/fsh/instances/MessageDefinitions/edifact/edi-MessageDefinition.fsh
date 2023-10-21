@@ -1,5 +1,5 @@
 Instance: EHMI.edi.bin02.b0210x.MessageDefinition
-InstanceOf: EHMIMessageDefinition
+InstanceOf: EHMIMessageDefinitionEdi
 Description: "An example of an EHMIMessageDefinition for bin02:b0210x."
 * id = "EHMI.edi.bin02.b0210x.MessageDefinition"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:medbin:bin02:b0210x

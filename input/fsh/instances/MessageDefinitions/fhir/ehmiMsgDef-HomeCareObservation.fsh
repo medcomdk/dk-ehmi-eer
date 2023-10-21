@@ -1,5 +1,5 @@
 Instance: EHMI.fhir.MessageDefinition.HomeCareObservation:1.0.0
-InstanceOf: EHMIMessageDefinition_fhir
+InstanceOf: EHMIMessageDefinitionFhir
 Description: "An example of an EHMIMessageDefinition for HomeCareObservation:1.0.0"
 * id = "EHMI.fhir.MessageDefinition.HomeCareObservation.1.0.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:1.0.0

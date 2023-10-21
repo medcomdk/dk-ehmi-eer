@@ -1,10 +1,10 @@
 Instance: EHMI.envelope.sbdh.sbd.MessageDefinition
-InstanceOf: EHMIMessageDefinition_envelope
-Description: "An example of an EHMIMessageDefinition for bin02:b0210x."
+InstanceOf: EHMIMessageDefinitionEnvelope
+Description: "An example of an EHMIMessageDefinition for sbdh.1.0."
 * id = "EHMI.MessageDefinition.envelope.sbdh.1.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:envelope:xml:sbdh:1.0
 * identifier.system = $EHMIMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:envelope
-* identifier.period.start = "2012-07-01"
+* identifier.period.start = "2024-01-01"
 * identifier.type = $EHMIMedComMessageDefinitionType#ENVELOPE
 * identifier.use = #official 
 * identifier.value = "sbdh.1.0"
@@ -12,7 +12,7 @@ Description: "An example of an EHMIMessageDefinition for bin02:b0210x."
 * name = "SBDH-Envelope"
 * title = "SBDH Envelope"
 * status = #active
-* date = "2020-06-26"
+* date = "2024-01-01"
 * copyright = "Copyright © 2023 MedCom"
 //* publisher = "MedCom"
 * contact[InteroperabilityConsultant].id = "InteroperabilityConsultant"
