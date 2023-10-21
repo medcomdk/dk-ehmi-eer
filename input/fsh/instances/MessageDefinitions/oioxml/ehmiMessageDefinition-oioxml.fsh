@@ -5,4 +5,5 @@ Description: "An example profile of the MessageDefinition-oioxml resource."
 * identifier.type = $EHMIMedComMessageDefinitionType#OIOXML (exactly)
 * useContext.code = $EHMIUseContextCodeSystem#workflow (exactly)
 * useContext.code.system = $EHMIUseContextCodeSystem (exactly)
+* responseRequired = #on-error
 
