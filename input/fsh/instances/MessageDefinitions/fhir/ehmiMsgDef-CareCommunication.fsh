@@ -23,7 +23,6 @@ Description: "An example of an EHMIMessageDefinition for CareCommunication:3.0.0
 * contact[SubjectMatterExpert].telecom.value = "krc@medcom.dk" 
 * contact[SubjectMatterExpert].telecom.use = #work
 * description = "DK: Korrespondancemeddelelse (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
-* useContext.code = #workflow
 * useContext.valueCodeableConcept.text = "DK: Regioner, kommuner, apoteker og primærsektoren. (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
 * purpose = "DK: Sende sundhedsinformation mellem sundhedsvæsnets parter, der ikke kan sendes med andre standarder (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * eventCoding = $MessageEvents#care-communication-message
