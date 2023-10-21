@@ -48,8 +48,10 @@ Description: "An example profile of the MessageDefinition resource."
 //* description only valueMarkdown 
 //* description.valueMarkdown = "Natural language description of the message definition" 
 //* useContext 1..1 MS SU
-//* useContext = "Message Context"
-* useContext.code.system = "http://terminology.hl7.org/CodeSystem/usage-context-type" (exactly)
+//* Message Context
+//* useContext.code.system from http://terminology.hl7.org/CodeSystem/usage-context-type
+* useContext.code.system = $EHMIUseContextCodeSystem
+* useContext.code = from http://terminology.hl7.org/CodeSystem/usage-context-type
 * jurisdiction 1..1 MS SU
 * jurisdiction = #DK
 * category 1..1 MS SU

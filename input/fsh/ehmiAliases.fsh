@@ -33,6 +33,7 @@ Alias: $EHMIMedComMessageDefinitionType = http://medcomehmi.dk/ig/ehmi_mcsd/Code
 Alias: $EHMIMedComMessageDefinitionTypeVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-medcom-message-definition-type-valueset
 
 Alias: $MessageEvents = http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-messaging-eventCodes
+Alias: $EHMIUseContextCodeSystem = http://terminology.hl7.org/CodeSystem/usage-context-type
 
 /*
 Alias: $StatusCodes = http://hl7.org/fhir/encounter-status
