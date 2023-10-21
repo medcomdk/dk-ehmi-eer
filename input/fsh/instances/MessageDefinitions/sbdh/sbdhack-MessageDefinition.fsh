@@ -20,7 +20,7 @@ Description: "An example of an EHMIMessageDefinition for SBDH."
 * contact[InteroperabilityConsultant].telecom.system = #email
 * contact[InteroperabilityConsultant].telecom.value = "ovi@medcom.dk" 
 * contact[InteroperabilityConsultant].telecom.use = #work
-* description = "SBDH Envelope (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
+* description = "SBDH Acknowledgement (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
 //* useContext.code = #workflow
 //* useContext.code.system = "http://terminology.hl7.org/CodeSystem/usage-context-type"
 * useContext.valueCodeableConcept.text = "Alle eDelivery kommunikerende parter"
