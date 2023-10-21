@@ -23,8 +23,7 @@ Description: "An example of an EHMIMessageDefinition for HomeCareObservation:1.0
 * contact[SubjectMatterExpert].telecom.value = "krc@medcom.dk" 
 * contact[SubjectMatterExpert].telecom.use = #work
 * description = "DK: HomeCareObservation (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
-* useContext.code = #workflow
 * useContext.valueCodeableConcept.text = "DK: kommuner og primærsektoren. (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
 * purpose = "DK: Sende sundhedsobservationer mellem kommuners akutsygepleje og en patients praktiserende læge (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * eventCoding = $MessageEvents#home-care-observation-message
-
+* responseRequired = #always
