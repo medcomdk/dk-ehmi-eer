@@ -1,7 +1,8 @@
 Profile: EHMIMessageDefinitionFhir
 Parent: EHMIMessageDefinition
 Description: "An example profile of the MessageDefinition-fhir resource."
-* identifier.system = $EHMIMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:fhir
+* identifier.system = $EHMIMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:fhir (exactly)
 * identifier.type = $EHMIMedComMessageDefinitionType#FHIR
-* useContext.code.system = "http://terminology.hl7.org/CodeSystem/usage-context-type" (exactly)
+* useContext.code = $EHMIUseContextCodeSystem#workflow (exactly)
+* useContext.code.system = $EHMIUseContextCodeSystem (exactly)
 
