@@ -23,10 +23,10 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:3.
 * contact[SubjectMatterExpert].telecom.value = "mbk@medcom.dk" 
 * contact[SubjectMatterExpert].telecom.use = #work
 * description = "DK: Advis om sygehusophold (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
-* useContext.code = #workflow
 * useContext.valueCodeableConcept.text = "DK: Regioner sender og kommuner modtager (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
 * purpose = "DK: Sende information fra sygehus til kommune, når patient opholder sig på sygehuset, enten indlagt eller andet fysisk ophold (fx på et ambulatorium) (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * eventCoding = $MessageEvents#hospital-notification-message
+* responseRequired = #always
 
 Instance: EHMI.fhir.MessageDefinition.hospitalNotification:2.0.0
 InstanceOf: EHMIMessageDefinitionFhir
@@ -54,10 +54,10 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:2.
 * contact[SubjectMatterExpert].telecom.value = "mbk@medcom.dk" 
 * contact[SubjectMatterExpert].telecom.use = #work
 * description = "DK: Advis om sygehusophold (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
-* useContext.code = #workflow
 * useContext.valueCodeableConcept.text = "DK: Regioner sender og kommuner modtager (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
 * purpose = "DK: Sende information fra sygehus til kommune, når patient opholder sig på sygehuset, enten indlagt eller andet fysisk ophold (fx på et ambulatorium) (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * eventCoding = $MessageEvents#hospital-notification-message
+* responseRequired = #always
 
 Instance: EHMI.fhir.MessageDefinition.hospitalNotification:1.0.0
 InstanceOf: EHMIMessageDefinitionFhir
@@ -84,9 +84,9 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:1.
 * contact[SubjectMatterExpert].telecom.value = "mbk@medcom.dk" 
 * contact[SubjectMatterExpert].telecom.use = #work
 * description = "DK: Advis om sygehusophold (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
-* useContext.code = #workflow
 * useContext.valueCodeableConcept.text = "DK: Regioner sender og kommuner modtager (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
 * purpose = "DK: Sende information fra sygehus til kommune, når patient opholder sig på sygehuset, enten indlagt eller andet fysisk ophold (fx på et ambulatorium) (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * copyright = "Copyright © 2022 MedCom"
 * eventCoding = $MessageEvents#hospital-notification-message
+* responseRequired = #always
 
