@@ -7,7 +7,7 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:3.
 * identifier.use = #official 
 * identifier.value = "hospitalnotification.3.0"
 * version = "3.0.0"
-* name = "HospitalNotification:3.0"
+//* name = "HospitalNotification:3.0"
 * title = "HospitalNotification 3.0"
 * replaces.value = "EHMI.fhir.MessageDefinition.hospitalNotification:2.0"
 * status = #draft
@@ -41,7 +41,7 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:2.
 * identifier.use = #old
 * identifier.value = "hospitalnotification.2.0"
 * version = "2.0.0"
-* name = "HospitalNotification:2.0"
+//* name = "HospitalNotification:2.0"
 * title = "HospitalNotification 2.0"
 * replaces.value = "EHMI.fhir.MessageDefinition.hospitalNotification:1.0"
 * status = #retired
@@ -75,7 +75,7 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:1.
 * identifier.use = #old
 * identifier.value = "hospitalnotification.1.0"
 * version = "1.0"
-* name = "HospitalNotification:1.0"
+//* name = "HospitalNotification:1.0"
 * title = "HospitalNotification 1.0"
 * status = #retired
 * date = "2021-03-23"

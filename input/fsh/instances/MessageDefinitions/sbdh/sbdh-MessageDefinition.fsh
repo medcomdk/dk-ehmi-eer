@@ -8,7 +8,7 @@ Description: "An example of an EHMIMessageDefinition for sbdh.1.0."
 * identifier.use = #official 
 * identifier.value = "sbdh.1.0"
 * version = "1.0"
-* name = "SBDHEnvelope"
+//* name = "SBDHEnvelope"
 * title = "SBDH Envelope 1.0"
 * status = #active
 * date = "2024-01-01"

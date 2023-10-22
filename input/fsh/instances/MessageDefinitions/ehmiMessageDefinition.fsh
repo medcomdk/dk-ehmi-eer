@@ -14,7 +14,7 @@ Description: "An example profile of the MessageDefinition resource."
 * identifier.use 1..1 MS SU
 * identifier.value 1..1 MS SU
 * version 1..1 MS SU
-* name 1..1 MS SU
+//* name 1..1 MS SU
 * title 1..1 MS SU
 * replaces.value 0..1 MS
 * publisher 1..1 MS SU

@@ -8,7 +8,7 @@ Description: "An example of an EHMIMessageDefinition for Acknowledgement:2.0"
 * identifier.use = #old
 * identifier.value = "Acknowledgement.2.0"
 * version = "2.0"
-* name = "Acknowledgement:2.0"
+//* name = "Acknowledgement:2.0"
 * title = "Acknowledgement 2.0"
 * replaces.value = "EHMI.fhir.MessageDefinition.Acknowledgement:1.0"
 * status = #active
@@ -35,7 +35,7 @@ Description: "An example of an EHMIMessageDefinition for Acknowledgement:1.0"
 * identifier.use = #old
 * identifier.value = "Acknowledgement.1.0"
 * version = "1.0"
-* name = "Acknowledgement:1.0"
+//* name = "Acknowledgement:1.0"
 * title = "Acknowledgement 1.0"
 * status = #retired
 * date = "2021-03-23"

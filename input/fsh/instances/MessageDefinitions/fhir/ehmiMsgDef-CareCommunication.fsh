@@ -7,7 +7,7 @@ Description: "An example of an EHMIMessageDefinition for CareCommunication:3.0"
 * identifier.use = #official 
 * identifier.value = "CareCommunication.3.0"
 * version = "3.0"
-* name = "CareCommunication-3.0"
+//* name = "CareCommunication-3.0"
 * title = "care-communication-3-0-0"
 * replaces.value = "EHMI.fhir.MessageDefinition.CareCommunication:2.0"
 * status = #draft
@@ -41,7 +41,7 @@ Description: "An example of an EHMIMessageDefinition for CareCommunication:2.0"
 * identifier.use = #old
 * identifier.value = "CareCommunication.2.0"
 * version = "2.0"
-* name = "CareCommunication-2.0"
+//* name = "CareCommunication-2.0"
 * title = "care-communication-2-0-0"
 * replaces.value = "EHMI.fhir.MessageDefinition.CareCommunication:1.0"
 * status = #retired
@@ -75,7 +75,7 @@ Description: "An example of an EHMIMessageDefinition for CareCommunication:1.0"
 * identifier.use = #old
 * identifier.value = "CareCommunication.1.0"
 * version = "1.0"
-* name = "CareCommunication-1.0"
+//* name = "CareCommunication-1.0"
 * title = "care-communication-1-0-0"
 * status = #retired
 * date = "2021-03-23"

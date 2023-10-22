@@ -7,7 +7,7 @@ Description: "An example of an EHMIMessageDefinition for xref15:xh1530r"
 * identifier.use = #official 
 * identifier.value = "xref15:xh1530r"
 * version = "xh1530r"
-* name = "XML-Kommunehenvisning"
+//* name = "XML-Kommunehenvisning"
 * title = "xml-kommunehenvisning"
 * status = #active
 * date = "2023-01-01"

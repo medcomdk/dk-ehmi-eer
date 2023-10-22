@@ -7,7 +7,7 @@ Description: "An example of an EHMIMessageDefinition for HomeCareObservation:1.0
 * identifier.use = #official 
 * identifier.value = "HomeCareObservation.1.0"
 * version = "1.0"
-* name = "HomeCareObservation:1.0"
+//* name = "HomeCareObservation:1.0"
 * title = "HomeCareObservation 1.0"
 //* replaces.value = "EHMI.fhir.MessageDefinition.HomeCareObservation:2.0"
 * status = #draft

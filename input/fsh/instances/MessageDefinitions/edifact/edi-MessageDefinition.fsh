@@ -9,7 +9,7 @@ Description: "An example of an EHMIMessageDefinition for bin02:b0210x."
 * identifier.use = #official 
 * identifier.value = "bin02:b0210x"
 * version = "b0210x"
-* name = "Binary document transport for attachments to all referral types"
+//* name = "Binary document transport for attachments to all referral types"
 * title = "binary-document-transport-for-attachments-to-all-referral-types"
 * status = #active
 * date = "2020-06-26"
