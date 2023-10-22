@@ -1,8 +1,8 @@
-Instance: SOROUOrganization_1.0
+Instance: SOROU_EMCSD.SOR.OU.01
 InstanceOf: SOROUOrganization
 Description: "An example of an SOR OU Organization."
-* id = "EMCSD.SOR.OU.01.01"
-* identifier.value = "EMCSD.SOR.OU.01.01"
+* id = "SOROU_EMCSD.SOR.OU.01"
+* identifier.value = "SOROU_EMCSD.SOR.OU.01"
 * name = "SOR-OU-Organization"
 * partOf = Reference(Organization/EMCSD.SOR.HI.01.1)
 * endpoint[0] = Reference(Endpoint/Endpoint.EMCSD.01.1)
