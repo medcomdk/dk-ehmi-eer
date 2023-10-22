@@ -189,3 +189,29 @@ Description: "EHMIUseContextCodeSystemVS for the EHMI Messaging Infrastructure"
 * ^date  =  "2023-09-01"
 * ^experimental = false
 * include codes from system http://terminology.hl7.org/CodeSystem/usage-context-type
+
+//$EHMISORIOOrganizationType
+CodeSystem: EHMISORIOOrganization
+Id: ehmi-sor-io-organization-type
+Title: "EHMI SOR Organization Types CS"
+Description: "ehmi-sor-organization-type for the EHMI Messaging Infrastructure"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2023-09-01"
+* ^experimental = false
+* ^caseSensitive = true
+* #GeneralPractitioner "SOR GeneralPractitioner Organization - Institution Owner IO (DK:IE)"
+* #Municipality "SOR Municipality Organization - Institution Owner IO (DK:IE)"
+* #Region "SOR Region Organization - Institution Owner IO (DK:IE)"
+* #Generic "General encompassing the principle"
+
+ValueSet: EHMISORIOOrganizationVS
+Id: ehmi-sor-io-organization-type-valueset
+Title: "EHMI SOR IO Organization Types Valueset"
+Description: "ValueSet containing codes for EHMI ehmi-sor-io-organization-type"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2023-09-01"
+* ^experimental = false
+* include codes from system ehmi-sor-io-organization-type
+

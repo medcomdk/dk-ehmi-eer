@@ -1,10 +1,10 @@
-Instance: SOROU_EMCSD.SOR.OU.01.01
+Instance: SOR.OU-Herlev-Kommune-SOR.1053211000016007
 InstanceOf: SOROUOrganization
-Description: "An example of an SOR OU Organization."
-* id = "SOROU_EMCSD.SOR.OU.01.01"
-* identifier.value = "SOROU_EMCSD.SOR.OU.01.01"
-* name = "SOR-OU-Organization"
-* partOf = Reference(Organization/SOROU_EMCSD.SOR.OU.01)
+Description: "Sygehusadviser, Herlev - SOR.OU-Herlev-Kommune-SOR.1053211000016007"
+* id = "SOR.OU-Herlev-Kommune-SOR.1053211000016007"
+* identifier.value = "1053211000016007"
+* name = "SOR.OU-Herlev-Kommune-SOR.1053211000016007"
+* partOf = Reference(Organization/SOR.HI-Herlev-Kommune-SOR.6501000016006)
 * endpoint[0] = Reference(Endpoint/Endpoint.EMCSD.01.1)
 * endpoint[+] = Reference(Endpoint/Endpoint.EMCSD.02.1)
 * endpoint[+] = Reference(Endpoint/Endpoint.EMCSD.03.1)
