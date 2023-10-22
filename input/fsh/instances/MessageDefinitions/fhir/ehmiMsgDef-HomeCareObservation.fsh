@@ -28,4 +28,5 @@ Description: "An example of an EHMIMessageDefinition for HomeCareObservation:1.0
 * eventCoding = $MessageEvents#home-care-observation-message
 * responseRequired = #always
 * allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.Acknowledgement:2.0"
+* allowedResponse[+].message.value = "http://medcomfhir.dk/ig/acknowledgement/ImplementationGuide/medcom.fhir.dk.acknowledgement"
 * allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.CareCommunication:3.0"
