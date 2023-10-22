@@ -1,15 +1,15 @@
-Instance: EHMI.fhir.MessageDefinition.hospitalNotification:3.0.0
+Instance: EHMI.fhir.MessageDefinition.hospitalNotification:3.0
 InstanceOf: EHMIMessageDefinitionFhir
-Description: "An example of an EHMIMessageDefinition for hospitalnotification:3.0.0"
-* id = "EHMI.fhir.MessageDefinition.hospitalNotification.3.0.0"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:3.0.0
+Description: "An example of an EHMIMessageDefinition for hospitalnotification:3.0"
+* id = "EHMI.fhir.MessageDefinition.hospitalNotification.3.0"
+* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:3.0
 * identifier.period.start = "2021-03-23"
 * identifier.use = #official 
-* identifier.value = "hospitalnotification.3.0.0"
+* identifier.value = "hospitalnotification.3.0"
 * version = "3.0.0"
-* name = "HospitalNotification-3.0.0"
-* title = "hospital-notification-3-0-0"
-* replaces.value = "EHMI.fhir.MessageDefinition.hospitalNotification:2.0.0"
+* name = "HospitalNotification:3.0"
+* title = "HospitalNotification 3.0"
+* replaces.value = "EHMI.fhir.MessageDefinition.hospitalNotification:2.0"
 * status = #draft
 * date = "2023-01-06"
 * copyright = "Copyright © 2023 MedCom"
@@ -31,19 +31,19 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:3.
 * allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.Acknowledgement:2.0.1"
 * allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.CareCommunication:3.0.0"
 
-Instance: EHMI.fhir.MessageDefinition.hospitalNotification:2.0.0
+Instance: EHMI.fhir.MessageDefinition.hospitalNotification:2.0
 InstanceOf: EHMIMessageDefinitionFhir
-Description: "An example of an EHMIMessageDefinition for hospitalnotification:2.0.0"
-* id = "EHMI.fhir.MessageDefinition.hospitalNotification.2.0.0"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:2.0.0
+Description: "An example of an EHMIMessageDefinition for hospitalnotification:2.0"
+* id = "EHMI.fhir.MessageDefinition.hospitalNotification.2.0"
+* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:2.0
 * identifier.period.start = "2021-03-23"
 * identifier.period.end = "2023-01-05"
 * identifier.use = #old
-* identifier.value = "hospitalnotification.2.0.0"
+* identifier.value = "hospitalnotification.2.0"
 * version = "2.0.0"
-* name = "HospitalNotification-2.0.0"
-* title = "hospital-notification-2-0-0"
-* replaces.value = "EHMI.fhir.MessageDefinition.hospitalNotification:1.0.0"
+* name = "HospitalNotification:2.0"
+* title = "HospitalNotification 2.0"
+* replaces.value = "EHMI.fhir.MessageDefinition.hospitalNotification:1.0"
 * status = #retired
 * date = "2022-10-05"
 * copyright = "Copyright © 2022 MedCom"
@@ -65,18 +65,18 @@ Description: "An example of an EHMIMessageDefinition for hospitalnotification:2.
 * allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.Acknowledgement:2.0.1"
 * allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.CareCommunication:3.0.0"
 
-Instance: EHMI.fhir.MessageDefinition.hospitalNotification:1.0.0
+Instance: EHMI.fhir.MessageDefinition.hospitalNotification:1.0
 InstanceOf: EHMIMessageDefinitionFhir
-Description: "An example of an EHMIMessageDefinition for hospitalnotification:1.0.0"
-* id = "EHMI.fhir.MessageDefinition.hospitalNotification.1.0.0"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:1.0.0
+Description: "An example of an EHMIMessageDefinition for hospitalnotification:1.0"
+* id = "EHMI.fhir.MessageDefinition.hospitalNotification.1.0"
+* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:1.0
 * identifier.period.start = "2021-03-23"
 * identifier.period.end = "2022-10-04"
 * identifier.use = #old
-* identifier.value = "hospitalnotification.1.0.0"
-* version = "1.0.0"
-* name = "HospitalNotification-1.0.0"
-* title = "hospital-notification-1-0-0"
+* identifier.value = "hospitalnotification.1.0"
+* version = "1.0"
+* name = "HospitalNotification:1.0"
+* title = "HospitalNotification 1.0"
 * status = #retired
 * date = "2021-03-23"
 * copyright = "Copyright © 2021 MedCom"
