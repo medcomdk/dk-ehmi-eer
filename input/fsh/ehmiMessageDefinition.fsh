@@ -11,6 +11,7 @@ Description: "An example profile of the MessageDefinition resource."
 * identifier.period.end 0..1 MS SU
 * identifier.type from ehmi-medcom-message-definition-type-valueset
 * identifier.type 1..1 MS SU
+* identifier.type.coding.system = $EHMIMedComMessageDefinitionType
 * identifier.use 1..1 MS SU
 * identifier.value 1..1 MS SU
 * version 1..1 MS SU
