@@ -4,8 +4,8 @@ Description: "An example of an EHMIMessageDefinition for Acknowledgement:2.0"
 * id = "EHMI.fhir.MessageDefinition.Acknowledgement.2.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 * identifier.period.start = "2021-03-23"
-* identifier.period.end = "2023-01-05"
-* identifier.use = #old
+//* identifier.period.end = "2023-01-05"
+* identifier.use = #official
 * identifier.value = "Acknowledgement.2.0"
 * version = "2.0"
 //* name = "Acknowledgement:2.0"
