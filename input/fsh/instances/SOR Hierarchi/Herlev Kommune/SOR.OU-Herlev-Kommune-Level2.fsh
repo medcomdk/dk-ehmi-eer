@@ -4,7 +4,7 @@ Description: "LÆ- blanketter, suppl. kommunikation, Herlev - SOR.OU-Herlev-Komm
 * id = "EHMI.SOR.OU-Herlev-Kommune-SOR.646961000016000"
 * identifier.value = "646961000016000"
 * name = "EHMI.SOR.OU-Herlev-Kommune-SOR.646961000016000"
-* type[SOR-Hierarchy] = $EHMISOROrganizationType#OU
+* type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#OU
 * type[SOR-Hierarchy].coding.system = $EHMISOROrganizationType
 * partOf = Reference(Organization/EHMI.SOR.HI-Herlev-Kommune-SOR.6501000016006)
 * endpoint[0] = Reference(Endpoint/EHMIMessagingEndpoint-Herlev-VansEdi.01)
