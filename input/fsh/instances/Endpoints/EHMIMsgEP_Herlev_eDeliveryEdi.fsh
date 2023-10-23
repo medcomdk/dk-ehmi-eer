@@ -5,10 +5,10 @@ Description: "An example of an EHMIMessagingEdeliveryEdiEndpoint."
 * identifier.value = "EHMIMessagingEndpoint-Herlev-eDeliveryEdi.01"
 //* identifier.use = "official"
 * status = #active
-* managingOrganization = Reference(Organization/EHMI.SOR.IO-HERLEV-KOMMUNE-SOR.101000016005)
+* managingOrganization = Reference(Organization/EHMI.SOR.IO-Herlev-Kommune-SOR.101000016005)
 * period.start = "2023-01-01"
 * period.end = "2024-01-01"
-* address = "http://www.xyz.dk/edi"
+* address = "http://herlev.dk/edi"
 * payloadMimeType = #text/plain
 * payloadType[0] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl01:c0130q	
 * payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl02:c0230q	

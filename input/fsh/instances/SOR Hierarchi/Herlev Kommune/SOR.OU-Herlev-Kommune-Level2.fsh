@@ -7,9 +7,9 @@ Description: "LÆ- blanketter, suppl. kommunikation, Herlev - SOR.OU-Herlev-Komm
 * type[SOR-Hierarchy] = $EHMISOROrganizationType#OU
 * type[SOR-Hierarchy].coding.system = $EHMISOROrganizationType
 * partOf = Reference(Organization/EHMI.SOR.HI-Herlev-Kommune-SOR.6501000016006)
-* endpoint[0] = Reference(Endpoint/Endpoint.EMCSD.01.1)
-* endpoint[+] = Reference(Endpoint/Endpoint.EMCSD.02.1)
-* endpoint[+] = Reference(Endpoint/Endpoint.EMCSD.03.1)
-* endpoint[+] = Reference(Endpoint/Endpoint.EMCSD.04.1)
-* endpoint[+] = Reference(Endpoint/Endpoint.EMCSD.05.1)
-* endpoint[+] = Reference(Endpoint/Endpoint.EMCSD.06.1)
+* endpoint[0] = Reference(Endpoint/EHMIMessagingEndpoint-Herlev-VansEdi.01)
+* endpoint[+] = Reference(Endpoint/EHMIMessagingEndpoint-Herlev-eDeliveryEdi.01)
+* endpoint[+] = Reference(Endpoint/EHMIMessagingEndpoint-Herlev-VansFhir.01)
+* endpoint[+] = Reference(Endpoint/EHMIMessagingEndpoint-Herlev-eDeliveryFhir.01)
+* endpoint[+] = Reference(Endpoint/EHMIMessagingEndpoint-Herlev-VansOioxml.01)
+* endpoint[+] = Reference(Endpoint/EHMIMessagingEndpoint-Herlev-eDeliveryOioxml.01)
