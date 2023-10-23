@@ -85,7 +85,7 @@ Description: "An example of an EHMIMessageDefinition for CareCommunication:1.0"
 * contact[InteroperabilityConsultant].telecom.system = #email
 * contact[InteroperabilityConsultant].telecom.value = "tms@medcom.dk" 
 * contact[InteroperabilityConsultant].telecom.use = #work
-* contact[SubjectMatterExpert].name = "Subject Matter Expert, Kirsten Christiansen"
+* contact[SubjectMatterExpert].name = "Subject Matter Expert, Kirsten Tapia Ravn Christiansen"
 * contact[SubjectMatterExpert].telecom.system = #email
 * contact[SubjectMatterExpert].telecom.value = "krc@medcom.dk" 
 * contact[SubjectMatterExpert].telecom.use = #work
