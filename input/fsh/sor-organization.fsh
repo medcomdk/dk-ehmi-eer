@@ -21,7 +21,7 @@ Description:  """ SOR Institution Owner Organization IO (DK:IE) """
 * type contains
     EHMISORIOOrganizationType 1..1 MS SU 
 * type[SOR-Hierarchy] = $EHMISOROrganizationType#IO (exactly)
-* type from ehmi-sor-io-organization-type-valueset
+* type[EHMISORIOOrganizationType] from ehmi-sor-io-organization-type-valueset
 
 Profile:      SORIOMunicipalityOrganization
 Parent:       SORIOOrganization
@@ -36,12 +36,12 @@ Parent:       SOROrganization
 Id:           MedCom.SOR.HealthcareInstitution.Organization
 Title:        "EHMI SOR Healthcare Institution Organization"
 Description:  """ SOR Healthcare Institution Organization HI (DK:SI) """
-* type = $EHMISOROrganizationType#HI (exactly)
+* type[SOR-Hierarchy] = $EHMISOROrganizationType#HI (exactly)
 
 Profile:      SOROUOrganization
 Parent:       SOROrganization
 Id:           MedCom.SOR.OrganizationalUnit.Organization
 Title:        "EHMI SOR Organizational Unit"
 Description:  """ SOR Organizational Unit OU (DK:OE) """
-* type = $EHMISOROrganizationType#OU (exactly)
+* type[SOR-Hierarchy] = $EHMISOROrganizationType#OU (exactly)
 
