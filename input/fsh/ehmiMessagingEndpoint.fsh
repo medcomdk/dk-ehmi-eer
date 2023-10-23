@@ -32,7 +32,8 @@ Parent:       EHMIMessagingEdeliveryEndpoint
 Id:           ehmi.dk.messaging.edelivery.fhir
 Title:        "EHMI Endpoint eDelivery FHIR Messaging"
 Description:  "EHMI Endpoint eDelivery FHIR Messaging"
-* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:fhir (exactly)
+//* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:fhir (exactly)
+* payloadType = $EHMIMedComMessageDefinitionType#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 
 Profile:      EHMIMessagingEdeliveryEdiEndpoint
 Parent:       EHMIMessagingEdeliveryEndpoint
@@ -60,7 +61,8 @@ Parent:       EHMIMessagingVansEndpoint
 Id:           ehmi.dk.messaging.vans.fhir
 Title:        "EHMI Endpoint VANS FHIR Messaging"
 Description:  "EHMI Endpoint VANS FHIR Messaging"
-* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:fhir (exactly)
+//* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:fhir (exactly)
+* payloadType = $EHMIMedComMessageDefinitionType#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 
 Profile:      EHMIMessagingVansEdiEndpoint
 Parent:       EHMIMessagingVansEndpoint
