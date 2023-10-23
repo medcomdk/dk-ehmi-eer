@@ -10,3 +10,4 @@ Description: "An example of an EHMIMessagingEdeliveryFhirEndpoint."
 * period.end = "2024-01-01"
 * address = "http://www.xyz.dk/fhir"
 * payloadMimeType = #text/plain
+* payloadType = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
