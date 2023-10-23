@@ -4,7 +4,7 @@ Description: "Sygehusadviser, Herlev - SOR.OU-Herlev-Kommune-SOR.105321100001600
 * id = "EHMI.SOR.OU-Herlev-Kommune-SOR.1053211000016007"
 * identifier.value = "1053211000016007"
 * name = "EHMI.SOR.OU-Herlev-Kommune-SOR.1053211000016007"
-* type[SOR-Hierarchy] = $EHMISOROrganizationType#OU
+* type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#OU
 * type[SOR-Hierarchy].coding.system = $EHMISOROrganizationType
 * partOf = Reference(Organization/EHMI.SOR.HI-Herlev-Kommune-SOR.6501000016006)
 * endpoint[0] = Reference(Endpoint/EHMIMessagingEndpoint-Herlev-VansEdi.01)
