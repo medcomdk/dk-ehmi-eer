@@ -1,8 +1,10 @@
-Instance: EHMIMessagingEndpoint-Herlev-VansFhir.01
+Instance: EHMIMessagingEndpoint-Herlev-VansFhir.5790002508226
 InstanceOf: EHMIMessagingVansFhirEndpoint
 Description: "Herlev EHMIMessagingEndpoint-Herlev-VansFhir.01."
 * id = "EHMIMessagingEndpoint-Herlev-VansFhir.01"
-* identifier.value = "EHMIMessagingEndpoint-Herlev-VansFhir.01"
+* identifier.value = "5790002508226"
+* identifier.system = $EHMIAuditEventAgentWhoIdentifierTypes
+* identifier.type = $EHMIAuditEventAgentWhoIdentifierTypes#GLN
 //* identifier.use = "official"
 * status = #active
 * managingOrganization = Reference(Organization/EHMI.SOR.IO-Herlev-Kommune-SOR.101000016005)
