@@ -1,8 +1,8 @@
-Instance: EMCSD_03.1_SampleEHMIMessagingVansOioxmlEndpoint
+Instance: EHMIMessagingEndpoint_VansOioxml.01
 InstanceOf: EHMIMessagingVansOioxmlEndpoint
 Description: "An example of an EHMIMessagingVansOioxmlEndpoint."
-* id = "Endpoint.EMCSD.06.1"
-* identifier.value = "Endpoint.EMCSD.06.1"
+* id = "EHMIMessagingEndpoint_VansOioxml.01"
+* identifier.value = "EHMIMessagingEndpoint_VansOioxml.01"
 //* identifier.use = "official"
 * status = #active
 * managingOrganization = Reference(Organization/EMCSD.SOR.IO.01.1)
