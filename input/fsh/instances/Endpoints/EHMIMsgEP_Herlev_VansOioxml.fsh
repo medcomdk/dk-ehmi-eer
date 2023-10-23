@@ -1,6 +1,6 @@
 Instance: EHMIMessagingEndpoint-Herlev-VansOioxml.01
 InstanceOf: EHMIMessagingVansOioxmlEndpoint
-Description: "An example of an EHMIMessagingVansOioxmlEndpoint."
+Description: "Herlev EHMIMessagingVansOioxmlEndpoint."
 * id = "EHMIMessagingEndpoint-Herlev-VansOioxml.01"
 * identifier.value = "EHMIMessagingEndpoint-Herlev-VansOioxml.01"
 //* identifier.use = "official"

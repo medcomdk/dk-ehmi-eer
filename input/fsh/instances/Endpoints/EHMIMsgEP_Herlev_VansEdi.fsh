@@ -1,6 +1,6 @@
 Instance: EHMIMessagingEndpoint-Herlev-VansEdi.01
 InstanceOf: EHMIMessagingVansEdiEndpoint
-Description: "An example of an EHMIMessagingVansEdiEndpoint."
+Description: "Herlev EHMIMessagingVansEdiEndpoint."
 * id = "EHMIMessagingEndpoint-Herlev-VansEdi.01"
 * identifier.value = "EHMIMessagingEndpoint-Herlev-VansEdi.01"
 //* identifier.use = "official"

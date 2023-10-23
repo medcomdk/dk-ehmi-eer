@@ -1,6 +1,6 @@
 Instance: EHMIMessagingEndpoint-Herlev-eDeliveryFhir.01
 InstanceOf: EHMIMessagingEdeliveryFhirEndpoint
-Description: "An example of an EHMIMessagingEdeliveryFhirEndpoint."
+Description: "Herlev EHMIMessagingEdeliveryFhirEndpoint."
 * id = "EHMIMessagingEndpoint-Herlev-eDeliveryFhir.01"
 * identifier.value = "EHMIMessagingEndpoint-Herlev-eDeliveryFhir.01"
 //* identifier.use = "official"
