@@ -1,8 +1,8 @@
-Instance: EHMIMessagingEndpoint_VansFhir.01
+Instance: EHMIMessagingEndpoint-VansFhir.01
 InstanceOf: EHMIMessagingVansFhirEndpoint
-Description: "An example of an EHMIMessagingEndpoint_VansFhir.01."
-* id = "EHMIMessagingEndpoint_VansFhir.01"
-* identifier.value = "EHMIMessagingEndpoint_VansFhir.01"
+Description: "An example of an EHMIMessagingEndpoint-VansFhir.01."
+* id = "EHMIMessagingEndpoint-VansFhir.01"
+* identifier.value = "EHMIMessagingEndpoint-VansFhir.01"
 //* identifier.use = "official"
 * status = #active
 * managingOrganization = Reference(Organization/EMCSD.SOR.IO.01.1)

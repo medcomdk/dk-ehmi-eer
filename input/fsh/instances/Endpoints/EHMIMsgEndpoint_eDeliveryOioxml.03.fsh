@@ -1,8 +1,8 @@
-Instance: EHMIMessagingEndpoint_eDeliveryOioxml.03
+Instance: EHMIMessagingEndpoint-eDeliveryOioxml.03
 InstanceOf: EHMIMessagingEdeliveryOioxmlEndpoint
 Description: "An example of an EHMIMessagingEdeliveryOioxmlEndpoint."
-* id = "EHMIMessagingEndpoint_eDeliveryOioxml.03"
-* identifier.value = "EHMIMessagingEndpoint_eDeliveryOioxml.03"
+* id = "EHMIMessagingEndpoint-eDeliveryOioxml.03"
+* identifier.value = "EHMIMessagingEndpoint-eDeliveryOioxml.03"
 //* identifier.use = "official"
 * status = #active
 * managingOrganization = Reference(Organization/EMCSD.SOR.IO.01.1)
