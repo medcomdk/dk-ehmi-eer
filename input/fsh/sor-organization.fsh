@@ -28,7 +28,7 @@ Parent:       EHMISORIOOrganization
 Id:           EHMI.SOR.InstitutionOwner.Municipality.Organization
 Title:        "EHMI SOR Institution Owner Municipality Organization"
 Description:  """ EHMI SOR Institution Owner Municipality Organization IO (DK:IE) """
-//* type[SOR-Hierarchy] = $EHMISOROrganizationType#IO (exactly)
+* type[SOR-Hierarchy] = $EHMISOROrganizationType#IO (exactly)
 * type[EHMISORIOOrganizationType] = $EHMISORIOOrganizationType#Municipality (exactly)
 
 Profile:      EHMISORHIOrganization
