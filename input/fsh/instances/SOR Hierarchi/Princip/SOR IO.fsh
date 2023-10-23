@@ -4,7 +4,7 @@ Description: "An example of an SOR IO Organization."
 * id = "EHMI.SOR.IO.01"
 * identifier.value = "EHMI.SOR.IO.01"
 * name = "EHMI-SOR-IO-Organization"
-* type[SOR-Hierarchy] = $EHMISOROrganizationType#IO
-* type[EHMISORIOOrganizationType] = $EHMISORIOOrganizationType#Generic
+* type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#IO
+* type[EHMISORIOOrganizationType].coding.code = $EHMISORIOOrganizationType#Generic
 
 //* partOf = Reference(Organization/EMCSD.SOR.IO.01.1)
