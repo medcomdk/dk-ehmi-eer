@@ -1,7 +1,7 @@
-Instance: EHMIMessagingEndpoint-Herlev-eDeliveryOioxml.03
+Instance: EHMIMessagingEndpoint-Herlev-eDeliveryOioxml.01
 InstanceOf: EHMIMessagingEdeliveryOioxmlEndpoint
 Description: "Herlev EHMIMessagingEdeliveryOioxmlEndpoint."
-* id = "EHMIMessagingEndpoint-Herlev-eDeliveryOioxml.03"
+* id = "EHMIMessagingEndpoint-Herlev-eDeliveryOioxml.01"
 * identifier.value = "EHMIMessagingEndpoint-Herlev-eDeliveryOioxml.03"
 //* identifier.use = "official"
 * status = #active
