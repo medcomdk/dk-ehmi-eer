@@ -1,8 +1,8 @@
-Instance: SORHIOrganization_1.0
-InstanceOf: SORHIOrganization
+Instance: EHMISORHIOrganization_1.0
+InstanceOf: EHMISORHIOrganization
 Description: "An example of an SOR HI Organization."
-* id = "EMCSD.SOR.HI.01.1"
-* identifier.value = "EMCSD.SOR.HI.01.1"
+* id = "EHMI.EMCSD.SOR.HI.01.1"
+* identifier.value = "EHMI.EMCSD.SOR.HI.01.1"
 //* type = #IO
-* name = "SOR-HI-Organization"
-* partOf = Reference(Organization/EMCSD.SOR.IO.01.1)
+* name = "EHMI-SOR-HI-Organization"
+* partOf = Reference(Organization/EHMI.EMCSD.SOR.IO.01.1)
