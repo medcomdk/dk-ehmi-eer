@@ -8,5 +8,10 @@ Description: "An example of an SOR HI Organization."
 //* type[facility].coding.code = #facility
 //* type[facility].coding.system = https://profiles.ihe.net/ITI/mCSD/CodeSystem/IHE.mCSD.Organization.Location.Types
 * providedBy = Reference(Organization/EHMI.SOR.HI.Facility.Organization-1.0)
+* category = #35
 * type = #358
 * specialty = #394602003
+* comment = "comments"
+* extraDetails = "extraDetails"
+* program = #21
+* referralMethod = #elec
