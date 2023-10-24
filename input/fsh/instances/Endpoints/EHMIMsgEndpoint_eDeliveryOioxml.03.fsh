@@ -5,7 +5,7 @@ Description: "An example of an EHMIMessagingEdeliveryOioxmlEndpoint."
 * identifier.value = "EHMIMessagingEndpoint-eDeliveryOioxml.03"
 //* identifier.use = "official"
 * status = #active
-* managingOrganization = Reference(Organization/EHMI.SOR.IO.01)
+* managingOrganization = Reference(Organization/EHMI.SOR.HI.01.1)
 * period.start = "2023-01-01"
 * period.end = "2024-01-01"
 * address = "http://www.xyz.dk/oioxml"
