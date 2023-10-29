@@ -33,6 +33,8 @@ Alias: $MedComMessageDefinitionUri = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSyste
 Alias: $MedComMessageDefinitionUriVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-medcom-message-definition-uri-valueset
 Alias: $EHMIMedComMessageDefinitionType = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-medcom-message-definition-type
 Alias: $EHMIMedComMessageDefinitionTypeVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-medcom-message-definition-type-valueset
+Alias: $EHMISORUnitType = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-sor-unit-type
+Alias: $EHMISORUnitTypeVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-sor-unit-type-valueset
 
 Alias: $MessageEvents = http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-messaging-eventCodes
 Alias: $EHMIUseContextCodeSystem = http://terminology.hl7.org/CodeSystem/usage-context-type

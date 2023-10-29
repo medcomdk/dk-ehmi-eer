@@ -8,7 +8,9 @@ Description:  """ EHMI SOR General Organization """
   * ^slicing.rules = #open //#closed eller #open 
 * type contains
     SOR-Hierarchy 1..1 MS SU 
+    and SOR-UnityType 0..1 MS SU
 * type[SOR-Hierarchy] from ehmi-sor-organization-type-valueset
+* type[SOR-UnityType] from ehmi-sor-unit-type-valueset
 
 Profile:      EHMISORIOOrganization
 Parent:       EHMISOROrganization

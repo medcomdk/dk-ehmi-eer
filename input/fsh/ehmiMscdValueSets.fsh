@@ -190,7 +190,6 @@ Description: "EHMIUseContextCodeSystemVS for the EHMI Messaging Infrastructure"
 * ^experimental = false
 * include codes from system http://terminology.hl7.org/CodeSystem/usage-context-type
 
-//$EHMISORIOOrganizationType
 CodeSystem: EHMISORIOOrganization
 Id: ehmi-sor-io-organization-type
 Title: "EHMI SOR Organization Types CS"
@@ -214,4 +213,28 @@ Description: "ValueSet containing codes for EHMI ehmi-sor-io-organization-type"
 * ^date  =  "2023-09-01"
 * ^experimental = false
 * include codes from system ehmi-sor-io-organization-type
+
+CodeSystem: EHMISORUnitType
+Id: ehmi-sor-unit-type
+Title: "EHMI SOR Unit Types CS"
+Description: "ehmi-sor-unit-type for the EHMI Messaging Infrastructure"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2023-09-01"
+* ^experimental = false
+* ^caseSensitive = true
+* #sundhedsforvaltning "sundhedsforvaltning"
+* #genoptræningsenhed "genoptræningsenhed"
+* #administrativ-enhed "administrativ enhed"
+* #supplerende-oplysninger "supplerende oplysninger"
+
+ValueSet: EHMISORUnitTypeVS
+Id: ehmi-sor-unit-type-valueset
+Title: "EHMI SOR Unit Types Valueset"
+Description: "ValueSet containing codes for EHMI ehmi-sor-io-organization-type"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2023-09-01"
+* ^experimental = false
+* include codes from system ehmi-sor-unit-type
 
