@@ -1,3 +1,4 @@
+/*
 Instance: EHMIMessagingEndpoint-Herlev-VansOioxml.5790002508226
 InstanceOf: EHMIMessagingVansOioxmlEndpoint
 Description: "Herlev EHMIMessagingVansOioxmlEndpoint."
@@ -15,3 +16,4 @@ Description: "Herlev EHMIMessagingVansOioxmlEndpoint."
 * payloadType[0] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl01:xc0130q	"NegativeVansReceipt"
 * payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl02:xc0230q	"NegativeReceipt"
 * payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl03:xc0330q	"PositivReceipt"
+*/

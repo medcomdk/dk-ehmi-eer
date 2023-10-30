@@ -1,3 +1,4 @@
+/*
 Instance: EHMIMessagingEndpoint-Herlev-VansFhir.5790002508226
 InstanceOf: EHMIMessagingVansFhirEndpoint
 Description: "Herlev EHMIMessagingEndpoint-Herlev-VansFhir.01."
@@ -13,3 +14,4 @@ Description: "Herlev EHMIMessagingEndpoint-Herlev-VansFhir.01."
 * address = "http://herlev.dk/fhir"
 * payloadMimeType = #text/plain
 * payloadType = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
+*/

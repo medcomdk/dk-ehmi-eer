@@ -223,10 +223,26 @@ Description: "ehmi-sor-unit-type for the EHMI Messaging Infrastructure"
 * ^date  =  "2023-09-01"
 * ^experimental = false
 * ^caseSensitive = true
-* #sundhedsforvaltning "sundhedsforvaltning"
-* #genoptræningsenhed "genoptræningsenhed"
-* #administrativ-enhed "administrativ enhed"
-* #supplerende-oplysninger "supplerende oplysninger"
+* #kommune "Kommune"
+* #region "Region"
+* #sundhedsforvaltning "Sundhedsforvaltning"
+* #hjemmesygeplejeenhed "Hjemmesygeplejeenhed"
+* #hjemmeplejeenhed "Hjemmeplejeenhed"
+* #plejehjem "Plejehjem"
+* #bosted "Bosted"
+* #genoptræningsenhed "Genoptræningsenhed"
+* #handicap-og-psykiatrienhed "Handicap- og psykiatrienhed"
+* #center-for-misbrugsbehandling "Center for misbrugsbehandling"
+* #fysioterapi-og-ergoterapiklinik "Fysioterapi- og ergoterapiklinik"
+* #tandplejeklinik "Tandplejeklinik"
+* #sundhedscenter "Sundhedscenter"
+* #sundhedsplejen "Sundhedsplejen"
+* #administrativ-enhed "Administrativ enhed"
+* #supplerende-oplysninger "Supplerende oplysninger"
+* #anden-sundhedsinstitution "Anden sundhedsinstitution"
+* #anden-EDI "Anden EDI"
+* #sygeplejeklinik "Sygeplejeklinik"
+* #behandlingscenter-for-stofmisbrugere "Behandlingscenter for stofmisbrugere"
 
 ValueSet: EHMISORUnitTypeVS
 Id: ehmi-sor-unit-type-valueset
@@ -238,3 +254,28 @@ Description: "ValueSet containing codes for EHMI ehmi-sor-io-organization-type"
 * ^experimental = false
 * include codes from system ehmi-sor-unit-type
 
+CodeSystem: EHMISORClinicalAdministrativeHierarchy
+Id: ehmi-sor-clinical-administrative-hierarchy
+Title: "EHMI SOR Clinical Administrative Hierarchy CS"
+Description: "CodeSystem containing codes for EHMI SOR Clinical Administrative Hierarchy"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2023-09-01"
+* ^experimental = false
+* ^caseSensitive = true
+* #Hospital "Hospital"
+* #Hospitalsområde "Hospitalsområde"
+* #Center "Center"
+* #Overafdeling "Overafdeling"
+* #Afdeling "Afdeling"
+* #Afsnit "Afsnit"
+
+ValueSet: EHMISORClinicalAdministrativeHierarchyVS
+Id: ehmi-sor-clinical-administrative-hierarchy-valueset
+Title: "EHMI SOR Clinical Administrative Hierarchy Valueset"
+Description: "ValueSet containing codes for EHMI SOR Clinical Administrative Hierarchy"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2023-09-01"
+* ^experimental = false
+* include codes from system ehmi-sor-clinical-administrative-hierarchy

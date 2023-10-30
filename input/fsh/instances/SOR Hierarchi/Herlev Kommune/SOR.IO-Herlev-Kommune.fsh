@@ -1,3 +1,4 @@
+/*
 Instance: EHMI.SOR.IO-Herlev-Kommune
 InstanceOf: EHMISORIOMunicipalityOrganization
 Description: "EHMI.SOR.IO-Herlev-Kommune as a SOR IO Organization."
@@ -6,3 +7,4 @@ Description: "EHMI.SOR.IO-Herlev-Kommune as a SOR IO Organization."
 * name = "EHMI.SOR.IO-Herlev-Kommune"
 * type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#IO
 * type[EHMISORIOOrganizationType].coding.code = $EHMISORIOOrganizationType#Municipality
+*/

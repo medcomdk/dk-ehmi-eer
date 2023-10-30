@@ -1,3 +1,4 @@
+/*
 Instance: EHMI.SOR.OU-Herlev-Kommune-SOR.646961000016000
 InstanceOf: EHMISOROUOrganization
 Description: "LÆ- blanketter, suppl. kommunikation, Herlev - SOR.OU-Herlev-Kommune-SOR.646961000016000"
@@ -13,3 +14,4 @@ Description: "LÆ- blanketter, suppl. kommunikation, Herlev - SOR.OU-Herlev-Komm
 * endpoint[+] = Reference(Endpoint/EHMIMessagingEndpoint-Herlev-eDeliveryFhir.01)
 * endpoint[+] = Reference(Endpoint/EHMIMessagingEndpoint-Herlev-VansOioxml.01)
 * endpoint[+] = Reference(Endpoint/EHMIMessagingEndpoint-Herlev-eDeliveryOioxml.01)
+*/

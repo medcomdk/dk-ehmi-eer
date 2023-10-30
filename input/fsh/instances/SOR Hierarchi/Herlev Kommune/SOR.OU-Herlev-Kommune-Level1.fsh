@@ -1,3 +1,4 @@
+/*
 Instance: EHMI.SOR.OU-Herlev-Kommune-SOR.1053211000016007
 InstanceOf: EHMISOROUOrganization
 Description: "Sygehusadviser, Herlev - SOR.OU-Herlev-Kommune-SOR.1053211000016007"
@@ -13,3 +14,4 @@ Description: "Sygehusadviser, Herlev - SOR.OU-Herlev-Kommune-SOR.105321100001600
 * endpoint[+] = Reference(Endpoint/EHMIMessagingEndpoint-Herlev-eDeliveryFhir.01)
 * endpoint[+] = Reference(Endpoint/EHMIMessagingEndpoint-Herlev-VansOioxml.01)
 * endpoint[+] = Reference(Endpoint/EHMIMessagingEndpoint-Herlev-eDeliveryOioxml.01)
+*/

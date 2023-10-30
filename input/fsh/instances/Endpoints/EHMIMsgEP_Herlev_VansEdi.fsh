@@ -1,3 +1,4 @@
+/*
 Instance: EHMIMessagingEndpoint-Herlev-VansEdi.5790002508226
 InstanceOf: EHMIMessagingVansEdiEndpoint
 Description: "Herlev EHMIMessagingVansEdiEndpoint."
@@ -15,3 +16,4 @@ Description: "Herlev EHMIMessagingVansEdiEndpoint."
 * payloadType[0] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl01:c0130q	
 * payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl02:c0230q	
 * payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl03:c0330q	
+*/
