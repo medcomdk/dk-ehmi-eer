@@ -2,7 +2,7 @@ Instance: EHMI.SOR.OU-Aarhus-Kommune-SOR.951401000016003
 InstanceOf: EHMISOROUOrganization
 Description: "Sygehusadviser, Aarhus - SOR.OU-Aarhus-Kommune-SOR.951401000016003"
 * id = "EHMI.SOR.OU-Aarhus-Kommune.951401000016003"
-* identifier.value = "951401000016003"
+* identifier[SOR].value = "951401000016003"
 * name = "EHMI SOR OU Aarhus Kommune (951401000016003)"
 * type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#OU
 * type[SOR-Hierarchy].coding.system = $EHMISOROrganizationType

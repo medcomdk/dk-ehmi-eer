@@ -19,22 +19,34 @@ Alias: $EHMIAuditEventEntityMessageType = http://medcomehmi.dk/ig/ehmi_balp/Code
 
 Alias: $mCSDEndpointConnectionType = http://hl7.org/fhir/R4/valueset-endpoint-connection-type.html
 
+
+Alias: $EHMISORorganizationIdentierType = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-sor-organization-identier-type
+Alias: $EHMISORorganizationIdentierTypeVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-sor-organization-identier-type-valueset
+
 Alias: $EHMIMessageDefinitionIdentifierSystem = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-messagedefinition-identifier-system
 Alias: $EHMIMessageDefinitionIdentifierSystemVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-messagedefinition-identifier-system-valueset
+
 Alias: $EHMIEndpointConnectionType = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-connection-type
 Alias: $EHMIEndpointConnectionTypeVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-connection-type-valueset
+
 Alias: $EHMIEndpointPayloadType = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-payload-type
 Alias: $EHMIEndpointPayloadTypeVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-payload-type-valueset
+
 Alias: $EHMISOROrganizationType = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-sor-organization-type
 Alias: $EHMISOROrganizationTypeVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-sor-organization-type-valueset
+
 Alias: $EHMISORIOOrganizationType = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-sor-io-organization-type
 Alias: $EHMISORIOOrganizationTypeVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-sor-io-organization-type-valueset
+
 Alias: $MedComMessageDefinitionUri = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-medcom-message-definition-uri
 Alias: $MedComMessageDefinitionUriVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-medcom-message-definition-uri-valueset
+
 Alias: $EHMIMedComMessageDefinitionType = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-medcom-message-definition-type
 Alias: $EHMIMedComMessageDefinitionTypeVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-medcom-message-definition-type-valueset
+
 Alias: $EHMISORUnitType = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-sor-unit-type
 Alias: $EHMISORUnitTypeVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-sor-unit-type-valueset
+
 Alias: $EHMISORClinicalAdministrativeHierarchy = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-sor-clinical-administrative-hierarchy
 Alias: $EHMISORClinicalAdministrativeHierarchyVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-sor-clinical-administrative-hierarchy-valueset
 

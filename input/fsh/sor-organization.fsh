@@ -3,6 +3,14 @@ Parent:       MCSDOrganization
 Id:           EHMI.SOR.Organization
 Title:        "EHMI SOR Organization"
 Description:  """ EHMI SOR General Organization """
+* identifier ^slicing.discriminator.type = #value
+  * ^slicing.discriminator.path = type
+  * ^slicing.rules = #open //#closed eller #open 
+* identifier contains
+    SOR 1..1 MS SU 
+* identifier[SOR].use = #official
+* identifier[SOR].type from ehmi-sor-organization-identier-type-valueset
+* identifier[SOR].system = "1.2.208.176.1.1"
 * type ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = code
   * ^slicing.rules = #open //#closed eller #open 

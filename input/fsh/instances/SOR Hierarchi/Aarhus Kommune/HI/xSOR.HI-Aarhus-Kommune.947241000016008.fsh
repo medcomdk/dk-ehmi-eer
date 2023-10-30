@@ -2,7 +2,7 @@ Instance: EHMI.SOR.HI-Aarhus-Kommune.947241000016008
 InstanceOf: EHMISORHIOrganization
 Description: "Aarhus SOR HI Organization.947241000016008"
 * id = "EHMI.SOR.HI-Aarhus-Kommune.947241000016008"
-* identifier.value = "947241000016008"
+* identifier[sor].value = "947241000016008"
 * type[SOR-Hierarchy] = $EHMISOROrganizationType#HI
 * type[SOR-UnitType] = $EHMISORUnitType#sundhedsforvaltning
 * name = "EHMI SOR HI Aarhus Kommune (947241000016008)"

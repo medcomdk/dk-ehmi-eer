@@ -1,3 +1,26 @@
+CodeSystem: EHMISOROrganizationIdentierType
+Id: ehmi-sor-organization-identier-type
+Title: "EHMI connection Types Valueset"
+Description: "ValueSet containing codes for EHMI connectionTypes"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2023-09-01"
+* ^experimental = false
+* ^caseSensitive = true
+* #SOR
+//* include codes from system http://hl7.org/fhir/ValueSet/identifier-type
+
+ValueSet: EHMISORorganizationIdentierTypeVS
+Id: ehmi-sor-organization-identier-type-valueset
+Title: "EHMI connection Types Valueset"
+Description: "ValueSet containing codes for EHMI connectionTypes"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2023-09-01"
+* ^experimental = false
+* include codes from system ehmi-sor-organization-identier-type
+
+
 CodeSystem: EHMIEndpointConnectionType
 Id: ehmi-connection-type
 Title: "EHMI Connection Types CS"
