@@ -46,7 +46,7 @@ Profile:      EHMISORRegionalOrganization
 Parent:       EHMISORIOOrganization
 Id:           EHMI.SOR.InstitutionOwner.Regional.Organization
 Title:        "EHMI SOR Institution Owner Municipality Organization"
-Description:  """ EHMI SOR Institution Owner Municipality Organization IO (DK:IE) """
+Description:  """ EHMI SOR Institution Owner Regional Organization IO (DK:IE) """
 ///* type[SOR-Hierarchy] = $EHMISOROrganizationType#IO (exactly)
 * type[EHMISORIOOrganizationType] = $EHMISORIOOrganizationType#Region (exactly)
 * type[SOR-UnitType] = #region (exactly)
