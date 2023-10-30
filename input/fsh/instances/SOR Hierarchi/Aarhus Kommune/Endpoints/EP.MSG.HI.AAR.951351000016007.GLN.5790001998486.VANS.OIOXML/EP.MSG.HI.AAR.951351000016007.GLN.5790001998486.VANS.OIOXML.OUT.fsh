@@ -7,7 +7,7 @@ Description: "Aarhus EHMIMessaging VansEdi Endpoint Outbound"
 * identifier.type = $EHMIAuditEventAgentWhoIdentifierTypes#GLN
 //* identifier.use = "official"
 * status = #active
-* managingOrganization = Reference(Organization/EHMI.SOR.HI-Aarhus-Kommune.937961000016000)
+* managingOrganization = Reference(Organization/EHMI.SOR.HI-Aarhus-Kommune.951351000016007)
 * period.start = "2023-01-01"
 //* period.end = "2024-01-01"
 * address = "http://aarhus.dk/vans/edi/out"
