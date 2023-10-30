@@ -1,7 +1,7 @@
 CodeSystem: EHMISOROrganizationIdentierType
 Id: ehmi-sor-organization-identier-type
-Title: "EHMI connection Types Valueset"
-Description: "ValueSet containing codes for EHMI connectionTypes"
+Title: "EHMI SOR Organization Identier Type CodeSystem"
+Description: "CodeSystem containing codes for EHMI SOR Organization Identier Type"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
@@ -12,8 +12,8 @@ Description: "ValueSet containing codes for EHMI connectionTypes"
 
 ValueSet: EHMISORorganizationIdentierTypeVS
 Id: ehmi-sor-organization-identier-type-valueset
-Title: "EHMI connection Types Valueset"
-Description: "ValueSet containing codes for EHMI connectionTypes"
+Title: "EHMI SOR Organization Identier Type Valueset"
+Description: "ValueSet containing codes for SOR Organization Identier Type"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
