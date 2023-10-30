@@ -10,7 +10,8 @@ Description:  """ EHMI SOR General Organization """
     SOR 1..1 MS SU 
 * identifier[SOR].use = #official
 * identifier[SOR].type from ehmi-sor-organization-identier-type-valueset
-* identifier[SOR].system = "1.2.208.176.1.1"
+* identifier[SOR].type = #SOR (exactly)
+* identifier[SOR].system = "1.2.208.176.1.1" (exactly)
 * type ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = code
   * ^slicing.rules = #open //#closed eller #open 
