@@ -2,7 +2,7 @@ Instance: EHMI.SOROU-EMCSD.SOR.OU.01
 InstanceOf: EHMISOROUOrganization
 Description: "An example of an SOR OU Organization."
 * id = "EHMI.SOROU-EMCSD.SOR.OU.01"
-* identifier.value = "EHMI.SOROU-EMCSD.SOR.OU.01"
+* identifier[SOR].value = "EHMI.SOROU-EMCSD.SOR.OU.01"
 * name = "EHMI.SOR-OU-Organization"
 * type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#OU
 * type[SOR-Hierarchy].coding.system = $EHMISOROrganizationType
