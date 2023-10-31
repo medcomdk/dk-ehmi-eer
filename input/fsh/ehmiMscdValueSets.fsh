@@ -89,11 +89,11 @@ Description: "ehmi-sor-organization-type for the EHMI Messaging Infrastructure"
 * ^experimental = false
 * ^caseSensitive = true
 * #IO "SOR Organization - Institution Owner IO (DK:IE)"
-    * #HI "SOR Organization - Healthcare Institution HI (DK:SI)"
-        * #OU "SOR Organization - Organizational Unit OU (DK:OE)"
-* #IE "SOR Organization - Institution Owner IO (DK:IE)"
-    * #SI "SOR Organization - Healthcare Institution HI (DK:SI)"
-        * #OE "SOR Organization - Organizational Unit OU (DK:OE)"
+  * #HI "SOR Organization - Healthcare Institution HI (DK:SI)"
+    * #OU "SOR Organization - Organizational Unit OU (DK:OE)"
+* #IE "SOR Organization - Institution Owner IO (DK:IE)" ""
+  * #SI "SOR Organization - Healthcare Institution HI (DK:SI)"
+    * #OE "SOR Organization - Organizational Unit OU (DK:OE)"
 
 ValueSet: EHMISOROrganizationVS
 Id: ehmi-sor-organization-type-valueset
