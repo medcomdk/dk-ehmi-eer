@@ -4,7 +4,7 @@ Description: "Sygehusadviser, Aarhus - SOR.OU-Aarhus-Kommune-SOR.951391000016001
 * id = "EHMI.SOR.OU-Aarhus-Kommune.951391000016001"
 * identifier[SOR].value = "951391000016001"
 * name = "EHMI SOR OU Aarhus Kommune (951391000016001)"
-* type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#OU
+* type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#OE
 * type[SOR-Hierarchy].coding.system = $EHMISOROrganizationType
 * partOf = Reference(Organization/EHMI.SOR.HI-Aarhus-Kommune-SOR.951351000016007)
 * endpoint[0] = Reference(Endpoint/EHMIMessagingEndpoint-Aarhus-VansEdi.01)
