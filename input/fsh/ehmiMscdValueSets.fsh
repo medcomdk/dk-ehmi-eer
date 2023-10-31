@@ -91,6 +91,9 @@ Description: "ehmi-sor-organization-type for the EHMI Messaging Infrastructure"
 * #IO "SOR Organization - Institution Owner IO (DK:IE)"
 * #HI "SOR Organization - Healthcare Institution HI (DK:SI)"
 * #OU "SOR Organization - Organizational Unit OU (DK:OE)"
+* #IE "SOR Organization - Institution Owner IO (DK:IE)"
+* #SI "SOR Organization - Healthcare Institution HI (DK:SI)"
+* #OE "SOR Organization - Organizational Unit OU (DK:OE)"
 
 ValueSet: EHMISOROrganizationVS
 Id: ehmi-sor-organization-type-valueset
@@ -100,7 +103,32 @@ Description: "ValueSet containing codes for EHMI ehmi-sor-organization-type"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
 * ^experimental = false
-* include codes from system ehmi-sor-organization-type
+* ^compose.include[+].system = $EHMISOROrganizationType
+* ^compose.include[=].concept[+].code = #IO
+* ^compose.include[=].concept[=].display = "Institution Owner"
+* ^compose.include[=].concept[=].designation[+].language = #da
+* ^compose.include[=].concept[=].designation[=].value = "Institutionsejer"
+* ^compose.include[=].concept[+].code = #HI
+* ^compose.include[=].concept[=].display = "Healthcare Institution"
+* ^compose.include[=].concept[=].designation[+].language = #da
+* ^compose.include[=].concept[=].designation[=].value = "Sundhedsinstitution"
+* ^compose.include[=].concept[+].code = #OU
+* ^compose.include[=].concept[=].display = "Organizational Unit"
+* ^compose.include[=].concept[=].designation[+].language = #da
+* ^compose.include[=].concept[=].designation[=].value = "Organisatorisk enhed"
+* ^compose.include[=].concept[+].code = #IE
+* ^compose.include[=].concept[=].display = "Institution Owner"
+* ^compose.include[=].concept[=].designation[+].language = #da
+* ^compose.include[=].concept[=].designation[=].value = "Institutionsejer"
+* ^compose.include[=].concept[+].code = #SI
+* ^compose.include[=].concept[=].display = "Healthcare Institution"
+* ^compose.include[=].concept[=].designation[+].language = #da
+* ^compose.include[=].concept[=].designation[=].value = "Sundhedsinstitution"
+* ^compose.include[=].concept[+].code = #OE
+* ^compose.include[=].concept[=].display = "Organizational Unit"
+* ^compose.include[=].concept[=].designation[+].language = #da
+* ^compose.include[=].concept[=].designation[=].value = "Organisatorisk enhed"
+//* include codes from system ehmi-sor-organization-type
 
 CodeSystem: EHMISORRegionType
 Id: ehmi-sor-region-type
