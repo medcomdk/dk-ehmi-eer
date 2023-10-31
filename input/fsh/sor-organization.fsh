@@ -13,7 +13,7 @@ Description:  """ EHMI SOR General Organization """
 * identifier[SOR].type = $EHMISORorganizationIdentierType#SOR (exactly)
 * identifier[SOR].system = "1.2.208.176.1.1" (exactly)
 * type ^slicing.discriminator.type = #value
-  * ^slicing.discriminator.path = code
+  * ^slicing.discriminator.path = coding.code
   * ^slicing.rules = #open //#closed eller #open 
 * type contains
     SOR-Hierarchy 1..1 MS SU 
@@ -28,7 +28,7 @@ Id:           EHMI.SOR.InstitutionOwner.Organization
 Title:        "EHMI SOR Institution Owner Organization"
 Description:  """ EHMI SOR Institution Owner Organization IO (DK:IE) """
 * type ^slicing.discriminator.type = #value
-  * ^slicing.discriminator.path = code
+  * ^slicing.discriminator.path = coding.code
   * ^slicing.rules = #open //#closed eller #open 
 * type contains
     EHMISORIOOrganizationType 1..1 MS SU 
