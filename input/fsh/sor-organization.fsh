@@ -41,6 +41,7 @@ Id:           EHMI.SOR.InstitutionOwner.Municipality.Organization
 Title:        "EHMI SOR Institution Owner Municipality Organization"
 Description:  """ EHMI SOR Institution Owner Municipality Organization IO (DK:IE) """
 //* type[SOR-Hierarchy] = $EHMISOROrganizationType#IO (exactly)
+* type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#IO (exactly)
 * type[EHMISORIOOrganizationType].coding.code = $EHMISORIOOrganizationType#Municipality (exactly)
 * type[SOR-UnitType].coding.code = $EHMISORUnitType#kommune (exactly)
 
@@ -50,6 +51,7 @@ Id:           EHMI.SOR.InstitutionOwner.Regional.Organization
 Title:        "EHMI SOR Institution Owner Regional Organization"
 Description:  """ EHMI SOR Institution Owner Regional Organization IO (DK:IE) """
 ///* type[SOR-Hierarchy] = $EHMISOROrganizationType#IO (exactly)
+* type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#IO (exactly)
 * type[EHMISORIOOrganizationType].coding.code = $EHMISORIOOrganizationType#Region (exactly)
 * type[SOR-UnitType].coding.code = $EHMISORUnitType#region (exactly)
 
@@ -58,7 +60,7 @@ Parent:       EHMISOROrganization
 Id:           EHMI.SOR.HealthcareInstitution.Organization
 Title:        "EHMI SOR Healthcare Institution Organization"
 Description:  """ EHMI SOR Healthcare Institution Organization HI (DK:SI) """
-* type[SOR-Hierarchy] = $EHMISOROrganizationType#HI (exactly)
+* type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#HI (exactly)
 
 Profile:      EHMISORHospitalOrganization
 Parent:       EHMISORHIOrganization
@@ -66,20 +68,20 @@ Id:           EHMI.SOR.HealthcareInstitution.Hospital.Organization
 Title:        "EHMI SOR Healthcare Institution Hospital Organization"
 Description:  """ EHMI SOR Healthcare Institution Hospital Organization HI (DK:SI) """
 * type ^slicing.discriminator.type = #value
-  * ^slicing.discriminator.path = code
+  * ^slicing.discriminator.path = coding.code
   * ^slicing.rules = #open //#closed eller #open 
 * type contains
     ClinicalAdministrativeHierarchy 1..1 MS SU 
 * type[SOR-Hierarchy] = $EHMISOROrganizationType#HI (exactly)
-* type[ClinicalAdministrativeHierarchy] from ehmi-sor-clinical-administrative-hierarchy-valueset
-* type[ClinicalAdministrativeHierarchy] = $EHMISORClinicalAdministrativeHierarchy#Hospital (exactly)
+* type[ClinicalAdministrativeHierarchy].coding.code from ehmi-sor-clinical-administrative-hierarchy-valueset
+* type[ClinicalAdministrativeHierarchy].coding.code = $EHMISORClinicalAdministrativeHierarchy#Hospital (exactly)
 
 Profile:      EHMISOROUOrganization
 Parent:       EHMISOROrganization
 Id:           EHMI.SOR.OrganizationalUnit.Organization
 Title:        "EHMI SOR Organizational Unit"
 Description:  """ EHMI SOR Organizational Unit OU (DK:OE) """
-* type[SOR-Hierarchy] = $EHMISOROrganizationType#OU (exactly)
+* type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#OU (exactly)
 
 Profile:      EHMISORHospitalOUOrganization
 Parent:       EHMISOROUOrganization
@@ -87,9 +89,9 @@ Id:           EHMI.SOR.HospitalOUOrganization.Organization
 Title:        "EHMI SOR Organizational Unit"
 Description:  """ EHMI SOR Organizational Unit OU (DK:OE) """
 * type ^slicing.discriminator.type = #value
-  * ^slicing.discriminator.path = code
+  * ^slicing.discriminator.path = coding.code
   * ^slicing.rules = #open //#closed eller #open 
 * type contains
     ClinicalAdministrativeHierarchy 1..1 MS SU 
-* type[SOR-Hierarchy] = $EHMISOROrganizationType#OU (exactly)
+* type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#OU (exactly)
 //* type[ClinicalAdministrativeHierarchy] = $EHMISORClinicalAdministrativeHierarchy#Afdeling
