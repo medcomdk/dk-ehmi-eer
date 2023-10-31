@@ -5,7 +5,6 @@ Description: "EHMI.SOR.IO-Aarhus-Kommune as a SOR IO Organization."
 * identifier[SOR].type = $EHMISORorganizationIdentierType#SOR
 * identifier[SOR].value = "311000016009" //SOR-Id
 * name = "EHMI SOR IO Aarhus Kommune (311000016009)"
-//* type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#IO
-//* type[EHMISORIOOrganizationType].coding.code = $EHMISORIOOrganizationType#Municipality
-* type[SOR-Hierarchy] = $EHMISOROrganizationType#IO
-* type[EHMISORIOOrganizationType] = $EHMISORIOOrganizationType#Municipality
+* type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#IO
+* type[EHMISORIOOrganizationType].coding.code = $EHMISORIOOrganizationType#Municipality
+* type[SOR-UnitType].coding.code = $EHMISORUnitType#kommune
