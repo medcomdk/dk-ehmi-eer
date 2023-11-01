@@ -104,7 +104,7 @@ Description: "ValueSet containing codes for EHMI ehmi-sor-organization-type"
 * ^date  =  "2023-09-01"
 * ^experimental = false
 * ^compose.include[+].system = $EHMISOROrganizationType
-/* ^compose.include[=].concept[+].code = #IO
+* ^compose.include[=].concept[+].code = #IO
 * ^compose.include[=].concept[=].display = "Institution Owner"
 * ^compose.include[=].concept[=].designation[+].language = #da
 * ^compose.include[=].concept[=].designation[=].value = "Institutionsejer"
@@ -116,7 +116,6 @@ Description: "ValueSet containing codes for EHMI ehmi-sor-organization-type"
 * ^compose.include[=].concept[=].display = "Organizational Unit"
 * ^compose.include[=].concept[=].designation[+].language = #da
 * ^compose.include[=].concept[=].designation[=].value = "Organisatorisk enhed"
-*/
 * ^compose.include[=].concept[+].code = #IE
 * ^compose.include[=].concept[=].display = "Institution Owner"
 * ^compose.include[=].concept[=].designation[+].language = #da
