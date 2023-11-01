@@ -49,7 +49,8 @@ Description:  """ EHMI SOR Institution Owner Municipality Organization IO (DK:IE
 * identifier contains
     MunicipalityCode 1..1 MS SU 
 * identifier[MunicipalityCode].use = #official
-* identifier[MunicipalityCode].value from $EHMISORMunicipalityTypeVS
+* identifier[MunicipalityCode].value from $EHMISORMunicipalityCode
+* identifier[MunicipalityCode].type from $EHMISORorganizationIdentierType
 * identifier[MunicipalityCode].system = $EHMISORMunicipalityType
 * type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#IE (exactly)
 * type[EHMISORIOOrganizationType].coding.code = $EHMISORIOOrganizationType#Municipality (exactly)
