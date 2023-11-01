@@ -5,7 +5,7 @@ Description: "CodeSystem containing codes for EHMI SOR Organization Identier Typ
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * ^caseSensitive = true
 * #SOR
 //* include codes from system http://hl7.org/fhir/ValueSet/identifier-type
@@ -17,7 +17,7 @@ Description: "ValueSet containing codes for SOR Organization Identier Type"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * include codes from system ehmi-sor-organization-identier-type
 
 
@@ -28,7 +28,7 @@ Description: "ehmi-connection-types for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * ^caseSensitive = true
 * #eDeliveryMessaging "EHMI messaging via eDelivery"
 * #vansMessaging "EHMI messaging"
@@ -43,7 +43,7 @@ Description: "ValueSet containing codes for EHMI connectionTypes"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * include codes from system ehmi-connection-type
 //* include #hl7-fhir-msg from system $mCSDEndpointConnectionType
 //* include #hl7-fhir-rest from system $mCSDEndpointConnectionType
@@ -56,7 +56,7 @@ Description: "ehmi-payload-types for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * ^caseSensitive = true
 * #urn:dk:medcom:prod:messaging:fhir "MedCom FHIR message as a production message"
 * #urn:dk:medcom:test:messaging:fhir "MedCom FHIR message as a test message"
@@ -76,7 +76,7 @@ Description: "ValueSet containing codes for EHMI payloadTypes"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * include codes from system ehmi-payload-type
 
 CodeSystem: EHMISOROrganization
@@ -86,11 +86,11 @@ Description: "ehmi-sor-organization-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * ^caseSensitive = true
-/* #IO "SOR Organization - Institution Owner IO (DK:IE)"
+* #IO "SOR Organization - Institution Owner IO (DK:IE)"
   * #HI "SOR Organization - Healthcare Institution HI (DK:SI)"
-    * #OU "SOR Organization - Organizational Unit OU (DK:OE)"*/
+    * #OU "SOR Organization - Organizational Unit OU (DK:OE)"
 * #IE "SOR Organization - Institution Owner IO" ""
   * #SI "SOR Organization - Healthcare Institution HI"
     * #OE "SOR Organization - Organizational Unit OU"
@@ -102,7 +102,7 @@ Description: "ValueSet containing codes for EHMI ehmi-sor-organization-type"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * ^compose.include[+].system = $EHMISOROrganizationType
 * ^compose.include[=].concept[+].code = #IO
 * ^compose.include[=].concept[=].display = "Institution Owner"
@@ -137,7 +137,7 @@ Description: "ehmi-sor-region-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * ^caseSensitive = true
 * #1 "Other"
 * #1084 "SOR Capital Region (DK:Region Hovedstaden)"
@@ -153,7 +153,7 @@ Description: "ValueSet containing codes for EHMI ehmi-sor-region-type"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * include codes from system ehmi-sor-region-type
 
 CodeSystem: EHMISORNetOperator
@@ -163,7 +163,7 @@ Description: "ehmi-sor-net-operator-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * ^caseSensitive = true
 * #81000035007 "DataGruppen MultiMed A/S"
 * #91000035009 "INU-IT A/S"
@@ -180,7 +180,7 @@ Description: "ehmi-sor-net-operator-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * include codes from system ehmi-sor-net-operator-type
 
 CodeSystem: EHMIMedComMessageDefinitionType
@@ -190,7 +190,7 @@ Description: "EHMIMedComMessageDefinitionTypeCS for the EHMI Messaging Infrastru
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * ^caseSensitive = true
 * #EDIFACT "Edifact"
 * #OIOXML "OIOXML"
@@ -204,7 +204,7 @@ Description: "EHMIMedComMessageDefinitionTypeVS for the EHMI Messaging Infrastru
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * include codes from system ehmi-medcom-message-definition-type
 
 CodeSystem: EHMIMessageDefinitionIdentifierSystem
@@ -214,7 +214,7 @@ Description: "EHMIMessageDefinitionIdentifierSystemCS for the EHMI Messaging Inf
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * ^caseSensitive = true
 * #urn:dk:healthcare:medcom:messaging:edifact "urn:dk:healthcare:medcom:messaging:edifact"
 * #urn:dk:healthcare:medcom:messaging:fhir "urn:dk:healthcare:medcom:messaging:fhir"
@@ -228,7 +228,7 @@ Description: "EHMIMessageDefinitionIdentifierSystemVS for the EHMI Messaging Inf
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * include codes from system ehmi-messagedefinition-identifer-system
 
 ValueSet: EHMIUseContextCodeSystemVS
@@ -238,7 +238,7 @@ Description: "EHMIUseContextCodeSystemVS for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * include codes from system http://terminology.hl7.org/CodeSystem/usage-context-type
 
 CodeSystem: EHMISORIOOrganization
@@ -248,7 +248,7 @@ Description: "ehmi-sor-organization-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * ^caseSensitive = true
 * #GeneralPractitioner "SOR GeneralPractitioner Organization - Institution Owner IO (DK:IE)"
 * #Municipality "SOR Municipality Organization - Institution Owner IO (DK:IE)"
@@ -262,7 +262,7 @@ Description: "ValueSet containing codes for EHMI ehmi-sor-io-organization-type"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * include codes from system ehmi-sor-io-organization-type
 
 CodeSystem: EHMISORUnitType
@@ -272,7 +272,7 @@ Description: "ehmi-sor-unit-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * ^caseSensitive = true
 * #kommune "Kommune"
 * #region "Region"
@@ -302,7 +302,7 @@ Description: "ValueSet containing codes for EHMI ehmi-sor-io-organization-type"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * include codes from system ehmi-sor-unit-type
 
 CodeSystem: EHMISORClinicalAdministrativeHierarchy
@@ -312,7 +312,7 @@ Description: "CodeSystem containing codes for EHMI SOR Clinical Administrative H
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * ^caseSensitive = true
 * #Hospital "Hospital"
 * #Hospitalsområde "Hospitalsområde"
@@ -328,5 +328,5 @@ Description: "ValueSet containing codes for EHMI SOR Clinical Administrative Hie
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
-* ^experimental = false
+* ^experimental = true
 * include codes from system ehmi-sor-clinical-administrative-hierarchy
