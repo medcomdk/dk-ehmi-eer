@@ -5,7 +5,7 @@ Description: "EHMI.SOR.IO-AAR-Kommune as a SOR IO Organization."
 * identifier[SOR].type = $EHMISORorganizationIdentierType#SOR
 * identifier[SOR].value = "311000016009"
 * identifier[MunicipalityCode].system = $EHMISORMunicipalityType
-* identifier[MunicipalityCode].type = $EHMISORMunicipalityType
+//* identifier[MunicipalityCode].type = 
 * identifier[MunicipalityCode].value = #0751 
 * name = "EHMI SOR IO AAR Kommune (311000016009)"
 * type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#IE
