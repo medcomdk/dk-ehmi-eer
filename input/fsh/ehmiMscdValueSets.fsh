@@ -20,7 +20,6 @@ Description: "ValueSet containing codes for SOR Organization Identier Type"
 * ^experimental = true
 * include codes from system ehmi-sor-organization-identier-type
 
-
 CodeSystem: EHMIEndpointConnectionType
 Id: ehmi-connection-type
 Title: "EHMI Connection Types CS"
