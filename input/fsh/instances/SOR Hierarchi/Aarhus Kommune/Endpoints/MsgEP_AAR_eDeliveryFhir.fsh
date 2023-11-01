@@ -1,7 +1,7 @@
 Instance: EHMIMessagingEndpoint-AAR-eDeliveryFhir.5790002508226
 InstanceOf: EHMIMessagingEdeliveryFhirEndpoint
 Description: "AAR EHMIMessagingEdeliveryFhirEndpoint."
-* id = "EHMIMessagingEndpoint-Aarhus-eDeliveryFhir.01"
+* id = "EHMIMessagingEndpoint-AAR-eDeliveryFhir.01"
 * identifier.value = "5790002508226"
 * identifier.system = $EHMIAuditEventAgentWhoIdentifierTypes
 * identifier.type = $EHMIAuditEventAgentWhoIdentifierTypes#GLN

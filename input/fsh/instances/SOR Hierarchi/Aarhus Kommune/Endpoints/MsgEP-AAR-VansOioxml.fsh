@@ -1,7 +1,7 @@
-Instance: EHMIMessagingEndpoint-Aarhus-VansOioxml.5790002508226
+Instance: EHMIMessagingEndpoint-AAR-VansOioxml.5790002508226
 InstanceOf: EHMIMessagingEdeliveryOioxmlEndpoint
 Description: "AAR EHMIMessagingEdeliveryOioxmlEndpoint."
-* id = "EHMIMessagingEndpoint-Aarhus-VansOioxml.01"
+* id = "EHMIMessagingEndpoint-AAR-VansOioxml.01"
 * identifier.value = "5790002508226"
 * identifier.system = $EHMIAuditEventAgentWhoIdentifierTypes
 * identifier.type = $EHMIAuditEventAgentWhoIdentifierTypes#GLN

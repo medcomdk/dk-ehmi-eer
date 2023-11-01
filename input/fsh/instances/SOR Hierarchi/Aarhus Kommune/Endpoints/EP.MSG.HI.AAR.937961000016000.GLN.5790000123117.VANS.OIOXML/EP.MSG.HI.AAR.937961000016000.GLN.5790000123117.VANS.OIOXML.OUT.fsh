@@ -7,7 +7,7 @@ Description: "AAR EHMIMessagingVansOioxmlEndpoint."
 * identifier.type = $EHMIAuditEventAgentWhoIdentifierTypes#GLN
 //* identifier.use = "official"
 * status = #active
-* managingOrganization = Reference(Organization/EHMI.SOR.HI-Aarhus-Kommune.937961000016000)
+* managingOrganization = Reference(Organization/EHMI.SOR.HI-AAR-Kommune.937961000016000)
 * period.start = "2023-01-01"
 //* period.end = "2024-01-01"
 * address = "http://www.aar.dk/oioxml"

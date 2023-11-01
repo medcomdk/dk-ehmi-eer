@@ -1,9 +1,9 @@
-Instance: EHMI.SOR.HI-Aarhus-Kommune.951351000016007
+Instance: EHMI.SOR.HI-AAR-Kommune.951351000016007
 InstanceOf: EHMISORHIOrganization
-Description: "Aarhus SOR HI Organization.951351000016007 - Socialforvaltningen, Aarhus kommune"
-* id = "EHMI.SOR.HI-Aarhus-Kommune.951351000016007"
+Description: "AAR SOR HI Organization.951351000016007 - Socialforvaltningen, AAR kommune"
+* id = "EHMI.SOR.HI-AAR-Kommune.951351000016007"
 * identifier[SOR].value = "951351000016007"
 * type[SOR-UnitType] = $EHMISORUnitType#administrativ-enhed
-* name = "EHMI SOR HI Aarhus Kommune - Socialforvaltningen, Aarhus kommune (951351000016007)"
-* partOf = Reference(Organization/EHMI.SOR.IO-Aarhus-Kommune.311000016009)
+* name = "EHMI SOR HI AAR Kommune - Socialforvaltningen, AAR kommune (951351000016007)"
+* partOf = Reference(Organization/EHMI.SOR.IO-AAR-Kommune.311000016009)
 * type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#SI
