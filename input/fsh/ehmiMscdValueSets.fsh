@@ -7,7 +7,10 @@ Description: "CodeSystem containing codes for EHMI SOR Organization Identier Typ
 * ^date  =  "2023-09-01"
 * ^experimental = true
 * ^caseSensitive = true
-* #SOR
+* #SOR "SOR Identifier" "Sorkode"
+* #SORID "SOR Identifier" "Sorkode"
+* #MunicipalityCode "Municipality Code" "Kommunekode"
+* #RegionCode "Region Code" "Regionskode"
 //* include codes from system http://hl7.org/fhir/ValueSet/identifier-type
 
 ValueSet: EHMISORorganizationIdentierTypeVS
