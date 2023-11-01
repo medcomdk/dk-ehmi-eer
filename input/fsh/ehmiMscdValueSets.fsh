@@ -88,12 +88,12 @@ Description: "ehmi-sor-organization-type for the EHMI Messaging Infrastructure"
 * ^date  =  "2023-09-01"
 * ^experimental = false
 * ^caseSensitive = true
-* #IO "SOR Organization - Institution Owner IO (DK:IE)"
+/* #IO "SOR Organization - Institution Owner IO (DK:IE)"
   * #HI "SOR Organization - Healthcare Institution HI (DK:SI)"
-    * #OU "SOR Organization - Organizational Unit OU (DK:OE)"
-* #IE "SOR Organization - Institution Owner IO (DK:IE)" ""
-  * #SI "SOR Organization - Healthcare Institution HI (DK:SI)"
-    * #OE "SOR Organization - Organizational Unit OU (DK:OE)"
+    * #OU "SOR Organization - Organizational Unit OU (DK:OE)"*/
+* #IE "SOR Organization - Institution Owner IO" ""
+  * #SI "SOR Organization - Healthcare Institution HI"
+    * #OE "SOR Organization - Organizational Unit OU"
 
 ValueSet: EHMISOROrganizationVS
 Id: ehmi-sor-organization-type-valueset
