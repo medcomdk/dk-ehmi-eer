@@ -22,6 +22,7 @@ Description:  """ EHMI SOR General Organization """
 * type[SOR-Hierarchy].coding.system = $EHMISOROrganizationType
 * type[SOR-UnitType].coding.code from ehmi-sor-unit-type-valueset
 * type[SOR-UnitType].coding.system = $EHMISORUnitType
+//* endpoint 0..0
 
 Profile:      EHMISORIOOrganization
 Parent:       EHMISOROrganization
@@ -36,6 +37,8 @@ Description:  """ EHMI SOR Institution Owner Organization IO (DK:IE) """
 * type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#IE (exactly)
 * type[EHMISORIOOrganizationType].coding.code from ehmi-sor-io-organization-type-valueset
 * type[EHMISORIOOrganizationType].coding.system = $EHMISORIOOrganizationType
+* partOf 0..0
+* endpoint 0..0
 
 Profile:      EHMISORMunicipalityOrganization
 Parent:       EHMISORIOOrganization
@@ -72,6 +75,8 @@ Id:           EHMI.SOR.HealthcareInstitution.Organization
 Title:        "EHMI SOR Healthcare Institution Organization"
 Description:  """ EHMI SOR Healthcare Institution Organization HI (DK:SI) """
 * type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#SI (exactly)
+//* partOf = Reference(Organization)
+* partOf 1..1 MS
 
 Profile:      EHMISORHospitalOrganization
 Parent:       EHMISORHIOrganization
