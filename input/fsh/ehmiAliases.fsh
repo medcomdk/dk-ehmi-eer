@@ -50,8 +50,8 @@ Alias: $EHMISORUnitTypeVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-sor-
 Alias: $EHMISORClinicalAdministrativeHierarchy = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-sor-clinical-administrative-hierarchy
 Alias: $EHMISORClinicalAdministrativeHierarchyVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-sor-clinical-administrative-hierarchy-valueset
 
-Alias: $EHMISORMunicipalityType = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-sor-municipality-type
-Alias: $EHMISORMunicipalityTypeVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-sor-municipality-type-valueset
+Alias: $EHMISORMunicipalityCode = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-sor-municipality-type
+Alias: $EHMISORMunicipalityCodeVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-sor-municipality-type-valueset
 
 Alias: $MessageEvents = http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-messaging-eventCodes
 
