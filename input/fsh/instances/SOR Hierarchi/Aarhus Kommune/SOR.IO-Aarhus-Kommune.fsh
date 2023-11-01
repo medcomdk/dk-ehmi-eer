@@ -2,6 +2,7 @@ Instance: EHMI.SOR.IO-AAR-Kommune.311000016009
 InstanceOf: EHMISORMunicipalityOrganization
 Description: "EHMI.SOR.IO-AAR-Kommune as a SOR IO Organization."
 * id = "EHMI.SOR.IO-AAR-Kommune.311000016009" //SOR-Id
+* identifier[SOR].system = $EHMISORMunicipalityCode
 * identifier[SOR].type = $EHMISORorganizationIdentierType#SOR
 * identifier[SOR].value = "311000016009"
 * identifier[MunicipalityCode].system = $EHMISORMunicipalityCode

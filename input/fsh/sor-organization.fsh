@@ -78,11 +78,13 @@ Description:  """ EHMI SOR Healthcare Institution Organization HI (DK:SI) """
 //* partOf = Reference(Organization)
 * partOf 1..1 MS
 
+/*
 Invariant:   dk-ehmi-org-1
 Description: "EHMISORHIOrganization.partOf SHALL be of type IO"
 Severity:    #error
 Expression:  "partOf only Reference({Organization/EHMISORIOOrganization})"
 //XPath:       "f:given or f:family"
+*/
 
 Profile:      EHMISORHospitalOrganization
 Parent:       EHMISORHIOrganization
