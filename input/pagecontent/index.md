@@ -1,4 +1,6 @@
-# ehmi_mCSD
+# EHMI Care Service Directory
+
+![mCSD overview](/input/images/mCSDRelationships.png)
 
 ## Core Profiles
 
