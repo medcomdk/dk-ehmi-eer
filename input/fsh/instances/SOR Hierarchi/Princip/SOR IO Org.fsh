@@ -9,5 +9,5 @@ Description: "An example of an SOR IO Organization."
 * type[SOR-Hierarchy].coding.system = $EHMISOROrganizationType
 * type[EHMISORIOOrganizationType].coding.code = $EHMISORIOOrganizationType#Generic
 * type[EHMISORIOOrganizationType].coding.system = $EHMISORIOOrganizationType
-* type[SOR-UnitType].coding.code = $EHMISORUnitType#kommune
+* type[SOR-UnitType].coding.code = $EHMISORUnitType#other
 * type[SOR-UnitType].coding.system = $EHMISORUnitType
