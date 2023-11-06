@@ -37,7 +37,6 @@ Interoperability Framework](https://www.healthit.gov/topic/interoperability/stan
 
 The loosely coupled design and flexible querying capability of the EHMI CSD Profile means it can be deployed within a variety of eHealth architectures and support a wide array of care workflows.
 
-
 ## 1:46.4.1 Concepts
 
 The EHMI Care Service Directory (EHMI CSD) Profile supports queries for resources related to care services discovery. The relationship between these entities is illustrated in Figure 1:46.4.1-1.
