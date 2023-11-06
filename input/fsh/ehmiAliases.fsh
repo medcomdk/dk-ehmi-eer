@@ -52,7 +52,7 @@ Alias: $EHMISORClinicalAdministrativeHierarchyVS = http://medcomehmi.dk/ig/ehmi_
 
 //Alias: $EHMISORMunicipalityCode = http://medcomehmi.dk/ig/ehmi_mcsd/CodeSystem/ehmi-sor-municipality-type
 Alias: $EHMISORMunicipalityCode = http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes
-Alias: $EHMISORMunicipalityCodeVS = http://medcomehmi.dk/ig/ehmi_mcsd/ValueSet/ehmi-sor-municipality-type-valueset
+Alias: $EHMISORMunicipalityCodeVS = http://hl7.dk/fhir/core/ValueSet/dk-core-MunicipalityCodes
 
 Alias: $MessageEvents = http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-messaging-eventCodes
 
