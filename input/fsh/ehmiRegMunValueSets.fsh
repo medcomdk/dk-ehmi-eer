@@ -141,5 +141,5 @@ Description: "ValueSet containing codes for EHMI ehmi-sor-Municipality-type for 
 * ^status  =  #active
 * ^date  =  "2023-09-01"
 * ^experimental = true
-* include codes from system ehmi-sor-municipality-type
+* include codes from system http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes
 
