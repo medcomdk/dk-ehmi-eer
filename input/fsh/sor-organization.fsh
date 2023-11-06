@@ -65,6 +65,15 @@ Id:           EHMI.SOR.InstitutionOwner.Regional.Organization
 Title:        "EHMI SOR Institution Owner Regional Organization"
 Description:  """ EHMI SOR Institution Owner Regional Organization IO (DK:IE) """
 ///* type[SOR-Hierarchy] = $EHMISOROrganizationType#IE (exactly)
+* identifier ^slicing.discriminator.type = #value
+  * ^slicing.discriminator.path = type
+  * ^slicing.rules = #open //#closed eller #open 
+* identifier contains
+    RegionalCode 1..1 MS SU 
+* identifier[RegionalCode].use = #official
+* identifier[RegionalCode].value from $EHMISORRegionalCodeVS
+* identifier[RegionalCode].type from $EHMISORorganizationIdentierTypeVS
+* identifier[RegionalCode].system = $EHMISORRegionalCode
 * type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#IE (exactly)
 * type[EHMISORIOOrganizationType].coding.code = $EHMISORIOOrganizationType#Region (exactly)
 * type[SOR-UnitType].coding.code = $EHMISORUnitType#region (exactly)
