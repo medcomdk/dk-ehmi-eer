@@ -9,7 +9,7 @@ Description:  """ EHMI SOR General Organization """
 * identifier contains
     SOR 1..1 MS SU 
 * identifier[SOR].use = #official
-* identifier[SOR].type from ehmi-sor-organization-identier-type-valueset
+* identifier[SOR].type from $EHMISORorganizationIdentierTypeVS
 * identifier[SOR].type = $EHMISORorganizationIdentierType#SOR (exactly)
 * identifier[SOR].system = "1.2.208.176.1.1" (exactly)
 * type ^slicing.discriminator.type = #value
@@ -18,9 +18,9 @@ Description:  """ EHMI SOR General Organization """
 * type contains
     SOR-Hierarchy 1..1 MS SU 
     and SOR-UnitType 0..1 SU
-* type[SOR-Hierarchy].coding.code from ehmi-sor-organization-type-valueset
+* type[SOR-Hierarchy].coding.code from $EHMISOROrganizationTypeVS
 * type[SOR-Hierarchy].coding.system = $EHMISOROrganizationType
-* type[SOR-UnitType].coding.code from ehmi-sor-unit-type-valueset
+* type[SOR-UnitType].coding.code from $EHMISORUnitTypeVS
 * type[SOR-UnitType].coding.system = $EHMISORUnitType
 //* endpoint 0..0
 
@@ -35,7 +35,7 @@ Description:  """ EHMI SOR Institution Owner Organization IO (DK:IE) """
 * type contains
     EHMISORIOOrganizationType 1..1 MS SU 
 * type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#IE (exactly)
-* type[EHMISORIOOrganizationType].coding.code from ehmi-sor-io-organization-type-valueset
+* type[EHMISORIOOrganizationType].coding.code from $EHMISORIOOrganizationTypeVS
 * type[EHMISORIOOrganizationType].coding.system = $EHMISORIOOrganizationType
 * partOf 0..0
 * endpoint 0..0
