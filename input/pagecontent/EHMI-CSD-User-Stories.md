@@ -1,60 +1,60 @@
 # EHMI Care Service Directory User stories 
 
-## User stories i scope for produktionspilot
+### User stories i scope for produktionspilot
 
-### Forretningsejer af EHMI Care Service Directory (FPKR)
+#### Forretningsejer af EHMI Care Service Directory (FCSD)
 
-**FPKR.1**
+##### FCSD.1
 
-  i. Som FPKR 
+  i. Som FCSD 
 
-  ii. Ønsker jeg at have en kanonisk datamodel for sundhedsadresseringsservicen 
+  ii. Ønsker jeg at have en kanonisk datamodel for EHMI Care Service Directory 
 
-  iii. Når jeg skal modellere og implementere sundhedsadresseringsservicen
+  iii. Når jeg skal modellere og implementere EHMI Care Service Directory
 
-**FPKR.2**
+##### FCSD.2
 
-  i. Som FPKR 
+  i. Som FCSD 
 
   ii. Ønsker jeg at have veldefinerede stabile snitflader til de bagvedliggende autoritative kilder
 
   iii. Når jeg skal fremsøge information fra dem
 
-**FPKR.3**
+##### FCSD.3
 
-  i.	Som FPKR 
+  i.	Som FCSD 
 
   ii.	Ønsker jeg fortrinsvis i de situationer det er muligt at kalde de bagvedliggende autoritative kilder on-demand
 
   iii.	Når jeg skal fremsøge information fra dem
 
-**FPKR.4**
+##### FCSD.4
 
-  i.	Som FPKR
+  i.	Som FCSD
 
   ii.	Ønsker jeg at standarder og protokoller, inklusive sikkerhed, er de samme for alle operationer
 
   iii.	Når jeg udstiller dem til overfor anvenderne
 
-**FPKR.5**
+##### FCSD.5
 
-  i.	Som FPKR
+  i.	Som FCSD
 
-  ii.	Ønsker jeg at have klare governance aftaler (inklusiv SLA) med forretningsejerne af sundhedsadresseringsservicen
+  ii.	Ønsker jeg at have klare governance aftaler (inklusiv SLA) med forretningsejerne af EHMI Care Service Directory
 
   iii.	Når jeg skal inkludere den enkelte autoritative kilde i mit informationsgrundlag
 
-**FPKR.6**
+##### FCSD.6
 
-  i.	Som FPKR
+  i.	Som FCSD
 
   ii.	Ønsker jeg i så vidt omfang som muligt at kunne genanvende eksisterende snitflader
 
-  iii.	Når jeg skal agere som autoritative kilde for sundhedsadresseringsservicen
+  iii.	Når jeg skal agere som autoritative kilde for EHMI Care Service Directory
 
-### Komponenten EHMI Care Service Directory (KPKR)
+#### Komponenten EHMI Care Service Directory (KPKR)
 
-**KPKR.1**
+##### KPKR.1
 
   i.	Som KPKR 
 
@@ -62,7 +62,7 @@
 
   iii.	Når jeg skal returnere svar til et vilkårligt anvenderkald
 
-**KPKR.2**
+##### KPKR.2
 
   i.	Som KPKR 
 
@@ -70,7 +70,7 @@
 
   iii.	Når jeg skal udtrykke information internt og returnere information til anvenderne
 
-**KPKR.3**
+##### KPKR.3
 
   i.	Som KPKR 
 
@@ -78,7 +78,7 @@
 
   iii.	Når jeg skal anvende information fra disse
 
-**KPKR.4**
+##### KPKR.4
 
   i.	Som KPKR
 
@@ -86,7 +86,7 @@
 
   iii.	Når jeg udstiller snitflader til anvenderne
 
-**KPKR.5**
+##### KPKR.5
 
   i.	Som KPKR
 
@@ -94,4 +94,4 @@
 
   iii.	Når jeg skal integrere til disse
 
-## User stories udenfor scope for produktionspilot
+### User stories udenfor scope for produktionspilot
