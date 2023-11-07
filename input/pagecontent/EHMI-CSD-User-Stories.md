@@ -16,17 +16,19 @@
 
   i. Som FCSD 
 
-  ii. Ønsker jeg at have veldefinerede stabile snitflader til de bagvedliggende autoritative kilder
+  ii. Ønsker jeg at have veldefinerede stabile snitflader til de kaldende services
 
-  iii. Når jeg skal fremsøge information fra dem
+  iii.	Når jeg skal fremsøge information til dem
+
 
 ##### FCSD.3
 
-  i.	Som FCSD 
+  i. Som FCSD 
 
-  ii.	Ønsker jeg fortrinsvis i de situationer det er muligt at kalde de bagvedliggende autoritative kilder on-demand
+  ii. Ønsker jeg fortrinsvis i de situationer, det er muligt, at blive kaldt on-demand
+  
+  iii. Når jeg skal fremsøge information til dem
 
-  iii.	Når jeg skal fremsøge information fra dem
 
 ##### FCSD.4
 
