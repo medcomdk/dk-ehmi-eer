@@ -62,11 +62,7 @@ The EHMI Care Service Directory (EHMI CSD) Profile supports queries for resource
 
 **Figure 1:46.4.1-1: Top-level Relationships between Care Services Entities**
 
-![EHMI CSD overview](mCSDRelationships.png)
-
-![EHMI CSD overview](/input/pagecontent/mCSDRelationships.png)
-
-## Core Profiles
+# Core Profiles
 
 [EHMI SOR Organization](https://build.fhir.org/ig/medcomdk/dk-ehmi-mCSD/StructureDefinition-EHMI.SOR.Organization.html)
 
