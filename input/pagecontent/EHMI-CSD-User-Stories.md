@@ -52,48 +52,48 @@
 
   ii.	Ønsker jeg i så vidt omfang som muligt at kunne genanvende eksisterende snitflader
 
-  iii.	Når jeg skal agere som autoritative kilde for EHMI Care Service Directory
+  iii.	Når jeg skal agere som autoritative kilde for Sundhedsadresseringsservicen
 
-#### Komponenten EHMI Care Service Directory (KPKR)
+#### Komponenten EHMI Care Service Directory (KCSD)
 
-##### KPKR.1
+##### KCSD.1
 
-  i.	Som KPKR 
+  i.	Som KCSD 
 
   ii.	Ønsker jeg at have en kanonisk informationsmodel, der kan anvendes
 
   iii.	Når jeg skal returnere svar til et vilkårligt anvenderkald
 
-##### KPKR.2
+##### KCSD.2
 
-  i.	Som KPKR 
+  i.	Som KCSD 
 
   ii.	Ønsker jeg at udtrykke den kanoniske datamodel via HL7-FHIR R5 ressourcer
 
   iii.	Når jeg skal udtrykke information internt og returnere information til anvenderne
 
-##### KPKR.3
+##### KCSD.3
 
-  i.	Som KPKR 
+  i.	Som KCSD 
 
-  ii.	Ønsker jeg ikke at opbygge en cache over information fra de bagvedliggende autoritative kilder
+  ii.	Ønsker jeg ikke at opbygge en cache over information fra mig som bagvedliggende autoritative kilde
 
-  iii.	Når jeg skal anvende information fra disse
+  iii.	Når jeg skal returnere information til disse
 
-##### KPKR.4
+##### KCSD.4
 
-  i.	Som KPKR
+  i.	Som KCSD
 
   ii.	Ønsker jeg i vidt omfang at anvende HL7-FHIR-standarden
 
   iii.	Når jeg udstiller snitflader til anvenderne
 
-##### KPKR.5
+##### KCSD.5
 
-  i.	Som KPKR
+  i.	Som KCSD
 
-  ii.	Ønsker jeg at have så få, så ens, og så standardiserede snitfladetyper som muligt til de bagvedliggende autoritative kilder
+  ii.	Ønsker jeg at have så få, så ens, og så standardiserede snitfladetyper som muligt til de kallende services
 
-  iii.	Når jeg skal integrere til disse
+  iii.	Når jeg skal respondere til disse
 
 ### User stories udenfor scope for produktionspilot
