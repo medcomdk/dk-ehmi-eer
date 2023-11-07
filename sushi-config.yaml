@@ -28,6 +28,8 @@ dependencies:
   ihe.iti.mcsd: 3.8.0
   hl7.fhir.dk.core: 2.0.0
   medcom.ehmi.dk.balp: current
+  dk.ehmi.core: current
+  dk.ehmi.terminology: current
   medcom.fhir.dk.core: current
   medcom.fhir.dk.messaging: 2.0.0
   medcom.fhir.dk.terminology: 1.4.0
@@ -82,7 +84,9 @@ menu:
   Artifacts: artifacts.html
   Downloads: downloads.html
   Terminology: terminology.html
-  User-stories: ehmi-userstories.html
+  User-stories: 
+    EHMI User Stories: EHMI-User-Stories.html
+    mCSD User-stories: EHMI-CSD-User-Stories.html
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
 # │  resource. These properties are less commonly needed than those above.                         │
