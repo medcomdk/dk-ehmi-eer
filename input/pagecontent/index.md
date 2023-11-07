@@ -30,7 +30,7 @@ Locations are physical places where care can be delivered such as facilities, bu
 
 Jurisdictions are political administrative units or other territories over which authority is exercised. A Jurisdiction has a unique identifier, geographic attributes, etc. Jurisdictions include political administrative units such as village districts or regions. Each Jurisdiction is defined by a pairing of Location and Organization.
 
-    **SOR IE Organization** – is reflected as a Jurisdiction instead of Organization (see [Jurisdiction](Jurisdiction))
+    **SOR IE Organization** – is reflected as a Jurisdiction instead of Organization [See more...](Jurisdiction))
 
 ## 5. Practitioner
 
@@ -38,11 +38,11 @@ A Practitioner is a health worker such as defined by WHO (in Chapter 1 of the [W
 
 ## 6. Healthcare Service
 
-Each healthcare service has a unique identifier. Examples include surgical services, antenatal care services, or primary care services. The combination of a Healthcare Service offered at a Location may have specific attributes including contact person, hours of operation, etc. [See more](Healthcare-Service)
+Each healthcare service has a unique identifier. Examples include surgical services, antenatal care services, or primary care services. The combination of a Healthcare Service offered at a Location may have specific attributes including contact person, hours of operation, etc. [See more...](Healthcare-Service)
     
 ## 7. Endpoint
 
-An Organization may be reachable for electronic data exchange through electronic Endpoint(s). An Endpoint may be a FHIR server, an IHE web services actor, or some other mechanism. If an Organization does not have an Endpoint, it may still be reachable via an Endpoint at its parent Organization or an affiliated Organization. 
+An Organization may be reachable for electronic data exchange through electronic Endpoint(s). An Endpoint may be a FHIR server, an IHE web services actor, or some other mechanism. If an Organization does not have an Endpoint, it may still be reachable via an Endpoint at its parent Organization or an affiliated Organization. [See more...](Endpoint)
 
 ## 8. OrganizationAffiliation
 
