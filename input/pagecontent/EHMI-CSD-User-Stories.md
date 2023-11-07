@@ -42,9 +42,9 @@
 
   i.	Som FCSD
 
-  ii.	Ønsker jeg at have klare governance aftaler (inklusiv SLA) med forretningsejerne af EHMI Care Service Directory
+  ii.	Ønsker jeg at have klare governance aftaler (inklusiv SLA) med forretningsejerne af Sundhedsadresseringsservicen
 
-  iii.	Når jeg skal inkludere den enkelte autoritative kilde i mit informationsgrundlag
+  iii.	Når jeg skal respondere som autoritativ kilde til Sundhedsadresseringsservicens informationsgrundlag
 
 ##### FCSD.6
 
