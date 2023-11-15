@@ -5,7 +5,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: medcom.ehmi.dk.mcsd
 canonical: http://medcomehmi.dk/ig/ehmi-mcsd
-name: EHMI mCSD IG
+name: EHMI HEAD IG
 title: "DK EHMI Healthcare Electronical Address Directory (HEAD)"
 description: The EHMI Healthcare Electronical Address Directory (HEAD) IG
 status: draft # draft | active | retired | unknown
