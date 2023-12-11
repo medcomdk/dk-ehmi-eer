@@ -1,9 +1,16 @@
-Extension: ehmiCoreDeviceExtension
-Id: ehmi-core-device-extension
+Extension: ehmiCoreSystemExtension
+Id: ehmi-core-system-extension
+Title:        "ehmi Core System Extension"
+Description: "Reference to a Device that is used to specify one or more systems which an Endpoint uses"
+* system Reference(Device) 0.. MS SU
+
+Extension: ehmiCoreNetworkSupplySystemExtension
+Id: ehmi-dk-core-network-supply-system-extension
 Title: "ehmiCoreDeviceExtension"
 Description: "Reference to a Device that is used to specify one or more systems which an Endpoint uses"
-* device Reference(Device) 0..
+* networkSupplySystem Reference(Device) 0.. MS SU
 
+/*
 Profile:      ehmiCoreSystemExtension
 Parent:       ehmiCoreDeviceExtension
 Id:           ehmi.dk.core.system.extension
@@ -19,7 +26,8 @@ Title:        "ehmi Core NetworkSupplySystem Extension"
 Description:  """
 A profile on the ehmiCoreDeviceExtension.
 """
-
+* networkSupplierSystem Reference(Device) 0.. MS SU
+*/
 /* value[x] 0..1
 * value[x] only Reference(MedComCorePractitionerRole or MedComCoreCareTeam)
 * value[x] ^type.aggregation = #bundled
