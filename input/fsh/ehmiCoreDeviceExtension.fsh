@@ -1,14 +1,17 @@
-Extension: ehmiCoreSystemExtension
+Extension: EHMICoreSystemExtension
 Id: ehmi-core-system-extension
 Title:        "ehmi Core System Extension"
 Description: "Reference to a Device that is used to specify one or more systems which an Endpoint uses"
-* system Reference(Device) 0.. MS SU
+//* value[x] Reference 
+* value[x] 0.. MS SU
+* value[x] only Reference(Device) 
 
-Extension: ehmiCoreNetworkSupplySystemExtension
+Extension: EHMICoreNetworkSupplySystemExtension
 Id: ehmi-dk-core-network-supply-system-extension
 Title: "ehmiCoreDeviceExtension"
 Description: "Reference to a Device that is used to specify one or more systems which an Endpoint uses"
-* networkSupplySystem Reference(Device) 0.. MS SU
+* value[x] 0.. MS SU
+* value[x] only Reference(Device) 
 
 /*
 Profile:      ehmiCoreSystemExtension
