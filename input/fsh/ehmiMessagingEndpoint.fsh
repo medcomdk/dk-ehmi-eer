@@ -19,6 +19,7 @@ mechanism).
 * payloadType from ehmi-medcom-message-definition-uri-valueset
 * payloadType 1..* MS SU
 * payloadMimeType 1..1 MS SU
+* extension contains ehmi-core-device-extension named device 0..* MS SU
 
 Profile:      EHMIMessagingEdeliveryEndpoint
 Parent:       EHMIMessagingEndpoint
