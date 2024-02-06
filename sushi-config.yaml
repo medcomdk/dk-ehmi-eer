@@ -30,7 +30,7 @@ dependencies:
   medcom.ehmi.dk.balp: current
   # dk.ehmi.core: current
   # dk.ehmi.terminology: current
-  medcom.fhir.dk.core: current
+  medcom.fhir.dk.core: 2.3.0
   medcom.fhir.dk.messaging: 2.0.0
   medcom.fhir.dk.terminology: 1.4.0
 ##
