@@ -7,7 +7,7 @@ id: dk.medcom.ehmi.eer
 canonical: http://medcomehmi.dk/ig/ehmi-eer
 name: EHMI EER IG
 title: "DK EHMI Endpoint Register (EER)"
-description: The EHMI Endpoint Register (EER) IG
+description: The EHMI Endpoint Register (EER) IG 
 status: draft # draft | active | retired | unknown
 version: 0.3.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
