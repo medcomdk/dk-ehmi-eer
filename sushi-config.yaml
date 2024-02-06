@@ -23,7 +23,7 @@ jurisdiction: urn:iso:std:iso:3166#DK "Denmark"
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
-#
+# 
 dependencies:
   ihe.iti.mcsd: 3.8.0
   hl7.fhir.dk.core: 2.0.0
