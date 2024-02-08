@@ -11,7 +11,7 @@ description: The EHMI Endpoint Register (EER) IG
 status: draft # draft | active | retired | unknown
 version: 0.3.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
-copyrightYear: 2023+
+copyrightYear: 2024+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: urn:iso:std:iso:3166#DK "Denmark"
@@ -23,11 +23,12 @@ jurisdiction: urn:iso:std:iso:3166#DK "Denmark"
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
-# 
+# x
 dependencies:
   ihe.iti.mcsd: 3.8.0
   hl7.fhir.dk.core: 2.0.0
-  medcom.ehmi.dk.balp: current
+  dk.medcom.ehmi.eds: current
+  # dk.medcom.ehmi.terminology: current
   # dk.ehmi.core: current
   # dk.ehmi.terminology: current
   medcom.fhir.dk.core: 2.3.0
