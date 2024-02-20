@@ -1,1 +1,1 @@
-# ehmi_mCSD
+# EHMI Endpoint Register
