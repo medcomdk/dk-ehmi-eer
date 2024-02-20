@@ -3,9 +3,9 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: dk.medcom.ehmi.eer
-canonical: http://medcomehmi.dk/ig/ehmi-eer
-name: EHMI EER IG
+id: dk.ehmi.eer
+canonical: http://medcomehmi.dk/ig/dk-ehmi-eer
+name: EHMI Endpoint Register (EER) IG
 title: "DK EHMI Endpoint Register (EER)"
 description: The EHMI Endpoint Register (EER) IG 
 status: draft # draft | active | retired | unknown
