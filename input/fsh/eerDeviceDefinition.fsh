@@ -14,7 +14,7 @@ Description: "An EER profile of the DeviceDefinition resource."
 Profile: EerDeviceDefinitionLPS
 Parent: EerDeviceDefinition
 Description: "An EerDeviceDefinition-LPS profile of the EerDeviceDefinition resource."
-* type =  http://medcomehmi.dk/ig/ehmi-eer/CodeSystem/eer-device-type#LPS "General Practitioner System"
+* type =  http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-device-type#LPS "General Practitioner System"
 
 Profile: EerDeviceDefinitionEOJ
 Parent: EerDeviceDefinition
