@@ -1,10 +1,10 @@
-# EHMI Care Service Directory
+# EHMI Endpoint Register (EER)
 
-The EHMI Care Service Directory (EHMI CSD) Profile supports discovery of care services resources using a RESTful interface in interrelated, federated environments.
+The EHMI Endpoint Register (EER) Profile supports discovery of Endpoint adresses related to a SOR Unit in Danish Healthcare using a RESTful interface.
 
-Use cases and solutions using mCSD are outlined in the [mCSD White Paper](https://profiles.ihe.net/ITI/papers/mCSD/index.html).
+The profile is based upen IHE mCSD profile and the use cases and solutions using mCSD are outlined in the [mCSD White Paper](https://profiles.ihe.net/ITI/papers/mCSD/index.html).
 
-The profile supports querying for:
+This profile supports registration of and querying for:
 
 ## 1. Organization
 
@@ -55,7 +55,7 @@ The loosely coupled design and flexible querying capability of the EHMI CSD Prof
 
 ## 1:46.4.1 Concepts
 
-The EHMI Care Service Directory (EHMI CSD) Profile supports queries for resources related to care services discovery. The relationship between these entities is illustrated in Figure 1:46.4.1-1.
+The EHMI Endpoint Register (EER) Profile supports queries for resources related to care services discovery. The relationship between these entities is illustrated in Figure 1:46.4.1-1.
 
 ![Top-level Relationships between Care Services Entities](mCSDRelationships.png)
 <div style="clear: left;"></div>

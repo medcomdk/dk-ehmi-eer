@@ -27,8 +27,8 @@ jurisdiction: urn:iso:std:iso:3166#DK "Denmark"
 dependencies:
   ihe.iti.mcsd: 3.8.0
   hl7.fhir.dk.core: 2.0.0
-  dk.medcom.ehmi.eds: current
-  dk.medcom.ehmi.terminology: current
+  # dk.medcom.ehmi.eds: current
+  dk.ehmi.terminology: current
   # dk.ehmi.core: current
   # dk.ehmi.terminology: current
   medcom.fhir.dk.core: 2.3.0
