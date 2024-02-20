@@ -30,10 +30,9 @@ dependencies:
   # dk.medcom.ehmi.eds: current
   dk.ehmi.terminology: current
   # dk.ehmi.core: current
-  # dk.ehmi.terminology: current
   medcom.fhir.dk.core: 2.3.0
   medcom.fhir.dk.messaging: 2.0.0
-  medcom.fhir.dk.terminology: 1.4.0
+  medcom.fhir.dk.terminology: 1.6.0
 ##
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in

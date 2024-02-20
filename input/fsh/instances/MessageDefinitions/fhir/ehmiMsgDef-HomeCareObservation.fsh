@@ -14,9 +14,9 @@ Description: "An example of an EHMIMessageDefinition for HomeCareObservation:1.0
 * date = "2023-01-06"
 * copyright = "Copyright © 2023 MedCom"
 //* publisher = "MedCom"
-* contact[InteroperabilityConsultant].name = "Interoperability Consultant, Marta Burek"
+* contact[InteroperabilityConsultant].name = "Interoperability Consultant, Thea Mentz Sørensen"
 * contact[InteroperabilityConsultant].telecom.system = #email
-* contact[InteroperabilityConsultant].telecom.value = "mbu@medcom.dk" 
+* contact[InteroperabilityConsultant].telecom.value = "tms@medcom.dk" 
 * contact[InteroperabilityConsultant].telecom.use = #work
 * contact[SubjectMatterExpert].name = "Subject Matter Expert, Kirsten Christiansen"
 * contact[SubjectMatterExpert].telecom.system = #email
@@ -25,7 +25,7 @@ Description: "An example of an EHMIMessageDefinition for HomeCareObservation:1.0
 * description = "DK: HomeCareObservation (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
 * useContext.valueCodeableConcept.text = "DK: kommuner og primærsektoren. (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
 * purpose = "DK: Sende sundhedsobservationer mellem kommuners akutsygepleje og en patients praktiserende læge (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
-* eventCoding = $MessageEvents#home-care-observation-message
+* eventCoding = $MessageEvents#homecareobservation-message "HomeCare Observation Message"
 * responseRequired = #always
 * allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.Acknowledgement:2.0"
 * allowedResponse[+].message.value = "http://medcomfhir.dk/ig/acknowledgement/ImplementationGuide/medcom.fhir.dk.acknowledgement"

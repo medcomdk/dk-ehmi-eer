@@ -15,9 +15,9 @@ Description: "An example of an EHMIMessageDefinition for Acknowledgement:2.0"
 * date = "2022-10-05"
 * copyright = "Copyright © 2022 MedCom"
 //* publisher = "MedCom"
-* contact[InteroperabilityConsultant].name = "Interoperability Consultant, Marta Burek"
+* contact[InteroperabilityConsultant].name = "Interoperability Consultant, Thea Mentz Sørensen"
 * contact[InteroperabilityConsultant].telecom.system = #email
-* contact[InteroperabilityConsultant].telecom.value = "mbu@medcom.dk" 
+* contact[InteroperabilityConsultant].telecom.value = "tms@medcom.dk" 
 * contact[InteroperabilityConsultant].telecom.use = #work
 * description = "DK: Kvitteringsmeddelelse (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
 * useContext.valueCodeableConcept.text = "DK: Alle som kvittering på en fhir meddelelse (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
@@ -41,9 +41,9 @@ Description: "An example of an EHMIMessageDefinition for Acknowledgement:1.0"
 * date = "2021-03-23"
 * copyright = "Copyright © 2021 MedCom"
 //* publisher = "MedCom"
-* contact[InteroperabilityConsultant].name = "Interoperability Consultant, Marta Burek"
+* contact[InteroperabilityConsultant].name = "Interoperability Consultant, Thea Mentz Sørensen"
 * contact[InteroperabilityConsultant].telecom.system = #email
-* contact[InteroperabilityConsultant].telecom.value = "mbu@medcom.dk" 
+* contact[InteroperabilityConsultant].telecom.value = "tms@medcom.dk" 
 * contact[InteroperabilityConsultant].telecom.use = #work
 * description = "DK: Kvitteringsmeddelelse (RUSA Standardkatalog - Beskrivelse jf. §3stk2 i bekendtgørelsen)"
 * useContext.valueCodeableConcept.text = "DK: Alle som kvittering på en fhir meddelelse (Hvem skal anvende standarden jf. §3,3 i bekendtgørelsen)"
