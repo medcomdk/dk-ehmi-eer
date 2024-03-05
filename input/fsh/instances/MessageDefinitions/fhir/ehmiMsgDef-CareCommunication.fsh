@@ -1,7 +1,7 @@
-Instance: EHMI.fhir.MessageDefinition.CareCommunication:3.0
-InstanceOf: EHMIMessageDefinitionFhir
-Description: "An example of an EHMIMessageDefinition for CareCommunication:3.0"
-* id = "EHMI.fhir.MessageDefinition.CareCommunication.3.0"
+Instance: Eer.fhir.MessageDefinition.CareCommunication:3.0
+InstanceOf: EerMessageDefinitionFhir
+Description: "An example of an EerMessageDefinition for CareCommunication:3.0"
+* id = "Eer.fhir.MessageDefinition.CareCommunication.3.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:3.0
 * identifier.period.start = "2021-03-23"
 * identifier.use = #official 
@@ -9,7 +9,7 @@ Description: "An example of an EHMIMessageDefinition for CareCommunication:3.0"
 * version = "3.0"
 //* name = "CareCommunication-3.0"
 * title = "care-communication-3-0-0"
-* replaces.value = "EHMI.fhir.MessageDefinition.CareCommunication:2.0"
+* replaces.value = "Eer.fhir.MessageDefinition.CareCommunication:2.0"
 * status = #draft
 * date = "2023-01-06"
 * copyright = "Copyright © 2023 MedCom"
@@ -27,14 +27,14 @@ Description: "An example of an EHMIMessageDefinition for CareCommunication:3.0"
 * purpose = "DK: Sende sundhedsinformation mellem sundhedsvæsnets parter, der ikke kan sendes med andre standarder (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * eventCoding = $MessageEvents#care-communication-message
 * responseRequired = #always
-* allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.Acknowledgement:2.0"
-* allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.Acknowledgement:2.0.1"
-* allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.CareCommunication:3.0"
+* allowedResponse[+].message.value = "Eer.fhir.MessageDefinition.Acknowledgement:2.0"
+* allowedResponse[+].message.value = "Eer.fhir.MessageDefinition.Acknowledgement:2.0.1"
+* allowedResponse[+].message.value = "Eer.fhir.MessageDefinition.CareCommunication:3.0"
 
-Instance: EHMI.fhir.MessageDefinition.CareCommunication:2.0
-InstanceOf: EHMIMessageDefinitionFhir
-Description: "An example of an EHMIMessageDefinition for CareCommunication:2.0"
-* id = "EHMI.fhir.MessageDefinition.CareCommunication.2.0"
+Instance: Eer.fhir.MessageDefinition.CareCommunication:2.0
+InstanceOf: EerMessageDefinitionFhir
+Description: "An example of an EerMessageDefinition for CareCommunication:2.0"
+* id = "Eer.fhir.MessageDefinition.CareCommunication.2.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:2.0
 * identifier.period.start = "2021-03-23"
 * identifier.period.end = "2023-01-05"
@@ -43,7 +43,7 @@ Description: "An example of an EHMIMessageDefinition for CareCommunication:2.0"
 * version = "2.0"
 //* name = "CareCommunication-2.0"
 * title = "care-communication-2-0-0"
-* replaces.value = "EHMI.fhir.MessageDefinition.CareCommunication:1.0"
+* replaces.value = "Eer.fhir.MessageDefinition.CareCommunication:1.0"
 * status = #retired
 * date = "2022-10-05"
 * copyright = "Copyright © 2022 MedCom"
@@ -61,14 +61,14 @@ Description: "An example of an EHMIMessageDefinition for CareCommunication:2.0"
 * purpose = "DK: Sende sundhedsinformation mellem sundhedsvæsnets parter, der ikke kan sendes med andre standarder (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * eventCoding = $MessageEvents#care-communication-message
 * responseRequired = #always
-* allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.Acknowledgement:2.0"
-* allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.Acknowledgement:2.0.1"
-* allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.CareCommunication:3.0"
+* allowedResponse[+].message.value = "Eer.fhir.MessageDefinition.Acknowledgement:2.0"
+* allowedResponse[+].message.value = "Eer.fhir.MessageDefinition.Acknowledgement:2.0.1"
+* allowedResponse[+].message.value = "Eer.fhir.MessageDefinition.CareCommunication:3.0"
 
-Instance: EHMI.fhir.MessageDefinition.CareCommunication:1.0
-InstanceOf: EHMIMessageDefinitionFhir
-Description: "An example of an EHMIMessageDefinition for CareCommunication:1.0"
-* id = "EHMI.fhir.MessageDefinition.CareCommunication.1.0"
+Instance: Eer.fhir.MessageDefinition.CareCommunication:1.0
+InstanceOf: EerMessageDefinitionFhir
+Description: "An example of an EerMessageDefinition for CareCommunication:1.0"
+* id = "Eer.fhir.MessageDefinition.CareCommunication.1.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:1.0
 * identifier.period.start = "2021-03-23"
 * identifier.period.end = "2022-10-04"
@@ -95,6 +95,6 @@ Description: "An example of an EHMIMessageDefinition for CareCommunication:1.0"
 * copyright = "Copyright © 2022 MedCom"
 * eventCoding = $MessageEvents#care-communication-message
 * responseRequired = #always
-* allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.Acknowledgement:2.0"
-* allowedResponse[+].message.value = "EHMI.fhir.MessageDefinition.CareCommunication:3.0"
+* allowedResponse[+].message.value = "Eer.fhir.MessageDefinition.Acknowledgement:2.0"
+* allowedResponse[+].message.value = "Eer.fhir.MessageDefinition.CareCommunication:3.0"
 

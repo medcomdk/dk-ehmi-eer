@@ -1,9 +1,9 @@
 Instance: EHMI.envelope.sbdh.sbdhacknowledgement.MessageDefinition
-InstanceOf: EHMIMessageDefinitionEnvelope
-Description: "An example of an EHMIMessageDefinition for SBDH."
+InstanceOf: EerMessageDefinitionEnvelope
+Description: "An example of an EerMessageDefinition for SBDH."
 * id = "EHMI.MessageDefinition.envelope.sbdhacknowledgement.1.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:envelope:xml:sbdhacknowledgement:1.0
-//* identifier.system = $EHMIMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:envelope
+//* identifier.system = $EerMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:envelope
 * identifier.period.start = "2024-01-01"
 * identifier.use = #official 
 * identifier.value = "sbdhacknowledgement.1.0"

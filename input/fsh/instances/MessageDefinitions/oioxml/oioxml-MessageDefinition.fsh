@@ -1,6 +1,6 @@
 Instance: EHMI.oioxml.MessageDefinition.xref15.xh1530r
-InstanceOf: EHMIMessageDefinitionOioxml
-Description: "An example of an EHMIMessageDefinition for xref15:xh1530r"
+InstanceOf: EerMessageDefinitionOioxml
+Description: "An example of an EerMessageDefinition for xref15:xh1530r"
 * id = "EHMI.edi.MessageDefinition.xref15.xh1530r"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:medref:xref15:xh1530r
 * identifier.period.start = "2020-01-01"

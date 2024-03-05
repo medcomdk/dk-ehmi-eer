@@ -1,4 +1,4 @@
-Profile: EHMIMessageDefinition
+Profile: EerMessageDefinition
 Parent: MessageDefinition
 Description: "An example profile of the MessageDefinition resource."
 //* url from ehmi-medcom-message-definition-uri-valueset
@@ -6,7 +6,7 @@ Description: "An example profile of the MessageDefinition resource."
 //* identifier.system from ehmi-medcom-message-definition-uri-valueset
 * identifier.system from ehmi-messagedefinition-identifer-system-valueset
 * identifier.system 1..1 //MS SU
-//* identifier.system = $EHMIMessageDefinitionIdentifierSystem#MedCom
+//* identifier.system = $EerMessageDefinitionIdentifierSystem#MedCom
 * identifier.period.start 1..1 MS SU
 * identifier.period.end 0..1 MS SU
 * identifier.type from ehmi-medcom-message-definition-type-valueset

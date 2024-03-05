@@ -1,7 +1,7 @@
-Profile: EHMIMessageDefinitionOioxml
-Parent: EHMIMessageDefinition
+Profile: EerMessageDefinitionOioxml
+Parent: EerMessageDefinition
 Description: "An example profile of the MessageDefinition-oioxml resource."
-* identifier.system = $EHMIMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:oioxml (exactly)
+* identifier.system = $EerMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:oioxml (exactly)
 * identifier.type = $EHMIMedComMessageDefinitionType#OIOXML (exactly)
 * useContext.code = $EHMIUsageContextCodeSystem#workflow (exactly)
 * useContext.code.system = $EHMIUsageContextCodeSystem (exactly)

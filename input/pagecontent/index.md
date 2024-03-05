@@ -84,7 +84,7 @@ EHMI SOR Organizational Unit OU (DK:OE)
 
 A profile on the HealthcareService resource for SOR.
 
-[EHMIMessageDefinition](https://build.fhir.org/ig/medcomdk/dk-ehmi-mCSD/StructureDefinition-EHMIMessageDefinition.html)
+[EerMessageDefinition](https://build.fhir.org/ig/medcomdk/dk-ehmi-mCSD/StructureDefinition-EerMessageDefinition.html)
 
 A profile on the MessageDefinition resource for EHMI SOR. (Attempting to replace entries in the standardcatalogues from both MedCom and SDS)
 
