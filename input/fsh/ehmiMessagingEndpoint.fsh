@@ -27,7 +27,7 @@ Parent:       EHMIMessagingEndpoint
 Id:           ehmi.dk.messaging.edelivery
 Title:        "EHMI Core Endpoint Messaging"
 Description:  "EHMI Core Endpoint Messaging"
-* connectionType = $EHMIEndpointConnectionType#eDeliveryMessaging (exactly)
+* connectionType = $EHMIEndpointConnectionType#EHMICoreMessaging (exactly)
 
 Profile:      EHMICoreMessagingFhirEndpoint
 Parent:       EHMICoreMessagingEndpoint
