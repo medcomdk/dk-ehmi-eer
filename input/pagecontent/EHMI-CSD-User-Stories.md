@@ -1,16 +1,16 @@
-# EHMI Care Service Directory User stories 
+# EHMI EHMI Endpoint Register User stories 
 
 ### User stories i scope for produktionspilot
 
-#### Forretningsejer af EHMI Care Service Directory (FCSD)
+#### Forretningsejer af EHMI EHMI Endpoint Register (FCSD)
 
 ##### FCSD.1
 
   i. Som FCSD 
 
-  ii. Ønsker jeg at have en kanonisk datamodel for EHMI Care Service Directory 
+  ii. Ønsker jeg at have en kanonisk datamodel for EHMI EHMI Endpoint Register 
 
-  iii. Når jeg skal modellere og implementere EHMI Care Service Directory
+  iii. Når jeg skal modellere og implementere EHMI EHMI Endpoint Register
 
 ##### FCSD.2
 
@@ -54,7 +54,7 @@
 
   iii.	Når jeg skal agere som autoritative kilde for Sundhedsadresseringsservicen
 
-#### Komponenten EHMI Care Service Directory (KCSD)
+#### Komponenten EHMI EHMI Endpoint Register (KCSD)
 
 ##### KCSD.1
 
