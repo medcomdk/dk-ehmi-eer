@@ -25,23 +25,23 @@ mechanism).
 Profile:      EHMICoreMessagingEndpoint
 Parent:       EHMIMessagingEndpoint
 Id:           ehmi.dk.messaging.edelivery
-Title:        "EHMI Core Endpoint Messaging"
-Description:  "EHMI Core Endpoint Messaging"
+Title:        "EHMI Endpoint eDelivery Messaging"
+Description:  "EHMI Endpoint eDelivery Messaging"
 * connectionType = $EHMIEndpointConnectionType#EHMICoreMessaging (exactly)
 
 Profile:      EHMICoreMessagingFhirEndpoint
 Parent:       EHMICoreMessagingEndpoint
 Id:           ehmi.dk.messaging.edelivery.fhir
-Title:        "EHMI Core Endpoint FHIR Messaging"
-Description:  "EHMI Core Endpoint FHIR Messaging"
+Title:        "EHMI Endpoint eDelivery FHIR Messaging"
+Description:  "EHMI Endpoint eDelivery FHIR Messaging"
 //* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:fhir (exactly)
 //* payloadType = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 
 Profile:      EHMICoreMessagingEdiEndpoint
 Parent:       EHMICoreMessagingEndpoint
 Id:           ehmi.dk.messaging.edelivery.edi
-Title:        "EHMI Core Endpoint EDI Messaging"
-Description:  "EHMI Core Endpoint EDI Messaging"
+Title:        "EHMI Endpoint eDelivery EDI Messaging"
+Description:  "EHMI Endpoint eDelivery EDI Messaging"
 //* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:edi (exactly)
 //* payloadType.coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl01:c0130q	
 //* payloadType[0].coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl01:c0130q	
@@ -51,8 +51,8 @@ Description:  "EHMI Core Endpoint EDI Messaging"
 Profile:      EHMICoreMessagingOioxmlEndpoint
 Parent:       EHMICoreMessagingEndpoint
 Id:           ehmi.dk.messaging.edelivery.oioxml
-Title:        "EHMI Core Endpoint Oioxml Messaging"
-Description:  "EHMI Core Endpoint Oioxml Messaging"
+Title:        "EHMI Endpoint eDelivery Oioxml Messaging"
+Description:  "EHMI Endpoint eDelivery Oioxml Messaging"
 //* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:oioxml (exactly)
 //* payloadType.coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl01:xc0130q	"NegativeVansReceipt"
 //* payloadType[0].coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl01:xc0130q	"NegativeVansReceipt"
