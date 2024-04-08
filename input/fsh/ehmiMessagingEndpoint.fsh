@@ -22,23 +22,23 @@ mechanism).
 * extension contains ehmi-core-system-extension named system 0..* MS 
 * extension contains ehmi-dk-core-network-supply-system-extension named networkSupplySystem 0..* MS 
 
-Profile:      EHMIMessagingEdeliveryEndpoint
+Profile:      EHMICoreMessagingEndpoint
 Parent:       EHMIMessagingEndpoint
 Id:           ehmi.dk.messaging.edelivery
 Title:        "EHMI Core Endpoint Messaging"
 Description:  "EHMI Core Endpoint Messaging"
 * connectionType = $EHMIEndpointConnectionType#eDeliveryMessaging (exactly)
 
-Profile:      EHMIMessagingEdeliveryFhirEndpoint
-Parent:       EHMIMessagingEdeliveryEndpoint
+Profile:      EHMICoreMessagingFhirEndpoint
+Parent:       EHMICoreMessagingEndpoint
 Id:           ehmi.dk.messaging.edelivery.fhir
 Title:        "EHMI Core Endpoint FHIR Messaging"
 Description:  "EHMI Core Endpoint FHIR Messaging"
 //* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:fhir (exactly)
 //* payloadType = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 
-Profile:      EHMIMessagingEdeliveryEdiEndpoint
-Parent:       EHMIMessagingEdeliveryEndpoint
+Profile:      EHMICoreMessagingEdiEndpoint
+Parent:       EHMICoreMessagingEndpoint
 Id:           ehmi.dk.messaging.edelivery.edi
 Title:        "EHMI Core Endpoint EDI Messaging"
 Description:  "EHMI Core Endpoint EDI Messaging"
@@ -48,8 +48,8 @@ Description:  "EHMI Core Endpoint EDI Messaging"
 //* payloadType[+].coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl02:c0230q	
 //* payloadType[+].coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl03:c0330q	
 
-Profile:      EHMIMessagingEdeliveryOioxmlEndpoint
-Parent:       EHMIMessagingEdeliveryEndpoint
+Profile:      EHMICoreMessagingOioxmlEndpoint
+Parent:       EHMICoreMessagingEndpoint
 Id:           ehmi.dk.messaging.edelivery.oioxml
 Title:        "EHMI Core Endpoint Oioxml Messaging"
 Description:  "EHMI Core Endpoint Oioxml Messaging"

@@ -1,7 +1,7 @@
 /*
 Instance: EHMIMessagingEndpoint-Herlev-eDeliveryFhir.5790002508226
-InstanceOf: EHMIMessagingEdeliveryFhirEndpoint
-Description: "Herlev EHMIMessagingEdeliveryFhirEndpoint."
+InstanceOf: EHMICoreMessagingFhirEndpoint
+Description: "Herlev EHMICoreMessagingFhirEndpoint."
 * id = "EHMIMessagingEndpoint-Herlev-eDeliveryFhir.01"
 * identifier.value = "5790002508226"
 * identifier.system = $EHMIAuditEventAgentWhoIdentifierTypes

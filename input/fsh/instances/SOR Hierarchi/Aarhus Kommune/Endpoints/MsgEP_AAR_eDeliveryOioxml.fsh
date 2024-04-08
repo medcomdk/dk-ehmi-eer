@@ -1,6 +1,6 @@
 Instance: EHMIMessagingEndpoint-AAR-eDeliveryOioxml.5790002508226
-InstanceOf: EHMIMessagingEdeliveryOioxmlEndpoint
-Description: "AAR EHMIMessagingEdeliveryOioxmlEndpoint."
+InstanceOf: EHMICoreMessagingOioxmlEndpoint
+Description: "AAR EHMICoreMessagingOioxmlEndpoint."
 * id = "EHMIMessagingEndpoint-AAR-eDeliveryOioxml.01"
 * identifier.value = "5790002508226"
 * identifier.system = $EHMIAuditEventAgentWhoIdentifierTypes

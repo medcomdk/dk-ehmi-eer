@@ -1,6 +1,6 @@
 Instance: EHMIMessagingEndpoint-AAR-VansEdi.5790002508226
-InstanceOf: EHMIMessagingEdeliveryEdiEndpoint
-Description: "AAR EHMIMessagingEdeliveryEdiEndpoint."
+InstanceOf: EHMICoreMessagingEdiEndpoint
+Description: "AAR EHMICoreMessagingEdiEndpoint."
 * id = "EHMIMessagingEndpoint-AAR-VansEdi.01"
 * identifier.value = "5790002508226"
 * identifier.system = $EHMIAuditEventAgentWhoIdentifierTypes

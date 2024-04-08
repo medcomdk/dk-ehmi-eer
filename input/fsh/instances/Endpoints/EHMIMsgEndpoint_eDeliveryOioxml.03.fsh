@@ -1,6 +1,6 @@
 Instance: EHMIMessagingEndpoint-eDeliveryOioxml.01
-InstanceOf: EHMIMessagingEdeliveryOioxmlEndpoint
-Description: "An example of an EHMIMessagingEdeliveryOioxmlEndpoint."
+InstanceOf: EHMICoreMessagingOioxmlEndpoint
+Description: "An example of an EHMICoreMessagingOioxmlEndpoint."
 * id = "EHMIMessagingEndpoint-eDeliveryOioxml.01"
 * identifier.value = "EHMIMessagingEndpoint-eDeliveryOioxml.01"
 //* identifier.use = "official"
