@@ -1,8 +1,8 @@
-# EHMI Care Service Directory User stories 
+# EHMI EHMI Endpoint Register User stories 
 
 ## User stories i scope for produktionspilot
 
-### Forretningsejer af EHMI Care Service Directory (FPKR)
+### Forretningsejer af EHMI EHMI Endpoint Register (FPKR)
 
 **FPKR.1**
 
@@ -52,7 +52,7 @@ ii.	Ønsker jeg i så vidt omfang som muligt at kunne genanvende eksisterende sn
 
 iii.	Når jeg skal agere som autoritative kilde for sundhedsadresseringsservicen
 
-### Komponenten EHMI Care Service Directory (KPKR)
+### Komponenten EHMI EHMI Endpoint Register (KPKR)
 
 **KPKR.1**
 
