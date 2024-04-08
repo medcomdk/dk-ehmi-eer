@@ -22,23 +22,23 @@ mechanism).
 * extension contains ehmi-core-system-extension named system 0..* MS 
 * extension contains ehmi-dk-core-network-supply-system-extension named networkSupplySystem 0..* MS 
 
-Profile:      EHMICoreMessagingEndpoint
+Profile:      EHMIeDeliveryMessagingEndpoint
 Parent:       EHMIMessagingEndpoint
 Id:           ehmi.dk.messaging.edelivery
 Title:        "EHMI Endpoint eDelivery Messaging"
 Description:  "EHMI Endpoint eDelivery Messaging"
-* connectionType = $EHMIEndpointConnectionType#EHMICoreMessaging (exactly)
+* connectionType = $EHMIEndpointConnectionType#EHMIeDeliveryMessaging (exactly)
 
-Profile:      EHMICoreMessagingFhirEndpoint
-Parent:       EHMICoreMessagingEndpoint
+Profile:      EHMIeDeliveryMessagingFhirEndpoint
+Parent:       EHMIeDeliveryMessagingEndpoint
 Id:           ehmi.dk.messaging.edelivery.fhir
 Title:        "EHMI Endpoint eDelivery FHIR Messaging"
 Description:  "EHMI Endpoint eDelivery FHIR Messaging"
 //* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:fhir (exactly)
 //* payloadType = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 
-Profile:      EHMICoreMessagingEdiEndpoint
-Parent:       EHMICoreMessagingEndpoint
+Profile:      EHMIeDeliveryMessagingEdiEndpoint
+Parent:       EHMIeDeliveryMessagingEndpoint
 Id:           ehmi.dk.messaging.edelivery.edi
 Title:        "EHMI Endpoint eDelivery EDI Messaging"
 Description:  "EHMI Endpoint eDelivery EDI Messaging"
@@ -48,8 +48,8 @@ Description:  "EHMI Endpoint eDelivery EDI Messaging"
 //* payloadType[+].coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl02:c0230q	
 //* payloadType[+].coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl03:c0330q	
 
-Profile:      EHMICoreMessagingOioxmlEndpoint
-Parent:       EHMICoreMessagingEndpoint
+Profile:      EHMIeDeliveryMessagingOioxmlEndpoint
+Parent:       EHMIeDeliveryMessagingEndpoint
 Id:           ehmi.dk.messaging.edelivery.oioxml
 Title:        "EHMI Endpoint eDelivery Oioxml Messaging"
 Description:  "EHMI Endpoint eDelivery Oioxml Messaging"

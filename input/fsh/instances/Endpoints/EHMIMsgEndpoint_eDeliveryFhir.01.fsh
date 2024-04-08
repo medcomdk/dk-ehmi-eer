@@ -1,6 +1,6 @@
 Instance: EHMIMessagingEndpoint-eDeliveryFhir.01
-InstanceOf: EHMICoreMessagingFhirEndpoint
-Description: "An example of an EHMICoreMessagingFhirEndpoint."
+InstanceOf: EHMIeDeliveryMessagingFhirEndpoint
+Description: "An example of an EHMIeDeliveryMessagingFhirEndpoint."
 * id = "EHMIMessagingEndpoint-eDeliveryFhir.01"
 * identifier.value = "EHMIMessagingEndpoint-eDeliveryFhir.01"
 //* identifier.use = "official"

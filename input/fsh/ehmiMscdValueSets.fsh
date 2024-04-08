@@ -32,7 +32,7 @@ Description: "ehmi-connection-types for the EHMI Messaging Infrastructure"
 * ^date  =  "2023-09-01"
 * ^experimental = true
 * ^caseSensitive = true
-* #EHMICoreMessaging "EHMI messaging via eDelivery"
+* #EHMIeDeliveryMessaging "EHMI messaging via eDelivery"
 * #vansMessaging "EHMI VANS messaging"
 * #hl7-fhir-msg "hl7-fhir-msg"
 * #hl7-fhir-rest "hl7-fhir-rest"
