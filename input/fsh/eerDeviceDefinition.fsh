@@ -19,4 +19,4 @@ Description: "An EerDeviceDefinition-LPS profile of the EerDeviceDefinition reso
 Profile: EerDeviceDefinitionEOJ
 Parent: EerDeviceDefinition
 Description: "An EerDeviceDefinition-EOJ profile of the EerDeviceDefinition resource."
-* type = EerDeviceType#EOJ "EOJ"
+* type = EerDeviceType#EOJ "Electronical Homecare Journal"
