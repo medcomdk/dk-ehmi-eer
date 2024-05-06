@@ -1,7 +1,9 @@
 Extension: EHMICoreSystemExtension
 Id: ehmi-core-system-extension
 Title:        "ehmi Core System Extension"
-Description: "Reference to a Device that is used to specify one or more systems which an Endpoint uses"
+Description: "Reference to a Device that is used to specify one or more systems which an Endpoint uses
+This is equivalent to the SOR-element 
+"
 //* value[x] Reference 
 * value[x] 0.. 
 * value[x] only Reference(Device) 

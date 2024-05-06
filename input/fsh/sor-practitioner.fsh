@@ -1,3 +1,4 @@
+/*
 Profile:      SORPractitioner
 Parent:       MCSDPractitioner
 Id:           medcom.sor.Practitioner
@@ -13,3 +14,4 @@ Title:        "SOR PractitionerRole"
 Description:  """
 A profile on the PractitionerRole resource for SOR.
 """
+*/

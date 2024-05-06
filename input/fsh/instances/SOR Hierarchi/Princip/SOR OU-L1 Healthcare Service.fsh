@@ -1,3 +1,4 @@
+/*
 Instance: EHMI.SOR.OU.L1.HealthcareService.Organization-1.0
 InstanceOf: SORHealthcareService
 Description: "An example of an SOR HI Organization."
@@ -10,3 +11,4 @@ Description: "An example of an SOR HI Organization."
 * providedBy = Reference(Organization/EHMI.SOR.OU.L1.Facility.Organization-1.0)
 * type = #358
 * specialty = #394602003
+*/

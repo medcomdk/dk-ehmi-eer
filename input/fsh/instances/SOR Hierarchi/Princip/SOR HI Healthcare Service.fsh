@@ -1,3 +1,4 @@
+/*
 Instance: EHMI.SOR.HI.HealthcareService.Organization-1.0
 InstanceOf: SORHealthcareService
 Description: "An example of an SOR HI Organization."
@@ -15,3 +16,4 @@ Description: "An example of an SOR HI Organization."
 * extraDetails = "extraDetails"
 * program = #21
 * referralMethod = #elec
+*/

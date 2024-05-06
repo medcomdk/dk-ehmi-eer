@@ -1,3 +1,4 @@
+/*
 Profile:      SORFacilityOrganization
 Parent:       MCSDFacilityOrganization
 Id:           MedCom.SOR.FacilityOrganization
@@ -9,3 +10,4 @@ Parent:       MCSDFacilityLocation
 Id:           MedCom.SOR.FacilityLocation
 Title:        "SOR Facility Location"
 Description:  """ MedCom.SOR.FacilityLocation """
+*/
