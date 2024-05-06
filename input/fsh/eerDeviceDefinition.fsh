@@ -10,6 +10,7 @@ Description: "An EER profile of the DeviceDefinition resource."
 * type from EerDeviceTypeVS 
 * type 1..1 MS 
 * specialization.systemType 1..1 MS 
+* udiCarrier 0..0
 
 Profile: EerDeviceDefinitionLPS
 Parent: EerDeviceDefinition
