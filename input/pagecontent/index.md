@@ -1,8 +1,8 @@
 # EHMI Endpoint Register (EER)
 
-The EHMI Endpoint Register (EER) Profile supports discovery of Endpoint adresses related to a SOR Unit in Danish Healthcare using a RESTful interface.
+The EHMI Endpoint Register (EER) Profile supports registration and discovery of Endpoint adresses related to a SOR Unit in Danish Healthcare using a RESTful interface.
 
-The profile is based upen IHE mCSD profile and the use cases and solutions using mCSD are outlined in the [mCSD White Paper](https://profiles.ihe.net/ITI/papers/mCSD/index.html).
+The profile is based upon IHE mCSD profile and the use cases and solutions using mCSD are outlined in the [mCSD White Paper](https://profiles.ihe.net/ITI/papers/mCSD/index.html).
 
 This profile supports registration of and querying for:
 
@@ -16,42 +16,12 @@ Organizations are “umbrella” entities; these may be considered the administr
 
     **SOR OE Organization** – is reflected as a real Organization with [Location](Location)s and [Endpoint](Endpoint)s
 
-## 2. Facility
-
-Facilities are physical care delivery sites such as hospitals, clinics, health outposts, physician offices, labs, pharmacies, etc. A Facility has a unique identifier, geographic attributes (address, geocode), contact attributes, attributes regarding its hours of operation, etc. Each Facility is defined by a pairing of Location and Organization.
-
-    **SOR SI Organization** – is reflected as a Facility instead of Organization (see [Facility](Facility))  
-
-## 3. Location
-
-Locations are physical places where care can be delivered such as facilities, buildings, wards, rooms, or vehicles. Locations also include jurisdictions such as a village districts or regions. A Location has a unique identifier and may have geographic attributes (address, geocode), attributes regarding its hours of operation, etc. Each Location may be related to one Organization. A location may have a hierarchical relationship with other locations.
-
-## 4. Jurisdiction
-
-Jurisdictions are political administrative units or other territories over which authority is exercised. A Jurisdiction has a unique identifier, geographic attributes, etc. Jurisdictions include political administrative units such as village districts or regions. Each Jurisdiction is defined by a pairing of Location and Organization.
-
-    **SOR IE Organization** – is reflected as a Jurisdiction instead of Organization [See more...](Jurisdiction))
-
-## 5. Practitioner
-
-A Practitioner is a health worker such as defined by WHO (in Chapter 1 of the [World Health Report 2006](http://whqlibdoc.who.int/publications/2006/9241563176_eng.pdf)); a Practitioner might be a physician, nurse, pharmacist, community health worker, district health manager, etc. Practitioners have contact and demographic attributes. Each Practitioner may be related to one or more Organizations, one or more Locations and one or more Healthcare Services. Specific attributes may be associated with the Practitioner relationship with these other entities.
-
-## 6. Healthcare Service
-
-Each healthcare service has a unique identifier. Examples include surgical services, antenatal care services, or primary care services. The combination of a Healthcare Service offered at a Location may have specific attributes including contact person, hours of operation, etc. [See more...](Healthcare-Service)
-    
-## 7. Endpoint
+## 2. Endpoint
 
 An Organization may be reachable for electronic data exchange through electronic Endpoint(s). An Endpoint may be a FHIR server, an IHE web services actor, or some other mechanism. If an Organization does not have an Endpoint, it may still be reachable via an Endpoint at its parent Organization or an affiliated Organization. [See more...](Endpoint)
 
-## 8. OrganizationAffiliation
+## 3. Device
 
-An Organization may have relationships with other organizations that are not hierarchical. These relationships may indicate an electronic routing path to other organizations that cannot be reached directly. OrganizationAffiliation can be used to specify relationships such as supply chains or administrative reporting structures.
-
-The capabilities detailed in this profile support consumer-centric queries such as finding “where is the closest youth mental health services clinic” or “what are the hours of a physiotherapist near my workplace”. In addition, EHMI CSD supports crucial health system management workflows. This can include reporting and analyses, such as “what are my health human resource capacities, by facility, by cadre,” “what are all the services offered at this facility,” or conversely, “where are all the facilities that offer this service.” The EHMI CSD Profile may be employed to support, for example, the Provider Queries listed by the US Office of the National Coordinator as part of the [Standards and
-Interoperability Framework](https://www.healthit.gov/topic/interoperability/standards-interoperability-si-framework). In addition, EHMI CSD can enable connectivity by providing service endpoint lookup, such as "What is the FHIR server for this organization?".
-
-The loosely coupled design and flexible querying capability of the EHMI CSD Profile means it can be deployed within a variety of eHealth architectures and support a wide array of care workflows.
 
 ## 1:46.4.1 Concepts
 
