@@ -3,8 +3,6 @@ Parent: Device
 Description: "An EHMI profile of the Device resource."
 * identifier 1..1
 * definition 1..1
-*
-
 
 Profile: EerDeviceAP
 Parent: EerDevice
