@@ -1,3 +1,4 @@
+/*
 Instance: EP.MSG.HI.AAR.937961000016000.GLN.5790000123117.VANS.OIOXML.IN
 InstanceOf: EHMIMessagingVansOioxmlEndpoint
 Description: "AAR EHMIMessagingVansOioxmlEndpoint."
@@ -20,3 +21,4 @@ Description: "AAR EHMIMessagingVansOioxmlEndpoint."
 * payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:meddis:xdis21:xd2134c	"XML plejeforløbsplan"
 * payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:meddis:xdis22:xd2230l	"XML Afslutningsnotat fra kommunens akutfunktion"
 * payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:medref:xref22:xh2230r	"XML Henvisning til kommunens akutfunktion"
+*/

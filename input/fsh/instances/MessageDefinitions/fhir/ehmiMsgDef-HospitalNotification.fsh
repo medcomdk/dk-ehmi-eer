@@ -1,3 +1,4 @@
+/*
 Instance: Eer.fhir.MessageDefinition.hospitalNotification:3.0
 InstanceOf: EerMessageDefinitionFhir
 Description: "An example of an EerMessageDefinition for hospitalnotification:3.0"
@@ -99,3 +100,4 @@ Description: "An example of an EerMessageDefinition for hospitalnotification:1.0
 * allowedResponse[+].message.value = "Eer.fhir.MessageDefinition.Acknowledgement:2.0.1"
 * allowedResponse[+].message.value = "Eer.fhir.MessageDefinition.CareCommunication:3.0.0"
 
+*/

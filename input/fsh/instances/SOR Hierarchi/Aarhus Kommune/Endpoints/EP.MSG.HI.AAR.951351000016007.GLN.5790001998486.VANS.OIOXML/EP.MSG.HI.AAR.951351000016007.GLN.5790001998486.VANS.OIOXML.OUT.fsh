@@ -1,3 +1,4 @@
+/*
 Instance: EP.MSG.HI.AAR.937961000016000.GLN.5790001998486.VANS.OIOXML.OUT
 InstanceOf: EHMIMessagingVansOioxmlEndpoint
 Description: "AAR EHMIMessaging VansEdi Endpoint Outbound"
@@ -16,3 +17,4 @@ Description: "AAR EHMIMessaging VansEdi Endpoint Outbound"
 * payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl02:xc0230q	"NegativeReceipt"
 * payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl03:xc0330q	"PositivReceipt"
 * payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:meddis:xdis91:xd9134l	"ClinicalEmail"
+*/

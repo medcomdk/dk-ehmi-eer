@@ -1,3 +1,4 @@
+/*
 Instance: EHMI.oioxml.MessageDefinition.xref15.xh1530r
 InstanceOf: EerMessageDefinitionOioxml
 Description: "An example of an EerMessageDefinition for xref15:xh1530r"
@@ -27,4 +28,4 @@ Description: "An example of an EerMessageDefinition for xref15:xh1530r"
 * purpose = "Denne standard anvendes til henvisning til kommunal forebyggelse (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * copyright = "Copyright © 2022 MedCom"
 * eventCoding = $MessageEvents#empty-message
-
+*/

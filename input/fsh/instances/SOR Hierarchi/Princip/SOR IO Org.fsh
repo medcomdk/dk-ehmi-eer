@@ -1,4 +1,3 @@
-/*
 Instance: EHMI.SORIOOrganization.1.0
 InstanceOf: EHMISORIOOrganization
 Description: "An example of an SOR IO Organization."
@@ -12,4 +11,3 @@ Description: "An example of an SOR IO Organization."
 * type[EHMISORIOOrganizationType].coding.system = $EHMISORIOOrganizationType
 //* type[SOR-UnitType].coding.code = $EHMISORUnitType#other
 * type[SOR-UnitType].coding.system = $EHMISORUnitType
-*/

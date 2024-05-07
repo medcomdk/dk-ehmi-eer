@@ -1,3 +1,4 @@
+/*
 Instance: EP.MSG.HI.AAR.937961000016000.GLN.5790001998486.VANS.EDI.OUT
 InstanceOf: EHMIMessagingVansEdiEndpoint
 Description: "AAR EHMIMessaging VansEdi Endpoint Inbound"
@@ -17,3 +18,4 @@ Description: "AAR EHMIMessaging VansEdi Endpoint Inbound"
 * payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl03:c0330q	"Positiv kvittering"
 * payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:meddis:dis01:d0134l	"Udskrivningsepikrise"
 * payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:meddis:dis91:d9134l	"Korrespondancebrev"
+*/

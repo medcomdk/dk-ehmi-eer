@@ -1,3 +1,4 @@
+/*
 Profile: EerMessageDefinitionEdi
 Parent: EerMessageDefinition
 Description: "An example profile of the MessageDefinition-edi resource."
@@ -6,4 +7,4 @@ Description: "An example profile of the MessageDefinition-edi resource."
 * identifier.type = $EHMIMedComMessageDefinitionType#EDIFACT
 * useContext.code.system = $EHMIUsageContextCodeSystem (exactly)
 * responseRequired = #on-error
-
+*/

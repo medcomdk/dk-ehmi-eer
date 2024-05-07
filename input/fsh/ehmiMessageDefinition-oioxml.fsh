@@ -1,3 +1,4 @@
+/*
 Profile: EerMessageDefinitionOioxml
 Parent: EerMessageDefinition
 Description: "An example profile of the MessageDefinition-oioxml resource."
@@ -7,3 +8,4 @@ Description: "An example profile of the MessageDefinition-oioxml resource."
 * useContext.code.system = $EHMIUsageContextCodeSystem (exactly)
 * responseRequired = #on-error
 
+*/

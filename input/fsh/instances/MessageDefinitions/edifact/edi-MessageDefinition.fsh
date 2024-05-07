@@ -1,3 +1,4 @@
+/*
 Instance: EHMI.edi.bin02.b0210x.MessageDefinition
 InstanceOf: EerMessageDefinitionEdi
 Description: "An example of an EerMessageDefinition for bin02:b0210x."
@@ -31,4 +32,4 @@ Description: "An example of an EerMessageDefinition for bin02:b0210x."
 * purpose = "Denne standard anvendes, når man ønsker at sende en binær fil sammen med henvisningstyperne REF01, RFE02 og REF06 (RUSA Standardkatalog - Hvad skal standarden anvendes til jf. §3,2 i bekendtgørelsen)"
 * copyright = "Copyright © 2022 MedCom"
 * eventCoding = $MessageEvents#empty-message
-
+*/

@@ -1,3 +1,4 @@
+/*
 Instance: EHMIMessagingEndpoint-eDeliveryOioxml.01
 InstanceOf: EHMIeDeliveryMessagingOioxmlEndpoint
 Description: "An example of an EHMIeDeliveryMessagingOioxmlEndpoint."
@@ -13,3 +14,4 @@ Description: "An example of an EHMIeDeliveryMessagingOioxmlEndpoint."
 * payloadType[0] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl01:xc0130q	"NegativeVansReceipt"
 * payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl02:xc0230q	"NegativeReceipt"
 * payloadType[+] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl03:xc0330q	"PositivReceipt"
+*/

@@ -20,6 +20,7 @@ Alias: $EHMIAuditEventEntityMessageType = http://medcomehmi.dk/ig/ehmi_balp/Code
 Alias: $mCSDEndpointConnectionType = http://hl7.org/fhir/R4/valueset-endpoint-connection-type.html
 
 Alias: $EerDeviceType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-device-type
+Alias: $EerDeviceTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-device-type-valueset
 
 Alias: $EHMISORorganizationIdentierType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-sor-organization-identier-type
 Alias: $EHMISORorganizationIdentierTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-sor-organization-identier-type-valueset

@@ -1,3 +1,4 @@
+/*
 Instance: EHMIMessagingEndpoint-AAR-VansEdi.5790002508226
 InstanceOf: EHMIeDeliveryMessagingEdiEndpoint
 Description: "AAR EHMIeDeliveryMessagingEdiEndpoint."
@@ -7,7 +8,7 @@ Description: "AAR EHMIeDeliveryMessagingEdiEndpoint."
 * identifier.type = $EHMIAuditEventAgentWhoIdentifierTypes#GLN
 //* identifier.use = "official"
 * status = #active
-* managingOrganization = Reference(Organization/EHMI.SOR.IO-AAR-Kommune.311000016009)
+//* managingOrganization = Reference(Organization/EHMI.SOR.IO-AAR-Kommune.311000016009)
 * period.start = "2023-01-01"
 * period.end = "2024-01-01"
 * address = "http://aar.dk/fhir"
@@ -15,3 +16,4 @@ Description: "AAR EHMIeDeliveryMessagingEdiEndpoint."
 //* payloadMimeType[1] = #application/fhir+json
 * payloadType[0] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 //* payloadType[1] = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
+*/
