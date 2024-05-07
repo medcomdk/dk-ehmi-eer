@@ -2,8 +2,9 @@ Profile: EerDevice
 Parent: Device
 Description: "An EHMI profile of the Device resource."
 * identifier 1..1
-* definition 1..1
+* definition only Reference(EerDeviceDefinition) 1..1
 * udiCarrier 0..0
+* 
 
 Profile: EerDeviceAP
 Parent: EerDevice
