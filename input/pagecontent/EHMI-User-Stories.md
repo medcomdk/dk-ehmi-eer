@@ -1,8 +1,8 @@
-# EHMI EHMI Endpoint Register User stories 
+# EHMI Endpoint Register (EER) User stories 
 
 ## User stories i scope for produktionspilot
 
-### Forretningsejer af EHMI EHMI Endpoint Register (FPKR)
+### Forretningsejer af EHMI Endpoint Register (EER) (FPKR)
 
 **FPKR.1**
 
@@ -52,7 +52,7 @@ ii.	Ønsker jeg i så vidt omfang som muligt at kunne genanvende eksisterende sn
 
 iii.	Når jeg skal agere som autoritative kilde for sundhedsadresseringsservicen
 
-### Komponenten EHMI EHMI Endpoint Register (KPKR)
+### Komponenten EHMI Endpoint Register (EER) (KPKR)
 
 **KPKR.1**
 

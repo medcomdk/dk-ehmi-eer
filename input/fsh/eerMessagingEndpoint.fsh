@@ -1,7 +1,7 @@
 Profile:      EHMIMessagingEndpoint
 Parent:       MCSDEndpoint
 Id:           ehmi.dk.messaging
-Title:        "EHMI Endpoint - General for Messaging"
+Title:        "EER Endpoint - General for Messaging"
 Description:  """
 A profile on the mCSD Endpoint.
 
@@ -25,15 +25,15 @@ mechanism).
 Profile:      EHMIeDeliveryMessagingEndpoint
 Parent:       EHMIMessagingEndpoint
 Id:           ehmi.dk.messaging.edelivery
-Title:        "EHMI Endpoint eDelivery Messaging"
-Description:  "EHMI Endpoint eDelivery Messaging"
+Title:        "EER Endpoint eDelivery Messaging"
+Description:  "EER Endpoint eDelivery Messaging"
 * connectionType = $EHMIEndpointConnectionType#EHMIeDeliveryMessaging (exactly)
 
 Profile:      EHMIeDeliveryMessagingFhirEndpoint
 Parent:       EHMIeDeliveryMessagingEndpoint
 Id:           ehmi.dk.messaging.edelivery.fhir
-Title:        "EHMI Endpoint eDelivery FHIR Messaging"
-Description:  "EHMI Endpoint eDelivery FHIR Messaging"
+Title:        "EER Endpoint eDelivery FHIR Messaging"
+Description:  "EER Endpoint eDelivery FHIR Messaging"
 //* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:fhir (exactly)
 //* payloadType = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 
@@ -41,8 +41,8 @@ Description:  "EHMI Endpoint eDelivery FHIR Messaging"
 Profile:      EHMIeDeliveryMessagingEdiEndpoint
 Parent:       EHMIeDeliveryMessagingEndpoint
 Id:           ehmi.dk.messaging.edelivery.edi
-Title:        "EHMI Endpoint eDelivery EDI Messaging"
-Description:  "EHMI Endpoint eDelivery EDI Messaging"
+Title:        "EER Endpoint eDelivery EDI Messaging"
+Description:  "EER Endpoint eDelivery EDI Messaging"
 //* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:edi (exactly)
 //* payloadType.coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl01:c0130q	
 //* payloadType[0].coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl01:c0130q	
@@ -54,8 +54,8 @@ Description:  "EHMI Endpoint eDelivery EDI Messaging"
 Profile:      EHMIeDeliveryMessagingOioxmlEndpoint
 Parent:       EHMIeDeliveryMessagingEndpoint
 Id:           ehmi.dk.messaging.edelivery.oioxml
-Title:        "EHMI Endpoint eDelivery Oioxml Messaging"
-Description:  "EHMI Endpoint eDelivery Oioxml Messaging"
+Title:        "EER Endpoint eDelivery Oioxml Messaging"
+Description:  "EER Endpoint eDelivery Oioxml Messaging"
 //* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:oioxml (exactly)
 //* payloadType.coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl01:xc0130q	"NegativeVansReceipt"
 //* payloadType[0].coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl01:xc0130q	"NegativeVansReceipt"
@@ -67,8 +67,8 @@ Description:  "EHMI Endpoint eDelivery Oioxml Messaging"
 Profile:      EHMIMessagingVansEndpoint
 Parent:       EHMIMessagingEndpoint
 Id:           ehmi.dk.messaging.vans
-Title:        "EHMI Endpoint VANS Messaging"
-Description:  "EHMI Endpoint VANS Messaging"
+Title:        "EER Endpoint VANS Messaging"
+Description:  "EER Endpoint VANS Messaging"
 * connectionType = $EHMIEndpointConnectionType#vansMessaging (exactly)
 */
 
@@ -76,8 +76,8 @@ Description:  "EHMI Endpoint VANS Messaging"
 Profile:      EHMIMessagingVansFhirEndpoint
 Parent:       EHMIMessagingVansEndpoint
 Id:           ehmi.dk.messaging.vans.fhir
-Title:        "EHMI Endpoint VANS FHIR Messaging"
-Description:  "EHMI Endpoint VANS FHIR Messaging"
+Title:        "EER Endpoint VANS FHIR Messaging"
+Description:  "EER Endpoint VANS FHIR Messaging"
 //* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:fhir (exactly)
 //* payloadType = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 */
@@ -86,8 +86,8 @@ Description:  "EHMI Endpoint VANS FHIR Messaging"
 Profile:      EHMIMessagingVansEdiEndpoint
 Parent:       EHMIMessagingVansEndpoint
 Id:           ehmi.dk.messaging.vans.edi
-Title:        "EHMI Endpoint VANS EDI Messaging"
-Description:  "EHMI Endpoint VANS EDI Messaging"
+Title:        "EER Endpoint VANS EDI Messaging"
+Description:  "EER Endpoint VANS EDI Messaging"
 //* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:edi (exactly)
 //* payloadType.coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl01:c0130q	
 //* payloadType[0].coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl01:c0130q	
@@ -99,8 +99,8 @@ Description:  "EHMI Endpoint VANS EDI Messaging"
 Profile:      EHMIMessagingVansOioxmlEndpoint
 Parent:       EHMIMessagingVansEndpoint
 Id:           ehmi.dk.messaging.vans.oioxml
-Title:        "EHMI Endpoint VANS Oioxml Messaging"
-Description:  "EHMI Endpoint VANS Oioxml Messaging"
+Title:        "EER Endpoint VANS Oioxml Messaging"
+Description:  "EER Endpoint VANS Oioxml Messaging"
 //* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:oioxml (exactly)
 //* payloadType.coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl01:xc0130q	"NegativeVansReceipt"
 //* payloadType[0].coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl01:xc0130q	"NegativeVansReceipt"
