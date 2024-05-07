@@ -19,7 +19,7 @@ Description: "An EER profile of the DeviceDefinition resource."
 
 Profile: EerDeviceDefinitionEUA
 Parent: EerDeviceDefinition
-Description: "An EerDeviceDefinition-LPS profile of the EerDeviceDefinition resource."
+Description: "An EerDeviceDefinition-EUA profile of the EerDeviceDefinition resource."
 //* type =  $EerDeviceType#EUA "End User Application"
 
 Profile: EerDeviceDefinitionLPS
@@ -34,11 +34,11 @@ Description: "An EerDeviceDefinition-EOJ profile of the EerDeviceDefinition reso
 
 Profile: EerDeviceDefinitionMSH
 Parent: EerDeviceDefinition
-Description: "An EerDeviceDefinition-LPS profile of the EerDeviceDefinition resource."
+Description: "An EerDeviceDefinition-MSH profile of the EerDeviceDefinition resource."
 * type =  $EerDeviceType#MSH "Message Service Handler"
 
 Profile: EerDeviceDefinitionEAP
 Parent: EerDeviceDefinition
-Description: "An EerDeviceDefinition-LPS profile of the EerDeviceDefinition resource."
+Description: "An EerDeviceDefinition-EAP profile of the EerDeviceDefinition resource."
 * type =  $EerDeviceType#EAP "eDelivery Access Point"
 
