@@ -1,5 +1,5 @@
 Extension: EerCoreSystemExtension
-Id: eer-core-system-extension
+Id: eer-dk-core-system-extension
 Title: "eer Core System Extension"
 Description: "Reference to a Device that is used to specify one or more systems which an Endpoint uses
 This is equivalent to the SOR-element 
