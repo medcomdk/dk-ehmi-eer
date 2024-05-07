@@ -1,6 +1,6 @@
 Instance: Eer.fhir.MessageDefinition.Acknowledgement:2.0
-InstanceOf: EerMessageDefinitionFhir
-Description: "An example of an EerMessageDefinition for Acknowledgement:2.0"
+InstanceOf: MedcomMessagingMessageDefinitionFhir
+Description: "An example of an MedcomMessagingMessageDefinition for Acknowledgement:2.0"
 * id = "Eer.fhir.MessageDefinition.Acknowledgement.2.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 * identifier.period.start = "2021-03-23"
@@ -26,8 +26,8 @@ Description: "An example of an EerMessageDefinition for Acknowledgement:2.0"
 * responseRequired = #never
 
 Instance: Eer.fhir.MessageDefinition.Acknowledgement:1.0
-InstanceOf: EerMessageDefinitionFhir
-Description: "An example of an EerMessageDefinition for Acknowledgement:1.0"
+InstanceOf: MedcomMessagingMessageDefinitionFhir
+Description: "An example of an MedcomMessagingMessageDefinition for Acknowledgement:1.0"
 * id = "Eer.fhir.MessageDefinition.Acknowledgement.1.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:1.0
 * identifier.period.start = "2021-03-23"

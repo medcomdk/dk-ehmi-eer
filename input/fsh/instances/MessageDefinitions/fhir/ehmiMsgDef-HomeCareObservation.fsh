@@ -1,6 +1,6 @@
 Instance: Eer.fhir.MessageDefinition.HomeCareObservation:1.0
 InstanceOf: EerMsgDefHomeCareObservation
-Description: "An example of an EerMessageDefinition for HomeCareObservation:1.0"
+Description: "An example of an MedcomMessagingMessageDefinition for HomeCareObservation:1.0"
 * id = "Eer.fhir.MessageDefinition.HomeCareObservation.1.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:1.0
 * identifier.period.start = "2021-03-23"

@@ -25,8 +25,8 @@ Alias: $EerDeviceTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-devic
 Alias: $EerSOROrganizationIdentierType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-sor-organization-identier-type
 Alias: $EerSOROrganizationIdentierTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-sor-organization-identier-type-valueset
 
-Alias: $EerMessageDefinitionIdentifierSystem = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-messagedefinition-identifier-system
-Alias: $EerMessageDefinitionIdentifierSystemVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-messagedefinition-identifier-system-valueset
+Alias: $MedcomMessagingMessageDefinitionIdentifierSystem = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-messagedefinition-identifier-system
+Alias: $MedcomMessagingMessageDefinitionIdentifierSystemVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-messagedefinition-identifier-system-valueset
 
 Alias: $EHMIEndpointConnectionType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-connection-type
 Alias: $EHMIEndpointConnectionTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-connection-type-valueset

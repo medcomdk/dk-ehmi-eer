@@ -183,10 +183,10 @@ Description: "EHMIMedComMessageDefinitionTypeVS for the EHMI Messaging Infrastru
 * ^experimental = true
 * include codes from system ehmi-medcom-message-definition-type
 
-CodeSystem: EerMessageDefinitionIdentifierSystem
+CodeSystem: MedcomMessagingMessageDefinitionIdentifierSystem
 Id: ehmi-messagedefinition-identifer-system
-Title: "EerMessageDefinitionIdentifierSystem CodeSystem"
-Description: "EerMessageDefinitionIdentifierSystemCS for the EHMI Messaging Infrastructure"
+Title: "MedcomMessagingMessageDefinitionIdentifierSystem CodeSystem"
+Description: "MedcomMessagingMessageDefinitionIdentifierSystemCS for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
@@ -197,10 +197,10 @@ Description: "EerMessageDefinitionIdentifierSystemCS for the EHMI Messaging Infr
 * #urn:dk:healthcare:medcom:messaging:oioxml "urn:dk:healthcare:medcom:messaging:oioxml"
 * #urn:dk:healthcare:medcom:messaging:envelope "urn:dk:healthcare:medcom:messaging:envelope"
 
-ValueSet: EerMessageDefinitionIdentifierSystemVS
+ValueSet: MedcomMessagingMessageDefinitionIdentifierSystemVS
 Id: ehmi-messagedefinition-identifer-system-valueset
-Title: "EerMessageDefinitionIdentifierSystem Valueset"
-Description: "EerMessageDefinitionIdentifierSystemVS for the EHMI Messaging Infrastructure"
+Title: "MedcomMessagingMessageDefinitionIdentifierSystem Valueset"
+Description: "MedcomMessagingMessageDefinitionIdentifierSystemVS for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"

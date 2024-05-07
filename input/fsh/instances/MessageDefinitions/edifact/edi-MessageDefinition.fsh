@@ -1,10 +1,10 @@
 /*
 Instance: EHMI.edi.bin02.b0210x.MessageDefinition
-InstanceOf: EerMessageDefinitionEdi
-Description: "An example of an EerMessageDefinition for bin02:b0210x."
+InstanceOf: MedcomMessagingMessageDefinitionEdi
+Description: "An example of an MedcomMessagingMessageDefinition for bin02:b0210x."
 * id = "EHMI.edi.bin02.b0210x.MessageDefinition"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:medbin:bin02:b0210x
-* identifier.system = $EerMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:edifact
+* identifier.system = $MedcomMessagingMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:edifact
 * identifier.period.start = "2012-07-01"
 * identifier.type = $EHMIMedComMessageDefinitionType#EDIFACT
 * identifier.use = #official 

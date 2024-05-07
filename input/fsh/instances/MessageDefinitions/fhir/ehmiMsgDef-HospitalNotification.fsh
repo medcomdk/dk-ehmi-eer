@@ -1,7 +1,7 @@
 /*
 Instance: Eer.fhir.MessageDefinition.hospitalNotification:3.0
-InstanceOf: EerMessageDefinitionFhir
-Description: "An example of an EerMessageDefinition for hospitalnotification:3.0"
+InstanceOf: MedcomMessagingMessageDefinitionFhir
+Description: "An example of an MedcomMessagingMessageDefinition for hospitalnotification:3.0"
 * id = "Eer.fhir.MessageDefinition.hospitalNotification.3.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:3.0
 * identifier.period.start = "2021-03-23"
@@ -33,8 +33,8 @@ Description: "An example of an EerMessageDefinition for hospitalnotification:3.0
 * allowedResponse[+].message.value = "Eer.fhir.MessageDefinition.CareCommunication:3.0.0"
 
 Instance: Eer.fhir.MessageDefinition.hospitalNotification:2.0
-InstanceOf: EerMessageDefinitionFhir
-Description: "An example of an EerMessageDefinition for hospitalnotification:2.0"
+InstanceOf: MedcomMessagingMessageDefinitionFhir
+Description: "An example of an MedcomMessagingMessageDefinition for hospitalnotification:2.0"
 * id = "Eer.fhir.MessageDefinition.hospitalNotification.2.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:2.0
 * identifier.period.start = "2021-03-23"
@@ -67,8 +67,8 @@ Description: "An example of an EerMessageDefinition for hospitalnotification:2.0
 * allowedResponse[+].message.value = "Eer.fhir.MessageDefinition.CareCommunication:3.0.0"
 
 Instance: Eer.fhir.MessageDefinition.hospitalNotification:1.0
-InstanceOf: EerMessageDefinitionFhir
-Description: "An example of an EerMessageDefinition for hospitalnotification:1.0"
+InstanceOf: MedcomMessagingMessageDefinitionFhir
+Description: "An example of an MedcomMessagingMessageDefinition for hospitalnotification:1.0"
 * id = "Eer.fhir.MessageDefinition.hospitalNotification.1.0"
 * url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:1.0
 * identifier.period.start = "2021-03-23"

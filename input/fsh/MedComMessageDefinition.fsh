@@ -1,4 +1,4 @@
-Profile: EerMessageDefinition
+Profile: MedcomMessagingMessageDefinition
 Parent: MessageDefinition
 Description: "WILL BE MOVED TO MedComMessaging IG: An example profile of the MessageDefinition resource."
 //* url from ehmi-medcom-message-definition-uri-valueset
@@ -6,7 +6,7 @@ Description: "WILL BE MOVED TO MedComMessaging IG: An example profile of the Mes
 //* identifier.system from ehmi-medcom-message-definition-uri-valueset
 * identifier.system from ehmi-messagedefinition-identifer-system-valueset
 * identifier.system 1..1 //MS SU
-//* identifier.system = $EerMessageDefinitionIdentifierSystem#MedCom
+//* identifier.system = $MedcomMessagingMessageDefinitionIdentifierSystem#MedCom
 * identifier.period.start 1..1 MS SU
 * identifier.period.end 0..1 MS SU
 * identifier.type from ehmi-medcom-message-definition-type-valueset
