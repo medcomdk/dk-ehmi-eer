@@ -3,8 +3,13 @@ Parent: Device
 Description: "An EHMI profile of the Device resource."
 * identifier 1..1
 * definition only Reference(EerDeviceDefinition) 1..1
+* lotNumber 0..0
+* serialNumber 0..0
 * udiCarrier 0..0
+* patient 0..0
+* location 0..0
 * parent 0..0
+
 
 Profile: EerDeviceEAP
 Parent: EerDevice
