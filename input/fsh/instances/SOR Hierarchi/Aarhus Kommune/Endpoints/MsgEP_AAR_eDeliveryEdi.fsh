@@ -1,8 +1,8 @@
 /*
-Instance: EHMIMessagingEndpoint-AAR-eDeliveryEdi.5790002508226
+Instance: EerMessagingEndpoint-AAR-eDeliveryEdi.5790002508226
 InstanceOf: EHMIeDeliveryMessagingEdiEndpoint
 Description: "AAR EHMIeDeliveryMessagingEdiEndpoint."
-* id = "EHMIMessagingEndpoint-AAR-eDeliveryEdi.01"
+* id = "EerMessagingEndpoint-AAR-eDeliveryEdi.01"
 * identifier.value = "5790002508226"
 * identifier.system = $EHMIAuditEventAgentWhoIdentifierTypes
 * identifier.type = $EHMIAuditEventAgentWhoIdentifierTypes#GLN

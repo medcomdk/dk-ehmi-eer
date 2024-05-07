@@ -1,8 +1,8 @@
 /*
-Instance: EHMIMessagingEndpoint-Herlev-VansFhir.5790002508226
+Instance: EerMessagingEndpoint-Herlev-VansFhir.5790002508226
 InstanceOf: EHMIMessagingVansFhirEndpoint
-Description: "Herlev EHMIMessagingEndpoint-Herlev-VansFhir.01."
-* id = "EHMIMessagingEndpoint-Herlev-VansFhir.01"
+Description: "Herlev EerMessagingEndpoint-Herlev-VansFhir.01."
+* id = "EerMessagingEndpoint-Herlev-VansFhir.01"
 * identifier.value = "5790002508226"
 * identifier.system = $EHMIAuditEventAgentWhoIdentifierTypes
 * identifier.type = $EHMIAuditEventAgentWhoIdentifierTypes#GLN

@@ -1,6 +1,6 @@
-Profile:      EHMIMessagingEndpoint
+Profile:      EerMessagingEndpoint
 Parent:       MCSDEndpoint
-Id:           ehmi.dk.messaging
+Id:           dk.eer.endpoint.messaging
 Title:        "EER Endpoint - General for Messaging"
 Description:  """
 A profile on the mCSD Endpoint.
@@ -22,16 +22,16 @@ mechanism).
 * extension contains eer-dk-core-system-extension named system 0..* MS 
 * extension contains eer-dk-core-network-supply-system-extension named networkSupplySystem 0..* MS 
 
-Profile:      EHMIeDeliveryMessagingEndpoint
-Parent:       EHMIMessagingEndpoint
-Id:           ehmi.dk.messaging.edelivery
+Profile:      EerMessagingEndpointeDelivery
+Parent:       EerMessagingEndpoint
+Id:           dk.eer.endpoint.messaging.edelivery
 Title:        "EER Endpoint eDelivery Messaging"
 Description:  "EER Endpoint eDelivery Messaging"
 * connectionType = $EHMIEndpointConnectionType#EHMIeDeliveryMessaging (exactly)
 
-Profile:      EHMIeDeliveryMessagingFhirEndpoint
-Parent:       EHMIeDeliveryMessagingEndpoint
-Id:           ehmi.dk.messaging.edelivery.fhir
+Profile:      EerMessagingEndpointeDeliveryFhir
+Parent:       EerMessagingEndpointeDelivery
+Id:           dk.eer.endpoint.messaging.edelivery.fhir
 Title:        "EER Endpoint eDelivery FHIR Messaging"
 Description:  "EER Endpoint eDelivery FHIR Messaging"
 //* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:fhir (exactly)
@@ -39,8 +39,8 @@ Description:  "EER Endpoint eDelivery FHIR Messaging"
 
 /*
 Profile:      EHMIeDeliveryMessagingEdiEndpoint
-Parent:       EHMIeDeliveryMessagingEndpoint
-Id:           ehmi.dk.messaging.edelivery.edi
+Parent:       EerMessagingEndpointeDelivery
+Id:           dk.eer.endpoint.messaging.edelivery.edi
 Title:        "EER Endpoint eDelivery EDI Messaging"
 Description:  "EER Endpoint eDelivery EDI Messaging"
 //* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:edi (exactly)
@@ -52,8 +52,8 @@ Description:  "EER Endpoint eDelivery EDI Messaging"
 
 /*
 Profile:      EHMIeDeliveryMessagingOioxmlEndpoint
-Parent:       EHMIeDeliveryMessagingEndpoint
-Id:           ehmi.dk.messaging.edelivery.oioxml
+Parent:       EerMessagingEndpointeDelivery
+Id:           dk.eer.endpoint.messaging.edelivery.oioxml
 Title:        "EER Endpoint eDelivery Oioxml Messaging"
 Description:  "EER Endpoint eDelivery Oioxml Messaging"
 //* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:oioxml (exactly)
@@ -65,8 +65,8 @@ Description:  "EER Endpoint eDelivery Oioxml Messaging"
 
 /*
 Profile:      EHMIMessagingVansEndpoint
-Parent:       EHMIMessagingEndpoint
-Id:           ehmi.dk.messaging.vans
+Parent:       EerMessagingEndpoint
+Id:           dk.eer.endpoint.messaging.vans
 Title:        "EER Endpoint VANS Messaging"
 Description:  "EER Endpoint VANS Messaging"
 * connectionType = $EHMIEndpointConnectionType#vansMessaging (exactly)
@@ -75,7 +75,7 @@ Description:  "EER Endpoint VANS Messaging"
 /*
 Profile:      EHMIMessagingVansFhirEndpoint
 Parent:       EHMIMessagingVansEndpoint
-Id:           ehmi.dk.messaging.vans.fhir
+Id:           dk.eer.endpoint.messaging.vans.fhir
 Title:        "EER Endpoint VANS FHIR Messaging"
 Description:  "EER Endpoint VANS FHIR Messaging"
 //* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:fhir (exactly)
@@ -85,7 +85,7 @@ Description:  "EER Endpoint VANS FHIR Messaging"
 /*
 Profile:      EHMIMessagingVansEdiEndpoint
 Parent:       EHMIMessagingVansEndpoint
-Id:           ehmi.dk.messaging.vans.edi
+Id:           dk.eer.endpoint.messaging.vans.edi
 Title:        "EER Endpoint VANS EDI Messaging"
 Description:  "EER Endpoint VANS EDI Messaging"
 //* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:edi (exactly)
@@ -98,7 +98,7 @@ Description:  "EER Endpoint VANS EDI Messaging"
 /*
 Profile:      EHMIMessagingVansOioxmlEndpoint
 Parent:       EHMIMessagingVansEndpoint
-Id:           ehmi.dk.messaging.vans.oioxml
+Id:           dk.eer.endpoint.messaging.vans.oioxml
 Title:        "EER Endpoint VANS Oioxml Messaging"
 Description:  "EER Endpoint VANS Oioxml Messaging"
 //* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:oioxml (exactly)

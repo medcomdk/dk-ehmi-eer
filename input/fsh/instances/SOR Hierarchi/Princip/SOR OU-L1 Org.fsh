@@ -7,9 +7,9 @@ Description: "An example of an SOR OU Organization."
 * type[SOR-Hierarchy].coding.code = $EerSOROrganizationType#OE
 * type[SOR-Hierarchy].coding.system = $EerSOROrganizationType
 * partOf = Reference(Organization/EER.SOR.HI.01.1)
-//* endpoint[0] = Reference(Endpoint/EHMIMessagingEndpoint-eDeliveryEdi.01)
-* endpoint[+] = Reference(Endpoint/EHMIMessagingEndpoint-eDeliveryFhir.01)
-//* endpoint[+] = Reference(Endpoint/EHMIMessagingEndpoint-eDeliveryOioxml.01)
-//* endpoint[+] = Reference(Endpoint/EHMIMessagingEndpoint-VansEdi.01)
-//* endpoint[+] = Reference(Endpoint/EHMIMessagingEndpoint-VansFhir.01)
-//* endpoint[+] = Reference(Endpoint/EHMIMessagingEndpoint-VansOioxml.01)
+//* endpoint[0] = Reference(Endpoint/EerMessagingEndpoint-eDeliveryEdi.01)
+* endpoint[+] = Reference(Endpoint/EerMessagingEndpoint-eDeliveryFhir.01)
+//* endpoint[+] = Reference(Endpoint/EerMessagingEndpoint-eDeliveryOioxml.01)
+//* endpoint[+] = Reference(Endpoint/EerMessagingEndpoint-VansEdi.01)
+//* endpoint[+] = Reference(Endpoint/EerMessagingEndpoint-VansFhir.01)
+//* endpoint[+] = Reference(Endpoint/EerMessagingEndpoint-VansOioxml.01)

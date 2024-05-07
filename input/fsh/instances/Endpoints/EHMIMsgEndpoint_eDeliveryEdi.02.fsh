@@ -1,9 +1,9 @@
 /*
-Instance: EHMIMessagingEndpoint-eDeliveryEdi.01
+Instance: EerMessagingEndpoint-eDeliveryEdi.01
 InstanceOf: EHMIeDeliveryMessagingEdiEndpoint
 Description: "An example of an EHMIeDeliveryMessagingEdiEndpoint."
-* id = "EHMIMessagingEndpoint-eDeliveryEdi.01"
-* identifier.value = "EHMIMessagingEndpoint-eDeliveryEdi.01"
+* id = "EerMessagingEndpoint-eDeliveryEdi.01"
+* identifier.value = "EerMessagingEndpoint-eDeliveryEdi.01"
 //* identifier.use = "official"
 * status = #active
 * managingOrganization = Reference(Organization/EER.SOR.HI.01.1)
