@@ -6,9 +6,9 @@ Description: "An EHMI profile of the Device resource."
 * udiCarrier 0..0
 * 
 
-Profile: EerDeviceAP
+Profile: EerDeviceEAP
 Parent: EerDevice
-Description: "An EerDeviceAP profile of the EerDevice resource."
+Description: "An EerDeviceEAP profile of the EerDevice resource."
 
 Profile: EerDeviceMSH
 Parent: EerDevice
