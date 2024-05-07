@@ -22,8 +22,8 @@ Alias: $mCSDEndpointConnectionType = http://hl7.org/fhir/R4/valueset-endpoint-co
 Alias: $EerDeviceType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-device-type
 Alias: $EerDeviceTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-device-type-valueset
 
-Alias: $EHMISORorganizationIdentierType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-sor-organization-identier-type
-Alias: $EHMISORorganizationIdentierTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-sor-organization-identier-type-valueset
+Alias: $EerSOROrganizationIdentierType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-sor-organization-identier-type
+Alias: $EerSOROrganizationIdentierTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-sor-organization-identier-type-valueset
 
 Alias: $EerMessageDefinitionIdentifierSystem = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-messagedefinition-identifier-system
 Alias: $EerMessageDefinitionIdentifierSystemVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-messagedefinition-identifier-system-valueset
@@ -34,11 +34,11 @@ Alias: $EHMIEndpointConnectionTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/Value
 Alias: $EHMIEndpointPayloadType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-payload-type
 Alias: $EHMIEndpointPayloadTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-payload-type-valueset
 
-Alias: $EHMISOROrganizationType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-sor-organization-type
-Alias: $EHMISOROrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-sor-organization-type-valueset
+Alias: $EerSOROrganizationType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-sor-organization-type
+Alias: $EerSOROrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-sor-organization-type-valueset
 
-Alias: $EHMISORIOOrganizationType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-sor-io-organization-type
-Alias: $EHMISORIOOrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-sor-io-organization-type-valueset
+Alias: $EerSORIOOrganizationType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-sor-io-organization-type
+Alias: $EerSORIOOrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-sor-io-organization-type-valueset
 
 Alias: $MedComMessageDefinitionUri = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-medcom-message-definition-uri
 Alias: $MedComMessageDefinitionUriVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-medcom-message-definition-uri-valueset
@@ -46,18 +46,18 @@ Alias: $MedComMessageDefinitionUriVS = http://medcomehmi.dk/ig/dk-ehmi-eer/Value
 Alias: $EHMIMedComMessageDefinitionType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-medcom-message-definition-type
 Alias: $EHMIMedComMessageDefinitionTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-medcom-message-definition-type-valueset
 
-Alias: $EHMISORUnitType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-sor-unit-type
-Alias: $EHMISORUnitTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-sor-unit-type-valueset
+Alias: $EerSORUnitType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-sor-unit-type
+Alias: $EerSORUnitTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-sor-unit-type-valueset
 
-Alias: $EHMISORClinicalAdministrativeHierarchy = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-sor-clinical-administrative-hierarchy
-Alias: $EHMISORClinicalAdministrativeHierarchyVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-sor-clinical-administrative-hierarchy-valueset
+Alias: $EerSORClinicalAdministrativeHierarchy = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-sor-clinical-administrative-hierarchy
+Alias: $EerSORClinicalAdministrativeHierarchyVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-sor-clinical-administrative-hierarchy-valueset
 
-//Alias: $EHMISORMunicipalityCode = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-sor-municipality-type
-Alias: $EHMISORMunicipalityCode = http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes
-Alias: $EHMISORMunicipalityCodeVS = http://hl7.dk/fhir/core/ValueSet/dk-core-MunicipalityCodes
+//Alias: $EerSORMunicipalityCode = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-sor-municipality-type
+Alias: $EerSORMunicipalityCode = http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes
+Alias: $EerSORMunicipalityCodeVS = http://hl7.dk/fhir/core/ValueSet/dk-core-MunicipalityCodes
 
-Alias: $EHMISORRegionalCode = http://hl7.dk/fhir/core/CodeSystem/dk-core-regional-subdivision-codes
-Alias: $EHMISORRegionalCodeVS = http://hl7.dk/fhir/core/ValueSet/dk-core-RegionalSubDivisionCodes
+Alias: $EerSORRegionalCode = http://hl7.dk/fhir/core/CodeSystem/dk-core-regional-subdivision-codes
+Alias: $EerSORRegionalCodeVS = http://hl7.dk/fhir/core/ValueSet/dk-core-RegionalSubDivisionCodes
 
 Alias: $MessageEvents = http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-messaging-eventCodes
 

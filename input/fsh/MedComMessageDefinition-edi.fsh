@@ -1,7 +1,7 @@
 /*
 Profile: EerMessageDefinitionEdi
 Parent: EerMessageDefinition
-Description: "An example profile of the MessageDefinition-edi resource."
+Description: "WILL BE MOVED TO MedComMessaging IG: An example profile of the MessageDefinition-edi resource."
 //* id = 
 * identifier.system = $EerMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:edifact
 * identifier.type = $EHMIMedComMessageDefinitionType#EDIFACT

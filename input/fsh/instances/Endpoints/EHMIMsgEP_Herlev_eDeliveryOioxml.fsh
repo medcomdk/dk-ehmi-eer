@@ -7,7 +7,7 @@ Description: "Herlev EHMIeDeliveryMessagingOioxmlEndpoint."
 * identifier.system = $EHMIAuditEventAgentWhoIdentifierTypes
 * identifier.type = $EHMIAuditEventAgentWhoIdentifierTypes#GLN
 * status = #active
-* managingOrganization = Reference(Organization/EHMI.SOR.IO-Herlev-Kommune-SOR.101000016005)
+* managingOrganization = Reference(Organization/EER.SOR.IO-Herlev-Kommune-SOR.101000016005)
 * period.start = "2023-01-01"
 * period.end = "2024-01-01"
 * address = "http://herlev.dk/oioxml"

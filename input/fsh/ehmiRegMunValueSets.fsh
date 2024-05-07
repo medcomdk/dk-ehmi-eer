@@ -1,6 +1,6 @@
 CodeSystem: EHMISORRegionType
 Id: ehmi-sor-region-type
-Title: "EHMI SOR Region Types CS"
+Title: "EER SOR Region Types CS"
 Description: "ehmi-sor-region-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -16,7 +16,7 @@ Description: "ehmi-sor-region-type for the EHMI Messaging Infrastructure"
 
 ValueSet: EHMISORRegionTypeVS
 Id: ehmi-sor-region-type-valueset
-Title: "EHMI SOR Region Types Valueset"
+Title: "EER SOR Region Types Valueset"
 Description: "ValueSet containing codes for EHMI ehmi-sor-region-type"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -27,7 +27,7 @@ Description: "ValueSet containing codes for EHMI ehmi-sor-region-type"
 
 CodeSystem: EHMISORMunicipalityType
 Id: ehmi-sor-municipality-type
-Title: "EHMI SOR Municipality Types CS"
+Title: "EER SOR Municipality Types CS"
 Description: "ehmi-sor-Municipality-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -136,7 +136,7 @@ Description: "ehmi-sor-Municipality-type for the EHMI Messaging Infrastructure"
 
 ValueSet: EHMISORMunicipalityTypeVS
 Id: ehmi-sor-municipality-type-valueset
-Title: "EHMI SOR Municipality Types Valueset"
+Title: "EER SOR Municipality Types Valueset"
 Description: "ValueSet containing codes for EHMI ehmi-sor-Municipality-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active

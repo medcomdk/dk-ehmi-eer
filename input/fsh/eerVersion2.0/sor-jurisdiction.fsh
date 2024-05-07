@@ -5,7 +5,7 @@ Id:           MedCom.SOR.JurisdictionOrganization
 Title:        "SOR Jurisdiction Organization"
 Description:  """ MedCom.SOR.JurisdictionOrganization """
 * type from ehmi-sor-organization-type-valueset
-* type = $EHMISOROrganizationType#IE (exactly)
+* type = $EerSOROrganizationType#IE (exactly)
 
 Profile:      SORJurisdictionLocation
 Parent:       MCSDJurisdictionLocation

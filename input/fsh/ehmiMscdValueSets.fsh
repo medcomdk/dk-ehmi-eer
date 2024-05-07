@@ -1,7 +1,7 @@
-CodeSystem: EHMISOROrganizationIdentierType
+CodeSystem: EerSOROrganizationIdentierType
 Id: ehmi-sor-organization-identier-type
-Title: "EHMI SOR Organization Identier Type CodeSystem"
-Description: "CodeSystem containing codes for EHMI SOR Organization Identier Type"
+Title: "EER SOR Organization Identier Type CodeSystem"
+Description: "CodeSystem containing codes for EER SOR Organization Identier Type"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
@@ -13,9 +13,9 @@ Description: "CodeSystem containing codes for EHMI SOR Organization Identier Typ
 * #RegionCode "Region Code" "Regionskode"
 //* include codes from system http://hl7.org/fhir/ValueSet/identifier-type
 
-ValueSet: EHMISORorganizationIdentierTypeVS
+ValueSet: EerSOROrganizationIdentierTypeVS
 Id: ehmi-sor-organization-identier-type-valueset
-Title: "EHMI SOR Organization Identier Type Valueset"
+Title: "EER SOR Organization Identier Type Valueset"
 Description: "ValueSet containing codes for SOR Organization Identier Type"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -81,9 +81,9 @@ Description: "ValueSet containing codes for EHMI payloadTypes"
 * ^experimental = true
 * include codes from system ehmi-payload-type
 
-CodeSystem: EHMISOROrganization
+CodeSystem: EerSOROrganization
 Id: ehmi-sor-organization-type
-Title: "EHMI SOR Organization Types CS"
+Title: "EER SOR Organization Types CS"
 Description: "ehmi-sor-organization-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -97,15 +97,15 @@ Description: "ehmi-sor-organization-type for the EHMI Messaging Infrastructure"
   * #SI "SOR Organization - Healthcare Institution HI"
     * #OE "SOR Organization - Organizational Unit OU"
 
-ValueSet: EHMISOROrganizationVS
+ValueSet: EerSOROrganizationVS
 Id: ehmi-sor-organization-type-valueset
-Title: "EHMI SOR Organization Types Valueset"
+Title: "EER SOR Organization Types Valueset"
 Description: "ValueSet containing codes for EHMI ehmi-sor-organization-type"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
 * ^experimental = true
-* ^compose.include[+].system = $EHMISOROrganizationType
+* ^compose.include[+].system = $EerSOROrganizationType
 * ^compose.include[=].concept[+].code = #IO
 * ^compose.include[=].concept[=].display = "Institution Owner"
 * ^compose.include[=].concept[=].designation[+].language = #da
@@ -134,7 +134,7 @@ Description: "ValueSet containing codes for EHMI ehmi-sor-organization-type"
 
 CodeSystem: EHMISORNetOperator
 Id: ehmi-sor-net-operator-type
-Title: "EHMI SOR Netoperator Types CS"
+Title: "EER SOR Netoperator Types CS"
 Description: "ehmi-sor-net-operator-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -151,7 +151,7 @@ Description: "ehmi-sor-net-operator-type for the EHMI Messaging Infrastructure"
 
 ValueSet: EHMISORNetOperatorVS
 Id: ehmi-sor-net-operator-type-valueset
-Title: "EHMI SOR Netoperator Types Valueset"
+Title: "EER SOR Netoperator Types Valueset"
 Description: "ehmi-sor-net-operator-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -217,9 +217,9 @@ Description: "EHMIUseContextCodeSystemVS for the EHMI Messaging Infrastructure"
 * ^experimental = true
 * include codes from system http://terminology.hl7.org/CodeSystem/usage-context-type
 
-CodeSystem: EHMISORIOOrganization
+CodeSystem: EerSORIOOrganization
 Id: ehmi-sor-io-organization-type
-Title: "EHMI SOR Organization Types CS"
+Title: "EER SOR Organization Types CS"
 Description: "ehmi-sor-organization-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -231,9 +231,9 @@ Description: "ehmi-sor-organization-type for the EHMI Messaging Infrastructure"
 * #Region "SOR Region Organization - Institution Owner IO (DK:IE)"
 * #Generic "General encompassing the principle"
 
-ValueSet: EHMISORIOOrganizationVS
+ValueSet: EerSORIOOrganizationVS
 Id: ehmi-sor-io-organization-type-valueset
-Title: "EHMI SOR IO Organization Types Valueset"
+Title: "EER SOR IO Organization Types Valueset"
 Description: "ValueSet containing codes for EHMI ehmi-sor-io-organization-type"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -243,7 +243,7 @@ Description: "ValueSet containing codes for EHMI ehmi-sor-io-organization-type"
 
 CodeSystem: EHMISORUnitType
 Id: ehmi-sor-unit-type
-Title: "EHMI SOR Unit Types CS"
+Title: "EER SOR Unit Types CS"
 Description: "ehmi-sor-unit-type for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -273,7 +273,7 @@ Description: "ehmi-sor-unit-type for the EHMI Messaging Infrastructure"
 
 ValueSet: EHMISORUnitTypeVS
 Id: ehmi-sor-unit-type-valueset
-Title: "EHMI SOR Unit Types Valueset"
+Title: "EER SOR Unit Types Valueset"
 Description: "ValueSet containing codes for EHMI ehmi-sor-io-organization-type"
 * ^version  =  "1.0.0"
 * ^status  =  #active
@@ -283,8 +283,8 @@ Description: "ValueSet containing codes for EHMI ehmi-sor-io-organization-type"
 
 CodeSystem: EHMISORClinicalAdministrativeHierarchy
 Id: ehmi-sor-clinical-administrative-hierarchy
-Title: "EHMI SOR Clinical Administrative Hierarchy CS"
-Description: "CodeSystem containing codes for EHMI SOR Clinical Administrative Hierarchy"
+Title: "EER SOR Clinical Administrative Hierarchy CS"
+Description: "CodeSystem containing codes for EER SOR Clinical Administrative Hierarchy"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
@@ -299,8 +299,8 @@ Description: "CodeSystem containing codes for EHMI SOR Clinical Administrative H
 
 ValueSet: EHMISORClinicalAdministrativeHierarchyVS
 Id: ehmi-sor-clinical-administrative-hierarchy-valueset
-Title: "EHMI SOR Clinical Administrative Hierarchy Valueset"
-Description: "ValueSet containing codes for EHMI SOR Clinical Administrative Hierarchy"
+Title: "EER SOR Clinical Administrative Hierarchy Valueset"
+Description: "ValueSet containing codes for EER SOR Clinical Administrative Hierarchy"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"

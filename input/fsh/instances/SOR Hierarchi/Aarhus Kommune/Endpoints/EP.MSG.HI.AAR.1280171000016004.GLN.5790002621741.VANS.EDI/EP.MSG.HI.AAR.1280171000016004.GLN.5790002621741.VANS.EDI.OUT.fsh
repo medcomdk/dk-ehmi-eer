@@ -8,7 +8,7 @@ Description: "AAR EHMIMessaging VansEdi Endpoint Outbound"
 * identifier.type = $EHMIAuditEventAgentWhoIdentifierTypes#GLN
 //* identifier.use = "official"
 * status = #active
-* managingOrganization = Reference(Organization/EHMI.SOR.HI-AAR-Kommune.1280171000016004)
+* managingOrganization = Reference(Organization/EER.SOR.HI-AAR-Kommune.1280171000016004)
 * period.start = "2023-01-01"
 //* period.end = "2024-01-01"
 * address = "http://aar.dk/vans/edi/out"
