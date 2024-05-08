@@ -16,12 +16,15 @@ Description: "An EHMI profile of the Device resource."
 Profile: EerDeviceEAP
 Parent: EerDevice
 Description: "An EerDeviceEAP profile of the EerDevice resource."
+* definition only Reference(EerDeviceDefinitionEAP) 
 
 Profile: EerDeviceMSH
 Parent: EerDevice
 Description: "An EerDeviceMSH profile of the EerDevice resource."
+* definition only Reference(EerDeviceDefinitionMSH) 
 
 Profile: EerDeviceEUA
 Parent: EerDevice
 Description: "An EerDeviceEUA profile of the EerDevice resource."
+* definition only Reference(EerDeviceDefinitionEUA) 
 

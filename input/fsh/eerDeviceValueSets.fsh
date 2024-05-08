@@ -10,8 +10,11 @@ Description: "CodeSystem containing codes for EER-Device-Type"
 * #EUA "End User Application" "EUA"
   * #EOJ "Electronical Homecare Journal" "EOJ"
   * #LPS "General Practitioner System" "LPS"
-* #MSH "Message Service Handler" "MSH"
-* #EAP "eDelivery Access Point" "EAP"
+  * #EHR "Electronical Healthcare Record" "EHR"
+* #MIDDLEWARE "eDelivery Access Point" "MIDDLEWARE"
+  * #MSH "Message Service Handler" "MSH"
+  * #EAP "eDelivery Access Point" "EAP"
+  * #VANS "VANS Access Point" "VANS"
 
 
 ValueSet: EerDeviceTypeVS

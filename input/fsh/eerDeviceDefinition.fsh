@@ -37,8 +37,13 @@ Parent: EerDeviceDefinition
 Description: "An EerDeviceDefinition-MSH profile of the EerDeviceDefinition resource."
 * type =  $EerDeviceType#MSH "Message Service Handler"
 
-Profile: EerDeviceDefinitionEAP
+Profile: EerDeviceDefinitionNetwork
 Parent: EerDeviceDefinition
+Description: "An EerDeviceDefinition-EAP profile of the EerDeviceDefinition resource."
+//* type =  $EerDeviceType#EAP "eDelivery Access Point"
+
+Profile: EerDeviceDefinitionEAP
+Parent: EerDeviceDefinitionNetwork
 Description: "An EerDeviceDefinition-EAP profile of the EerDeviceDefinition resource."
 * type =  $EerDeviceType#EAP "eDelivery Access Point"
 
