@@ -31,7 +31,7 @@ dependencies:
   dk.ehmi.terminology: current
   # dk.ehmi.core: current
   medcom.fhir.dk.core: 2.3.0
-  medcom.fhir.dk.messaging: dev/current
+  medcom.fhir.dk.messaging: dev
 #  medcom.fhir.dk.messaging: 2.0.0
   medcom.fhir.dk.terminology: 1.6.0
 ##
