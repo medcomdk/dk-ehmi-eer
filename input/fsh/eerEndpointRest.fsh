@@ -1,7 +1,7 @@
 Profile:      EerEndpointRest
 Parent:       MCSDEndpoint
 Id:           dk.eer.endpoint.rest
-Title:        "EER Endpoint - General for Messaging"
+Title:        "EER Endpoint - General for REST calls"
 Description:  """
 A profile on the mCSD Endpoint.
 
