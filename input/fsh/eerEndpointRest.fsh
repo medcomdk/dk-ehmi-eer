@@ -15,7 +15,9 @@ mechanism).
 //* identifier.code = #official
 * identifier.value 1..1 MS SU
 * connectionType from ehmi-connection-type-valueset
-* connectionType = #hl7-fhir-rest
+* connectionType.code = #hl7-fhir-rest
+* connectionType.display = "hl7-fhir-rest"
+* connectionType.system = "http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-connection-type"
 * period 1..1 MS SU
 * payloadType from ehmi-medcom-message-definition-uri-valueset
 * payloadType 1..* MS SU
