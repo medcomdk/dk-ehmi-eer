@@ -1,13 +1,12 @@
 Profile:      EerMessagingEndpoint
-Parent:       MCSDEndpoint
+Parent:       EerEndpoint
 Id:           dk.eer.endpoint.messaging
-Title:        "EER Endpoint - General for Messaging"
+Title:        "EER Endpoint - General endpoint for EHMI Messaging"
 Description:  """
-A profile on the mCSD Endpoint.
+A profile on the EerEndpoint.
 
-An Organization may be reachable through electronic Endpoint(s).
-An Endpoint may be a eDelivery receiver or a vans receiver (or in the future a FHIR server, an IHE web services actor, or some other
-mechanism).
+An Organization may be reachable through electronic messaging Endpoint(s).
+A messaging Endpoint may be a eDelivery receiver or a vans receiver
 """
 * identifier 1..1 MS SU
 * identifier.system = $EHMIAuditEventAgentWhoIdentifierTypes
@@ -25,14 +24,19 @@ mechanism).
 Profile:      EerMessagingEndpointeDelivery
 Parent:       EerMessagingEndpoint
 Id:           dk.eer.endpoint.messaging.edelivery
-Title:        "EER Endpoint eDelivery Messaging"
-Description:  "EER Endpoint eDelivery Messaging"
+Title:        "EER Endpoint - Specific Endpoint for EHMI Messaging on eDelivery"
+Description:  """
+A EER Endpoint eDelivery Messaging profile on the EerEndpoint. 
+
+An Organization may be reachable through electronic messaging Endpoint(s).
+A messaging Endpoint may be a eDelivery receiver
+"""
 * connectionType = $EHMIEndpointConnectionType#EHMIeDeliveryMessaging (exactly)
 
 Profile:      EerMessagingEndpointeDeliveryFhir
 Parent:       EerMessagingEndpointeDelivery
 Id:           dk.eer.endpoint.messaging.edelivery.fhir
-Title:        "EER Endpoint eDelivery FHIR Messaging"
+Title:        "EER Endpoint - Specific Endpoint for EHMI Messaging on eDelivery for FHIR Messages"
 Description:  "EER Endpoint eDelivery FHIR Messaging"
 //* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:fhir (exactly)
 //* payloadType = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0

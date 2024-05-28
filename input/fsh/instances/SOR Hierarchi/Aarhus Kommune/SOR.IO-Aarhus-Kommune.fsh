@@ -1,5 +1,6 @@
 Instance: EER.SOR.IO-AAR-Kommune.311000016009
-InstanceOf: EerSORMunicipalityOrganization
+//InstanceOf: EerSORMunicipalityOrganization
+InstanceOf: EerSORIOOrganization
 Description: "EER.SOR.IO-AAR-Kommune as a SOR IO Organization."
 * id = "EER.SOR.IO-AAR-Kommune.311000016009" //SOR-Id
 * identifier[SOR].type = $EerSOROrganizationIdentierType#SOR

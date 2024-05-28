@@ -1,5 +1,5 @@
 Profile:      EerEndpointRest
-Parent:       MCSDEndpoint
+Parent:       EerEndpoint
 Id:           dk.eer.endpoint.rest
 Title:        "EER Endpoint - General for REST calls"
 Description:  """
@@ -19,8 +19,8 @@ mechanism).
 * payloadType from ehmi-medcom-message-definition-uri-valueset
 * payloadType 1..* MS SU
 * payloadMimeType 1..1 MS SU
-* extension contains eer-dk-core-system-extension named system 0..* MS 
-* extension contains eer-dk-core-network-supply-system-extension named networkSupplySystem 0..* MS 
+//* extension contains eer-dk-core-system-extension named system 0..* MS 
+//* extension contains eer-dk-core-network-supply-system-extension named networkSupplySystem 0..* MS 
 
 Profile:      EerEndpointRestEds
 Parent:       EerEndpointRest

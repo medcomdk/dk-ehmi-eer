@@ -1,5 +1,5 @@
-Instance: eerDeviceDefinition-LPS.Novax
-InstanceOf: EerDeviceDefinitionLPS
+Instance: eerDeviceDefinition-EUA-LPS.Novax
+InstanceOf: EerDeviceDefinitionEUALPS
 Description: "An example of an EerDeviceDefinition-LPS for eerDeviceDefinition-LPS.Novax"
 * identifier.value = "eerDeviceDefinition.LPS.Novax"
 //* identifier.value

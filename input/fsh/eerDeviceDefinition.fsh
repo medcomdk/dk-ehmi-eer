@@ -1,6 +1,8 @@
 Profile: EerDeviceDefinition
 Parent: DeviceDefinition
-Description: "An EER profile of the DeviceDefinition resource."
+Id:     EER.DeviceDefinition
+Title:  "EER DeviceDefinition for General Devices"
+Description: "An EHMI profile of the EerDeviceDefinition resource."
 * identifier 1..1 MS 
 * manufacturerString 1..1 MS // bør være manufacturerReference, men for nu ok
 // * manufacturerReference
@@ -19,31 +21,43 @@ Description: "An EER profile of the DeviceDefinition resource."
 
 Profile: EerDeviceDefinitionEUA
 Parent: EerDeviceDefinition
-Description: "An EerDeviceDefinition-EUA profile of the EerDeviceDefinition resource."
+Id:     EER.DeviceDefinition.EUA
+Title:  "EER DeviceDefinition for End User Applications"
+Description: "An EHMI profile of the EerDeviceDefinition resource for End User Applications"
 //* type =  $EerDeviceType#EUA "End User Application"
 
-Profile: EerDeviceDefinitionLPS
+Profile: EerDeviceDefinitionEUALPS
 Parent: EerDeviceDefinitionEUA
-Description: "An EerDeviceDefinition-LPS profile of the EerDeviceDefinition resource."
+Id:     EER.DeviceDefinition.EUA.LPS
+Title:  "EER DeviceDefinition for End User Applications of the LPS type"
+Description: "An EHMI profile of the EerDeviceDefinition resource for End User Applications of the LPS type"
 * type =  $EerDeviceType#LPS "General Practitioner System"
 
-Profile: EerDeviceDefinitionEOJ
+Profile: EerDeviceDefinitionEUAEOJ
 Parent: EerDeviceDefinitionEUA
-Description: "An EerDeviceDefinition-EOJ profile of the EerDeviceDefinition resource."
+Id:     EER.DeviceDefinition.EUA.EOJ
+Title:  "EER DeviceDefinition for End User Applications of the EOJ type"
+Description: "An EHMI profile of the EerDeviceDefinition resource for End User Applications of the EOJ type"
 * type = $EerDeviceType#EOJ "Electronical Homecare Journal"
 
 Profile: EerDeviceDefinitionMSH
 Parent: EerDeviceDefinition
-Description: "An EerDeviceDefinition-MSH profile of the EerDeviceDefinition resource."
+Id:     EER.DeviceDefinition.MSH
+Title:  "EER DeviceDefinition for Message Service Handlers"
+Description: "An EHMI profile of the EerDeviceDefinition resource for Message Service Handlers"
 * type =  $EerDeviceType#MSH "Message Service Handler"
 
 Profile: EerDeviceDefinitionNetwork
 Parent: EerDeviceDefinition
-Description: "An EerDeviceDefinition-EAP profile of the EerDeviceDefinition resource."
+Id:     EER.DeviceDefinition.Network
+Title:  "EER DeviceDefinition for Network Applications"
+Description: "An EHMI profile of the EerDeviceDefinition resource for Network Applications"
 //* type =  $EerDeviceType#EAP "eDelivery Access Point"
 
 Profile: EerDeviceDefinitionEAP
 Parent: EerDeviceDefinitionNetwork
-Description: "An EerDeviceDefinition-EAP profile of the EerDeviceDefinition resource."
+Id:     EER.DeviceDefinition.Network.EAP
+Title:  "EER DeviceDefinition for Network Applications of the eDelivery Access Point type"
+Description: "An EHMI profile of the EerDeviceDefinition resource for Network Applications of the eDelivery Access Point type"
 * type =  $EerDeviceType#EAP "eDelivery Access Point"
 

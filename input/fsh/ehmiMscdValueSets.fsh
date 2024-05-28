@@ -270,6 +270,9 @@ Description: "ehmi-sor-unit-type for the EHMI Messaging Infrastructure"
 * #anden-EDI "Anden EDI"
 * #sygeplejeklinik "Sygeplejeklinik"
 * #behandlingscenter-for-stofmisbrugere "Behandlingscenter for stofmisbrugere"
+* #genericIO "Generisk IO enhed"
+* #genericHI "Generisk SI enhed"
+* #genericOU "Generisk SI enhed"
 
 ValueSet: EHMISORUnitTypeVS
 Id: ehmi-sor-unit-type-valueset

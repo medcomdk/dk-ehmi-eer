@@ -1,5 +1,7 @@
 Profile: EerDevice
 Parent: Device
+Id:     EER.Device
+Title:  "EER Device"
 Description: "An EHMI profile of the Device resource."
 * identifier 1..1
 * definition 1..1
@@ -15,16 +17,22 @@ Description: "An EHMI profile of the Device resource."
 
 Profile: EerDeviceEAP
 Parent: EerDevice
-Description: "An EerDeviceEAP profile of the EerDevice resource."
+Id:     EER.Device.AP
+Title:  "EER Device for eDelivery Access Points (EAP)"
+Description: "An EHMI profile of the EerDevice resource."
 * definition only Reference(EerDeviceDefinitionEAP) 
 
 Profile: EerDeviceMSH
 Parent: EerDevice
-Description: "An EerDeviceMSH profile of the EerDevice resource."
+Id:     EER.Device.MSH
+Title:  "EER Device for Message Service Handlers (MSH)"
+Description: "An EHMI profile of the EerDevice resource."
 * definition only Reference(EerDeviceDefinitionMSH) 
 
 Profile: EerDeviceEUA
 Parent: EerDevice
-Description: "An EerDeviceEUA profile of the EerDevice resource."
+Id:     EER.Device.EUA
+Title:  "EER Device for End USer Applications (EUA)"
+Description: "An EHMI profile of the EerDevice resource."
 * definition only Reference(EerDeviceDefinitionEUA) 
 
