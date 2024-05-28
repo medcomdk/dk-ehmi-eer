@@ -32,7 +32,7 @@ Description: "An EHMI profile of the EerDevice resource."
 Profile: EerDeviceEUA
 Parent: EerDevice
 Id:     EER.Device.EUA
-Title:  "EER Device for End USer Applications (EUA)"
+Title:  "EER Device for End User Applications (EUA)"
 Description: "An EHMI profile of the EerDevice resource."
 * definition only Reference(EerDeviceDefinitionEUA) 
 

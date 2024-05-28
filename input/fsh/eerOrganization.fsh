@@ -44,12 +44,12 @@ Description:  """ EER SOR Institution Owner Organization IO (DK:IE) """
   * ^slicing.discriminator.path = coding.code
   * ^slicing.rules = #open //#closed eller #open 
 * type contains
-    EerSORIOOrganizationType 1..1 MS SU 
+    EerSORIOOrganizationType 0..1 MS SU 
 * type[SOR-Hierarchy].coding.code = $EerSOROrganizationType#IE (exactly)
 * type[EerSORIOOrganizationType].coding.code from $EerSORIOOrganizationTypeVS
 * type[EerSORIOOrganizationType].coding.system = $EerSORIOOrganizationType
 * partOf 0..0
-* endpoint 0..0
+* endpoint 0..1
 
 
 Profile:      EerSORHIOrganization

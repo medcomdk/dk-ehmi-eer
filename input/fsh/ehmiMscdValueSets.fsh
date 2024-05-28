@@ -226,7 +226,7 @@ Description: "ehmi-sor-organization-type for the EHMI Messaging Infrastructure"
 * ^date  =  "2023-09-01"
 * ^experimental = true
 * ^caseSensitive = true
-* #GeneralPractitioner "SOR GeneralPractitioner Organization - Institution Owner IO (DK:IE)"
+* #Private "SOR Private Organization - Institution Owner IO (DK:IE)"
 * #Municipality "SOR Municipality Organization - Institution Owner IO (DK:IE)"
 * #Region "SOR Region Organization - Institution Owner IO (DK:IE)"
 * #Generic "General encompassing the principle"
