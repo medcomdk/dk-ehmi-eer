@@ -1,3 +1,4 @@
+/*
 Instance: eer.getReceivingOrganizationBySORId
 InstanceOf: OperationDefinition
 Description: "EER getReceivingOrganizationBySORId"
@@ -57,3 +58,4 @@ Profile: EerMedComMessagingOrganization
 Parent: MedComMessagingOrganization
 
 
+*/
