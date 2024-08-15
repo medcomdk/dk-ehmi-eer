@@ -85,6 +85,8 @@ menu:
   Artifacts: artifacts.html
   Downloads: downloads.html
   Terminology: terminology.html
+  Use-cases: 
+    EER-EAS Use case 1: eas-Use-case-1.html
   User-stories: 
     EHMI User Stories: EHMI-User-Stories.html
     mCSD User-stories: EHMI-CSD-User-Stories.html
