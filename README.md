@@ -1,1 +1,2 @@
-# EHMI Endpoint Register (POC)
+# EHMI Endpoint Register (EER-0.8)
+
