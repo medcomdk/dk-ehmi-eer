@@ -150,7 +150,7 @@ An actor from this profile (Column 1) shall implement all of the required transa
 
 The Mobile Care Services Discovery (mCSD) Profile supports queries for resources related to care services discovery. The relationship between these entities is illustrated in Figure 1:46.4.1-1.
 
-![Top-level Relationships between Care Services Entities](mCSDRelationships.png)
+<!--![Top-level Relationships between Care Services Entities](mCSDRelationships.png)-->
 <div style="clear: left;"></div>
 
 **Figure 1:46.4.1-1: Top-level Relationships between Care Services Entities**
