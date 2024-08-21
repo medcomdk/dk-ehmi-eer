@@ -2,7 +2,7 @@
 
 An End User Application, EUA, calls EAS to retrieve the necessary message address metadata information for a potential receiver of a message. The sequence diagram for this is as follows:
 
-<!--img src="./eas_1_1_getReceiverData.png" alt="1_1_getReceiverData_getReceivingOrganizationBySORId" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px"-->
+<img src="./eas_1_1_getReceiverData.png" alt="1_1_getReceiverData_getReceivingOrganizationBySORId" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
  
 Initially, when EAS receives this request, the given organization id is validated, after which relevant organization information associated with the organization id is obtained from SOR. With this and the type of message to be sent, the EHMI Endpoint Register (EER) is then called to obtain the GLN number and other relevant information, and finally the response is packed and sent back to the caller of EAS. The message type is, again, needed in the second call to EAS, such that EAS can return the correct response for the given message type – it could for example be that the system of the general practitioner does not support receiving the particular type of message.
 
