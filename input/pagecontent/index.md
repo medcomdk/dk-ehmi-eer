@@ -6,20 +6,21 @@ The profile is based upen and inspired by the IHE mCSD profile and the use cases
 
 This version of the profile supports registration of and querying for the following use cases:
 
-EHMI Core
+**EHMI Core**
 - Registration of communicating SOR organizational units
 - Registration of endpoints correlating with a SOR organizational unit
 
-EHMI Addressing Service 
+  **ehmiSMP**
+    - registration of eDelivery Access Points (AP) as Devices for a SOR organizational unit and its EHMI Endpoint
+    - registration of SMP metadata for the SMP lookup service for certain messages (documents) for a given EHMI Endpoint
+
+
+**EHMI Addressing Service**
 - getReceiverDataBySORID
 
-EHMI Delivery Status
+**EHMI Delivery Status**
 - registration of reporting Devices for a "station" in the messageflow.
 - getting data for reporting Devices in the messageflow.
-
-ehmiSMP
-- registration of eDelivery Access Points (AP) as Devices for a SOR organizational unit and its EHMI Endpoint
-- registration of SMP metadata for the SMP lookup service for certain messages (documents) for a given EHMI Endpoint
 
 
 
