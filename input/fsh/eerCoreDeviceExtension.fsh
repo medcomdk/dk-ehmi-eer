@@ -2,8 +2,7 @@ Extension: EerCoreSystemExtension
 Id: eer-dk-core-system-extension
 Title: "eer Core System Extension"
 Description: "Reference to a Device that is used to specify one or more systems which an Endpoint uses
-This is equivalent to the SOR-element 
-"
+This is equivalent to the SOR-element"
 //* value[x] Reference 
 * value[x] 0.. 
 * value[x] only Reference(EerDeviceEUA) 
@@ -16,8 +15,8 @@ Description: "Reference to a Device that is used to specify one or more systems 
 * value[x] only Reference(EerDeviceEAP) 
 
 /*
-Profile:      ehmiCoreSystemExtension
-Parent:       ehmiCoreDeviceExtension
+Profile:      EerCoreDeviceExtension
+Parent:       EerCoreSystemExtension
 Id:           ehmi.dk.core.system.extension
 Title:        "ehmi Core System Extension"
 Description:  """
