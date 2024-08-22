@@ -1,4 +1,4 @@
-Profile:      EHMIMessagingEndpoint
+Profile:      EerMessagingEndpoint
 Parent:       MCSDEndpoint
 Id:           ehmi.dk.messaging
 Title:        "EHMI Endpoint - General for Messaging"
@@ -22,23 +22,23 @@ mechanism).
 * extension contains ehmi-core-system-extension named system 0..* MS 
 * extension contains ehmi-dk-core-network-supply-system-extension named networkSupplySystem 0..* MS 
 
-Profile:      EHMIeDeliveryMessagingEndpoint
-Parent:       EHMIMessagingEndpoint
+Profile:      EereDeliveryMessagingEndpoint
+Parent:       EerMessagingEndpoint
 Id:           ehmi.dk.messaging.edelivery
 Title:        "EHMI Endpoint eDelivery Messaging"
 Description:  "EHMI Endpoint eDelivery Messaging"
 * connectionType = $EHMIEndpointConnectionType#EHMIeDeliveryMessaging (exactly)
 
-Profile:      EHMIeDeliveryMessagingFhirEndpoint
-Parent:       EHMIeDeliveryMessagingEndpoint
+Profile:      EereDeliveryMessagingFhirEndpoint
+Parent:       EereDeliveryMessagingEndpoint
 Id:           ehmi.dk.messaging.edelivery.fhir
 Title:        "EHMI Endpoint eDelivery FHIR Messaging"
 Description:  "EHMI Endpoint eDelivery FHIR Messaging"
 //* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:fhir (exactly)
 //* payloadType = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 
-Profile:      EHMIeDeliveryMessagingEdiEndpoint
-Parent:       EHMIeDeliveryMessagingEndpoint
+Profile:      EereDeliveryMessagingEdiEndpoint
+Parent:       EereDeliveryMessagingEndpoint
 Id:           ehmi.dk.messaging.edelivery.edi
 Title:        "EHMI Endpoint eDelivery EDI Messaging"
 Description:  "EHMI Endpoint eDelivery EDI Messaging"
@@ -48,8 +48,8 @@ Description:  "EHMI Endpoint eDelivery EDI Messaging"
 //* payloadType[+].coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl02:c0230q	
 //* payloadType[+].coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl03:c0330q	
 
-Profile:      EHMIeDeliveryMessagingOioxmlEndpoint
-Parent:       EHMIeDeliveryMessagingEndpoint
+Profile:      EereDeliveryMessagingOioxmlEndpoint
+Parent:       EereDeliveryMessagingEndpoint
 Id:           ehmi.dk.messaging.edelivery.oioxml
 Title:        "EHMI Endpoint eDelivery Oioxml Messaging"
 Description:  "EHMI Endpoint eDelivery Oioxml Messaging"
@@ -59,23 +59,23 @@ Description:  "EHMI Endpoint eDelivery Oioxml Messaging"
 //* payloadType[+].coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl02:xc0230q	"NegativeReceipt"
 //* payloadType[+].coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl03:xc0330q	"PositivReceipt"
 
-Profile:      EHMIMessagingVansEndpoint
-Parent:       EHMIMessagingEndpoint
+Profile:      EerMessagingVansEndpoint
+Parent:       EerMessagingEndpoint
 Id:           ehmi.dk.messaging.vans
 Title:        "EHMI Endpoint VANS Messaging"
 Description:  "EHMI Endpoint VANS Messaging"
 * connectionType = $EHMIEndpointConnectionType#vansMessaging (exactly)
 
-Profile:      EHMIMessagingVansFhirEndpoint
-Parent:       EHMIMessagingVansEndpoint
+Profile:      EerMessagingVansFhirEndpoint
+Parent:       EerMessagingVansEndpoint
 Id:           ehmi.dk.messaging.vans.fhir
 Title:        "EHMI Endpoint VANS FHIR Messaging"
 Description:  "EHMI Endpoint VANS FHIR Messaging"
 //* payloadType = $EHMIEndpointPayloadType#urn:dk:medcom:prod:messaging:fhir (exactly)
 //* payloadType = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 
-Profile:      EHMIMessagingVansEdiEndpoint
-Parent:       EHMIMessagingVansEndpoint
+Profile:      EerMessagingVansEdiEndpoint
+Parent:       EerMessagingVansEndpoint
 Id:           ehmi.dk.messaging.vans.edi
 Title:        "EHMI Endpoint VANS EDI Messaging"
 Description:  "EHMI Endpoint VANS EDI Messaging"
@@ -85,8 +85,8 @@ Description:  "EHMI Endpoint VANS EDI Messaging"
 //* payloadType[+].coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl02:c0230q	
 //* payloadType[+].coding.code = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl03:c0330q	
 
-Profile:      EHMIMessagingVansOioxmlEndpoint
-Parent:       EHMIMessagingVansEndpoint
+Profile:      EerMessagingVansOioxmlEndpoint
+Parent:       EerMessagingVansEndpoint
 Id:           ehmi.dk.messaging.vans.oioxml
 Title:        "EHMI Endpoint VANS Oioxml Messaging"
 Description:  "EHMI Endpoint VANS Oioxml Messaging"

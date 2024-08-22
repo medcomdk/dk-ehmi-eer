@@ -1,7 +1,7 @@
-Instance: EHMIMessagingEndpoint-AAR-VansFhir.5790002508226
-InstanceOf: EHMIMessagingVansFhirEndpoint
-Description: "AAR EHMIMessagingEndpoint-AAR-VansFhir.01."
-* id = "EHMIMessagingEndpoint-AAR-VansFhir.01"
+Instance: EerMessagingEndpoint-AAR-VansFhir.5790002508226
+InstanceOf: EerMessagingVansFhirEndpoint
+Description: "AAR EerMessagingEndpoint-AAR-VansFhir.01."
+* id = "EerMessagingEndpoint-AAR-VansFhir.01"
 * identifier.value = "5790002508226"
 * identifier.system = $EHMIAuditEventAgentWhoIdentifierTypes
 * identifier.type = $EHMIAuditEventAgentWhoIdentifierTypes#GLN

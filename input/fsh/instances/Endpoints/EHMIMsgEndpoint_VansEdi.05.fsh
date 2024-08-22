@@ -1,8 +1,8 @@
-Instance: EHMIMessagingEndpoint-VansEdi.01
-InstanceOf: EHMIMessagingVansEdiEndpoint
-Description: "An example of an EHMIMessagingVansEdiEndpoint."
-* id = "EHMIMessagingEndpoint-VansEdi.01"
-* identifier.value = "EHMIMessagingEndpoint-VansEdi.01"
+Instance: EerMessagingEndpoint-VansEdi.01
+InstanceOf: EerMessagingVansEdiEndpoint
+Description: "An example of an EerMessagingVansEdiEndpoint."
+* id = "EerMessagingEndpoint-VansEdi.01"
+* identifier.value = "EerMessagingEndpoint-VansEdi.01"
 //* identifier.use = "official"
 * status = #active
 * managingOrganization = Reference(Organization/EHMI.SOR.HI.01.1)

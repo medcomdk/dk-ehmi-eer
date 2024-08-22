@@ -8,10 +8,10 @@ Description: "Sygehusadviser, Herlev - SOR.OU-Herlev-Kommune-SOR.105321100001600
 * type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#OU
 * type[SOR-Hierarchy].coding.system = $EHMISOROrganizationType
 * partOf = Reference(Organization/EHMI.SOR.HI-Herlev-Kommune-SOR.6501000016006)
-* endpoint[0] = Reference(Endpoint/EHMIMessagingEndpoint-Herlev-VansEdi.01)
-* endpoint[+] = Reference(Endpoint/EHMIMessagingEndpoint-Herlev-eDeliveryEdi.01)
-* endpoint[+] = Reference(Endpoint/EHMIMessagingEndpoint-Herlev-VansFhir.01)
-* endpoint[+] = Reference(Endpoint/EHMIMessagingEndpoint-Herlev-eDeliveryFhir.01)
-* endpoint[+] = Reference(Endpoint/EHMIMessagingEndpoint-Herlev-VansOioxml.01)
-* endpoint[+] = Reference(Endpoint/EHMIMessagingEndpoint-Herlev-eDeliveryOioxml.01)
+* endpoint[0] = Reference(Endpoint/EerMessagingEndpoint-Herlev-VansEdi.01)
+* endpoint[+] = Reference(Endpoint/EerMessagingEndpoint-Herlev-eDeliveryEdi.01)
+* endpoint[+] = Reference(Endpoint/EerMessagingEndpoint-Herlev-VansFhir.01)
+* endpoint[+] = Reference(Endpoint/EerMessagingEndpoint-Herlev-eDeliveryFhir.01)
+* endpoint[+] = Reference(Endpoint/EerMessagingEndpoint-Herlev-VansOioxml.01)
+* endpoint[+] = Reference(Endpoint/EerMessagingEndpoint-Herlev-eDeliveryOioxml.01)
 */

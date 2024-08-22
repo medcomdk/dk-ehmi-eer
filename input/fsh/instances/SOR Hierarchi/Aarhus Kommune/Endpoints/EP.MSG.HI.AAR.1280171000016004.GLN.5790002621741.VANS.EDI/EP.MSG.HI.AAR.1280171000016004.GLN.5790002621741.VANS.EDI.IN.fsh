@@ -1,6 +1,6 @@
 Instance: EP.MSG.HI.AAR.1280171000016004.GLN.5790002621741.VANS.EDI.IN
-InstanceOf: EHMIMessagingVansEdiEndpoint
-Description: "AAR EHMIMessaging VansEdi Endpoint Inbound"
+InstanceOf: EerMessagingVansEdiEndpoint
+Description: "AAR EerMessaging VansEdi Endpoint Inbound"
 * id = "EP.MSG.HI.AAR.1280171000016004.GLN.5790002621741.VANS.EDI.IN"
 * identifier.value = "5790002621741"
 * identifier.system = $EHMIAuditEventAgentWhoIdentifierTypes
