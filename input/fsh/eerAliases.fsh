@@ -1,0 +1,78 @@
+Alias: $EdsAuditEventTypes = http://medcomehmi.dk/ig/ehmi_balp/CodeSystem/ehmi-auditevent-types
+Alias: $EdsAuditEventSubTypes = http://medcomehmi.dk/ig/ehmi_balp/CodeSystem/ehmi-auditevent-sub-types
+Alias: $EdsAuditEventSubTypesValueset = http://medcomehmi.dk/ig/ehmi_balp/CodeSystem/ehmi-auditevent-sub-types
+Alias: $EdsAuditEventOutcome = http://hl7.org/fhir/audit-event-outcome
+Alias: $EdsAuditEventSourceType = http://medcomehmi.dk/ig/ehmi_balp/CodeSystem/ehmi-auditevent-source-type
+Alias: $EdsAuditEventParticipationRoleType = http://medcomehmi.dk/ig/ehmi_balp/CodeSystem/ehmi-auditevent-participationroletype
+Alias: $EerAuditEventAgentWhoIdentifierTypes = http://medcomehmi.dk/ig/ehmi_balp/CodeSystem/ehmi-auditevent-agent-who-identifier-types
+Alias: $EdsAuditEventEntityType = http://medcomehmi.dk/ig/ehmi_balp/CodeSystem/ehmi-auditevent-entity-type
+Alias: $EdsAuditEventEntityDetailType = http://medcomehmi.dk/ig/ehmi_balp/CodeSystem/ehmi-auditevent-entity-detail-type
+Alias: $EdsAuditEventValueSet = http://medcomfhir.dk/fhir/ehmi/CodeSystem/EHMIAuditEventValueSet
+Alias: $AuditEventAgentNetworkType = http://hl7.org/fhir/R4/valueset-network-type.html
+Alias: $AuditEventEntityType = http://hl7.org/fhir/R4/valueset-audit-entity-type.html
+Alias: $AuditEventAgentWhoTypes = http://hl7.org/fhir/R4/valueset-participation-role-type.html
+Alias: $AuditEventSubTypes = http://hl7.org/fhir/restful-interaction
+Alias: $AuditEventSubTypesValueset = http://hl7.org/fhir/R4/valueset-audit-event-sub-type.html
+Alias: $AuditEventTypes = http://terminology.hl7.org/CodeSystem/audit-event-type
+Alias: $AuditEventTypes2 = http://dicom.nema.org/resources/ontology/DCM
+Alias: $EdsAuditEventEntityMessageType = http://medcomehmi.dk/ig/ehmi_balp/CodeSystem/ehmi-auditevent-entity-message-type
+
+Alias: $mCSDEndpointConnectionType = http://hl7.org/fhir/R4/valueset-endpoint-connection-type.html
+
+
+Alias: $EerSorOrganizationIdentierType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-sor-organization-identier-type
+Alias: $EerSorOrganizationIdentierTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-sor-organization-identier-type-valueset
+
+Alias: $EerMessageDefinitionIdentifierSystem = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-messagedefinition-identifier-system
+Alias: $EerMessageDefinitionIdentifierSystemVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-messagedefinition-identifier-system-valueset
+
+Alias: $EerEndpointConnectionType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-endpoint-connection-type
+Alias: $EerEndpointConnectionTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-endpoint-connection-type-valueset
+
+Alias: $EerEndpointPayloadType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-payload-type
+Alias: $EerEndpointPayloadTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-payload-type-valueset
+
+Alias: $EerSorOrganizationType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-sor-organization-type
+Alias: $EerSorOrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-sor-organization-type-valueset
+
+Alias: $EerSorIOOrganizationType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-sor-io-organization-type
+Alias: $EerSorIOOrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-sor-io-organization-type-valueset
+
+Alias: $EerEerMedComMessageDefinitionUri = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-medcom-message-definition-uri
+Alias: $EerEerMedComMessageDefinitionUriVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-medcom-message-definition-uri-valueset
+
+Alias: $EerMedComMessageDefinitionType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-medcom-message-definition-type
+Alias: $EerMedComMessageDefinitionTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-medcom-message-definition-type-valueset
+
+Alias: $EerSorUnitType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-sor-unit-type
+Alias: $EerSorUnitTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-sor-unit-type-valueset
+
+Alias: $EerSorClinicalAdministrativeHierarchy = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-sor-clinical-administrative-hierarchy
+Alias: $EerSorClinicalAdministrativeHierarchyVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-sor-clinical-administrative-hierarchy-valueset
+
+//Alias: $EerSorMunicipalityCode = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-sor-municipality-type
+Alias: $EerSorMunicipalityCode = http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes
+Alias: $EerSorMunicipalityCodeVS = http://hl7.dk/fhir/core/ValueSet/dk-core-MunicipalityCodes
+
+Alias: $EerSorRegionalCode = http://hl7.dk/fhir/core/CodeSystem/dk-core-regional-subdivision-codes
+Alias: $EerSorRegionalCodeVS = http://hl7.dk/fhir/core/ValueSet/dk-core-RegionalSubDivisionCodes
+
+Alias: $MessageEvents = http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-messaging-eventCodes
+
+Alias: $EerUsageContextCodeSystem = http://terminology.hl7.org/CodeSystem/usage-context-type
+Alias: $EerUsageContextCodeSystemVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-messagedefinition-use-context-code-valueset
+/*
+Alias: $StatusCodes = http://hl7.org/fhir/encounter-status
+Alias: $ActCodes = http://terminology.hl7.org/CodeSystem/v3-ActCode 
+Alias: $EventStatus = http://hl7.org/fhir/event-status
+Alias: $CategoryCodes = http://medcomfhir.dk/fhir/carecommunication/CodeSystem/medcom-careCommunication-categoryCodes
+Alias: $ServerityCode = http://hl7.org/fhir/issue-severity
+Alias: $CodeCode = http://hl7.org/fhir/issue-type
+Alias: $AcknowledgementCode = http://hl7.org/fhir/ValueSet/Acknowledgement-code
+Alias: $BundleType = http://hl7.org/fhir/bundle-type
+Alias: $Use = http://medcomfhir.dk/fhir/messaging/CodeSystem/medcom-messaging-destinationUse
+Alias: $MessageEvents = http://medcomfhir.dk/fhir/messaging/CodeSystem/medcom-messaging-eventCodes
+Alias: $SORCode = urn:oid:1.2.208.176.1.1
+Alias: $EANCode = urn:oid:1.3.88
+Alias: $activityCodes = http://medcomfhir.dk/fhir/messaging/CodeSystem/medcom-messaging-activityCodes
+*/

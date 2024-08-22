@@ -2,12 +2,12 @@ Instance: EHMI.SORIOOrganization.1.0
 InstanceOf: EHMISORIOOrganization
 Description: "An example of an SOR IO Organization."
 * id = "EHMI.SOR.IO.01"
-* identifier[SOR].type = $EHMISORorganizationIdentierType#SOR
+* identifier[SOR].type = $EerSorOrganizationIdentierType#SOR
 * identifier[SOR].value = "EHMI.SOR.IO.01"
-* name = "EHMI-SOR-IO-Organization"
-* type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#IE
-* type[SOR-Hierarchy].coding.system = $EHMISOROrganizationType
-* type[EHMISORIOOrganizationType].coding.code = $EHMISORIOOrganizationType#Generic
-* type[EHMISORIOOrganizationType].coding.system = $EHMISORIOOrganizationType
-//* type[SOR-UnitType].coding.code = $EHMISORUnitType#other
-* type[SOR-UnitType].coding.system = $EHMISORUnitType
+* name = "eer-sor-IO-Organization"
+* type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#IE
+* type[SOR-Hierarchy].coding.system = $EerSorOrganizationType
+* type[EHMISORIOOrganizationType].coding.code = $EerSorIOOrganizationType#Generic
+* type[EHMISORIOOrganizationType].coding.system = $EerSorIOOrganizationType
+//* type[SOR-UnitType].coding.code = $EerSorUnitType#other
+* type[SOR-UnitType].coding.system = $EerSorUnitType

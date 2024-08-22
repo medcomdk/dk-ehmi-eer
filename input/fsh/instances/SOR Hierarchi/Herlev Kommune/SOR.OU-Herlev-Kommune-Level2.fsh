@@ -1,12 +1,12 @@
 /*
 Instance: EHMI.SOR.OU-Herlev-Kommune-SOR.646961000016000
-InstanceOf: EHMISOROUOrganization
+InstanceOf: EerSorOUOrganization
 Description: "LÆ- blanketter, suppl. kommunikation, Herlev - SOR.OU-Herlev-Kommune-SOR.646961000016000"
 * id = "EHMI.SOR.OU-Herlev-Kommune-SOR.646961000016000"
 * identifier.value = "646961000016000"
 * name = "EHMI.SOR.OU-Herlev-Kommune-SOR.646961000016000"
-* type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#OU
-* type[SOR-Hierarchy].coding.system = $EHMISOROrganizationType
+* type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#OU
+* type[SOR-Hierarchy].coding.system = $EerSorOrganizationType
 * partOf = Reference(Organization/EHMI.SOR.HI-Herlev-Kommune-SOR.6501000016006)
 * endpoint[0] = Reference(Endpoint/EerMessagingEndpoint-Herlev-VansEdi.01)
 * endpoint[+] = Reference(Endpoint/EerMessagingEndpoint-Herlev-eDeliveryEdi.01)

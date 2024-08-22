@@ -1,11 +1,11 @@
 Instance: EHMI.SOR.OU-AAR-Kommune-SOR.1053851000016007
-InstanceOf: EHMISOROUOrganization
+InstanceOf: EerSorOUOrganization
 Description: "LÆ- blanketter, suppl. kommunikation, AAR - SOR.OU-AAR-Kommune-SOR.1053851000016007"
 * id = "EHMI.SOR.OU-AAR-Kommune-SOR.1053851000016007"
 * identifier[SOR].value = "1053851000016007"
 * name = "EHMI SOR OU AAR Kommune (1053851000016007)"
-* type[SOR-Hierarchy].coding.code = $EHMISOROrganizationType#OE
-* type[SOR-Hierarchy].coding.system = $EHMISOROrganizationType
+* type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#OE
+* type[SOR-Hierarchy].coding.system = $EerSorOrganizationType
 * partOf = Reference(Organization/EHMI.SOR.HI-AAR-Kommune-SOR.937961000016000)
 * endpoint[0] = Reference(Endpoint/EerMessagingEndpoint-AAR-VansEdi.01)
 * endpoint[+] = Reference(Endpoint/EerMessagingEndpoint-AAR-eDeliveryEdi.01)

@@ -13,5 +13,5 @@ Description: "Herlev EereDeliveryMessagingFhirEndpoint."
 * period.end = "2024-01-01"
 * address = "http://herlev.dk/fhir"
 * payloadMimeType = #text/plain
-* payloadType = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
+* payloadType = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 */

@@ -2,7 +2,7 @@ Instance: Eer.fhir.MessageDefinition.CareCommunication:3.0
 InstanceOf: EerMessageDefinitionFhir
 Description: "An example of an EerMessageDefinition for CareCommunication:3.0"
 * id = "Eer.fhir.MessageDefinition.CareCommunication.3.0"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:3.0
+* url = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:3.0
 * identifier.period.start = "2021-03-23"
 * identifier.use = #official 
 * identifier.value = "CareCommunication.3.0"
@@ -35,7 +35,7 @@ Instance: Eer.fhir.MessageDefinition.CareCommunication:2.0
 InstanceOf: EerMessageDefinitionFhir
 Description: "An example of an EerMessageDefinition for CareCommunication:2.0"
 * id = "Eer.fhir.MessageDefinition.CareCommunication.2.0"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:2.0
+* url = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:2.0
 * identifier.period.start = "2021-03-23"
 * identifier.period.end = "2023-01-05"
 * identifier.use = #old
@@ -69,7 +69,7 @@ Instance: Eer.fhir.MessageDefinition.CareCommunication:1.0
 InstanceOf: EerMessageDefinitionFhir
 Description: "An example of an EerMessageDefinition for CareCommunication:1.0"
 * id = "Eer.fhir.MessageDefinition.CareCommunication.1.0"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:1.0
+* url = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:carecommunication:1.0
 * identifier.period.start = "2021-03-23"
 * identifier.period.end = "2022-10-04"
 * identifier.use = #old

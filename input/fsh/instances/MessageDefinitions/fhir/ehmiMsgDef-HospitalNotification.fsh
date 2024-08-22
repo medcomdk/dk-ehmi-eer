@@ -2,7 +2,7 @@ Instance: Eer.fhir.MessageDefinition.hospitalNotification:3.0
 InstanceOf: EerMessageDefinitionFhir
 Description: "An example of an EerMessageDefinition for hospitalnotification:3.0"
 * id = "Eer.fhir.MessageDefinition.hospitalNotification.3.0"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:3.0
+* url = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:3.0
 * identifier.period.start = "2021-03-23"
 * identifier.use = #official 
 * identifier.value = "hospitalnotification.3.0"
@@ -35,7 +35,7 @@ Instance: Eer.fhir.MessageDefinition.hospitalNotification:2.0
 InstanceOf: EerMessageDefinitionFhir
 Description: "An example of an EerMessageDefinition for hospitalnotification:2.0"
 * id = "Eer.fhir.MessageDefinition.hospitalNotification.2.0"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:2.0
+* url = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:2.0
 * identifier.period.start = "2021-03-23"
 * identifier.period.end = "2023-01-05"
 * identifier.use = #old
@@ -69,7 +69,7 @@ Instance: Eer.fhir.MessageDefinition.hospitalNotification:1.0
 InstanceOf: EerMessageDefinitionFhir
 Description: "An example of an EerMessageDefinition for hospitalnotification:1.0"
 * id = "Eer.fhir.MessageDefinition.hospitalNotification.1.0"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:1.0
+* url = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:hospitalnotification:1.0
 * identifier.period.start = "2021-03-23"
 * identifier.period.end = "2022-10-04"
 * identifier.use = #old

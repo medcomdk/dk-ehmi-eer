@@ -1,4 +1,4 @@
-CodeSystem: MedComMessageDefinitionUri
+CodeSystem: EerMedComMessageDefinitionUri
 Id: eer-medcom-message-definition-uri
 Title: "MedCom Message Definition Uri CS"
 Description: "CodeSystem containing codes for EHMI eer-medcom-message-definition-uri"
@@ -122,7 +122,7 @@ Description: "CodeSystem containing codes for EHMI eer-medcom-message-definition
 * #urn:dk:healthcare:medcom:messaging:envelope:xml:sbdh:1.0 "SBDH 1.0"
 * #urn:dk:healthcare:medcom:messaging:envelope:xml:sbdhacknowledgement:1.0 "SBDH Ack 1.0"
 
-ValueSet: MedComMessageDefinitionUriVS
+ValueSet: EerMedComMessageDefinitionUriVS
 Id: eer-medcom-message-definition-uri-valueset
 Title: "MedCom Message Definition Uri Valueset"
 Description: "ValueSet containing codes for EHMI eer-medcom-message-definition-uri"

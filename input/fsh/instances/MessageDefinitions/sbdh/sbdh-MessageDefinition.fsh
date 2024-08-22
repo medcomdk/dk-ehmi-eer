@@ -2,7 +2,7 @@ Instance: EHMI.envelope.sbdh.sbd.MessageDefinition
 InstanceOf: EerMessageDefinitionEnvelope
 Description: "An example of an EerMessageDefinition for sbdh.1.0."
 * id = "EHMI.MessageDefinition.envelope.sbdh.1.0"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:envelope:xml:sbdh:1.0
+* url = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:envelope:xml:sbdh:1.0
 //* identifier.system = $EerMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:envelope
 * identifier.period.start = "2024-01-01"
 * identifier.use = #official 

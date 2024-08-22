@@ -2,10 +2,10 @@ Instance: EHMI.edi.bin02.b0210x.MessageDefinition
 InstanceOf: EerMessageDefinitionEdi
 Description: "An example of an EerMessageDefinition for bin02:b0210x."
 * id = "EHMI.edi.bin02.b0210x.MessageDefinition"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:medbin:bin02:b0210x
+* url = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:medbin:bin02:b0210x
 * identifier.system = $EerMessageDefinitionIdentifierSystem#urn:dk:healthcare:medcom:messaging:edifact
 * identifier.period.start = "2012-07-01"
-* identifier.type = $EHMIMedComMessageDefinitionType#EDIFACT
+* identifier.type = $EerMedComMessageDefinitionType#EDIFACT
 * identifier.use = #official 
 * identifier.value = "bin02:b0210x"
 * version = "b0210x"

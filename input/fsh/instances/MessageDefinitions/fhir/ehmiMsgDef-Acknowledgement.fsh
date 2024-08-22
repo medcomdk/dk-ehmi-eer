@@ -2,7 +2,7 @@ Instance: Eer.fhir.MessageDefinition.Acknowledgement:2.0
 InstanceOf: EerMessageDefinitionFhir
 Description: "An example of an EerMessageDefinition for Acknowledgement:2.0"
 * id = "Eer.fhir.MessageDefinition.Acknowledgement.2.0"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
+* url = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 * identifier.period.start = "2021-03-23"
 //* identifier.period.end = "2023-01-05"
 * identifier.use = #official
@@ -29,7 +29,7 @@ Instance: Eer.fhir.MessageDefinition.Acknowledgement:1.0
 InstanceOf: EerMessageDefinitionFhir
 Description: "An example of an EerMessageDefinition for Acknowledgement:1.0"
 * id = "Eer.fhir.MessageDefinition.Acknowledgement.1.0"
-* url = $MedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:1.0
+* url = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:1.0
 * identifier.period.start = "2021-03-23"
 * identifier.period.end = "2022-10-04"
 * identifier.use = #old

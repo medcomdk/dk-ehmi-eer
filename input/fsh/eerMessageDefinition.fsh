@@ -4,14 +4,14 @@ Description: "An example profile of the MessageDefinition resource."
 //* url from eer-medcom-message-definition-uri-valueset
 * identifier 1..1 MS SU
 //* identifier.system from eer-medcom-message-definition-uri-valueset
-* identifier.system from ehmi-messagedefinition-identifer-system-valueset
+* identifier.system from eer-messagedefinition-identifer-system-valueset
 * identifier.system 1..1 //MS SU
 //* identifier.system = $EerMessageDefinitionIdentifierSystem#MedCom
 * identifier.period.start 1..1 MS SU
 * identifier.period.end 0..1 MS SU
 * identifier.type from eer-medcom-message-definition-type-valueset
 * identifier.type 1..1 MS SU
-* identifier.type.coding.system = $EHMIMedComMessageDefinitionType
+* identifier.type.coding.system = $EerMedComMessageDefinitionType
 * identifier.use 1..1 MS SU
 * identifier.value 1..1 MS SU
 * version 1..1 MS SU
@@ -51,8 +51,8 @@ Description: "An example profile of the MessageDefinition resource."
 //* useContext 1..1 MS SU
 //* Message Context
 //* useContext.code.system from http://terminology.hl7.org/CodeSystem/usage-context-type
-* useContext.code.system = $EHMIUsageContextCodeSystem
-* useContext.code from $EHMIUsageContextCodeSystemVS
+* useContext.code.system = $EerUsageContextCodeSystem
+* useContext.code from $EerUsageContextCodeSystemVS
 * jurisdiction 1..1 MS SU
 * jurisdiction = #DK
 //* jurisdiction.coding.system = 
