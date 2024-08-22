@@ -1,4 +1,4 @@
-CodeSystem: EHMISORRegionType
+CodeSystem: EerSorRegionType
 Id: eer-sor-region-type
 Title: "EHMI SOR Region Types CS"
 Description: "eer-sor-region-type for the EHMI Messaging Infrastructure"
@@ -14,7 +14,7 @@ Description: "eer-sor-region-type for the EHMI Messaging Infrastructure"
 * #1085 "Region Sjælland"
 * #1083 "SOR Southern Region (DK:Region Syddanmark)"
 
-ValueSet: EHMISORRegionTypeVS
+ValueSet: EerSorRegionTypeVS
 Id: eer-sor-region-type-valueset
 Title: "EHMI SOR Region Types Valueset"
 Description: "ValueSet containing codes for EHMI eer-sor-region-type"
@@ -25,7 +25,7 @@ Description: "ValueSet containing codes for EHMI eer-sor-region-type"
 //* include codes from system eer-sor-region-type
 * include codes from system http://hl7.dk/fhir/core/CodeSystem/dk-core-regional-subdivision-codes
 
-CodeSystem: EHMISORMunicipalityType
+CodeSystem: EerSorMunicipalityType
 Id: eer-sor-municipality-type
 Title: "EHMI SOR Municipality Types CS"
 Description: "eer-sor-Municipality-type for the EHMI Messaging Infrastructure"
@@ -134,7 +134,7 @@ Description: "eer-sor-Municipality-type for the EHMI Messaging Infrastructure"
 * #0851 "Aalborg"
 * #0860 "Hjørring"
 
-ValueSet: EHMISORMunicipalityTypeVS
+ValueSet: EerSorMunicipalityTypeVS
 Id: eer-sor-municipality-type-valueset
 Title: "EHMI SOR Municipality Types Valueset"
 Description: "ValueSet containing codes for EHMI eer-sor-Municipality-type for the EHMI Messaging Infrastructure"

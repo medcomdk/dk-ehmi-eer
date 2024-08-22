@@ -8,7 +8,7 @@ Description: "AAR EerMessaging VansOioxml Endpoint Inbound"
 * identifier.type = $EerAuditEventAgentWhoIdentifierTypes#GLN
 //* identifier.use = "official"
 * status = #active
-* managingOrganization = Reference(Organization/EHMI.SOR.HI-AAR-Kommune.951351000016007)
+* managingOrganization = Reference(Organization/Eer.Sor.HI-AAR-Kommune.951351000016007)
 * period.start = "2023-01-01"
 //* period.end = "2024-01-01"
 * address = "http://aar.dk/vans/oioxml/in"

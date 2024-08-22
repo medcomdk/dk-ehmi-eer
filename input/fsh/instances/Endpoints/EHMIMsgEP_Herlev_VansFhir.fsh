@@ -8,7 +8,7 @@ Description: "Herlev EerMessagingEndpoint-Herlev-VansFhir.01."
 * identifier.type = $EerAuditEventAgentWhoIdentifierTypes#GLN
 //* identifier.use = "official"
 * status = #active
-* managingOrganization = Reference(Organization/EHMI.SOR.IO-Herlev-Kommune-SOR.101000016005)
+* managingOrganization = Reference(Organization/Eer.Sor.IO-Herlev-Kommune-SOR.101000016005)
 * period.start = "2023-01-01"
 * period.end = "2024-01-01"
 * address = "http://herlev.dk/fhir"

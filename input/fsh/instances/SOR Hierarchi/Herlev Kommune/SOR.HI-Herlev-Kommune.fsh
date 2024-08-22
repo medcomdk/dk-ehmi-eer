@@ -1,11 +1,11 @@
 /*
-Instance: EHMI.SOR.HI-Herlev-Kommune-SOR.6501000016006
-InstanceOf: EHMISORHIOrganization
+Instance: Eer.Sor.HI-Herlev-Kommune-SOR.6501000016006
+InstanceOf: EerSorHIOrganization
 Description: "An example of an SOR HI Organization."
-* id = "EHMI.SOR.HI-Herlev-Kommune-SOR.6501000016006"
+* id = "Eer.Sor.HI-Herlev-Kommune-SOR.6501000016006"
 * identifier.value = "6501000016006"
 * type[SOR-Hierarchy] = $EerSorOrganizationType#HI
-* name = "EHMI.SOR.HI-Herlev-Kommune-SOR.6501000016006"
-* partOf = Reference(Organization/EHMI.SOR.IO-Herlev-Kommune-SOR.101000016005)
+* name = "Eer.Sor.HI-Herlev-Kommune-SOR.6501000016006"
+* partOf = Reference(Organization/Eer.Sor.IO-Herlev-Kommune-SOR.101000016005)
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#HI
 */

@@ -6,7 +6,7 @@ Description: "An example of an SOR OU Organization."
 * name = "EHMI.SOR-OU-Organization"
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#OE
 * type[SOR-Hierarchy].coding.system = $EerSorOrganizationType
-* partOf = Reference(Organization/EHMI.SOR.HI.01.1)
+* partOf = Reference(Organization/Eer.Sor.HI.01.1)
 * endpoint[0] = Reference(Endpoint/EerMessagingEndpoint-eDeliveryEdi.01)
 * endpoint[+] = Reference(Endpoint/EerMessagingEndpoint-eDeliveryFhir.01)
 * endpoint[+] = Reference(Endpoint/EerMessagingEndpoint-eDeliveryOioxml.01)

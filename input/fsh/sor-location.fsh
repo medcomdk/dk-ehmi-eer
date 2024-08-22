@@ -1,3 +1,4 @@
+/*
 Profile:      SORLocation
 Parent:       MCSDLocation
 Id:           medcom.sor.Location
@@ -11,3 +12,4 @@ Title:        "SOR Location with Distance"
 Description:  """
 A profile on the SOR Location resource for distance searches.
 """
+*/

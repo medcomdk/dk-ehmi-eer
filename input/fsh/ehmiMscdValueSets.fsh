@@ -132,7 +132,7 @@ Description: "ValueSet containing codes for EER eer-sor-organization-type"
 * ^compose.include[=].concept[=].designation[=].value = "Organisatorisk enhed"
 //* include codes from system eer-sor-organization-type
 
-CodeSystem: EHMISORNetOperator
+CodeSystem: EerSorNetOperator
 Id: eer-sor-net-operator-type
 Title: "EER SOR Netoperator Types CS"
 Description: "eer-sor-net-operator-type for the EHMI Messaging Infrastructure"
@@ -149,7 +149,7 @@ Description: "eer-sor-net-operator-type for the EHMI Messaging Infrastructure"
 * #11000035002 "Ukendt"
 * #71000035005 "Vejle Amt"
 
-ValueSet: EHMISORNetOperatorVS
+ValueSet: EerSorNetOperatorVS
 Id: eer-sor-net-operator-type-valueset
 Title: "EER SOR Netoperator Types Valueset"
 Description: "eer-sor-net-operator-type for the EHMI Messaging Infrastructure"
@@ -217,7 +217,7 @@ Description: "EHMIUseContextCodeSystemVS for the EHMI Messaging Infrastructure"
 * ^experimental = true
 * include codes from system http://terminology.hl7.org/CodeSystem/usage-context-type
 
-CodeSystem: EHMISORIOOrganization
+CodeSystem: EerSorIOOrganization
 Id: eer-sor-io-organization-type
 Title: "EER SOR Organization Types CS"
 Description: "eer-sor-organization-type for the EHMI Messaging Infrastructure"
@@ -231,7 +231,7 @@ Description: "eer-sor-organization-type for the EHMI Messaging Infrastructure"
 * #Region "SOR Region Organization - Institution Owner IO (DK:IE)"
 * #Generic "General encompassing the principle"
 
-ValueSet: EHMISORIOOrganizationVS
+ValueSet: EerSorIOOrganizationVS
 Id: eer-sor-io-organization-type-valueset
 Title: "EER SOR IO Organization Types Valueset"
 Description: "ValueSet containing codes for EER eer-sor-io-organization-type"
@@ -241,7 +241,7 @@ Description: "ValueSet containing codes for EER eer-sor-io-organization-type"
 * ^experimental = true
 * include codes from system eer-sor-io-organization-type
 
-CodeSystem: EHMISORUnitType
+CodeSystem: EerSorUnitType
 Id: eer-sor-unit-type
 Title: "EER SOR Unit Types CS"
 Description: "eer-sor-unit-type for the EER Messaging Infrastructure"
@@ -271,7 +271,7 @@ Description: "eer-sor-unit-type for the EER Messaging Infrastructure"
 * #sygeplejeklinik "Sygeplejeklinik"
 * #behandlingscenter-for-stofmisbrugere "Behandlingscenter for stofmisbrugere"
 
-ValueSet: EHMISORUnitTypeVS
+ValueSet: EerSorUnitTypeVS
 Id: eer-sor-unit-type-valueset
 Title: "EER SOR Unit Types Valueset"
 Description: "ValueSet containing codes for EER eer-sor-io-organization-type"
@@ -281,7 +281,7 @@ Description: "ValueSet containing codes for EER eer-sor-io-organization-type"
 * ^experimental = true
 * include codes from system eer-sor-unit-type
 
-CodeSystem: EHMISORClinicalAdministrativeHierarchy
+CodeSystem: EerSorClinicalAdministrativeHierarchy
 Id: eer-sor-clinical-administrative-hierarchy
 Title: "EER SOR Clinical Administrative Hierarchy CS"
 Description: "CodeSystem containing codes for EER SOR Clinical Administrative Hierarchy"
@@ -297,7 +297,7 @@ Description: "CodeSystem containing codes for EER SOR Clinical Administrative Hi
 * #Afdeling "Afdeling"
 * #Afsnit "Afsnit"
 
-ValueSet: EHMISORClinicalAdministrativeHierarchyVS
+ValueSet: EerSorClinicalAdministrativeHierarchyVS
 Id: eer-sor-clinical-administrative-hierarchy-valueset
 Title: "EER SOR Clinical Administrative Hierarchy Valueset"
 Description: "ValueSet containing codes for EER SOR Clinical Administrative Hierarchy"

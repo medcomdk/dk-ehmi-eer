@@ -8,7 +8,7 @@ Description: "AAR EereDeliveryMessagingOioxmlEndpoint."
 * identifier.type = $EerAuditEventAgentWhoIdentifierTypes#GLN
 //* identifier.use = "official"
 * status = #active
-* managingOrganization = Reference(Organization/EHMI.SOR.IO-AAR-Kommune.311000016009)
+* managingOrganization = Reference(Organization/Eer.Sor.IO-AAR-Kommune.311000016009)
 * period.start = "2023-01-01"
 * period.end = "2024-01-01"
 * address = "http://aar.dk/fhir"
