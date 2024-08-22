@@ -1,3 +1,4 @@
+/*
 Instance: EerMessagingEndpoint-AAR-VansFhir.5790002508226
 InstanceOf: EerMessagingVansFhirEndpoint
 Description: "AAR EerMessagingEndpoint-AAR-VansFhir.01."
@@ -13,3 +14,4 @@ Description: "AAR EerMessagingEndpoint-AAR-VansFhir.01."
 * address = "http://aar.dk/fhir"
 * payloadMimeType = #text/plain
 * payloadType = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
+*/

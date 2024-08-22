@@ -1,3 +1,4 @@
+/*
 Instance: EP.MSG.HI.AAR.937961000016000.GLN.5790001998486.VANS.OIOXML.IN
 InstanceOf: EerMessagingVansOioxmlEndpoint
 Description: "AAR EerMessaging VansOioxml Endpoint Inbound"
@@ -16,3 +17,4 @@ Description: "AAR EerMessaging VansOioxml Endpoint Inbound"
 * payloadType[+] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl02:xc0230q	"NegativeReceipt"
 * payloadType[+] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl03:xc0330q	"PositivReceipt"
 * payloadType[+] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:meddis:xdis91:xd9134l	"ClinicalEmail"
+*/

@@ -1,3 +1,4 @@
+/*
 Instance: EHMI.edi.bin02.b0210x.MessageDefinition
 InstanceOf: EerMessageDefinitionEdi
 Description: "An example of an EerMessageDefinition for bin02:b0210x."
@@ -32,3 +33,4 @@ Description: "An example of an EerMessageDefinition for bin02:b0210x."
 * copyright = "Copyright © 2022 MedCom"
 * eventCoding = $MessageEvents#empty-message
 
+*/

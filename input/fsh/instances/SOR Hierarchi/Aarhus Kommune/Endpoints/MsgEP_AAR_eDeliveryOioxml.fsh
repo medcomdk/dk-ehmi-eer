@@ -1,3 +1,4 @@
+/*
 Instance: EerMessagingEndpoint-AAR-eDeliveryOioxml.5790002508226
 InstanceOf: EereDeliveryMessagingOioxmlEndpoint
 Description: "AAR EereDeliveryMessagingOioxmlEndpoint."
@@ -15,3 +16,4 @@ Description: "AAR EereDeliveryMessagingOioxmlEndpoint."
 //* payloadMimeType[1] = #application/fhir+json
 * payloadType[0] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 //* payloadType[1] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
+*/

@@ -1,3 +1,4 @@
+/*
 Instance: EHMI.oioxml.MessageDefinition.xref15.xh1530r
 InstanceOf: EerMessageDefinitionOioxml
 Description: "An example of an EerMessageDefinition for xref15:xh1530r"
@@ -28,3 +29,4 @@ Description: "An example of an EerMessageDefinition for xref15:xh1530r"
 * copyright = "Copyright © 2022 MedCom"
 * eventCoding = $MessageEvents#empty-message
 
+*/

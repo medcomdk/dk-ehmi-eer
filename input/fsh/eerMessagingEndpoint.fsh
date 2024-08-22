@@ -37,6 +37,7 @@ Description:  "EER Endpoint eDelivery FHIR Messaging"
 //* payloadType = $EerEndpointPayloadType#urn:dk:medcom:prod:messaging:fhir (exactly)
 //* payloadType = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 
+/*
 Profile:      EereDeliveryMessagingEdiEndpoint
 Parent:       EereDeliveryMessagingEndpoint
 Id:           eer.dk.messaging.edelivery.edi
@@ -47,7 +48,9 @@ Description:  "EER Endpoint eDelivery EDI Messaging"
 //* payloadType[0].coding.code = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl01:c0130q	
 //* payloadType[+].coding.code = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl02:c0230q	
 //* payloadType[+].coding.code = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl03:c0330q	
+*/
 
+/*
 Profile:      EereDeliveryMessagingOioxmlEndpoint
 Parent:       EereDeliveryMessagingEndpoint
 Id:           eer.dk.messaging.edelivery.oioxml
@@ -58,14 +61,18 @@ Description:  "EER Endpoint eDelivery Oioxml Messaging"
 //* payloadType[0].coding.code = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl01:xc0130q	"NegativeVansReceipt"
 //* payloadType[+].coding.code = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl02:xc0230q	"NegativeReceipt"
 //* payloadType[+].coding.code = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl03:xc0330q	"PositivReceipt"
+*/
 
+/*
 Profile:      EerMessagingVansEndpoint
 Parent:       EerMessagingEndpoint
 Id:           eer.dk.messaging.vans
 Title:        "EER Endpoint VANS Messaging"
 Description:  "EER Endpoint VANS Messaging"
 * connectionType = $EerEndpointConnectionType#vansMessaging (exactly)
+*/
 
+/*
 Profile:      EerMessagingVansFhirEndpoint
 Parent:       EerMessagingVansEndpoint
 Id:           eer.dk.messaging.vans.fhir
@@ -73,7 +80,9 @@ Title:        "EER Endpoint VANS FHIR Messaging"
 Description:  "EER Endpoint VANS FHIR Messaging"
 //* payloadType = $EerEndpointPayloadType#urn:dk:medcom:prod:messaging:fhir (exactly)
 //* payloadType = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
+*/
 
+/*
 Profile:      EerMessagingVansEdiEndpoint
 Parent:       EerMessagingVansEndpoint
 Id:           eer.dk.messaging.vans.edi
@@ -84,7 +93,9 @@ Description:  "EER Endpoint VANS EDI Messaging"
 //* payloadType[0].coding.code = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl01:c0130q	
 //* payloadType[+].coding.code = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl02:c0230q	
 //* payloadType[+].coding.code = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl03:c0330q	
+*/
 
+/*
 Profile:      EerMessagingVansOioxmlEndpoint
 Parent:       EerMessagingVansEndpoint
 Id:           eer.dk.messaging.vans.oioxml
@@ -95,6 +106,7 @@ Description:  "EER Endpoint VANS Oioxml Messaging"
 //* payloadType[0].coding.code = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl01:xc0130q	"NegativeVansReceipt"
 //* payloadType[+].coding.code = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl02:xc0230q	"NegativeReceipt"
 //* payloadType[+].coding.code = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl03:xc0330q	"PositivReceipt"
+*/
 
 /*
 Profile:      SOREndpointDocShare

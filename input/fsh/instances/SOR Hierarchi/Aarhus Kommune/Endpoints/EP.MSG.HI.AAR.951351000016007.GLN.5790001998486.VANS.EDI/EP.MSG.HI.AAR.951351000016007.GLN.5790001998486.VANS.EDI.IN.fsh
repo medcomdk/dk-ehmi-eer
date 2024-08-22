@@ -1,3 +1,4 @@
+/*
 Instance: EP.MSG.HI.AAR.937961000016000.GLN.5790001998486.VANS.EDI.IN
 InstanceOf: EerMessagingVansEdiEndpoint
 Description: "AAR EerMessaging VansEdi Endpoint Inbound"
@@ -16,3 +17,4 @@ Description: "AAR EerMessaging VansEdi Endpoint Inbound"
 * payloadType[+] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl02:c0230q	"Negativ kvittering"
 * payloadType[+] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl03:c0330q	"Positiv kvittering"
 * payloadType[+] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:meddis:dis91:d9134l	"Korrespondancebrev"
+*/

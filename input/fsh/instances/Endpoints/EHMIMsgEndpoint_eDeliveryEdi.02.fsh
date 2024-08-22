@@ -1,3 +1,4 @@
+/*
 Instance: EerMessagingEndpoint-eDeliveryEdi.01
 InstanceOf: EereDeliveryMessagingEdiEndpoint
 Description: "An example of an EereDeliveryMessagingEdiEndpoint."
@@ -13,3 +14,4 @@ Description: "An example of an EereDeliveryMessagingEdiEndpoint."
 * payloadType[0] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl01:c0130q	
 * payloadType[+] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl02:c0230q	
 * payloadType[+] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl03:c0330q	
+*/

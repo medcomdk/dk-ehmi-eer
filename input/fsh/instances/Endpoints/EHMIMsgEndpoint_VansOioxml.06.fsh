@@ -1,3 +1,4 @@
+/*
 Instance: EerMessagingEndpoint-VansOioxml.01
 InstanceOf: EerMessagingVansOioxmlEndpoint
 Description: "An example of an EerMessagingVansOioxmlEndpoint."
@@ -13,3 +14,4 @@ Description: "An example of an EerMessagingVansOioxmlEndpoint."
 * payloadType[0] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl01:xc0130q	"NegativeVansReceipt"
 * payloadType[+] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl02:xc0230q	"NegativeReceipt"
 * payloadType[+] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:oioxml:schema:xsd:contrl:xctl03:xc0330q	"PositivReceipt"
+*/

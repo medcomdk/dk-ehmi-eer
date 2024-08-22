@@ -1,4 +1,4 @@
-Profile: EerMessageDefinitionEdi
+/*Profile: EerMessageDefinitionEdi
 Parent: EerMessageDefinition
 Description: "An example profile of the MessageDefinition-edi resource."
 //* id = 
@@ -7,3 +7,4 @@ Description: "An example profile of the MessageDefinition-edi resource."
 * useContext.code.system = $EerUsageContextCodeSystem (exactly)
 * responseRequired = #on-error
 
+*/
