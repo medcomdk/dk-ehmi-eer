@@ -8,22 +8,34 @@ Description:  """ EHMI SOR General Organization """
   * ^slicing.rules = #open //#closed eller #open 
 * identifier contains
     SOR 1..1 MS SU 
+    and MunicipalityCode 0..1 MS SU 
 * identifier[SOR].use = #official
 * identifier[SOR].type from $EerSorOrganizationIdentierTypeVS
 * identifier[SOR].type = $EerSorOrganizationIdentierType#SOR (exactly)
 * identifier[SOR].system = "1.2.208.176.1.1" (exactly)
+* identifier[MunicipalityCode].use = #official
+* identifier[MunicipalityCode].value from $EerSorMunicipalityCodeVS
+* identifier[MunicipalityCode].type from $EerSorOrganizationIdentierTypeVS
+* identifier[MunicipalityCode].system = $EerSorMunicipalityCode
 * type ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = coding.code
   * ^slicing.rules = #open //#closed eller #open 
 * type contains
     SOR-Hierarchy 1..1 MS SU 
     and SOR-UnitType 0..1 SU
+    and EerSorOrganizationType 0..1 MS SU 
+    and EerSorIOOrganizationType 0..1 MS SU
 * type[SOR-Hierarchy].coding.code from $EerSorOrganizationTypeVS
 * type[SOR-Hierarchy].coding.system = $EerSorOrganizationType
 * type[SOR-UnitType].coding.code from $EerSorUnitTypeVS
 * type[SOR-UnitType].coding.system = $EerSorUnitType
+* type[EerSorOrganizationType].coding.code from $EerSorOrganizationTypeVS
+* type[EerSorOrganizationType].coding.system = $EerSorOrganizationType
+* type[EerSorIOOrganizationType].coding.code from $EerSorIOOrganizationTypeVS
+* type[EerSorIOOrganizationType].coding.system = $EerSorIOOrganizationType
 //* endpoint 0..0
 
+/*
 Profile:      EerSorIOOrganization
 Parent:       EerSorOrganization
 Id:           Eer.Sor.InstitutionOwner.Organization
@@ -33,15 +45,15 @@ Description:  """ EHMI SOR Institution Owner Organization IO (DK:IE) """
   * ^slicing.discriminator.path = coding.code
   * ^slicing.rules = #open //#closed eller #open 
 * type contains
-    EerSorIOOrganizationType 1..1 MS SU 
+    EerSorOrganizationType 1..1 MS SU 
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#IE (exactly)
-* type[EerSorIOOrganizationType].coding.code from $EerSorIOOrganizationTypeVS
-* type[EerSorIOOrganizationType].coding.system = $EerSorIOOrganizationType
+* type[EerSorOrganizationType].coding.code from $EerSorOrganizationTypeVS
+* type[EerSorOrganizationType].coding.system = $EerSorOrganizationType
 * partOf 0..0
 * endpoint 0..0
 
 Profile:      EerSorMunicipalityOrganization
-Parent:       EerSorIOOrganization
+Parent:       EerSorOrganization
 Id:           Eer.Sor.InstitutionOwner.Municipality.Organization
 Title:        "EHMI SOR Institution Owner Municipality Organization"
 Description:  """ EHMI SOR Institution Owner Municipality Organization IO (DK:IE) """
@@ -56,11 +68,11 @@ Description:  """ EHMI SOR Institution Owner Municipality Organization IO (DK:IE
 * identifier[MunicipalityCode].type from $EerSorOrganizationIdentierTypeVS
 * identifier[MunicipalityCode].system = $EerSorMunicipalityCode
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#IE (exactly)
-* type[EerSorIOOrganizationType].coding.code = $EerSorIOOrganizationType#Municipality (exactly)
+* type[EerSorOrganizationType].coding.code = $EerSorOrganizationType#Municipality (exactly)
 * type[SOR-UnitType].coding.code = $EerSorUnitType#kommune (exactly)
 
 Profile:      EerSorRegionalOrganization
-Parent:       EerSorIOOrganization
+Parent:       EerSorOrganization
 Id:           Eer.Sor.InstitutionOwner.Regional.Organization
 Title:        "EHMI SOR Institution Owner Regional Organization"
 Description:  """ EHMI SOR Institution Owner Regional Organization IO (DK:IE) """
@@ -75,7 +87,7 @@ Description:  """ EHMI SOR Institution Owner Regional Organization IO (DK:IE) ""
 * identifier[RegionalCode].type from $EerSorOrganizationIdentierTypeVS
 * identifier[RegionalCode].system = $EerSorRegionalCode
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#IE (exactly)
-* type[EerSorIOOrganizationType].coding.code = $EerSorIOOrganizationType#Region (exactly)
+* type[EerSorOrganizationType].coding.code = $EerSorOrganizationType#Region (exactly)
 * type[SOR-UnitType].coding.code = $EerSorUnitType#region (exactly)
 
 Profile:      EerSorHIOrganization
@@ -94,9 +106,9 @@ Severity:    #error
 Expression:  "partOf only Reference({Organization/EerSorIOOrganization})"
 //XPath:       "f:given or f:family"
 */
-
+/*
 Profile:      EerSorHospitalOrganization
-Parent:       EerSorHIOrganization
+Parent:       EerSorOrganization
 Id:           Eer.Sor.HealthcareInstitution.Hospital.Organization
 Title:        "EHMI SOR Healthcare Institution Hospital Organization"
 Description:  """ EHMI SOR Healthcare Institution Hospital Organization HI (DK:SI) """
@@ -118,7 +130,7 @@ Description:  """ EHMI SOR Organizational Unit OU (DK:OE) """
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#OE (exactly)
 
 Profile:      EerSorHospitalOUOrganization
-Parent:       EerSorOUOrganization
+Parent:       EerSorOrganization
 Id:           Eer.Sor.HospitalOUOrganization.Organization
 Title:        "EHMI SOR Organizational Unit"
 Description:  """ EHMI SOR Organizational Unit OU (DK:OE) """
@@ -129,3 +141,4 @@ Description:  """ EHMI SOR Organizational Unit OU (DK:OE) """
     ClinicalAdministrativeHierarchy 1..1 MS SU 
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#OE (exactly)
 //* type[ClinicalAdministrativeHierarchy] = $EerSorClinicalAdministrativeHierarchy#Afdeling
+*/

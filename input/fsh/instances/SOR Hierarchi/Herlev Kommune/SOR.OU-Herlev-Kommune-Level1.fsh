@@ -1,6 +1,6 @@
 /*
 Instance: Eer.Sor.OU-Herlev-Kommune-SOR.1053211000016007
-InstanceOf: EerSorOUOrganization
+InstanceOf: EerSorOrganization
 Description: "Sygehusadviser, Herlev - SOR.OU-Herlev-Kommune-SOR.1053211000016007"
 * id = "Eer.Sor.OU-Herlev-Kommune-SOR.1053211000016007"
 * identifier.value = "1053211000016007"

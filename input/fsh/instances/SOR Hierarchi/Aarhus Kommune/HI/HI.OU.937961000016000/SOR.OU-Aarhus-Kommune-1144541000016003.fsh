@@ -1,5 +1,5 @@
 Instance: Eer.Sor.OU-AAR-Kommune.1144541000016003
-InstanceOf: EerSorOUOrganization
+InstanceOf: EerSorOrganization
 Description: "Sygehusadviser, AAR - SOR.OU-AAR-Kommune-SOR.1144541000016003"
 * id = "Eer.Sor.OU-AAR-Kommune.1144541000016003"
 * identifier[SOR].value = "1144541000016003"

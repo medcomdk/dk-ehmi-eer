@@ -1,6 +1,6 @@
 /*
 Instance: Eer.Sor.OU-Herlev-Kommune-SOR.646961000016000
-InstanceOf: EerSorOUOrganization
+InstanceOf: EerSorOrganization
 Description: "LÆ- blanketter, suppl. kommunikation, Herlev - SOR.OU-Herlev-Kommune-SOR.646961000016000"
 * id = "Eer.Sor.OU-Herlev-Kommune-SOR.646961000016000"
 * identifier.value = "646961000016000"

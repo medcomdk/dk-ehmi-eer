@@ -1,5 +1,5 @@
 Instance: Eer.Sor.HI-AAR-Kommune.533291000016001
-InstanceOf: EerSorHIOrganization
+InstanceOf: EerSorOrganization
 Description: "AAR SOR HI Organization.533291000016001 - Specialdagtilbud Skovbrynet"
 * id = "Eer.Sor.HI-AAR-Kommune.533291000016001"
 * identifier[SOR].value = "533291000016001"

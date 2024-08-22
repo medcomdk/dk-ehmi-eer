@@ -1,5 +1,5 @@
 Instance: EHMI.SOROU-EMCSD.SOR.OU.01.01
-InstanceOf: EerSorOUOrganization
+InstanceOf: EerSorOrganization
 Description: "An example of an SOR OU Organization."
 * id = "EHMI.SOROU-EMCSD.SOR.OU.01.01"
 * identifier[SOR].value = "SOROU-EMCSD.SOR.OU.01.01"

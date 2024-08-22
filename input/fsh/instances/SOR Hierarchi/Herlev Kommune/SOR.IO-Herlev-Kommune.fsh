@@ -6,5 +6,5 @@ Description: "Eer.Sor.IO-Herlev-Kommune as a SOR IO Organization."
 * identifier.value = "101000016005" //SOR-Id
 * name = "Eer.Sor.IO-Herlev-Kommune"
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#IO
-* type[EerSorIOOrganizationType].coding.code = $EerSorIOOrganizationType#Municipality
+* type[EerSorOrganizationType].coding.code = $EerSorOrganizationType#Municipality
 */

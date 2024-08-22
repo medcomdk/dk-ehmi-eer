@@ -1,5 +1,5 @@
 Instance: Eer.Sor.OU-AAR-Kommune.1028251000016001
-InstanceOf: EerSorOUOrganization
+InstanceOf: EerSorOrganization
 Description: "LÆ- blanketter, suppl. kommunikation, AAR - SOR.OU-AAR-Kommune.1028251000016001"
 * id = "Eer.Sor.OU-AAR-Kommune.1028251000016001"
 * identifier[SOR].value = "1028251000016001"

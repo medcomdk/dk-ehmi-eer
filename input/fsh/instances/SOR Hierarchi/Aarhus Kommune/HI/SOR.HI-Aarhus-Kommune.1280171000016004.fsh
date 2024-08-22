@@ -1,5 +1,5 @@
 Instance: Eer.Sor.HI-AAR-Kommune.1280171000016004
-InstanceOf: EerSorHIOrganization
+InstanceOf: EerSorOrganization
 Description: "AAR SOR HI Organization.1280171000016004 - Sociale Forhold og Beskæftigelse"
 * id = "Eer.Sor.HI-AAR-Kommune.1280171000016004"
 * identifier[SOR].value = "1280171000016004"

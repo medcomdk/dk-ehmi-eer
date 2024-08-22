@@ -1,6 +1,6 @@
 /*
 Instance: Eer.Sor.HI-Herlev-Kommune-SOR.6501000016006
-InstanceOf: EerSorHIOrganization
+InstanceOf: EerSorOrganization
 Description: "An example of an SOR HI Organization."
 * id = "Eer.Sor.HI-Herlev-Kommune-SOR.6501000016006"
 * identifier.value = "6501000016006"

@@ -1,5 +1,5 @@
 Instance: EerSorHIOrganization_1.0
-InstanceOf: EerSorHIOrganization
+InstanceOf: EerSorOrganization
 Description: "An example of an SOR HI Organization."
 * id = "Eer.Sor.HI.01.1"
 * identifier[SOR].value = "Eer.Sor.HI.01.1"
