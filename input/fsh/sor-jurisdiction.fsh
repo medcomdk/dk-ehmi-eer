@@ -1,3 +1,4 @@
+/*
 Profile:      SORJurisdictionOrganization
 Parent:       MCSDJurisdictionOrganization
 Id:           MedCom.SOR.JurisdictionOrganization
@@ -11,3 +12,4 @@ Parent:       MCSDJurisdictionLocation
 Id:           MedCom.SOR.JurisdictionLocation
 Title:        "SOR Jurisdiction Location"
 Description:  """ MedCom.SOR.JurisdictionLocation """
+*/
