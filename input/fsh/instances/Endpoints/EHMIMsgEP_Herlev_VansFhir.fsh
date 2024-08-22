@@ -4,8 +4,8 @@ InstanceOf: EerMessagingVansFhirEndpoint
 Description: "Herlev EerMessagingEndpoint-Herlev-VansFhir.01."
 * id = "EerMessagingEndpoint-Herlev-VansFhir.01"
 * identifier.value = "5790002508226"
-* identifier.system = $EHMIAuditEventAgentWhoIdentifierTypes
-* identifier.type = $EHMIAuditEventAgentWhoIdentifierTypes#GLN
+* identifier.system = $EerAuditEventAgentWhoIdentifierTypes
+* identifier.type = $EerAuditEventAgentWhoIdentifierTypes#GLN
 //* identifier.use = "official"
 * status = #active
 * managingOrganization = Reference(Organization/EHMI.SOR.IO-Herlev-Kommune-SOR.101000016005)

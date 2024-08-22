@@ -4,8 +4,8 @@ InstanceOf: EereDeliveryMessagingOioxmlEndpoint
 Description: "Herlev EereDeliveryMessagingOioxmlEndpoint."
 * id = "EerMessagingEndpoint-Herlev-eDeliveryOioxml.01"
 * identifier.value = "5790002508226"
-* identifier.system = $EHMIAuditEventAgentWhoIdentifierTypes
-* identifier.type = $EHMIAuditEventAgentWhoIdentifierTypes#GLN
+* identifier.system = $EerAuditEventAgentWhoIdentifierTypes
+* identifier.type = $EerAuditEventAgentWhoIdentifierTypes#GLN
 * status = #active
 * managingOrganization = Reference(Organization/EHMI.SOR.IO-Herlev-Kommune-SOR.101000016005)
 * period.start = "2023-01-01"

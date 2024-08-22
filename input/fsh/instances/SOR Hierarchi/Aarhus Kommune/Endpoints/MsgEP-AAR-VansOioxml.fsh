@@ -3,8 +3,8 @@ InstanceOf: EereDeliveryMessagingOioxmlEndpoint
 Description: "AAR EereDeliveryMessagingOioxmlEndpoint."
 * id = "EerMessagingEndpoint-AAR-VansOioxml.01"
 * identifier.value = "5790002508226"
-* identifier.system = $EHMIAuditEventAgentWhoIdentifierTypes
-* identifier.type = $EHMIAuditEventAgentWhoIdentifierTypes#GLN
+* identifier.system = $EerAuditEventAgentWhoIdentifierTypes
+* identifier.type = $EerAuditEventAgentWhoIdentifierTypes#GLN
 //* identifier.use = "official"
 * status = #active
 * managingOrganization = Reference(Organization/EHMI.SOR.IO-AAR-Kommune.311000016009)

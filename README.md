@@ -1,2 +1,2 @@
-# EHMI Endpoint Register (EER-0.8)
+# EER Endpoint Register (EER-0.8)
 

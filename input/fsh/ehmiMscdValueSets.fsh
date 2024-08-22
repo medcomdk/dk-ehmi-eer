@@ -23,7 +23,7 @@ Description: "ValueSet containing codes for SOR Organization Identier Type"
 * ^experimental = true
 * include codes from system ehmi-sor-organization-identier-type
 
-CodeSystem: EHMIEndpointConnectionType
+CodeSystem: EerEndpointConnectionType
 Id: ehmi-connection-type
 Title: "EHMI Connection Types CS"
 Description: "ehmi-connection-types for the EHMI Messaging Infrastructure"
@@ -32,14 +32,14 @@ Description: "ehmi-connection-types for the EHMI Messaging Infrastructure"
 * ^date  =  "2023-09-01"
 * ^experimental = true
 * ^caseSensitive = true
-* #EHMIeDeliveryMessaging "EHMI messaging via eDelivery"
+* #EEReDeliveryMessaging "EHMI messaging via eDelivery"
 * #vansMessaging "EHMI VANS messaging"
 * #hl7-fhir-msg "hl7-fhir-msg"
 * #hl7-fhir-rest "hl7-fhir-rest"
 * #ihe-xds "ihe-xds - Cross-domain Document Sharing"
 
-ValueSet: EHMIEndpointConnectionTypeVS
-Id: ehmi-connection-type-valueset
+ValueSet: EerEndpointConnectionTypeVS
+Id: eer-connection-type-valueset
 Title: "EHMI connection Types Valueset"
 Description: "ValueSet containing codes for EHMI connectionTypes"
 * ^version  =  "1.0.0"
@@ -51,7 +51,7 @@ Description: "ValueSet containing codes for EHMI connectionTypes"
 //* include #hl7-fhir-rest from system $mCSDEndpointConnectionType
 //* include #ihe-xds from system $mCSDEndpointConnectionType
 
-CodeSystem: EHMIEndpointPayloadType
+CodeSystem: EerEndpointPayloadType
 Id: ehmi-payload-type
 Title: "EHMI Payload Types CS"
 Description: "ehmi-payload-types for the EHMI Messaging Infrastructure"
@@ -71,7 +71,7 @@ Description: "ehmi-payload-types for the EHMI Messaging Infrastructure"
 * #urn:dk:medcom:prod:messaging:sbdhack "MedCom SBDH Ack message as a production message"
 * #urn:dk:medcom:test:messaging:sbdhack "MedCom SBDH Ack message as a test message"
 
-ValueSet: EHMIEndpointPayloadTypeVS
+ValueSet: EerEndpointPayloadTypeVS
 Id: ehmi-payload-type-valueset
 Title: "EHMI payload Types Valueset"
 Description: "ValueSet containing codes for EHMI payloadTypes"
@@ -160,7 +160,7 @@ Description: "ehmi-sor-net-operator-type for the EHMI Messaging Infrastructure"
 * include codes from system ehmi-sor-net-operator-type
 
 CodeSystem: EHMIMedComMessageDefinitionType
-Id: ehmi-medcom-message-definition-type
+Id: eer-medcom-message-definition-type
 Title: "EHMIMedComMessageDefinitionType CodeSystem"
 Description: "EHMIMedComMessageDefinitionTypeCS for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
@@ -174,14 +174,14 @@ Description: "EHMIMedComMessageDefinitionTypeCS for the EHMI Messaging Infrastru
 * #ENVELOPE "Envelope"
 
 ValueSet: EHMIMedComMessageDefinitionTypeVS
-Id: ehmi-medcom-message-definition-type-valueset
+Id: eer-medcom-message-definition-type-valueset
 Title: "EHMIMedComMessageDefinitionType Valueset"
 Description: "EHMIMedComMessageDefinitionTypeVS for the EHMI Messaging Infrastructure"
 * ^version  =  "1.0.0"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
 * ^experimental = true
-* include codes from system ehmi-medcom-message-definition-type
+* include codes from system eer-medcom-message-definition-type
 
 CodeSystem: EerMessageDefinitionIdentifierSystem
 Id: ehmi-messagedefinition-identifer-system

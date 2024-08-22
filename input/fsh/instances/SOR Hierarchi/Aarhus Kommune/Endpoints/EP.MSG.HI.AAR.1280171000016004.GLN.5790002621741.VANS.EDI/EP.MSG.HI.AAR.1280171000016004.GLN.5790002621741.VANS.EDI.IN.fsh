@@ -3,8 +3,8 @@ InstanceOf: EerMessagingVansEdiEndpoint
 Description: "AAR EerMessaging VansEdi Endpoint Inbound"
 * id = "EP.MSG.HI.AAR.1280171000016004.GLN.5790002621741.VANS.EDI.IN"
 * identifier.value = "5790002621741"
-* identifier.system = $EHMIAuditEventAgentWhoIdentifierTypes
-* identifier.type = $EHMIAuditEventAgentWhoIdentifierTypes#GLN
+* identifier.system = $EerAuditEventAgentWhoIdentifierTypes
+* identifier.type = $EerAuditEventAgentWhoIdentifierTypes#GLN
 //* identifier.use = "official"
 * status = #active
 * managingOrganization = Reference(Organization/EHMI.SOR.HI-AAR-Kommune.1280171000016004)
