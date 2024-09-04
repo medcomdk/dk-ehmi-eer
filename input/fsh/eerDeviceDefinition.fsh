@@ -20,12 +20,12 @@ Description: "An EerDeviceDefinition-EOJ profile of the EerDeviceDefinition reso
 Profile: EerDeviceDefinitionMSH
 Parent: EerDeviceDefinition
 Description: "An EerDeviceDefinition-EOJ profile of the EerDeviceDefinition resource."
-* type = EerDeviceType#MSH "MSH" (exactly)
+* type = EerDeviceType#MSH "Message Service Handler" (exactly)
 
 Profile: EerDeviceDefinitionEUA
 Parent: EerDeviceDefinition
 Description: "An EerDeviceDefinition-EOJ profile of the EerDeviceDefinition resource."
-* type = EerDeviceType#EUA "EUA" (exactly)
+* type = EerDeviceType#EUA "End User Application" (exactly)
 
 /*
 Profile: EerDeviceDefinitionLPS
