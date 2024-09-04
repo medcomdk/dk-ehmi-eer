@@ -13,7 +13,7 @@ Description: "An example of an EerMessageDefinition for CareCommunication:3.0"
 * status = #draft
 * date = "2023-01-06"
 * copyright = "Copyright © 2023 MedCom"
-//* publisher = "MedCom"
+* publisher = "MedCom, https://www.medcom.dk"
 * contact[InteroperabilityConsultant].name = "Interoperability Consultant, Thea Mentz Sørensen"
 * contact[InteroperabilityConsultant].telecom.system = #email
 * contact[InteroperabilityConsultant].telecom.value = "tms@medcom.dk" 
