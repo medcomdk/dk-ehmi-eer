@@ -20,3 +20,18 @@ Profile: EerDeviceDefinitionEOJ
 Parent: EerDeviceDefinition
 Description: "An EerDeviceDefinition-EOJ profile of the EerDeviceDefinition resource."
 * type = EerDeviceType#EOJ "EOJ"
+
+Profile: EerDeviceDefinitionAP
+Parent: EerDeviceDefinition
+Description: "An EerDeviceDefinition-EOJ profile of the EerDeviceDefinition resource."
+* type = EerDeviceType#AP "AP"
+
+Profile: EerDeviceDefinitionMSH
+Parent: EerDeviceDefinition
+Description: "An EerDeviceDefinition-EOJ profile of the EerDeviceDefinition resource."
+* type = EerDeviceType#MSH "MSH"
+
+Profile: EerDeviceDefinitionEUA
+Parent: EerDeviceDefinition
+Description: "An EerDeviceDefinition-EOJ profile of the EerDeviceDefinition resource."
+* type = EerDeviceType#EUA "EUA"

@@ -9,7 +9,9 @@ Description: "CodeSystem containing codes for EER-Device-Type"
 * ^caseSensitive = true
 * #EOJ "Electronical Homecare Journal" "EOJ"
 * #LPS "General Practitioner System" "LPS"
-
+* #AP "eDelivery Access Point" "AP"
+* #MSH "Message Service Handler" "MSH"
+* #EUA "End User Application" "EUA"
 
 ValueSet: EerDeviceTypeVS
 Id: eer-device-type-valueset
