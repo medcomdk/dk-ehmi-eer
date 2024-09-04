@@ -15,7 +15,7 @@ Description: "An EER profile of the DeviceDefinition resource."
 Profile: EerDeviceDefinitionAP
 Parent: EerDeviceDefinition
 Description: "An EerDeviceDefinition-EOJ profile of the EerDeviceDefinition resource."
-* type = EerDeviceType#AP "AP" (exactly)
+* type = EerDeviceType#AP "eDelivery Access Point" (exactly)
 
 Profile: EerDeviceDefinitionMSH
 Parent: EerDeviceDefinition
