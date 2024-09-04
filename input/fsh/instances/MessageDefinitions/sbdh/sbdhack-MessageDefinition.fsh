@@ -13,7 +13,7 @@ Description: "An example of an EerMessageDefinition for SBDH."
 * status = #active
 * date = "2024-01-01"
 * copyright = "Copyright © 2023 MedCom"
-//* publisher = "MedCom"
+* publisher = "MedCom"
 * contact[InteroperabilityConsultant].id = "InteroperabilityConsultant"
 * contact[InteroperabilityConsultant].name = "Interoperability Consultant, Ole Vilstrup Møller"
 * contact[InteroperabilityConsultant].telecom.system = #email

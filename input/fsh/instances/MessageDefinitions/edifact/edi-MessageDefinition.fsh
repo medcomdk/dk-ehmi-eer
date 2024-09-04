@@ -15,7 +15,7 @@ Description: "An example of an EerMessageDefinition for bin02:b0210x."
 * status = #active
 * date = "2020-06-26"
 * copyright = "Copyright © 2022 MedCom"
-//* publisher = "MedCom"
+* publisher = "MedCom"
 * contact[InteroperabilityConsultant].id = "InteroperabilityConsultant"
 * contact[InteroperabilityConsultant].name = "Interoperability Consultant, Michael Johansen"
 * contact[InteroperabilityConsultant].telecom.system = #email
