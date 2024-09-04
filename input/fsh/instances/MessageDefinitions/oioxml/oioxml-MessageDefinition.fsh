@@ -12,7 +12,7 @@ Description: "An example of an EerMessageDefinition for xref15:xh1530r"
 * title = "xml-kommunehenvisning"
 * status = #active
 * date = "2023-01-01"
-* publisher = "MedCom"
+//* publisher = "MedCom"
 * contact[InteroperabilityConsultant].id = "InteroperabilityConsultant"
 * contact[InteroperabilityConsultant].name = "Interoperability Consultant, Michael Johansen"
 * contact[InteroperabilityConsultant].telecom.system = #email

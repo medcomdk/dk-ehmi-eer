@@ -14,7 +14,7 @@ Description: "An example of an EerMessageDefinition for Acknowledgement:2.0"
 * status = #active
 * date = "2022-10-05"
 * copyright = "Copyright © 2022 MedCom"
-* publisher = "MedCom"
+//* publisher = "MedCom"
 * contact[InteroperabilityConsultant].name = "Interoperability Consultant, Thea Mentz Sørensen"
 * contact[InteroperabilityConsultant].telecom.system = #email
 * contact[InteroperabilityConsultant].telecom.value = "tms@medcom.dk" 
@@ -40,7 +40,7 @@ Description: "An example of an EerMessageDefinition for Acknowledgement:1.0"
 * status = #retired
 * date = "2021-03-23"
 * copyright = "Copyright © 2021 MedCom"
-* publisher = "MedCom"
+//* publisher = "MedCom"
 * contact[InteroperabilityConsultant].name = "Interoperability Consultant, Thea Mentz Sørensen"
 * contact[InteroperabilityConsultant].telecom.system = #email
 * contact[InteroperabilityConsultant].telecom.value = "tms@medcom.dk" 
