@@ -2,6 +2,7 @@ Profile: EerDevice
 Parent: Device
 Description: "An EHMI profile of the Device resource."
 * udiCarrier 0..0 
+* identifier 1..1 MS
 * definition 1..1 MS
 * status 1..1 MS
 
@@ -24,8 +25,10 @@ Description: "An EerDeviceEUA profile of the EerDevice resource."
 * definition 1..1 MS
 //* definition = Reference(EerDeviceDefinitionEUA)
 
+/*
 Instance: EerDeviceAP
 InstanceOf: EerDeviceAP
 Description: "An EerDeviceAP profile of the EerDevice resource."
 * definition = Reference(EerDeviceDefinitionAP)
 * status = #active
+*/
