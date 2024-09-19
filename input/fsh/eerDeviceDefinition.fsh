@@ -1,4 +1,4 @@
-Profile: EerDeviceDefinition
+Profile: EerEndpointDeviceDefinition
 Parent: DeviceDefinition
 Description: "An EER profile of the DeviceDefinition resource."
 * identifier 1..1 MS 
@@ -12,29 +12,29 @@ Description: "An EER profile of the DeviceDefinition resource."
 * type 1..1 MS 
 //* specialization.systemType 1..1 MS 
 
-Profile: EerDeviceDefinitionAP
-Parent: EerDeviceDefinition
-Description: "An EerDeviceDefinition-EOJ profile of the EerDeviceDefinition resource."
+Profile: EerEndpointDeviceDefinitionAP
+Parent: EerEndpointDeviceDefinition
+Description: "An EerEndpointDeviceDefinition-EOJ profile of the EerEndpointDeviceDefinition resource."
 * type = EerDeviceType#AP "eDelivery Access Point" (exactly)
 
-Profile: EerDeviceDefinitionMSH
-Parent: EerDeviceDefinition
-Description: "An EerDeviceDefinition-EOJ profile of the EerDeviceDefinition resource."
+Profile: EerEndpointDeviceDefinitionMSH
+Parent: EerEndpointDeviceDefinition
+Description: "An EerEndpointDeviceDefinition-EOJ profile of the EerEndpointDeviceDefinition resource."
 * type = EerDeviceType#MSH "Message Service Handler" (exactly)
 
-Profile: EerDeviceDefinitionEUA
-Parent: EerDeviceDefinition
-Description: "An EerDeviceDefinition-EOJ profile of the EerDeviceDefinition resource."
+Profile: EerEndpointDeviceDefinitionEUA
+Parent: EerEndpointDeviceDefinition
+Description: "An EerEndpointDeviceDefinition-EOJ profile of the EerEndpointDeviceDefinition resource."
 * type = EerDeviceType#EUA "End User Application" (exactly)
 
 /*
-Profile: EerDeviceDefinitionLPS
-Parent: EerDeviceDefinition
-Description: "An EerDeviceDefinition-LPS profile of the EerDeviceDefinition resource."
+Profile: EerEndpointDeviceDefinitionLPS
+Parent: EerEndpointDeviceDefinition
+Description: "An EerEndpointDeviceDefinition-LPS profile of the EerEndpointDeviceDefinition resource."
 * type =  http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-device-type#LPS "General Practitioner System"
 
-Profile: EerDeviceDefinitionEOJ
-Parent: EerDeviceDefinition
-Description: "An EerDeviceDefinition-EOJ profile of the EerDeviceDefinition resource."
+Profile: EerEndpointDeviceDefinitionEOJ
+Parent: EerEndpointDeviceDefinition
+Description: "An EerEndpointDeviceDefinition-EOJ profile of the EerEndpointDeviceDefinition resource."
 * type = EerDeviceType#EOJ "EOJ"
 */

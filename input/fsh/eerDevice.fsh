@@ -27,24 +27,24 @@ Profile: EerDeviceAP
 Parent: EerDevice
 Title: "EER EndpointDevice - AP"
 Description: "An EerDeviceAP profile of the EerDevice resource."
-//* definition = Reference(EerDeviceDefinitionAP)
+//* definition = Reference(EerEndpointDeviceDefinitionAP)
 
 Profile: EerDeviceMSH
 Parent: EerDevice
 Title: "EER EndpointDevice - MSH"
 Description: "An EerDeviceMSH profile of the EerDevice resource."
-//* definition = Reference(EerDeviceDefinitionMSH)
+//* definition = Reference(EerEndpointDeviceDefinitionMSH)
 
 Profile: EerDeviceEUA
 Parent: EerDevice
 Title: "EER EndpointDevice - EUA"
 Description: "An EerDeviceEUA profile of the EerDevice resource."
-//* definition = Reference(EerDeviceDefinitionEUA)
+//* definition = Reference(EerEndpointDeviceDefinitionEUA)
 
 /*
 Instance: EerDeviceAP
 InstanceOf: EerDeviceAP
 Description: "An EerDeviceAP profile of the EerDevice resource."
-* definition = Reference(EerDeviceDefinitionAP)
+* definition = Reference(EerEndpointDeviceDefinitionAP)
 * status = #active
 */
