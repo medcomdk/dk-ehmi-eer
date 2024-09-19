@@ -19,8 +19,9 @@ mechanism).
 * payloadType from eer-medcom-message-definition-uri-valueset
 * payloadType 1..* MS SU
 * payloadMimeType 1..1 MS SU
-* extension contains eer-dk-core-system-extension named system 0..* MS 
-* extension contains eer-dk-core-network-supply-system-extension named networkSupplySystem 0..* MS 
+* extension contains eer-dk-eua-system-extension named eua-system 0..* MS 
+* extension contains eer-dk-msh-system-extension named msh-system 0..* MS 
+* extension contains eer-dk-network-supply-system-extension named networkSupplySystem 0..* MS 
 
 Profile:      EereDeliveryMessagingEndpoint
 Parent:       EerMessagingEndpoint
