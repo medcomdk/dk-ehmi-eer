@@ -27,12 +27,15 @@ jurisdiction: urn:iso:std:iso:3166#DK "Denmark"
 dependencies:
   ihe.iti.mcsd: 3.8.0
   hl7.fhir.dk.core: 2.0.0
-  # dk.medcom.ehmi.eds: current
+  dk.medcom.ehmi.eds: current
   dk.ehmi.terminology: current
   # dk.ehmi.core: current
-  medcom.fhir.dk.core: 2.3.0
-  medcom.fhir.dk.messaging: 2.0.0
-  medcom.fhir.dk.terminology: 1.6.0
+  # medcom.fhir.dk.core: 2.4.0
+  # medcom.fhir.dk.messaging: 2.2.0
+  # medcom.fhir.dk.terminology: 1.7.0
+  medcom.fhir.dk.core: current
+  medcom.fhir.dk.messaging: current
+  medcom.fhir.dk.terminology: current
 ##
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in
