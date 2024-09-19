@@ -1,5 +1,6 @@
 Profile: EerEndpointDeviceDefinition
 Parent: DeviceDefinition
+Title: "EER EndpointDeviceDefinition"
 Description: "An EER profile of the DeviceDefinition resource."
 * identifier 1..1 MS 
 * udiDeviceIdentifier 0..0
@@ -14,16 +15,19 @@ Description: "An EER profile of the DeviceDefinition resource."
 
 Profile: EerEndpointDeviceDefinitionAP
 Parent: EerEndpointDeviceDefinition
+Title: "EER EndpointDeviceDefinition - AP"
 Description: "An EerEndpointDeviceDefinition-EOJ profile of the EerEndpointDeviceDefinition resource."
 * type = EerDeviceType#AP "eDelivery Access Point" (exactly)
 
 Profile: EerEndpointDeviceDefinitionMSH
 Parent: EerEndpointDeviceDefinition
+Title: "EER EndpointDeviceDefinition - MSH"
 Description: "An EerEndpointDeviceDefinition-EOJ profile of the EerEndpointDeviceDefinition resource."
 * type = EerDeviceType#MSH "Message Service Handler" (exactly)
 
 Profile: EerEndpointDeviceDefinitionEUA
 Parent: EerEndpointDeviceDefinition
+Title: "EER EndpointDeviceDefinition - EUA"
 Description: "An EerEndpointDeviceDefinition-EOJ profile of the EerEndpointDeviceDefinition resource."
 * type = EerDeviceType#EUA "End User Application" (exactly)
 
