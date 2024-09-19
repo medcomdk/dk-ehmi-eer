@@ -16,5 +16,6 @@ This use case is conforming to this OperationDefinition: <a href="OperationDefin
 
 Should an error occur when calling EER to obtain the GLN number and other relevant information, an error response stating this is packed and returned to the caller of EAS as illustrated by:
 
-<img src="./eas_1_1a_getReceiverData_error1.png" alt="1_1a_getReceiverData_error1_getReceivingOrganizationBySORId" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
+<img src="./eas_1_1_getReceiverData_error1.png" alt="1_1_getReceiverData_error1_getReceivingOrganizationBySORId" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
+
  
