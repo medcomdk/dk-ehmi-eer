@@ -32,8 +32,8 @@ Description:  "EER Endpoint eDelivery Messaging"
 Profile:      EereDeliveryMessagingFhirEndpoint
 Parent:       EereDeliveryMessagingEndpoint
 Id:           eer.dk.messaging.edelivery.fhir
-Title:        "EER Endpoint eDelivery FHIR Messaging"
-Description:  "EER Endpoint eDelivery FHIR Messaging"
+Title:        "EER Endpoint eDelivery Messaging - FHIR"
+Description:  "EER Endpoint eDelivery Messaging - FHIR"
 //* payloadType = $EerEndpointPayloadType#urn:dk:medcom:prod:messaging:fhir (exactly)
 //* payloadType = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 
