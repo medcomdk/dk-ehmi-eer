@@ -1,12 +1,12 @@
-Alias: $EdsAuditEventTypes = http://medcomehmi.dk/ig/ehmi_balp/CodeSystem/ehmi-auditevent-types
-Alias: $EdsAuditEventSubTypes = http://medcomehmi.dk/ig/ehmi_balp/CodeSystem/ehmi-auditevent-sub-types
-Alias: $EdsAuditEventSubTypesValueset = http://medcomehmi.dk/ig/ehmi_balp/CodeSystem/ehmi-auditevent-sub-types
+Alias: $EdsAuditEventTypes = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-auditevent-types
+Alias: $EdsAuditEventSubTypes = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-auditevent-sub-types
+Alias: $EdsAuditEventSubTypesValueset = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-auditevent-sub-types
 Alias: $EdsAuditEventOutcome = http://hl7.org/fhir/audit-event-outcome
-Alias: $EdsAuditEventSourceType = http://medcomehmi.dk/ig/ehmi_balp/CodeSystem/ehmi-auditevent-source-type
-Alias: $EdsAuditEventParticipationRoleType = http://medcomehmi.dk/ig/ehmi_balp/CodeSystem/ehmi-auditevent-participationroletype
-Alias: $EerAuditEventAgentWhoIdentifierTypes = http://medcomehmi.dk/ig/ehmi_balp/CodeSystem/ehmi-auditevent-agent-who-identifier-types
-Alias: $EdsAuditEventEntityType = http://medcomehmi.dk/ig/ehmi_balp/CodeSystem/ehmi-auditevent-entity-type
-Alias: $EdsAuditEventEntityDetailType = http://medcomehmi.dk/ig/ehmi_balp/CodeSystem/ehmi-auditevent-entity-detail-type
+Alias: $EdsAuditEventSourceType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-auditevent-source-type
+Alias: $EdsAuditEventParticipationRoleType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-auditevent-participationroletype
+Alias: $EerAuditEventAgentWhoIdentifierTypes = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-auditevent-agent-who-identifier-types
+Alias: $EdsAuditEventEntityType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-auditevent-entity-type
+Alias: $EdsAuditEventEntityDetailType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-auditevent-entity-detail-type
 Alias: $EdsAuditEventValueSet = http://medcomfhir.dk/fhir/ehmi/CodeSystem/EHMIAuditEventValueSet
 Alias: $AuditEventAgentNetworkType = http://hl7.org/fhir/R4/valueset-network-type.html
 Alias: $AuditEventEntityType = http://hl7.org/fhir/R4/valueset-audit-entity-type.html
@@ -15,7 +15,7 @@ Alias: $AuditEventSubTypes = http://hl7.org/fhir/restful-interaction
 Alias: $AuditEventSubTypesValueset = http://hl7.org/fhir/R4/valueset-audit-event-sub-type.html
 Alias: $AuditEventTypes = http://terminology.hl7.org/CodeSystem/audit-event-type
 Alias: $AuditEventTypes2 = http://dicom.nema.org/resources/ontology/DCM
-Alias: $EdsAuditEventEntityMessageType = http://medcomehmi.dk/ig/ehmi_balp/CodeSystem/ehmi-auditevent-entity-message-type
+Alias: $EdsAuditEventEntityMessageType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-auditevent-entity-message-type
 
 Alias: $mCSDEndpointConnectionType = http://hl7.org/fhir/R4/valueset-endpoint-connection-type.html
 
