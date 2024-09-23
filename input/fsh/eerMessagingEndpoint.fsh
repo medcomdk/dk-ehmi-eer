@@ -1,6 +1,24 @@
-Profile:      EerMessagingEndpoint
+Profile:      EerEndpoint
 Parent:       MCSDEndpoint
-Id:           eer.dk.messaging
+Id:           eer.dk.endpoint
+Title:        "EER Endpoint - General Endpoint"
+Description:  """
+A profile on the mCSD Endpoint.
+
+An Organization may be reachable through electronic Endpoint(s).
+An Endpoint may be a eDelivery receiver or a vans receiver (or in the future a FHIR server, an IHE web services actor, or some other
+mechanism).
+"""
+* identifier 1..1 MS SU
+* identifier.system = $EerAuditEventAgentWhoIdentifierTypes
+* identifier.type from $EerAuditEventAgentWhoIdentifierTypes
+* identifier.value 1..1 MS SU
+* connectionType from eer-endpoint-connection-type-valueset
+* period 1..1 MS SU
+
+Profile:      EerMessagingEndpoint
+Parent:       EerEndpoint
+Id:           eer.dk.endpoint.messaging
 Title:        "EER Endpoint - General for Messaging"
 Description:  """
 A profile on the mCSD Endpoint.
