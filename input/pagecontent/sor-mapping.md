@@ -1,4 +1,4 @@
-# EER Endpoint Register (EER) and SOR
+# EER and SOR
 
 Traditionally messaging metadata for a SOR unit has been placed in SOR and SOR-EDI.
 
@@ -8,10 +8,10 @@ The following table gives and overview of how these messaging metadata are mappe
 
 <table style="width:90%; border: 1px solid black; border-collapse: collapse;">
   <tr style="border: 1px solid black; border-collapse: collapse;">
-    <th>SOR</td>
-    <th>EER</td>
-    <th>Link</td>
-    <th>Notes</td>
+    <th>SOR</th>
+    <th>EER</th>
+    <th>Link</th>
+    <th>Notes</th>
   </tr>
   <tr style="border: 1px solid black; border-collapse: collapse;">
     <td>SOR-Unit</td>
@@ -20,10 +20,22 @@ The following table gives and overview of how these messaging metadata are mappe
     <td>Note, that this is EER-SOR-Organization representing the SOR-Unit is only carrying the most necessary information from SOR. It is not a complete representation of the SOR unit. It holds the relationship between the SOR-unit and the EER-Endpoint. <b><i>Most importantly it will not carry the GLN-identifier as it has been moved to the Endpoint ressource</i></b></td>
   </tr>
   <tr style="border: 1px solid black; border-collapse: collapse;">
-    <td>SOR-GLN</td>
+    <td>SOR-GLN (attribute)</td>
     <td>EER-Endpoint</td>
     <td><a href="./StructureDefinition-eer.dk.endpoint.html">EER-Endpoint</a></td>
     <td>EER-Endpoint represents or hold relationsships to all metadata regarding an endpoint in EHMI. In EHMI messaging it will hold  SOR-GLN is now the primary identifier of an EER -Endpoint ressource</td>
+  </tr>
+  <tr style="border: 1px solid black; border-collapse: collapse;">
+    <td>SOR-System (attribute)</td>
+    <td>EER-Device</td>
+    <td><a href="./StructureDefinition-EerDevice.html">EER-Device</a></td>
+    <td>EER-Device represents the System, End-User Application (EUA), that operates for the organization on the endpoint</td>
+  </tr>
+  <tr style="border: 1px solid black; border-collapse: collapse;">
+    <td>SOR-Network (attribute)</td>
+    <td>EER-Device</td>
+    <td><a href="./StructureDefinition-EerDevice.html">EER-Device</a></td>
+    <td>EER-Device represents the network System, Message Service Handler (MSH) or eDelivery Access Point (AP), that operates for the organization on the endpoint. While SOR-System is the actal EUA, the SOR-Network is the more technical device that connects with the EHMI Network</td>
   </tr>
   <tr style="border: 1px solid black; border-collapse: collapse;">
     <td>x</td>
