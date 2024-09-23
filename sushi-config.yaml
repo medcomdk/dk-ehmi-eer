@@ -81,7 +81,8 @@ dependencies:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-# Table of Contents: toc.html
+  EER and SOR: sor-mapping.html
+## Table of Contents: toc.html
   Profiles: profiles.html
   Extensions: extensions.html
   Artifacts: artifacts.html
