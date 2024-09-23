@@ -35,13 +35,13 @@ The following table gives and overview of how these messaging metadata are mappe
     <td>SOR-System (attribute)</td>
     <td>EER-Device</td>
     <td><a href="./StructureDefinition-EerDevice.html">EER-Device</a></td>
-    <td>EER-Device represents the System, End-User Application (EUA), that operates for the organization on the endpoint</td>
+    <td>EER-Device represents the System, End-User Application (EUA), that operates for the organization on the endpoint. Only MedCom Certified Systems can appear as a EER-device</td>
   </tr>
   <tr style="border: 1px solid black; border-collapse: collapse;">
-    <td>SOR-Network (attribute)</td>
+    <td>SOR-Network Supply System (attribute)</td>
     <td>EER-Device</td>
     <td><a href="./StructureDefinition-EerDevice.html">EER-Device</a></td>
-    <td>EER-Device represents the network System, Message Service Handler (MSH) or eDelivery Access Point (AP), that operates for the organization on the endpoint. While SOR-System is the actal EUA, the SOR-Network is the more technical device that connects with the EHMI Network</td>
+    <td>EER-Device represents the network System, Message Service Handler (MSH) or eDelivery Access Point (AP), that operates for the organization on the endpoint. While SOR-System is the actal EUA, the SOR-Network is the more technical device that connects with the EHMI Network. Only MedCom Certified Systems can appear as a EER-device</td>
   </tr>
   <tr style="border: 1px solid black; border-collapse: collapse;">
     <td>x</td>
