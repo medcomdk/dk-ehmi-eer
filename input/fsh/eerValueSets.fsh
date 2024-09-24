@@ -306,3 +306,25 @@ Description: "ValueSet containing codes for EER SOR Clinical Administrative Hier
 * ^date  =  "2023-09-01"
 * ^experimental = true
 * include codes from system eer-sor-clinical-administrative-hierarchy
+
+CodeSystem: EerDigitalSignatureType
+Id: eer-digital-signature-type
+Title: "EER digital-signature Types CS"
+Description: "eer-digital-signature-types for the EER Messaging Infrastructure"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2024-09-01"
+* ^experimental = true
+* ^caseSensitive = true
+* #ETSI "ETSI DigSig"
+
+ValueSet: EerDigitalSignatureTypeVS
+Id: eer-digital-signature-type-valueset
+Title: "EER digital-signature Types VS"
+Description: "eer-digital-signature-types for the EER Messaging Infrastructure"
+* ^version  =  "1.0.0"
+* ^status  =  #active
+* ^date  =  "2024-09-01"
+* ^experimental = true
+* ^caseSensitive = true
+* include codes from system eer-digital-signature-type
