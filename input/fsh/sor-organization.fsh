@@ -11,7 +11,7 @@ Description:  """ EER SOR General Organization """
     and MunicipalityCode 0..1 MS SU 
 * identifier[SOR].use = #official
 * identifier[SOR].type from $EerSorOrganizationIdentierTypeVS
-* identifier[SOR].type = $EerSorOrganizationIdentierType#SORIDID (exactly)
+* identifier[SOR].type = $EerSorOrganizationIdentierType#SORID (exactly)
 * identifier[SOR].system = "1.2.208.176.1.1" (exactly)
 * identifier[MunicipalityCode].use = #official
 * identifier[MunicipalityCode].value from $EerSorMunicipalityCodeVS
