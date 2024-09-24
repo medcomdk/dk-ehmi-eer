@@ -1,8 +1,8 @@
 Profile:      EerSorOrganization
 Parent:       MCSDOrganization
 Id:           Eer.Sor.Organization
-Title:        "EHMI SOR Organization"
-Description:  """ EHMI SOR General Organization """
+Title:        "EER SOR Organization"
+Description:  """ EER SOR General Organization """
 * identifier ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = type
   * ^slicing.rules = #open //#closed eller #open 
@@ -39,8 +39,8 @@ Description:  """ EHMI SOR General Organization """
 Profile:      EerSorIOOrganization
 Parent:       EerSorOrganization
 Id:           Eer.Sor.InstitutionOwner.Organization
-Title:        "EHMI SOR Institution Owner Organization"
-Description:  """ EHMI SOR Institution Owner Organization IO (DK:IE) """
+Title:        "EER SOR Institution Owner Organization"
+Description:  """ EER SOR Institution Owner Organization IO (DK:IE) """
 * type ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = coding.code
   * ^slicing.rules = #open //#closed eller #open 
@@ -55,8 +55,8 @@ Description:  """ EHMI SOR Institution Owner Organization IO (DK:IE) """
 Profile:      EerSorMunicipalityOrganization
 Parent:       EerSorOrganization
 Id:           Eer.Sor.InstitutionOwner.Municipality.Organization
-Title:        "EHMI SOR Institution Owner Municipality Organization"
-Description:  """ EHMI SOR Institution Owner Municipality Organization IO (DK:IE) """
+Title:        "EER SOR Institution Owner Municipality Organization"
+Description:  """ EER SOR Institution Owner Municipality Organization IO (DK:IE) """
 //* type[SOR-Hierarchy] = $EerSorOrganizationType#IE (exactly)
 * identifier ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = type
@@ -74,8 +74,8 @@ Description:  """ EHMI SOR Institution Owner Municipality Organization IO (DK:IE
 Profile:      EerSorRegionalOrganization
 Parent:       EerSorOrganization
 Id:           Eer.Sor.InstitutionOwner.Regional.Organization
-Title:        "EHMI SOR Institution Owner Regional Organization"
-Description:  """ EHMI SOR Institution Owner Regional Organization IO (DK:IE) """
+Title:        "EER SOR Institution Owner Regional Organization"
+Description:  """ EER SOR Institution Owner Regional Organization IO (DK:IE) """
 ///* type[SOR-Hierarchy] = $EerSorOrganizationType#IE (exactly)
 * identifier ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = type
@@ -93,8 +93,8 @@ Description:  """ EHMI SOR Institution Owner Regional Organization IO (DK:IE) ""
 Profile:      EerSorHIOrganization
 Parent:       EerSorOrganization
 Id:           Eer.Sor.HealthcareInstitution.Organization
-Title:        "EHMI SOR Healthcare Institution Organization"
-Description:  """ EHMI SOR Healthcare Institution Organization HI (DK:SI) """
+Title:        "EER SOR Healthcare Institution Organization"
+Description:  """ EER SOR Healthcare Institution Organization HI (DK:SI) """
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#SI (exactly)
 //* partOf = Reference(Organization)
 * partOf 1..1 MS
@@ -110,8 +110,8 @@ Expression:  "partOf only Reference({Organization/EerSorIOOrganization})"
 Profile:      EerSorHospitalOrganization
 Parent:       EerSorOrganization
 Id:           Eer.Sor.HealthcareInstitution.Hospital.Organization
-Title:        "EHMI SOR Healthcare Institution Hospital Organization"
-Description:  """ EHMI SOR Healthcare Institution Hospital Organization HI (DK:SI) """
+Title:        "EER SOR Healthcare Institution Hospital Organization"
+Description:  """ EER SOR Healthcare Institution Hospital Organization HI (DK:SI) """
 * type ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = coding.code
   * ^slicing.rules = #open //#closed eller #open 
@@ -125,15 +125,15 @@ Description:  """ EHMI SOR Healthcare Institution Hospital Organization HI (DK:S
 Profile:      EerSorOUOrganization
 Parent:       EerSorOrganization
 Id:           Eer.Sor.OrganizationalUnit.Organization
-Title:        "EHMI SOR Organizational Unit"
-Description:  """ EHMI SOR Organizational Unit OU (DK:OE) """
+Title:        "EER SOR Organizational Unit"
+Description:  """ EER SOR Organizational Unit OU (DK:OE) """
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#OE (exactly)
 
 Profile:      EerSorHospitalOUOrganization
 Parent:       EerSorOrganization
 Id:           Eer.Sor.HospitalOUOrganization.Organization
-Title:        "EHMI SOR Organizational Unit"
-Description:  """ EHMI SOR Organizational Unit OU (DK:OE) """
+Title:        "EER SOR Organizational Unit"
+Description:  """ EER SOR Organizational Unit OU (DK:OE) """
 * type ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = coding.code
   * ^slicing.rules = #open //#closed eller #open 
