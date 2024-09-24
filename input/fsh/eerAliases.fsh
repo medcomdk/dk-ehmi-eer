@@ -61,6 +61,10 @@ Alias: $MessageEvents = http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-me
 
 Alias: $EerUsageContextCodeSystem = http://terminology.hl7.org/CodeSystem/usage-context-type
 Alias: $EerUsageContextCodeSystemVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-messagedefinition-use-context-code-valueset
+
+Alias: $EerDigSigCS = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-digital-signature-type
+Alias: $EerDigSigVS = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-digital-signature-type-valueset
+
 /*
 Alias: $StatusCodes = http://hl7.org/fhir/encounter-status
 Alias: $ActCodes = http://terminology.hl7.org/CodeSystem/v3-ActCode 
