@@ -3,7 +3,7 @@ InstanceOf: EerSorOrganization
 Description: "An example of an SOR OU Organization."
 * id = "EER.SOR-OU.01.01"
 * identifier[SOR].value = "SOROU-EMCSD.SOR.OU.01.01"
-* name = "EHMI.SOR-OU-Organization"
+* name = "EER.SOR-OU-Organization"
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#OE
 * type[SOR-Hierarchy].coding.system = $EerSorOrganizationType
 * partOf = Reference(Organization/EER.SOR-OU.01)
