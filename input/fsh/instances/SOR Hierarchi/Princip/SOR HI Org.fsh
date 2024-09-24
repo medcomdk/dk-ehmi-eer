@@ -1,8 +1,8 @@
-Instance: EerSorHIOrganization_1.0
+Instance: EER.SOR-HI..01
 InstanceOf: EerSorOrganization
 Description: "An example of an SOR HI Organization."
-* id = "Eer.Sor.HI.01.1"
-* identifier[SOR].value = "Eer.Sor.HI.01.1"
+* id = "EER.SOR-HI..01"
+* identifier[SOR].value = "EER.SOR-HI..01"
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#SI
 * type[SOR-Hierarchy].coding.system = $EerSorOrganizationType
 * type[SOR-UnitType].coding.code = $EerSorUnitType#genoptræningsenhed

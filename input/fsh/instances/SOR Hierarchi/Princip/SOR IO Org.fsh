@@ -1,4 +1,4 @@
-Instance: EHMI.SORIOOrganization.1.0
+Instance: EER.SOR-IO..01
 InstanceOf: EerSorOrganization
 Description: "An example of an SOR IO Organization."
 * id = "Eer.Sor.IO.01"

@@ -8,5 +8,5 @@ Description: "An example of an SOR HI Organization."
 //* type[facility] = #prov
 //* type[facility].coding.code = #facility
 //* type[facility].coding.system = https://profiles.ihe.net/ITI/mCSD/CodeSystem/IHE.mCSD.Organization.Location.Types
-* partOf = Reference(Organization/Eer.Sor.HI.01.1)
+* partOf = Reference(Organization/EER.SOR-HI..01)
 */
