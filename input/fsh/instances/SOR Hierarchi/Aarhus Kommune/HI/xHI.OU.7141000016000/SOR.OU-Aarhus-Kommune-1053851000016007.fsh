@@ -2,6 +2,8 @@ Instance: Eer.SOR.OU-AAR-Kommune.1053851000016007
 InstanceOf: EerSorOrganization
 Description: "LÆ- blanketter, suppl. kommunikation, AAR - SOR.OU-AAR-Kommune.1053851000016007"
 * id = "Eer.SOR.OU-AAR-Kommune.1053851000016007"
+* identifier[SOR].type = $EerSorOrganizationIdentierType#SOR
+* identifier[SOR].system = "1.2.208.176.1.1"
 * identifier[SOR].value = "1053851000016007"
 * name = "EER SOR OU AAR Kommune (1053851000016007)"
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#OE

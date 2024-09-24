@@ -2,6 +2,8 @@ Instance: Eer.Sor.HI-AAR-Kommune.947241000016008
 InstanceOf: EerSorOrganization
 Description: "AAR SOR HI Organization.947241000016008"
 * id = "Eer.Sor.HI-AAR-Kommune.947241000016008"
+* identifier[SOR].type = $EerSorOrganizationIdentierType#SOR
+* identifier[SOR].system = "1.2.208.176.1.1"
 * identifier[SOR].value = "947241000016008"
 * type[SOR-UnitType].coding.code = $EerSorUnitType#sundhedsforvaltning
 * name = "EER SOR HI AAR Kommune (947241000016008)"
