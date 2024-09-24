@@ -18,6 +18,7 @@ Title: "EER Digital Signature for eDelivery Extension"
 Description: "EER Digital Signature for eDelivery Extension"
 * valueSignature.sigFormat 1..1
 * valueSignature.data 1..1
+* value[x] only valueSignature
 
 
 
