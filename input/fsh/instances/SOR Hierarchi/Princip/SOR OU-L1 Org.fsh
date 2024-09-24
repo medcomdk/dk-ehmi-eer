@@ -1,8 +1,8 @@
-Instance: EER.SOR-OU..01
+Instance: EER.SOR-OU.01
 InstanceOf: EerSorOrganization
 Description: "An example of an SOR OU Organization."
-* id = "EER.SOR-OU..01"
-* identifier[SOR].value = "EER.SOR-OU..01"
+* id = "EER.SOR-OU.01"
+* identifier[SOR].value = "EER.SOR-OU.01"
 * name = "EHMI.SOR-OU-Organization"
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#OE
 * type[SOR-Hierarchy].coding.system = $EerSorOrganizationType
