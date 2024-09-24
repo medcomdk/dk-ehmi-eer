@@ -316,7 +316,7 @@ Description: "eer-digital-signature-types for the EER Messaging Infrastructure"
 * ^date  =  "2024-09-01"
 * ^experimental = true
 * ^caseSensitive = true
-* #ETSI "ETSI DigSig"
+* #ETSI "Digital Signature"
 
 ValueSet: EerDigitalSignatureTypeVS
 Id: eer-digital-signature-type-valueset
@@ -326,5 +326,4 @@ Description: "eer-digital-signature-types for the EER Messaging Infrastructure"
 * ^status  =  #active
 * ^date  =  "2024-09-01"
 * ^experimental = true
-* ^caseSensitive = true
-* include codes from system eer-digital-signature-type
+* include codes from system $EerDigSigCS
