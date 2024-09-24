@@ -1,9 +1,9 @@
 Instance: EER.SOR-IO..01
 InstanceOf: EerSorOrganization
 Description: "An example of an SOR IO Organization."
-* id = "Eer.Sor.IO.01"
+* id = "EER.SOR.IO.01"
 * identifier[SOR].type = $EerSorOrganizationIdentierType#SOR
-* identifier[SOR].value = "Eer.Sor.IO.01"
+* identifier[SOR].value = "EER.SOR.IO.01"
 * name = "eer-sor-IO-Organization"
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#IE
 * type[SOR-Hierarchy].coding.system = $EerSorOrganizationType

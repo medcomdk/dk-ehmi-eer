@@ -7,4 +7,4 @@ Description: "An example of an SOR HI Organization."
 * type[SOR-Hierarchy].coding.system = $EerSorOrganizationType
 * type[SOR-UnitType].coding.code = $EerSorUnitType#genoptræningsenhed
 * name = "EER-SOR-HI-Organization"
-* partOf = Reference(Organization/Eer.Sor.IO.01)
+* partOf = Reference(Organization/EER.SOR.IO.01)
