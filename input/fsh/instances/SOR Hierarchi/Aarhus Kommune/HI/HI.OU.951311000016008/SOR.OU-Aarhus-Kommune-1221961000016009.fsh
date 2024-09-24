@@ -8,7 +8,7 @@ Description: "Sygehusadviser, AAR - SOR.OU-AAR-Kommune.1221961000016009"
 * name = "EER SOR OU AAR Kommune (1221961000016009)"
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#OE
 * type[SOR-Hierarchy].coding.system = $EerSorOrganizationType
-* partOf = Reference(Organization/Eer.Sor.HI-AAR-Kommune.951311000016008)
+* partOf = Reference(Organization/EER.SOR.HI-AAR-Kommune.951311000016008)
 //* endpoint[0] = Reference(Endpoint/EerEndpoint-Messaging-AAR-VansEdi.01)
 //* endpoint[+] = Reference(Endpoint/EerEndpoint-Messaging-AAR-eDeliveryEdi.01)
 //* endpoint[+] = Reference(Endpoint/EerEndpoint-Messaging-AAR-VansFhir.01)

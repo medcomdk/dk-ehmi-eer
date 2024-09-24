@@ -1,7 +1,7 @@
-Instance: Eer.Sor.HI-AAR-Kommune.533291000016001
+Instance: EER.SOR.HI-AAR-Kommune.533291000016001
 InstanceOf: EerSorOrganization
 Description: "AAR SOR HI Organization.533291000016001 - Specialdagtilbud Skovbrynet"
-* id = "Eer.Sor.HI-AAR-Kommune.533291000016001"
+* id = "EER.SOR.HI-AAR-Kommune.533291000016001"
 * identifier[SOR].type = $EerSorOrganizationIdentierType#SORID
 * identifier[SOR].system = "1.2.208.176.1.1"
 * identifier[SOR].value = "533291000016001"
