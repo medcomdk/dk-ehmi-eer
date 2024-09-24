@@ -3,7 +3,7 @@ InstanceOf: EerSorOrganization
 Description: "Sygehusadviser, AAR - SOR.OU-AAR-Kommune.951321000016004"
 * id = "Eer.Sor.OU-AAR-Kommune.951321000016004"
 * identifier[SOR].value = "951321000016004"
-* name = "EHMI SOR OU AAR Kommune (951321000016004)"
+* name = "EER SOR OU AAR Kommune (951321000016004)"
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#OE
 * type[SOR-Hierarchy].coding.system = $EerSorOrganizationType
 * partOf = Reference(Organization/Eer.Sor.HI-AAR-Kommune.951311000016008)
