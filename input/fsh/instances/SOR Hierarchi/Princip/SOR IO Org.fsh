@@ -3,7 +3,7 @@ InstanceOf: EerSorOrganization
 Description: "An example of an SOR IO Organization."
 * id = "EER.SOR.IO.01"
 * identifier[SOR].value = "EER.SOR.IO.01"
-* identifier[SOR].type = $EerSorOrganizationIdentierType#SOR
+* identifier[SOR].type = $EerSorOrganizationIdentierType#SORID
 * identifier[SOR].system = "1.2.208.176.1.1"
 * name = "EER-SOR-IO-Organization"
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#IE

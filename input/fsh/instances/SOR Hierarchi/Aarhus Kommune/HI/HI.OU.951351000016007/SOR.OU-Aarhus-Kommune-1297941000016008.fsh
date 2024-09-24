@@ -2,7 +2,7 @@ Instance: Eer.Sor.OU-AAR-Kommune.1297941000016008
 InstanceOf: EerSorOrganization
 Description: "Sygehusadviser, AAR - SOR.OU-AAR-Kommune.1297941000016008"
 * id = "Eer.Sor.OU-AAR-Kommune.1297941000016008"
-* identifier[SOR].type = $EerSorOrganizationIdentierType#SOR
+* identifier[SOR].type = $EerSorOrganizationIdentierType#SORID
 * identifier[SOR].system = "1.2.208.176.1.1"
 * identifier[SOR].value = "1297941000016008"
 * name = "EER SOR OU AAR Kommune (1297941000016008)"
