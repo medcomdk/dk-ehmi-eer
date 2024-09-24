@@ -7,7 +7,8 @@ Description:  "EER Digital Signature for eDelivery"
 * code.coding.code = "DigitalSignature"
 * code.coding.display = "Digital Signature"
 * code.coding.system = "ETSI"
-* 
+* extension contains eer-dk-digital-signature-extension named digitalsignature 1..1 MS 
+
 
 
 Extension: EerDigitalSignatureExtension
