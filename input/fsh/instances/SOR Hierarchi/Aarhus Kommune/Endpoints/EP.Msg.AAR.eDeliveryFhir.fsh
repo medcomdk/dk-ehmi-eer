@@ -1,7 +1,7 @@
-Instance: EerMessagingEndpoint-AAR-eDeliveryFhir.5790002508226
+Instance: EerEndpoint-Messaging-AAR-eDeliveryFhir.5790002508226
 InstanceOf: EereDeliveryMessagingFhirEndpoint
 Description: "AAR EereDeliveryMessagingFhirEndpoint."
-* id = "EerMessagingEndpoint-AAR-eDeliveryFhir.01"
+* id = "EerEndpoint-Messaging-AAR-eDeliveryFhir.01"
 * identifier.value = "5790002508226"
 * identifier.system = $EerAuditEventAgentWhoIdentifierTypes
 * identifier.type = $EerAuditEventAgentWhoIdentifierTypes#GLN

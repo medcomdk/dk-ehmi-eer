@@ -1,8 +1,8 @@
-Instance: EerMessagingEndpoint-eDeliveryFhir.01
+Instance: EerEndpoint-Messaging-eDeliveryFhir.01
 InstanceOf: EereDeliveryMessagingFhirEndpoint
 Description: "An example of an EereDeliveryMessagingFhirEndpoint."
-* id = "EerMessagingEndpoint-eDeliveryFhir.01"
-* identifier.value = "EerMessagingEndpoint-eDeliveryFhir.01"
+* id = "EerEndpoint-Messaging-eDeliveryFhir.01"
+* identifier.value = "EerEndpoint-Messaging-eDeliveryFhir.01"
 //* identifier.use = "official"
 * status = #active
 * managingOrganization = Reference(Organization/Eer.Sor.HI.01.1)

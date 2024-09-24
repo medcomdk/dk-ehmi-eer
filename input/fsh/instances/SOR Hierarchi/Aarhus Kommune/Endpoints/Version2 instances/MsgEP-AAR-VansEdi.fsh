@@ -1,8 +1,8 @@
 /*
-Instance: EerMessagingEndpoint-AAR-VansEdi.5790002508226
+Instance: EerEndpoint-Messaging-AAR-VansEdi.5790002508226
 InstanceOf: EereDeliveryMessagingEdiEndpoint
 Description: "AAR EereDeliveryMessagingEdiEndpoint."
-* id = "EerMessagingEndpoint-AAR-VansEdi.01"
+* id = "EerEndpoint-Messaging-AAR-VansEdi.01"
 * identifier.value = "5790002508226"
 * identifier.system = $EerAuditEventAgentWhoIdentifierTypes
 * identifier.type = $EerAuditEventAgentWhoIdentifierTypes#GLN
