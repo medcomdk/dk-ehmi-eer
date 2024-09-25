@@ -36,6 +36,7 @@ dependencies:
   medcom.fhir.dk.core: current
   medcom.fhir.dk.messaging: current
   medcom.fhir.dk.terminology: current
+  # medcom.fhir.dk.acknowledgement: dev
 ##
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in
