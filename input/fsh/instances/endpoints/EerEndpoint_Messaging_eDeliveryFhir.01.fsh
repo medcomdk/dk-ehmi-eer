@@ -1,6 +1,6 @@
 Instance: EerEndpoint-Messaging-eDeliveryFhir.01
-InstanceOf: EereDeliveryMessagingFhirEndpoint
-Description: "An example of an EereDeliveryMessagingFhirEndpoint."
+InstanceOf: EerEndpointMessagingEdeliveryFhir
+Description: "An example of an EerEndpointMessagingEdeliveryFhir."
 * id = "EerEndpoint-Messaging-eDeliveryFhir.01"
 * identifier.value = "EerEndpoint-Messaging-eDeliveryFhir.01"
 //* identifier.use = "official"

@@ -32,7 +32,7 @@ Description: "eer-endpoint-connection-types for the EER Messaging Infrastructure
 * ^date  =  "2023-09-01"
 * ^experimental = true
 * ^caseSensitive = true
-* #EEReDeliveryMessaging "EHMI messaging via eDelivery"
+* #EerMessagingEdelivery "EHMI messaging via eDelivery"
 * #vansMessaging "EHMI VANS messaging"
 * #hl7-fhir-msg "hl7-fhir-msg"
 * #hl7-fhir-rest "hl7-fhir-rest"

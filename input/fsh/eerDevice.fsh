@@ -40,11 +40,3 @@ Parent: EerDevice
 Title: "EER EndpointDevice - EUA"
 Description: "An EerDeviceEUA profile of the EerDevice resource."
 //* definition = Reference(EerEndpointDeviceDefinitionEUA)
-
-/*
-Instance: EerDeviceAP
-InstanceOf: EerDeviceAP
-Description: "An EerDeviceAP profile of the EerDevice resource."
-* definition = Reference(EerEndpointDeviceDefinitionAP)
-* status = #active
-*/

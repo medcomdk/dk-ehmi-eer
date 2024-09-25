@@ -1,6 +1,6 @@
 Instance: EerEndpoint-Messaging-AAR-eDeliveryFhir.5790002508226
-InstanceOf: EereDeliveryMessagingFhirEndpoint
-Description: "AAR EereDeliveryMessagingFhirEndpoint."
+InstanceOf: EerEndpointMessagingEdeliveryFhir
+Description: "AAR EerEndpointMessagingEdeliveryFhir."
 * id = "EerEndpoint-Messaging-AAR-eDeliveryFhir.01"
 * identifier.value = "5790002508226"
 * identifier.system = $EerAuditEventAgentWhoIdentifierTypes
@@ -12,6 +12,6 @@ Description: "AAR EereDeliveryMessagingFhirEndpoint."
 * period.end = "2024-01-01"
 * address = "http://eDeliveryAccessPoint.aar.dk/fhir"
 * payloadMimeType[0] = #application/fhir+xml
-//* payloadMimeType[1] = #application/fhir+json
+* payloadMimeType[1] = #application/fhir+json
 * payloadType[0] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 //* payloadType[1] = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0

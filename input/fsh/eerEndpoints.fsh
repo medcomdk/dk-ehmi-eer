@@ -16,7 +16,7 @@ mechanism).
 * connectionType from eer-endpoint-connection-type-valueset
 * period 1..1 MS SU
 
-Profile:      EerMessagingEndpoint
+Profile:      EerEndpointMessaging
 Parent:       EerEndpoint
 Id:           eer.dk.endpoint.messaging
 Title:        "EER Endpoint - General for Messaging"
@@ -36,29 +36,29 @@ mechanism).
 * period 1..1 MS SU
 * payloadType from eer-medcom-message-definition-uri-valueset
 * payloadType 1..* MS SU
-* payloadMimeType 1..1 MS SU
+* payloadMimeType 1..* MS SU
 * extension contains eer-dk-eua-system-extension named eua-system 0..* MS 
 * extension contains eer-dk-msh-system-extension named msh-system 0..* MS 
 * extension contains eer-dk-network-supply-system-extension named networkSupplySystem 0..* MS 
 
-Profile:      EereDeliveryMessagingEndpoint
-Parent:       EerMessagingEndpoint
+Profile:      EerEndpointMessagingEdelivery
+Parent:       EerEndpointMessaging
 Id:           eer.dk.messaging.edelivery
-Title:        "EER Endpoint eDelivery Messaging"
-Description:  "EER Endpoint eDelivery Messaging"
-* connectionType = $EerEndpointConnectionType#EEReDeliveryMessaging (exactly)
+Title:        "EER Endpoint Messaging - eDelivery"
+Description:  "EER Endpoint Messaging - eDelivery"
+* connectionType = $EerEndpointConnectionType#EerMessagingEdelivery (exactly)
 
-Profile:      EereDeliveryMessagingFhirEndpoint
-Parent:       EereDeliveryMessagingEndpoint
+Profile:      EerEndpointMessagingEdeliveryFhir
+Parent:       EerEndpointMessagingEdelivery
 Id:           eer.dk.messaging.edelivery.fhir
-Title:        "EER Endpoint eDelivery Messaging - FHIR"
-Description:  "EER Endpoint eDelivery Messaging - FHIR"
+Title:        "EER Endpoint Messaging eDelivery - FHIR"
+Description:  "EER Endpoint Messaging eDelivery - FHIR"
 //* payloadType = $EerEndpointPayloadType#urn:dk:medcom:prod:messaging:fhir (exactly)
 //* payloadType = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 
 /*
 Profile:      EereDeliveryMessagingEdiEndpoint
-Parent:       EereDeliveryMessagingEndpoint
+Parent:       EerEndpointMessagingEdelivery
 Id:           eer.dk.messaging.edelivery.edi
 Title:        "EER Endpoint eDelivery EDI Messaging"
 Description:  "EER Endpoint eDelivery EDI Messaging"
@@ -71,7 +71,7 @@ Description:  "EER Endpoint eDelivery EDI Messaging"
 
 /*
 Profile:      EereDeliveryMessagingOioxmlEndpoint
-Parent:       EereDeliveryMessagingEndpoint
+Parent:       EerEndpointMessagingEdelivery
 Id:           eer.dk.messaging.edelivery.oioxml
 Title:        "EER Endpoint eDelivery Oioxml Messaging"
 Description:  "EER Endpoint eDelivery Oioxml Messaging"
@@ -84,7 +84,7 @@ Description:  "EER Endpoint eDelivery Oioxml Messaging"
 
 /*
 Profile:      EerMessagingVansEndpoint
-Parent:       EerMessagingEndpoint
+Parent:       EerEndpointMessaging
 Id:           eer.dk.messaging.vans
 Title:        "EER Endpoint VANS Messaging"
 Description:  "EER Endpoint VANS Messaging"
