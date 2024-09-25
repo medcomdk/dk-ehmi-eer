@@ -14,7 +14,7 @@ InstanceOf: EerDeviceAP
 Description: "EerDeviceAP-BizKitAP"
 * id = "EerDeviceAP-BizKitAP"
 * identifier.value = "EerDeviceAP-BizKitAP"
-* definition = Reference("http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerEndpointDeviceDefinitionAP")
+* definition = Reference("StructureDefinition/EerEndpointDeviceDefinitionAP")
 * status = #active
 * deviceName.name = "BizKitAP"
 * deviceName.type = #manufacturer-name
