@@ -50,10 +50,10 @@ Description: "EerDeviceMSH-SystematicMSH"
 * deviceName.type = #manufacturer-name
 * manufacturer = "Systematic"
 
-Instance: EerDeviceMSH-SystematicEUA
+Instance: EerDeviceMSH-SystematicCura
 InstanceOf: EerDeviceEUA
-Description: "EerDeviceEUA-SystematicEUA"
-* identifier.value = "EerDeviceEUA-SystematicEUA"
+Description: "EerDeviceEUA-SystematicCura"
+* identifier.value = "EerDeviceEUA-SystematicCura"
 * definition = Reference("http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerEndpointDeviceDefinitionEUA")
 * status = #active
 * deviceName.name = "Systematic Cura"
