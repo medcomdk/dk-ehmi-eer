@@ -9,6 +9,17 @@ Description: "EerDeviceAP-MultiMedAP"
 * deviceName.type = #manufacturer-name
 * manufacturer = "MultiMed"
 
+Instance: EerDeviceAP-BizKitAP
+InstanceOf: EerDeviceAP
+Description: "EerDeviceAP-BizKitAP"
+* id = "EerDeviceAP-BizKitAP"
+* identifier.value = "EerDeviceAP-BizKitAP"
+* definition = Reference("http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerEndpointDeviceDefinitionAP")
+* status = #active
+* deviceName.name = "BizKitAP"
+* deviceName.type = #manufacturer-name
+* manufacturer = "BizKit"
+
 Instance: EerDeviceMSH-MultiMedMSH
 InstanceOf: EerDeviceMSH
 Description: "EerDeviceMSH-MultiMedMSH"
