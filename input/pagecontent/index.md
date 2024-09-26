@@ -1,8 +1,6 @@
 # EER Endpoint Register (EER)
 
-The EER Endpoint Register (EER) Profile supports discovery of Endpoint adresses related to a SOR Unit in Danish Healthcare using a RESTful interface.
-
-The profile is based upen and inspired by the IHE mCSD profile and the use cases and solutions using mCSD are outlined in the [mCSD White Paper](https://profiles.ihe.net/ITI/papers/mCSD/index.html).
+The EER Endpoint Register (EER) Profile supports discovery of Endpoint adresses related to a SOR Organizational Unit in Danish Healthcare using a RESTful interface.
 
 This version of the profile supports registration of and querying for the following use cases:
 
@@ -21,6 +19,48 @@ This version of the profile supports registration of and querying for the follow
 **EHMI Delivery Status**
 - registration of reporting Devices for a "station" in the messageflow.
 - getting data for reporting Devices in the messageflow.
+
+
+## Relationship to IHE MCSD
+
+The profile is based upon and inspired by the IHE mCSD profile and the use cases and solutions using mCSD are outlined in the [mCSD White Paper](https://profiles.ihe.net/ITI/papers/mCSD/index.html).
+
+Currently supported profiles of the IE MSCD profiles stated in [1:46 Mobile Care Services Discovery (mCSD)](https://profiles.ihe.net/ITI/mCSD/volume-1.html#1-46-mobile-care-services-discovery-mcsd) are:
+
+**1. Organization**
+
+Organizations are “umbrella” entities; these may be considered the administrative bodies under whose auspices care services are provided such as Healthcare Information Exchanges(HIEs), Integrated Delivery Networks (IDNs), Non-Government Organizations (NGOs), Faith-Based Organizations (FBOs) or even a one-physician family practice. An organization has a unique identifier and may have additional administrative attributes such as contact person, mailing address, etc. Departments of an institution, or other administrative units, may be represented as child Organizations of a parent Organization.
+
+**7. Endpoint**
+
+An Organization may be reachable for electronic data exchange through electronic Endpoint(s). An Endpoint may be a FHIR server, an IHE web services actor, or some other mechanism. If an Organization does not have an Endpoint, it may still be reachable via an Endpoint at its parent Organization or an affiliated Organization.
+
+**Other MCSD Profiles**
+
+Other profiles like
+
+- 2. Facility
+- 3. Location 
+- 4. Jurisdiction 
+- 5. Practitioner 
+- 6. Healthcare Service 
+- 8. OrganizationAffiliation 
+
+will be considered supported in the coming versions of EER.
+
+## MCSD actors and transactions
+
+EER will support the following MCSD actors and their transactions in this version:
+
+Table 1: EER Profile - Actors and Transactions
+
+| Actors | Transactions	| Initiator or Responder | Optionality | Reference |
+| ------ | ------------ | ---------------------- | ----------- | --------- | 
+| Care Services Selective Consumer	| Find Matching Care Services [ITI-90]	| Initiator	| R	| ITI TF-2: 3.90
+| Care Services Selective Supplier	| Find Matching Care Services [ITI-90]	| Responder	| R	| ITI TF-2: 3.90
+| Care Services Update Consumer	Request | Care Services Updates [ITI-91]	| Initiator	| R	| ITI TF-2: 3.91
+| Care Services Update Supplier	Request | Care Services Updates [ITI-91]	| Responder	| R	| ITI TF-2: 3.91
+
 
 
 
