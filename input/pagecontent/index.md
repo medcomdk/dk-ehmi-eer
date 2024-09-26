@@ -37,16 +37,14 @@ An Organization may be reachable for electronic data exchange through electronic
 
 **Other MCSD Profiles**
 
-Other profiles like
+Other profiles like the following will be considered supported in the coming versions of EER.
 
-- 2. Facility
-- 3. Location 
-- 4. Jurisdiction 
-- 5. Practitioner 
-- 6. Healthcare Service 
-- 8. OrganizationAffiliation 
-
-will be considered supported in the coming versions of EER.
+  2. Facility
+  3. Location 
+  4. Jurisdiction 
+  5. Practitioner 
+  6. Healthcare Service 
+  8. OrganizationAffiliation 
 
 ## EER actors and transactions
 
@@ -84,11 +82,11 @@ EER enheances MCSD with what SOR includes and adds furthermore:
 **Image: EER Diagram without MSH:**
 <br>
 
-<img src="EER_overall.png" alt="EER Diagram without MSH" style="vertical-align:middle;margin:20px 200px">
+<img src="EER_overall.png" alt="EER Diagram without MSH" style="vertical-align:middle;margin:30px 300px">
 <br>
 
 **Image: EER Diagram including MSH:**
 <br>
 
-<img src="EER_overall_withMSH.png" alt="EER Diagram including MSH" style="vertical-align:middle;margin:20px 200px">
+<img src="EER_overall_withMSH.png" alt="EER Diagram including MSH" style="vertical-align:middle;margin:30px 300px">
 
