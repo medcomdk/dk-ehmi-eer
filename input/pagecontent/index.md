@@ -81,12 +81,14 @@ EER enheances MCSD with what SOR includes and adds furthermore:
     - Message Service Handlers (eerDeviceMSH) (might be software solutions standing alone or built ino EUAs or APs)
 - Messages defined as MessageDefinitions
 
-EER Diagram without MSH:
-
-<img src="EER_overall.png" alt="EER Diagram without MSH" style="vertical-align:middle;margin:0px 50px">
+**Image: EER Diagram without MSH:**
 <br>
 
-EER Diagram including MSH:
+<img src="EER_overall.png" alt="EER Diagram without MSH" style="vertical-align:middle;margin:20px 200px">
+<br>
 
-<img src="EER_overall_withMSH.png" alt="EER Diagram including MSH" style="vertical-align:middle;margin:0px 50px">
+**Image: EER Diagram including MSH:**
+<br>
+
+<img src="EER_overall_withMSH.png" alt="EER Diagram including MSH" style="vertical-align:middle;margin:20px 200px">
 
