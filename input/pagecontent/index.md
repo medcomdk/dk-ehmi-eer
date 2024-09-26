@@ -48,7 +48,7 @@ Other profiles like
 
 will be considered supported in the coming versions of EER.
 
-## MCSD actors and transactions
+## EER actors and transactions
 
 EER will support the following MCSD actors and their transactions in this version:
 
@@ -61,6 +61,31 @@ Table 1: EER Profile - Actors and Transactions
 | Care Services Update Consumer	Request | Care Services Updates [ITI-91]	| Initiator	| R	| ITI TF-2: 3.91
 | Care Services Update Supplier	Request | Care Services Updates [ITI-91]	| Responder	| R	| ITI TF-2: 3.91
 
+While Consumer Actors (clients) will implement the Initiator transactions, EER as a Supplier Actor will implement the Responder transactions.
 
+## EER enhancements of MCSD
 
+While MCSD is a great framework for an organizational directory of healthcare providers, it lacks a few things to be able to replace part of the Danish SOR Directory.
+
+SOR includes:
+
+- software solutions (in FHIR: Devices) for the organizational units both as the direct end-user application (EUA) and the network access points (AP) serving a particular organizational unit
+- messages supported by the Endpoints
+
+EER enheances MCSD with what SOR includes and adds furthermore:
+
+- Devices and their corresponding DeviceDefinitions
+  - eerDevice and its derivations:
+    - End User Applications (eerDeviceEUA)
+    - Network Access Point devices (eerDeviceAP)
+    - Message Service Handlers (eerDeviceMSH) (might be software solutions standing alone or built ino EUAs or APs)
+- Messages defined as MessageDefinitions
+
+EER Diagram without MSH:
+
+<img src="EER_overall.png" alt="EER Diagram without MSH">
+
+EER Diagram including MSH:
+
+<img src="EER_overall_withMSH.png" alt="EER Diagram including MSH">
 
