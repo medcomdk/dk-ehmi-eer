@@ -83,9 +83,10 @@ EER enheances MCSD with what SOR includes and adds furthermore:
 
 EER Diagram without MSH:
 
-<img src="EER_overall.png" alt="EER Diagram without MSH">
+<img src="EER_overall.png" alt="EER Diagram without MSH" style="vertical-align:middle;margin:0px 50px">
+<br>
 
 EER Diagram including MSH:
 
-<img src="EER_overall_withMSH.png" alt="EER Diagram including MSH">
+<img src="EER_overall_withMSH.png" alt="EER Diagram including MSH" style="vertical-align:middle;margin:0px 50px">
 
