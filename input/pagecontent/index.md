@@ -86,8 +86,8 @@ Message Service Handlers (eerDeviceMSH) are software solutions standing alone or
 **Image: EER Diagram without MSH**
 <br clear="all">
 
-<--img src="hr.png" alt="HR">
-<br clear="all">
+<!--img src="hr.png" alt="HR">
+<br clear="all"-->
 
 <img src="eerDiagramWithMSH.png" alt="EER Diagram including MSH" style="vertical-align:middle;margin:30px 30px">
 <br clear="all">
