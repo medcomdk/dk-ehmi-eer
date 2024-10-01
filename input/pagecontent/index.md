@@ -81,18 +81,17 @@ EER enheances MCSD with what SOR includes and adds furthermore:
 
 Message Service Handlers (eerDeviceMSH) are software solutions standing alone or built ino EUAs or APs. When stand-alone solutions, it is helpful to see them acting in the diagrams. Below the two diagrams show EER with and without MSHs.
 
-<img src="eerDiagramWithoutMSH.png" alt="EER Diagram without MSH" style="vertical-align:middle;margin:30px 30px">
+<img src="eerDiagramWithoutMSH.png" alt="EER Diagram without MSH" style="vertical-align:middle;margin:30px 10px">
 <br clear="all">
 **Image: EER Diagram without MSH**
 <br clear="all">
 
 <!--img src="hr.png" alt="HR">
 <br clear="all"-->
-
-<img src="eerDiagramWithMSH.png" alt="EER Diagram including MSH" style="vertical-align:middle;margin:30px 30px">
-<br clear="all">
-**Image: EER Diagram including MSH**
-<br clear="all">
-
 <!--div include eerDiagramWithMSH.svg %} </div-->
+
+<figure>
+  <img src="eerDiagramWithMSH.png" alt="EER Diagram including MSH" style="vertical-align:middle;margin:30px 10px;width:80%">  
+  <figcaption>EER Diagram including MSH</figcaption>
+</figure>
 <br clear="all">
