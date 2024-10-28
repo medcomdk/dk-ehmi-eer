@@ -32,12 +32,13 @@ mechanism).
 * identifier.type = $EerAuditEventAgentWhoIdentifierTypes#GLN
 //* identifier.code = #official
 * identifier.value 1..1 MS SU
+* managingOrganization only Reference(EerSorOrganization)
 * connectionType from eer-endpoint-connection-type-valueset
 * period 1..1 MS SU
 * payloadType from eer-medcom-message-definition-uri-valueset
 * payloadType 1..* MS SU
 * payloadMimeType 1..* MS SU
-* extension contains eer-dk-eua-system-extension named eua-system 0..* MS 
+//* extension contains eer-dk-eua-system-extension named eua-system 0..* MS 
 * extension contains eer-dk-msh-system-extension named msh-system 0..* MS 
 * extension contains eer-dk-network-supply-system-extension named networkSupplySystem 0..* MS 
 

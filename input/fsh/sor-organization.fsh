@@ -33,7 +33,9 @@ Description:  """ EER SOR General Organization """
 * type[EerSorOrganizationType].coding.system = $EerSorOrganizationType
 * type[EerSorIOOrganizationType].coding.code from $EerSorIOOrganizationTypeVS
 * type[EerSorIOOrganizationType].coding.system = $EerSorIOOrganizationType
-//* endpoint 0..0
+* extension contains eer-dk-eua-system-extension named eua-system 0..* MS 
+* endpoint 0..*
+* endpoint only Reference(EerEndpointMessagingEdelivery)
 
 /*
 Profile:      EerSorIOOrganization

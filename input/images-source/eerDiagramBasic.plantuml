@@ -1,0 +1,13 @@
+@startuml EER
+
+hide empty members
+
+class "Lokationsnummer" as Lokationsnummer <<SOR>>
+class "SorEnhed" as SorEnhed <<SOR>>
+class "Meddelelsestype" as Meddelelsestype <<SOREDI>>
+
+SorEnhed --> Lokationsnummer : "har"
+Lokationsnummer --> Meddelelsestype : "sender"
+Lokationsnummer --> Meddelelsestype : "modtager"
+
+@enduml

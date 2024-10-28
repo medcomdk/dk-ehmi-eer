@@ -1,0 +1,17 @@
+@startuml EER
+
+hide empty members
+
+class "LokationsnummerEntitet" as LokationsnummerEntitet <<SOR EanLocationCodeEntity>>
+class "Organisatorisk enhed" as SorEnhed <<SOR>>
+class "Meddelelsestype" as Meddelelsestype <<SOR-EDI>>
+
+SorEnhed --> LokationsnummerEntitet : "har"
+LokationsnummerEntitet --> Lokationsnummer : "har"
+LokationsnummerEntitet --> ItFagsystem : "har"
+LokationsnummerEntitet --> ItLeverandør : "har"
+LokationsnummerEntitet --> VansLeverandør : "har"
+LokationsnummerEntitet <-- Meddelelsestype : "kan sendes af"
+LokationsnummerEntitet <-- Meddelelsestype : "kan modtages af"
+
+@enduml
