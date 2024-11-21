@@ -1,15 +1,19 @@
-Instance: EHMI.SOROU-EMCSD.SOR.OU.01.01
-InstanceOf: EerSOROUOrganization
+Instance: EER.SOR-OU.01.01
+InstanceOf: EerSorOrganization
 Description: "An example of an SOR OU Organization."
-* id = "EHMI.SOROU-EMCSD.SOR.OU.01.01"
-* identifier[SOR].value = "SOROU-EMCSD.SOR.OU.01.01"
-* name = "EHMI.SOR-OU-Organization"
-* type[SOR-Hierarchy].coding.code = $EerSOROrganizationType#OE
-* type[SOR-Hierarchy].coding.system = $EerSOROrganizationType
-* partOf = Reference(Organization/EHMI.SOROU-EMCSD.SOR.OU.01)
-//* endpoint[0] = Reference(Endpoint/EerMessagingEndpoint-eDeliveryEdi.01)
-* endpoint[+] = Reference(Endpoint/EerMessagingEndpoint-eDeliveryFhir.01)
-//* endpoint[+] = Reference(Endpoint/EerMessagingEndpoint-eDeliveryOioxml.01)
-//* endpoint[+] = Reference(Endpoint/EerMessagingEndpoint-VansEdi.01)
-//* endpoint[+] = Reference(Endpoint/EerMessagingEndpoint-VansFhir.01)
-//* endpoint[+] = Reference(Endpoint/EerMessagingEndpoint-VansOioxml.01)
+* id = "EER.SOR-OU.01.01"
+* identifier[SOR].value = "EER.SOR.OU.01.01"
+* identifier[SOR].type = $EerSorOrganizationIdentierType#SORID
+* identifier[SOR].system = "1.2.208.176.1.1"
+* name = "EER.SOR-OU-Organization"
+* type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#OE
+* type[SOR-Hierarchy].coding.system = $EerSorOrganizationType
+* partOf = Reference(Organization/EER.SOR-OU.01)
+* endpoint[+] = Reference(Endpoint/EerEndpoint-Messaging-eDeliveryFhir.01)
+/*
+* endpoint[0] = Reference(Endpoint/EerEndpoint-Messaging-eDeliveryEdi.01)
+* endpoint[+] = Reference(Endpoint/EerEndpoint-Messaging-eDeliveryOioxml.01)
+* endpoint[+] = Reference(Endpoint/EerEndpoint-Messaging-VansEdi.01)
+* endpoint[+] = Reference(Endpoint/EerEndpoint-Messaging-VansFhir.01)
+* endpoint[+] = Reference(Endpoint/EerEndpoint-Messaging-VansOioxml.01)
+*/

@@ -1,14 +1,14 @@
-Instance: EHMI.SORIOOrganization.1.0
-InstanceOf: EerSORIOOrganization
+Instance: EER.SOR-IO.01
+InstanceOf: EerSorOrganization
 Description: "An example of an SOR IO Organization."
 * id = "EER.SOR.IO.01"
-* identifier[SOR].type = $EerSOROrganizationIdentierType#SOR
 * identifier[SOR].value = "EER.SOR.IO.01"
-* name = "EHMI-SOR-IO-Organization"
-* type[SOR-Hierarchy].coding.code = $EerSOROrganizationType#IE
-* type[SOR-Hierarchy].coding.system = $EerSOROrganizationType
-* type[EerSORIOOrganizationType].coding.code = $EerSORIOOrganizationType#Generic
-* type[EerSORIOOrganizationType].coding.system = $EerSORIOOrganizationType
-//* type[SOR-UnitType].coding.code = $EerSORUnitType#other
-* type[SOR-UnitType].coding.code = $EerSORUnitType#genericIO
-* type[SOR-UnitType].coding.system = $EerSORUnitType
+* identifier[SOR].type = $EerSorOrganizationIdentierType#SORID
+* identifier[SOR].system = "1.2.208.176.1.1"
+* name = "EER-SOR-IO-Organization"
+* type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#IE
+* type[SOR-Hierarchy].coding.system = $EerSorOrganizationType
+* type[EerSorIOOrganizationType].coding.code = $EerSorIOOrganizationType#Generic
+* type[EerSorIOOrganizationType].coding.system = $EerSorIOOrganizationType
+* type[SOR-UnitType].coding.code = $EerSorUnitType#region
+* type[SOR-UnitType].coding.system = $EerSorUnitType

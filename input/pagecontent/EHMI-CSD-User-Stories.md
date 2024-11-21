@@ -1,16 +1,16 @@
-# EHMI Endpoint Register (EER) User stories 
+# EHMI EER Endpoint Register User stories 
 
 ### User stories i scope for produktionspilot
 
-#### Forretningsejer af EHMI Endpoint Register (EER) (FCSD)
+#### Forretningsejer af EHMI EER Endpoint Register (FCSD)
 
 ##### FCSD.1
 
   i. Som FCSD 
 
-  ii. Ønsker jeg at have en kanonisk datamodel for EHMI Endpoint Register (EER) 
+  ii. Ønsker jeg at have en kanonisk datamodel for EHMI EER Endpoint Register 
 
-  iii. Når jeg skal modellere og implementere EHMI Endpoint Register (EER)
+  iii. Når jeg skal modellere og implementere EHMI EER Endpoint Register
 
 ##### FCSD.2
 
@@ -54,7 +54,7 @@
 
   iii.	Når jeg skal agere som autoritative kilde for Sundhedsadresseringsservicen
 
-#### Komponenten EHMI Endpoint Register (EER) (KCSD)
+#### Komponenten EHMI EER Endpoint Register (KCSD)
 
 ##### KCSD.1
 

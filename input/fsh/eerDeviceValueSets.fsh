@@ -7,15 +7,11 @@ Description: "CodeSystem containing codes for EER-Device-Type"
 * ^date  =  "2024-02-01"
 * ^experimental = true
 * ^caseSensitive = true
+* #EOJ "Electronical Homecare Journal" "EOJ"
+* #LPS "General Practitioner System" "LPS"
+* #AP "eDelivery Access Point" "AP"
+* #MSH "Message Service Handler" "MSH"
 * #EUA "End User Application" "EUA"
-  * #EOJ "Electronical Homecare Journal" "EOJ"
-  * #LPS "General Practitioner System" "LPS"
-  * #EHR "Electronical Healthcare Record" "EHR"
-* #MIDDLEWARE "eDelivery Access Point" "MIDDLEWARE"
-  * #MSH "Message Service Handler" "MSH"
-  * #EAP "eDelivery Access Point" "EAP"
-  * #VANS "VANS Access Point" "VANS"
-
 
 ValueSet: EerDeviceTypeVS
 Id: eer-device-type-valueset

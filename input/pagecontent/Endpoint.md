@@ -1,5 +1,0 @@
-# Endpoint
-
-(tbd)
-
-**Endpoint** – Endpoints 

@@ -1,0 +1,19 @@
+@startuml EER
+
+hide empty members
+
+class "EerEndpoint" as EerEndpoint <<MCSDEndpoint>>
+class "EerSorOrganization" as EerOrganization <<MCSDOrganization>>
+class "EerMessageDefinition" as EerMessageDefinition <<MessageDefinition>>
+class "EerDeviceEUA" as EerDeviceEUA <<EerDevice>>
+class "EerDeviceAP" as EerDeviceAP <<EerDevice>>
+
+EerOrganization --> EerEndpoint : "has"
+EerOrganization --> EerDeviceEUA : "uses"
+EerDeviceAP --> EerOrganization : "acts as Endpoint for"
+EerDeviceAP --> EerEndpoint : "instanciates"
+EerDeviceEUA --> EerMessageDefinition : "supports"
+EerEndpoint --> EerMessageDefinition : "sends"
+EerEndpoint --> EerMessageDefinition : "receives"
+
+@enduml

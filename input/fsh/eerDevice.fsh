@@ -1,38 +1,42 @@
 Profile: EerDevice
 Parent: Device
-Id:     EER.Device
-Title:  "EER Device"
+Title: "EER EndpointDevice - General"
 Description: "An EHMI profile of the Device resource."
-* identifier 1..1
-* definition 1..1
-* definition only Reference(EerDeviceDefinition) 
-* status 1..1
+* udiCarrier 0..0 
+* identifier 1..1 MS
+* definition 1..1 MS
+* status 1..1 MS
+* manufacturer 1..1 MS
 * lotNumber 0..0
 * serialNumber 0..0
-* udiCarrier 0..0
+* deviceName 1..1 MS
+* modelNumber 0..0
+* partNumber 0..0
+* type 0..0 
+* specialization 0..0
+* property 0..0
 * patient 0..0
+* owner MS
+* contact 0..0
 * location 0..0
+* url 0..0
+* safety 0..0
 * parent 0..0
 
-
-Profile: EerDeviceEAP
+Profile: EerDeviceAP
 Parent: EerDevice
-Id:     EER.Device.AP
-Title:  "EER Device for eDelivery Access Points (EAP)"
-Description: "An EHMI profile of the EerDevice resource."
-* definition only Reference(EerDeviceDefinitionEAP) 
+Title: "EER EndpointDevice - AP"
+Description: "An EerDeviceAP profile of the EerDevice resource."
+//* definition = Reference(EerEndpointDeviceDefinitionAP)
 
 Profile: EerDeviceMSH
 Parent: EerDevice
-Id:     EER.Device.MSH
-Title:  "EER Device for Message Service Handlers (MSH)"
-Description: "An EHMI profile of the EerDevice resource."
-* definition only Reference(EerDeviceDefinitionMSH) 
+Title: "EER EndpointDevice - MSH"
+Description: "An EerDeviceMSH profile of the EerDevice resource."
+//* definition = Reference(EerEndpointDeviceDefinitionMSH)
 
 Profile: EerDeviceEUA
 Parent: EerDevice
-Id:     EER.Device.EUA
-Title:  "EER Device for End User Applications (EUA)"
-Description: "An EHMI profile of the EerDevice resource."
-* definition only Reference(EerDeviceDefinitionEUA) 
-
+Title: "EER EndpointDevice - EUA"
+Description: "An EerDeviceEUA profile of the EerDevice resource."
+//* definition = Reference(EerEndpointDeviceDefinitionEUA)
