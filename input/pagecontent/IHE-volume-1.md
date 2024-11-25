@@ -34,7 +34,7 @@ This section defines the actors, transactions, and/or content modules in this pr
 
 Figure 1:46.1-1 shows the actors directly involved in the mCSD Profile and the relevant transactions between them. If needed for context, other actors that may be indirectly involved due to their participation in other related profiles are shown in dotted lines. Actors which have a mandatory grouping are shown in conjoined boxes.
 
-<div><!--%include ActorsAndTransactions.svg% -->
+<div><!-- xinclude ActorsAndTransactions.svg% -->
 </div>
 <div style="clear: left;"></div>
 **Figure 1:46.1-1: mCSD Actor Diagram**
@@ -172,7 +172,7 @@ The patient, Vera Brooks, consults with her physician who recommends surgery. Th
 
 The interactions between the various actors in this use case are shown in Figure 1:46.4.2.1.2-1.
 
-<div><!--%include usecase1-processflow.svg% -->
+<div><!-- xinclude usecase1-processflow.svg% -->
 </div>
 <div style="clear: left;"/>
 
@@ -200,7 +200,7 @@ Resources from jurisdictional areas can be reported up to a central location so 
 
 The interactions between the various actors in this use case are shown in Figure 1:46.4.2.2.2-1.
 
-<div><!--%include usecase2-processflow.svg% -->
+<div><!-- xinclude usecase2-processflow.svg% -->
 </div>
 <div style="clear: left;"/>
 
@@ -213,7 +213,7 @@ The interactions between the various actors in this use case are shown in Figure
 Projects like the U.S. President's Emergency Plan for AIDS Relief (PEPFAR)’s Data for Accountability, Transparency, and Impact (DATIM) need to have public health and service delivery indicators reported from a large number of sites (health facilities, communities, warehouses) within an Operating Unit (country/region). Within an Operating Unit, there are multiple, possibly overlapping, jurisdictions in operation which are managed by multiple organizations (e.g., ministries of health (MoH), faith-based organizations, international non-governmental organizations). The project needs to receive indicator submissions from pre-existing data systems hosted by these organizations. This data exchange requires a way to share site lists and implement identifier mapping between the sites in these lists. 
 
 
-<div><!--%include usecase3-diagram.svg% -->
+<div><!-- xinclude usecase3-diagram.svg% -->
 </div>
 <div style="clear: left;"/>
 
@@ -233,7 +233,7 @@ An Operating Unit (OU) will run a Care Services Update Consumer and Care Service
 The interactions between the various actors in this use case are shown
 in Figure 1:46.4.2.3.2-1.
 
-<div><!--%include usecase3-processflow.svg% -->
+<div><!-- xinclude usecase3-processflow.svg% -->
 </div>
 <div style="clear: left;"/>
 
@@ -257,7 +257,7 @@ A Master Facility List (MFL) will run a Care Services Update Supplier and Care S
 
 The interactions between the various actors in this use case are shown in Figure 1:46.4.2.4.1-1.
 
-<div><!--%include usecase4-processflow.svg% -->
+<div><!-- xinclude usecase4-processflow.svg% -->
 </div>
 <div style="clear: left;"/>
 
@@ -277,7 +277,7 @@ In the example below:
 
 The `organization` defines a role for the relationship, e.g., "HIE/HIO" or "member", and the `participatingOrganization` fills the role.
 
-<div><!--%include usecase5-diagram.svg% -->
+<div><!-- xinclude usecase5-diagram.svg% -->
 </div>
 <div style="clear: left;"/>
 
@@ -292,7 +292,7 @@ The `organization` defines a role for the relationship, e.g., "HIE/HIO" or "memb
 
 The interactions between the various actors in this use case are shown in Figure 1:46.4.2.5.2-1.
 
-<div><!--%include usecase5-processflow.svg% -->
+<div><!-- xinclude usecase5-processflow.svg% -->
 </div>
 <div style="clear: left;"/>
 
@@ -315,7 +315,7 @@ Note: Guidance for usage of endpoints in directories is provided [here](#1468-mc
 
 The diagram below shows an excerpt of the HIE directory, showing one participant in the HIE that implements IHE XCA with two Endpoints, and another that only uses one.
 
-<div><!--%include usecase6-diagram.svg% -->
+<div><!-- xinclude usecase6-diagram.svg% -->
 </div>
 <div style="clear: left;"/>
 
@@ -330,7 +330,7 @@ The diagram below shows an excerpt of the HIE directory, showing one participant
 
 The interactions between the various actors in this use case are shown in Figure 1:46.4.2.6.2-1.
 
-<div><!--%include usecase6-processflow.svg% -->
+<div><!-- xinclude usecase6-processflow.svg% -->
 </div>
 <div style="clear: left;"/>
 
@@ -374,7 +374,7 @@ The mACM Profile defines the means to send an alert to practitioners. The mCSD P
 
 A deployment may only have a single server that will maintain data. In this case, you would only need the Care Services Selective Supplier (or Care Services Update Supplier) to send search results back to one or more Care Services Selective Consumers (or Care Services Update Consumer). See Figure 1:46.7.1-1 below.
 
-<div><!--%include simple-deployment.svg% -->
+<div><!-- xinclude simple-deployment.svg% -->
 </div>
 <div style="clear: left;"/>
 
@@ -439,25 +439,25 @@ The simplest usage model for a client is when the organization it needs to conta
 Note: The managingOrganization of an Endpoint is who users need to contact for support. It may or may not be the same as the organization that hosts it. Since hosting is not reflected in the directory, we are indicating it in the diagrams below by the URLs.
 
 Organization A hosts its own Endpoint:
-<div><!--%include dir-org-specific-endpoint-self.svg% -->
+<div><!-- xinclude dir-org-specific-endpoint-self.svg% -->
 </div>
 <div style="clear: left;"/>
 **Figure 1:46.8.1-1: Organization-specific Endpoint Hosted by the Organization**
 
 Organization A is directly reachable by an endpoint hosted by its parent Organization B:
-<div><!--%include dir-org-specific-endpoint-parent.svg% -->
+<div><!-- xinclude dir-org-specific-endpoint-parent.svg% -->
 </div>
 <div style="clear: left;"/>
 **Figure 1:46.8.1-2: Organization-specific Endpoint Hosted by Parent**
 
 Organization C is directly reachable by an endpoint hosted by its affiliated Organization D:
-<div><!--%include dir-org-specific-endpoint-affil.svg% -->
+<div><!-- xinclude dir-org-specific-endpoint-affil.svg% -->
 </div>
 <div style="clear: left;"/>
 **Figure 1:46.8.1-3: Organization-specific Endpoint Hosted by Affiliation**
 
 Organization E is directly reachable by an endpoint hosted by a hidden (i.e., not in the directory) Intermediary F:
-<div><!--%include dir-org-specific-endpoint-inter.svg% -->
+<div><!-- xinclude dir-org-specific-endpoint-inter.svg% -->
 </div>
 <div style="clear: left;"/>
 **Figure 1:46.8.1-4: Organization-specific Endpoint Hosted by Hidden Intermediary**
@@ -466,7 +466,7 @@ Organization E is directly reachable by an endpoint hosted by a hidden (i.e., no
 
 When an Organization with an Endpoint has a complex structure, for example, sub-organizations, clients can often make use of this structure:
 
-<div><!--%include dir-endpoint-to-org-hierarchy.svg% -->
+<div><!-- xinclude dir-endpoint-to-org-hierarchy.svg% -->
 </div>
 <div style="clear: left;"/>
 
@@ -486,7 +486,7 @@ By contrast, OrganizationAffiliations by themselves do not necessarily imply thi
 
 The following diagram shows the same accessibility, but using OrganizationAffiliation.
 
-<div><!--%include dir-endpoint-to-org-affiliates.svg% -->
+<div><!-- xinclude dir-endpoint-to-org-affiliates.svg% -->
 </div>
 <div style="clear: left;"/>
 
@@ -494,7 +494,7 @@ The following diagram shows the same accessibility, but using OrganizationAffili
 
 In addition, these mechanisms may be combined. This may be useful, for example, when adding an existing organizational structure to an HIE.
 
-<div><!--%include dir-endpoint-to-hybrid-org-structure.svg% -->
+<div><!-- xinclude dir-endpoint-to-hybrid-org-structure.svg% -->
 </div>
 <div style="clear: left;"/>
 
@@ -505,7 +505,7 @@ In addition, these mechanisms may be combined. This may be useful, for example, 
 Grouped actors may be represented as well, although not explicitly. In the following example, Participant A is reachable by either an MHD endpoint or XDR endpoints. The directory
 does not reflect which endpoint is the adapter or the adaptee.
 
-<div><!--%include dir-endpoint-xdr-mhd.svg% -->
+<div><!-- xinclude dir-endpoint-xdr-mhd.svg% -->
 </div>
 <div style="clear: left;"/>
 
