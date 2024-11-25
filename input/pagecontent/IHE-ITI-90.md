@@ -18,7 +18,9 @@ The Find Matching Care Services transaction returns a list of matching care serv
 ### 2:3.90.4 Messages
 
 <div>
-{%include ITI-90-seq.svg%}
+<!-- 
+{%include IHE-ITI-90-seq.svg%}
+-->
 </div>
 <br clear="all">
 
@@ -315,7 +317,7 @@ The Care Services Resource definition in the context of a retrieve interaction i
 
 ### 2:3.90.5 Security Considerations
 
-See [ITI TF-1: 46.5](volume-1.html#1465-mcsd-security-considerations) for security considerations for the mCSD Profile.
+See [ITI TF-1: 46.5](IHE-volume-1.html#1465-mcsd-security-considerations) for security considerations for the mCSD Profile.
 
 See [ITI TF-2: Appendix Z.8](https://profiles.ihe.net/ITI/TF/Volume2/ch-Z.html#z.8-mobile-security-considerations) for common mobile security considerations.
 
