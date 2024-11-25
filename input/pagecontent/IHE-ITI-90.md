@@ -18,9 +18,7 @@ The Find Matching Care Services transaction returns a list of matching care serv
 ### 2:3.90.4 Messages
 
 <div>
-<!-- 
-{%include IHE-ITI-90-seq.svg%}
--->
+<!-- {%include IHE-ITI-90-seq.svg%} -->
 </div>
 <br clear="all">
 
