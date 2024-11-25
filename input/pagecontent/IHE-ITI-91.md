@@ -19,7 +19,9 @@ The Request Care Services Updates transaction is used to return a list of update
 ### 2:3.91.4 Messages
 
 <div>
-{%include ITI-91-seq.svg%}
+<!-- 
+{%include IHE-ITI-91-seq.svg%}
+-->
 </div>
 <br clear="all">
 
@@ -55,7 +57,7 @@ The Care Services Update Supplier shall process the query to discover the resour
 
 #### 2:3.91.4.2 Request Care Services Updates Response Message
 
-The Request Care Services Updates \[ITI-91\] transaction uses the response semantics as defined at [http://hl7.org/fhir/R4/http.html#history](http://hl7.org/fhir/R4/http.html#history) as applicable for the resources.
+The Request Care Services Updates \[IHE-ITI-91\] transaction uses the response semantics as defined at [http://hl7.org/fhir/R4/http.html#history](http://hl7.org/fhir/R4/http.html#history) as applicable for the resources.
 
 ##### 2:3.91.4.2.1 Trigger Events
 
@@ -122,7 +124,7 @@ The Care Services Update Consumer has received the response and continues with i
 
 ### 2:3.91.5 Security Considerations
 
-See [ITI TF-1: 46.5](volume-1.html#1465-mcsd-security-considerations) for security considerations for the mCSD Profile.
+See [ITI TF-1: 46.5](IHE-volume-1.html#1465-mcsd-security-considerations) for security considerations for the mCSD Profile.
 
 See [ITI TF-2: Appendix Z.8](https://profiles.ihe.net/ITI/TF/Volume2/ch-Z.html#z.8-mobile-security-considerations) for common mobile security considerations.
 
