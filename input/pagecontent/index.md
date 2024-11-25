@@ -25,7 +25,7 @@ This version of the profile supports registration of and querying for the follow
 
 The profile is based upon and inspired by the IHE mCSD profile and the use cases and solutions using mCSD are outlined in the [mCSD White Paper](https://profiles.ihe.net/ITI/papers/mCSD/index.html).
 
-Currently supported profiles of the IE MSCD profiles stated in [1:46 Mobile Care Services Discovery (mCSD)](https://profiles.ihe.net/ITI/mCSD/IHE-volume-1.html#1-46-mobile-care-services-discovery-mcsd) are:
+Currently supported profiles of the IE MSCD profiles stated in [1:46 Mobile Care Services Discovery (mCSD)](https://profiles.ihe.net/ITI/mCSD/IHE-IHE-volume-1.html#1-46-mobile-care-services-discovery-mcsd) are:
 
 **1. Organization**
 
@@ -54,10 +54,10 @@ Table 1: EER Profile - Actors and Transactions
 
 | Actors | Transactions	| Initiator or Responder | Optionality | Reference |
 | ------ | ------------ | ---------------------- | ----------- | --------- | 
-| Care Services Selective Consumer	| Find Matching Care Services [ITI-90]	| Initiator	| R	| ITI TF-2: 3.90
-| Care Services Selective Supplier	| Find Matching Care Services [ITI-90]	| Responder	| R	| ITI TF-2: 3.90
-| Care Services Update Consumer	Request | Care Services Updates [ITI-91]	| Initiator	| R	| ITI TF-2: 3.91
-| Care Services Update Supplier	Request | Care Services Updates [ITI-91]	| Responder	| R	| ITI TF-2: 3.91
+| Care Services Selective Consumer	| Find Matching Care Services [IHE-ITI-90]	| Initiator	| R	| ITI TF-2: 3.90
+| Care Services Selective Supplier	| Find Matching Care Services [IHE-ITI-90]	| Responder	| R	| ITI TF-2: 3.90
+| Care Services Update Consumer	Request | Care Services Updates [IHE-ITI-91]	| Initiator	| R	| ITI TF-2: 3.91
+| Care Services Update Supplier	Request | Care Services Updates [IHE-ITI-91]	| Responder	| R	| ITI TF-2: 3.91
 
 While Consumer Actors (clients) will implement the Initiator transactions, EER as a Supplier Actor will implement the Responder transactions.
 
