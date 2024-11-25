@@ -19,9 +19,7 @@ The Request Care Services Updates transaction is used to return a list of update
 ### 2:3.91.4 Messages
 
 <div>
-<!-- 
-{%include IHE-ITI-91-seq.svg%}
--->
+<!-- include IHE-ITI-91-seq.svg%-->
 </div>
 <br clear="all">
 
