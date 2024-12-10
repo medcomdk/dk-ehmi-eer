@@ -28,14 +28,14 @@ Description:  """ EER SOR General Organization """
 * type contains
     SOR-Hierarchy 1..1 MS SU 
     and SOR-UnitType 0..1 SU
-    and EerSorOrganizationType 0..1 MS SU 
+//    and EerSorOrganizationType 0..1 MS SU 
     and EerSorIOOrganizationType 0..1 MS SU
 * type[SOR-Hierarchy].coding.code from $EerSorOrganizationTypeVS
 * type[SOR-Hierarchy].coding.system = $EerSorOrganizationType
 * type[SOR-UnitType].coding.code from $EerSorUnitTypeVS
 * type[SOR-UnitType].coding.system = $EerSorUnitType
-* type[EerSorOrganizationType].coding.code from $EerSorOrganizationTypeVS
-* type[EerSorOrganizationType].coding.system = $EerSorOrganizationType
+//* type[EerSorOrganizationType].coding.code from $EerSorOrganizationTypeVS
+//* type[EerSorOrganizationType].coding.system = $EerSorOrganizationType
 * type[EerSorIOOrganizationType].coding.code from $EerSorIOOrganizationTypeVS
 * type[EerSorIOOrganizationType].coding.system = $EerSorIOOrganizationType
 * extension contains eer-dk-eua-system-extension named eua-system 0..* MS 
