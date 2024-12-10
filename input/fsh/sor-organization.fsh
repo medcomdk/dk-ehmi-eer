@@ -13,10 +13,10 @@ Description:  """ EER SOR General Organization """
 * identifier[SOR].type from $EerSorOrganizationIdentierTypeVS
 * identifier[SOR].type = $EerSorOrganizationIdentierType#SORID (exactly)
 * identifier[SOR].system = "urn:oid:1.2.208.176.1.1" (exactly)
-* identifier[MunicipalityCode].use = #official
-* identifier[MunicipalityCode].value from $EerSorMunicipalityCodeVS
-* identifier[MunicipalityCode].type from $EerSorOrganizationIdentierTypeVS
-* identifier[MunicipalityCode].system = $EerSorMunicipalityCode
+//* identifier[MunicipalityCode].use = #official
+//* identifier[MunicipalityCode].value from $EerSorMunicipalityCodeVS
+//* identifier[MunicipalityCode].type from $EerSorOrganizationIdentierTypeVS
+//* identifier[MunicipalityCode].system = $EerSorMunicipalityCode
 * type ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = coding.code
   * ^slicing.rules = #open //#closed eller #open 
@@ -65,10 +65,10 @@ Description:  """ EER SOR Institution Owner Municipality Organization IO (DK:IE)
   * ^slicing.rules = #open //#closed eller #open 
 * identifier contains
     MunicipalityCode 1..1 MS SU 
-* identifier[MunicipalityCode].use = #official
-* identifier[MunicipalityCode].value from $EerSorMunicipalityCodeVS
-* identifier[MunicipalityCode].type from $EerSorOrganizationIdentierTypeVS
-* identifier[MunicipalityCode].system = $EerSorMunicipalityCode
+//* identifier[MunicipalityCode].use = #official
+//* identifier[MunicipalityCode].value from $EerSorMunicipalityCodeVS
+//* identifier[MunicipalityCode].type from $EerSorOrganizationIdentierTypeVS
+//* identifier[MunicipalityCode].system = $EerSorMunicipalityCode
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#IE (exactly)
 * type[EerSorOrganizationType].coding.code = $EerSorOrganizationType#Municipality (exactly)
 * type[SOR-UnitType].coding.code = $EerSorUnitType#kommune (exactly)
