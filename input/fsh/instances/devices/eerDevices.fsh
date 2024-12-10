@@ -8,7 +8,7 @@ Description: "EerDeviceAP-MultiMedAP"
 * deviceName.name = "MultiMedAP"
 * deviceName.type = #manufacturer-name
 * manufacturer = "MultiMed"
-
+/*
 Instance: EerDeviceAP-BizKitAP
 InstanceOf: EerDeviceAP
 Description: "EerDeviceAP-BizKitAP"
@@ -59,3 +59,4 @@ Description: "EerDeviceEUA-SystematicCura"
 * deviceName.name = "Systematic Cura"
 * deviceName.type = #manufacturer-name
 * manufacturer = "Systematic"
+*/
