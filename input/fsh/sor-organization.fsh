@@ -3,8 +3,8 @@ Parent:       MCSDOrganization
 Id:           Eer.Sor.Organization
 Title:        "EER SOR Organization"
 Description:  """ EER SOR General Organization """
-* identifier ^slicing.discriminator.type = #pattern
-  * ^slicing.discriminator.path = type
+* identifier ^slicing.discriminator.type = #value
+  * ^slicing.discriminator.path = identifier.system
   * ^slicing.rules = #open //#closed eller #open 
 * identifier contains
     SOR 1..1 MS SU 
