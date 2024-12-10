@@ -5,8 +5,8 @@ The EER Endpoint Register (EER) Profile supports discovery of Endpoint adresses 
 This version of the profile supports registration of and querying for the following use cases:
 
 **EHMI Core**
-- Registration of communicating SOR organizational units
-- Registration of endpoints correlating with a SOR organizational unit
+- Registration of communicating SOR Organizational units
+- Registration of Endpoints correlating with a SOR organizational unit
 
   **ehmiSMP**
     - registration of eDelivery Access Points (AP) as Devices for a SOR organizational unit and its EHMI Endpoint
@@ -15,6 +15,9 @@ This version of the profile supports registration of and querying for the follow
 
 **EHMI Addressing Service**
 - getReceiverDataBySORID
+  - This means that a search for Receiver Data will be a search for an organization where 
+      - the input parameter will be a SORID 
+      - the output will be an Organization ressource with its corresponding Endpoint
 
 **EHMI Delivery Status**
 - registration of reporting Devices for a "station" in the messageflow.
