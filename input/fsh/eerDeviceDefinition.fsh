@@ -23,11 +23,19 @@ Title: "EER EndpointDeviceDefinition - MSH"
 Description: "An EerEndpointDeviceDefinition-MSH profile of the EerEndpointDeviceDefinition resource."
 * type = EerDeviceType#MSH "Message Service Handler" (exactly)
 
+Instance: EerEndpointDeviceDefinition4MSH
+InstanceOf: EerEndpointDeviceDefinitionMSH
+* identifier.value = "EerEndpointDeviceDefinition4MSH"
+
 Profile: EerEndpointDeviceDefinitionEUA
 Parent: EerEndpointDeviceDefinition
 Title: "EER EndpointDeviceDefinition - EUA"
 Description: "An EerEndpointDeviceDefinition-EUA profile of the EerEndpointDeviceDefinition resource."
 * type = EerDeviceType#EUA "End User Application" (exactly)
+
+Instance: EerEndpointDeviceDefinition4EUA
+InstanceOf: EerEndpointDeviceDefinitionEUA
+* identifier.value = "EerEndpointDeviceDefinition4EUA"
 
 /*
 Profile: EerEndpointDeviceDefinitionLPS
