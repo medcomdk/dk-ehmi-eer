@@ -2,9 +2,9 @@ Instance: Eer.Sor.IO-AAR-Kommune.311000016009
 InstanceOf: EerSorOrganization
 Description: "Eer.Sor.IO-AAR-Kommune as a SOR IO Organization."
 * id = "Eer.Sor.IO-AAR-Kommune.311000016009" //SOR-Id
-* identifier[SOR].type = $EerSorOrganizationIdentierType#SORID
-* identifier[SOR].system = "urn:oid:1.2.208.176.1.1"
-* identifier[SOR].value = "311000016009"
+* identifier.type = $EerSorOrganizationIdentierType#SORID
+* identifier.system = "urn:oid:1.2.208.176.1.1"
+* identifier.value = "311000016009"
 //* identifier[MunicipalityCode].system = $EerSorMunicipalityCode
 //* identifier[MunicipalityCode].type = $EerSorOrganizationIdentierType#MunicipalityCode
 //* identifier[MunicipalityCode].value = $EerSorMunicipalityCode#0751 

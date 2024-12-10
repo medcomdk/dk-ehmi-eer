@@ -3,16 +3,21 @@ Parent:       MCSDOrganization
 Id:           Eer.Sor.Organization
 Title:        "EER SOR Organization"
 Description:  """ EER SOR General Organization """
-* identifier ^slicing.discriminator.type = #value
+/* identifier ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = identifier.system
   * ^slicing.rules = #open //#closed eller #open 
 * identifier contains
     SOR 1..1 MS SU 
     and MunicipalityCode 0..1 MS SU 
-* identifier[SOR].use = #official
-* identifier[SOR].type from $EerSorOrganizationIdentierTypeVS
-* identifier[SOR].type = $EerSorOrganizationIdentierType#SORID (exactly)
-* identifier[SOR].system = "urn:oid:1.2.208.176.1.1" (exactly)
+*/
+//* identifier[SOR].use = #official
+//* identifier[SOR].type from $EerSorOrganizationIdentierTypeVS
+//* identifier[SOR].type = $EerSorOrganizationIdentierType#SORID (exactly)
+//* identifier[SOR].system = "urn:oid:1.2.208.176.1.1" (exactly)
+* identifier.use = #official
+* identifier.type from $EerSorOrganizationIdentierTypeVS
+* identifier.type = $EerSorOrganizationIdentierType#SORID (exactly)
+* identifier.system = "urn:oid:1.2.208.176.1.1" (exactly)
 //* identifier[MunicipalityCode].use = #official
 //* identifier[MunicipalityCode].value from $EerSorMunicipalityCodeVS
 //* identifier[MunicipalityCode].type from $EerSorOrganizationIdentierTypeVS
