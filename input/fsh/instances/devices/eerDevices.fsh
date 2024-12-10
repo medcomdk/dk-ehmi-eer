@@ -3,7 +3,8 @@ InstanceOf: EerDeviceAP
 Description: "EerDeviceAP-MultiMedAP"
 * id = "EerDeviceAP-MultiMedAP"
 * identifier.value = "EerDeviceAP-MultiMedAP"
-* definition = Reference("http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerEndpointDeviceDefinitionAP")
+//* definition = Reference("http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerEndpointDeviceDefinitionAP")
+* definition = Reference(EerEndpointDeviceDefinition4AP)
 * status = #active
 * deviceName.name = "MultiMedAP"
 * deviceName.type = #manufacturer-name
