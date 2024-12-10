@@ -2,7 +2,7 @@ Profile: EerEndpointDeviceDefinition
 Parent: DeviceDefinition
 Title: "EER EndpointDeviceDefinition"
 Description: "An EER profile of the DeviceDefinition resource."
-* identifier 1..1 MS 
+* identifier 0..1 MS 
 * udiDeviceIdentifier 0..0
 * type from EerDeviceTypeVS 
 * type 1..1 MS 
@@ -15,7 +15,7 @@ Description: "An EerEndpointDeviceDefinition-AP profile of the EerEndpointDevice
 
 Instance: EerEndpointDeviceDefinition4AP
 InstanceOf: EerEndpointDeviceDefinitionAP
-* identifier = eDeliveryAP01
+* identifier.value = "EerEndpointDeviceDefinition4AP"
 
 Profile: EerEndpointDeviceDefinitionMSH
 Parent: EerEndpointDeviceDefinition
