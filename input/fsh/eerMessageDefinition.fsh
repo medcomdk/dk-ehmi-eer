@@ -32,18 +32,18 @@ Description: "An example profile of the MessageDefinition resource."
 * contact[InteroperabilityConsultant].id = "InteroperabilityConsultant"
 * contact[InteroperabilityConsultant].name 1..1 MS SU
 * contact[InteroperabilityConsultant].telecom.system 1..1 MS SU
-* contact[InteroperabilityConsultant].telecom.system = #email (exactly)
+* contact[InteroperabilityConsultant].telecom.system = #email // (exactly)
 * contact[InteroperabilityConsultant].telecom.use 1..1 MS SU
-* contact[InteroperabilityConsultant].telecom.use = #work (exactly)
+* contact[InteroperabilityConsultant].telecom.use = #work // (exactly)
 * contact[InteroperabilityConsultant].telecom.value 1..1 MS SU
 // SubjectMatterExpert
 * contact[SubjectMatterExpert].id 1..1 MS
 * contact[SubjectMatterExpert].id = "SubjectMatterExpert"
 * contact[SubjectMatterExpert].name 1..1 MS SU
 * contact[SubjectMatterExpert].telecom.system 1..1 MS SU
-* contact[SubjectMatterExpert].telecom.system = #email (exactly)
+* contact[SubjectMatterExpert].telecom.system = #email // (exactly)
 * contact[SubjectMatterExpert].telecom.use 1..1 MS SU
-* contact[SubjectMatterExpert].telecom.use = #work (exactly)
+* contact[SubjectMatterExpert].telecom.use = #work // (exactly)
 * contact[SubjectMatterExpert].telecom.value 1..1 MS SU
 //* description 1..1 MS SU
 //* description only valueMarkdown 
@@ -57,5 +57,5 @@ Description: "An example profile of the MessageDefinition resource."
 * jurisdiction = #DK
 //* jurisdiction.coding.system = 
 * category 1..1 MS SU
-* category = #notification (exactly)
+* category = #notification // (exactly)
 * responseRequired 1..1 MS 
