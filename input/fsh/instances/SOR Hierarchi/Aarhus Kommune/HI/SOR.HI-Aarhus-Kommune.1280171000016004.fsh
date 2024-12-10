@@ -3,9 +3,9 @@ InstanceOf: EerSorOrganization
 Description: "AAR SOR HI Organization.1280171000016004 - Sociale Forhold og Beskæftigelse"
 * id = "EER.SOR.HI-AAR-Kommune.1280171000016004"
 * identifier[SOR].type = $EerSorOrganizationIdentierType#SORID
-* identifier[SOR].system = "1.2.208.176.1.1"
+* identifier[SOR].system = "urn:oid:1.2.208.176.1.1"
 * identifier[SOR].value = "1280171000016004"
-* identifier[SOR].system = "1.2.208.176.1.1"
+* identifier[SOR].system = "urn:oid:1.2.208.176.1.1"
 * type[SOR-UnitType].coding.code = $EerSorUnitType#administrativ-enhed
 * type[SOR-UnitType].coding.system = $EerSorUnitType
 * name = "EER SOR HI AAR Kommune - Sociale Forhold og Beskæftigelse (1280171000016004)"

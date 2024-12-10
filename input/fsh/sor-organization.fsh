@@ -12,7 +12,7 @@ Description:  """ EER SOR General Organization """
 * identifier[SOR].use = #official
 * identifier[SOR].type from $EerSorOrganizationIdentierTypeVS
 * identifier[SOR].type = $EerSorOrganizationIdentierType#SORID (exactly)
-* identifier[SOR].system = "1.2.208.176.1.1" (exactly)
+* identifier[SOR].system = "urn:oid:1.2.208.176.1.1" (exactly)
 * identifier[MunicipalityCode].use = #official
 * identifier[MunicipalityCode].value from $EerSorMunicipalityCodeVS
 * identifier[MunicipalityCode].type from $EerSorOrganizationIdentierTypeVS

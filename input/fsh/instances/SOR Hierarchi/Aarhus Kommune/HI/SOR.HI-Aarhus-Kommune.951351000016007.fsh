@@ -3,7 +3,7 @@ InstanceOf: EerSorOrganization
 Description: "AAR SOR HI Organization.951351000016007 - Socialforvaltningen, AAR kommune"
 * id = "EER.SOR.HI-AAR-Kommune.951351000016007"
 * identifier[SOR].type = $EerSorOrganizationIdentierType#SORID
-* identifier[SOR].system = "1.2.208.176.1.1"
+* identifier[SOR].system = "urn:oid:1.2.208.176.1.1"
 * identifier[SOR].value = "951351000016007"
 * type[SOR-UnitType] = $EerSorUnitType#administrativ-enhed
 * name = "EER SOR HI AAR Kommune - Socialforvaltningen, AAR kommune (951351000016007)"
