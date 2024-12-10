@@ -81,7 +81,7 @@ Description: "ValueSet containing codes for EER payloadTypes"
 * ^experimental = true
 * include codes from system ehmi-payload-type
 
-CodeSystem: EerSorOrganization
+CodeSystem: EerSorOrganizationType
 Id: eer-sor-organization-type
 Title: "EER SOR Organization Types CS"
 Description: "eer-sor-organization-type for the EHMI Messaging Infrastructure"
@@ -97,7 +97,7 @@ Description: "eer-sor-organization-type for the EHMI Messaging Infrastructure"
   * #SI "SOR Organization - Healthcare Institution HI"
     * #OE "SOR Organization - Organizational Unit OU"
 
-ValueSet: EerSorOrganizationVS
+ValueSet: EerSorOrganizationTypeVS
 Id: eer-sor-organization-type-valueset
 Title: "EER SOR Organization Types Valueset"
 Description: "ValueSet containing codes for EER eer-sor-organization-type"
