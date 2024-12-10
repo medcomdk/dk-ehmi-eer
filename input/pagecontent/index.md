@@ -12,6 +12,7 @@ This version of the profile supports registration of and querying for the follow
     - registration of eDelivery Access Points (AP) as Devices for a SOR organizational unit and its EHMI Endpoint
     - registration of SMP metadata for the SMP lookup service for certain messages (documents) for a given EHMI Endpoint
 
+<br>
 
 **EHMI Addressing Service**
 - getReceiverDataBySORID
@@ -19,10 +20,13 @@ This version of the profile supports registration of and querying for the follow
       - the input parameter will be a SORID 
       - the output will be an Organization ressource with its corresponding Endpoint
 
+<br>
+
 **EHMI Delivery Status**
 - registration of reporting Devices for a "station" in the messageflow.
 - getting data for reporting Devices in the messageflow.
 
+<br>
 
 ## Relationship with and scoping to IHE MCSD
 
