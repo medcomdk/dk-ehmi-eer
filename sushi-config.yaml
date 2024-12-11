@@ -26,6 +26,7 @@ jurisdiction: urn:iso:std:iso:3166#DK "Denmark"
 # x
 dependencies:
   ihe.iti.mcsd: 3.8.0
+  hl7.terminology.r4: 5.5.0
   hl7.fhir.dk.core: 2.0.0
 #  dk.medcom.ehmi.eds: current
   dk.ehmi.terminology: current
@@ -85,14 +86,17 @@ menu:
   EER and SOR: SOR-EER-mapping.html
 ## Table of Contents: toc.html
   Profiles: profiles.html
-  Extensions: extensions.html
   Artifacts: artifacts.html
-  Downloads: downloads.html
   Terminology: terminology.html
+  Security: 
+    Security-en: security-en.html
+    Security-da: security-dk.html
   Use-cases: 
     EER-EAS Use case 1: eas-Use-case-1.html
   User-stories: 
      EHMI User Stories: EHMI-User-Stories.html
+  Extensions: extensions.html
+  Downloads: downloads.html
 #    mCSD User-stories: EHMI-CSD-User-Stories.html
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
