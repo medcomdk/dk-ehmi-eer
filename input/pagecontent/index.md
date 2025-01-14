@@ -1,6 +1,6 @@
 # EER Endpoint Register (EER)
 
-The EER Endpoint Register (EER) Profile supports discovery of Endpoint adresses related to a SOR Organizational Unit in Danish Healthcare using a RESTful interface.
+The EER Endpoint Register (EER) Profile supports RESTful queries across related care services resources and discovery of Endpoint addresses related to a SOR Organizational Unit in Danish Healthcare using a RESTful interface.
 
 This version of the profile supports registration of and querying for the following use cases:
 
