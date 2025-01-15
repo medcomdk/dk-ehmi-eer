@@ -35,7 +35,7 @@ mechanism).
 * managingOrganization only Reference(EerSorOrganization)
 * connectionType from eer-endpoint-connection-type-valueset
 * period 1..1 MS SU
-* payloadType from eer-medcom-message-definition-uri-valueset
+* payloadType from eer-message-definition-uri-valueset
 * payloadType 1..* MS SU
 * payloadMimeType 1..* MS SU
 //* extension contains eer-dk-eua-system-extension named eua-system 0..* MS 

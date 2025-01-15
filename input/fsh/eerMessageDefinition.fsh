@@ -1,9 +1,9 @@
 Profile: EerMessageDefinition
 Parent: MessageDefinition
 Description: "An example profile of the MessageDefinition resource."
-//* url from eer-medcom-message-definition-uri-valueset
+//* url from eer-message-definition-uri-valueset
 * identifier 1..1 MS SU
-//* identifier.system from eer-medcom-message-definition-uri-valueset
+//* identifier.system from eer-message-definition-uri-valueset
 * identifier.system from eer-messagedefinition-identifer-system-valueset
 * identifier.system 1..1 //MS SU
 //* identifier.system = $EerMessageDefinitionIdentifierSystem#MedCom
