@@ -18,7 +18,7 @@ Description: "An example instance of the EER Messaging Organization with a requi
 * endpoint[0].reference = "Endpoint/example-endpoint"
 
 Instance: ExampleEndpoint
-InstanceOf: EerEndpoint
+InstanceOf: EerEndpointMessagingEdelivery
 Title: "Example EER Messaging Endpoint"
 Description: "An example endpoint for the EER Messaging Organization."
 * id = "example-endpoint"
