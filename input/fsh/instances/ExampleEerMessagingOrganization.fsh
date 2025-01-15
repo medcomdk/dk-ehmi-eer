@@ -22,7 +22,9 @@ InstanceOf: EerEndpoint
 Title: "Example EER Messaging Endpoint"
 Description: "An example endpoint for the EER Messaging Organization."
 * id = "example-endpoint"
+* identifier.value = "543210987654321"
 * status = #active
+* period.start = "2025-01-01"
 * connectionType.code = #hl7-fhir-rest
 * connectionType.display = "hl7-fhir-rest"
 * connectionType.system = "http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-connection-type"
