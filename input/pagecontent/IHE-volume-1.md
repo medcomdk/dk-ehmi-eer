@@ -141,8 +141,7 @@ An actor from this profile (Column 1) shall implement all of the required transa
 
 The Mobile Care Services Discovery (mCSD) Profile supports queries for resources related to care services discovery. The relationship between these entities is illustrated in Figure 1:46.4.1-1.
 
-![Top-level Relationships between Care Services Entities](https://profiles.ihe.net/ITI/mCSD/mCSDRelationships.png)
-<div style="clear: left;"></div>
+![Top-level Relationships between Care Services Entities](https://profiles.ihe.net/ITI/mCSD/mCSDRelationships.png) 
 
 **Figure 1:46.4.1-1: Top-level Relationships between Care Services Entities**
 
@@ -391,7 +390,6 @@ The various data sources would maintain definitive data regarding one or more Ca
 This deployment may also have cross-jurisdictional considerations if any of the Update Suppliers have overlap in the data they manage. In this instance, the Care Services Update Consumer would need to resolve any conflicts before sharing this information as either a Care Services Update Supplier or a Care Services Selective Supplier. The way in which these conflicts are resolved is defined by the implementing jurisdiction of the Care Services Update Consumer.
 
 ![Federated and Cross Jurisdictional Deployment](https://profiles.ihe.net/ITI/mCSD/FederatedDeployment.png)
-<div style="clear: left;"/>
 
 **Figure 1:46.7.2-1: Federated and Cross Jurisdictional Deployment**
 
