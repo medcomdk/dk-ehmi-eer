@@ -63,8 +63,8 @@ The Care Services Selective Consumer queries the Care Services Selective Supplie
 
 No additional requirements.  The following are two example capability statement resources that a Care Services Selective Consumer could support:
 
-- [IHE ITI Mobile Care Services Discovery (mCSD) - Care Services Selective Consumer](CapabilityStatement-IHE.mCSD.CareServicesSelectiveConsumer.html)
-- [IHE ITI Mobile Care Services Discovery (mCSD) - Care Services Selective Consumer Location Distance Option](CapabilityStatement-IHE.mCSD.CareServicesSelectiveConsumer.LocationDistance.html)
+- [IHE ITI Mobile Care Services Discovery (mCSD) - Care Services Selective Consumer](https://profiles.ihe.net/ITI/mCSD/CapabilityStatement-IHE.mCSD.CareServicesSelectiveConsumer.html)
+- [IHE ITI Mobile Care Services Discovery (mCSD) - Care Services Selective Consumer Location Distance Option](https://profiles.ihe.net/ITI/mCSD/CapabilityStatement-IHE.mCSD.CareServicesSelectiveConsumer.LocationDistance.html)
 
 #### 1:46.1.1.2 Care Services Selective Supplier
 
@@ -74,8 +74,8 @@ The Care Services Selective Supplier shall publish an `instance` CapabilityState
 
 This capabilities response will typically include all of the capabilities inclusive of all grouped actors and additional functionality.  The following are two examples: 
 
-- [IHE ITI Mobile Care Services Discovery (mCSD) - Care Services Selective Supplier](CapabilityStatement-IHE.mCSD.CareServicesSelectiveSupplier.html)
-- [IHE ITI Mobile Care Services Discovery (mCSD) - Care Services Selective Supplier Location Distance Option](CapabilityStatement-IHE.mCSD.CareServicesSelectiveSupplier.LocationDistance.html)
+- [IHE ITI Mobile Care Services Discovery (mCSD) - Care Services Selective Supplier](https://profiles.ihe.net/ITI/mCSD/CapabilityStatement-IHE.mCSD.CareServicesSelectiveSupplier.html)
+- [IHE ITI Mobile Care Services Discovery (mCSD) - Care Services Selective Supplier Location Distance Option](https://profiles.ihe.net/ITI/mCSD/CapabilityStatement-IHE.mCSD.CareServicesSelectiveSupplier.LocationDistance.html)
 
 #### 1:46.1.1.3 Care Services Update Consumer
 
@@ -84,8 +84,8 @@ or more Care Services Update Suppliers.
 
 No additional requirements. The following are two example capability statement resources that a Care Services Update Consumer could support:
 
-- [IHE ITI Mobile Care Services Discovery (mCSD) - Care Services Update Consumer](CapabilityStatement-IHE.mCSD.CareServicesUpdateConsumer.html)
-- [IHE ITI Mobile Care Services Discovery (mCSD) - Care Services Update Consumer Location Distance Option](CapabilityStatement-IHE.mCSD.CareServicesUpdateConsumer.LocationDistance.html)
+- [IHE ITI Mobile Care Services Discovery (mCSD) - Care Services Update Consumer](https://profiles.ihe.net/ITI/mCSD/CapabilityStatement-IHE.mCSD.CareServicesUpdateConsumer.html)
+- [IHE ITI Mobile Care Services Discovery (mCSD) - Care Services Update Consumer Location Distance Option](https://profiles.ihe.net/ITI/mCSD/CapabilityStatement-IHE.mCSD.CareServicesUpdateConsumer.LocationDistance.html)
 
 #### 1:46.1.1.4 Care Services Update Supplier
 
@@ -96,8 +96,8 @@ All supported interactions shall be specified. The [search parameters](IHE-ITI-9
 
 This capabilities response will typically include all of the capabilities inclusive of all grouped actors and additional functionality.  The following are two examples:
 
-- [IHE ITI Mobile Care Services Discovery (mCSD) - Care Services Update Supplier](CapabilityStatement-IHE.mCSD.CareServicesUpdateSupplier.html)
-- [IHE ITI Mobile Care Services Discovery (mCSD) - Care Services Update Supplier Location Distance Option](CapabilityStatement-IHE.mCSD.CareServicesUpdateSupplier.LocationDistance.html)
+- [IHE ITI Mobile Care Services Discovery (mCSD) - Care Services Update Supplier](https://profiles.ihe.net/ITI/mCSD/CapabilityStatement-IHE.mCSD.CareServicesUpdateSupplier.html)
+- [IHE ITI Mobile Care Services Discovery (mCSD) - Care Services Update Supplier Location Distance Option](https://profiles.ihe.net/ITI/mCSD/CapabilityStatement-IHE.mCSD.CareServicesUpdateSupplier.LocationDistance.html)
 
 ## 1:46.2 mCSD Actor Options
 
