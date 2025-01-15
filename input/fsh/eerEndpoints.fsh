@@ -21,7 +21,7 @@ Parent:       EerEndpoint
 Id:           eer.dk.endpoint.messaging
 Title:        "EER Endpoint - General for Messaging"
 Description:  """
-A profile on the mCSD Endpoint.
+A profile on the EER Endpoint.
 
 An Organization may be reachable through electronic Endpoint(s).
 An Endpoint may be a eDelivery receiver or a vans receiver (or in the future a FHIR server, an IHE web services actor, or some other
