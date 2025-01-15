@@ -196,49 +196,49 @@ All References (Reference.reference element) to Resources defined in this transa
 
 ###### 2:3.90.4.2.2.1 FHIR Organization Resource Constraints
 
-A Care Services Selective Consumer may query on Organization Resources. A Care Services Selective Supplier shall return a Bundle of matching Organization Resources. The Organization Resource shall be further constrained as described in the [Organization Profile for mCSD](StructureDefinition-IHE.mCSD.Organization.html).
+A Care Services Selective Consumer may query on Organization Resources. A Care Services Selective Supplier shall return a Bundle of matching Organization Resources. The Organization Resource shall be further constrained as described in the [Organization Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.Organization.html).
 
-A Care Services Selective Consumer may query on Organization Resources when working with Facilities. A Care Services Selective Supplier shall return a Bundle of matching Organization Resources when working with Facilities. The FHIR Organization Resource shall be further constrained as described in the [Organization for Facilities Profile for mCSD](StructureDefinition-IHE.mCSD.FacilityOrganization.html).
+A Care Services Selective Consumer may query on Organization Resources when working with Facilities. A Care Services Selective Supplier shall return a Bundle of matching Organization Resources when working with Facilities. The FHIR Organization Resource shall be further constrained as described in the [Organization for Facilities Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.FacilityOrganization.html).
 
-A Care Services Selective Consumer may query on Organization Resources when working with Jurisdictions. A Care Services Selective Supplier shall return a Bundle of matching Organization Resources when working with Jurisdictions. The FHIR Organization Resource shall be further constrained as described in the [Organization for Jurisdictions Profile for mCSD](StructureDefinition-IHE.mCSD.JurisdictionOrganization.html).
+A Care Services Selective Consumer may query on Organization Resources when working with Jurisdictions. A Care Services Selective Supplier shall return a Bundle of matching Organization Resources when working with Jurisdictions. The FHIR Organization Resource shall be further constrained as described in the [Organization for Jurisdictions Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.JurisdictionOrganization.html).
 
 ###### 2:3.90.4.2.2.2 FHIR Location Resource Constraints
 
-A Care Services Selective Consumer may query on Location Resources. A Care Services Selective Supplier shall return a Bundle of matching Location Resources. The Location Resource shall be further constrained as described in the [Location Profile for mCSD](StructureDefinition-IHE.mCSD.Location.html).
+A Care Services Selective Consumer may query on Location Resources. A Care Services Selective Supplier shall return a Bundle of matching Location Resources. The Location Resource shall be further constrained as described in the [Location Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.Location.html).
 
-When the resource is a Facility, the Location Resource shall be paired with an Organization Resource using the managingOrganization element in Location. A Care Services Selective Consumer may query on Location Resources when working with Facilities. A Care Services Selective Supplier shall return a Bundle of matching Location Resources when working with Facilities. The FHIR Location Resource shall be further constrained as described in the [Location for Facilities Profile for mCSD](StructureDefinition-IHE.mCSD.FacilityLocation.html).
+When the resource is a Facility, the Location Resource shall be paired with an Organization Resource using the managingOrganization element in Location. A Care Services Selective Consumer may query on Location Resources when working with Facilities. A Care Services Selective Supplier shall return a Bundle of matching Location Resources when working with Facilities. The FHIR Location Resource shall be further constrained as described in the [Location for Facilities Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.FacilityLocation.html).
 
 When the resource is a Jurisdiction, the Location Resource shall be paired with an Organization Resource using the managingOrganization element in Location. A Care Services Selective Consumer 
-may query on Location Resources when working with Jurisdictions. A Care Services Selective Supplier shall return a Bundle of matching Location Resources when working with Jurisdictions. The FHIR Location Resource shall be further constrained as described in the [Location for Jurisdictions Profile for mCSD](StructureDefinition-IHE.mCSD.JurisdictionLocation.html).
+may query on Location Resources when working with Jurisdictions. A Care Services Selective Supplier shall return a Bundle of matching Location Resources when working with Jurisdictions. The FHIR Location Resource shall be further constrained as described in the [Location for Jurisdictions Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.JurisdictionLocation.html).
 
 When a geographic boundary is available for the Jurisdiction Location, the location-boundary-geojson extension defined at [http://hl7.org/fhir/extension-location-boundary-geojson.html](http://hl7.org/fhir/extension-location-boundary-geojson.html) shall be used to store this information.
 
-When supporting the Location Distance Option, the Location Resource shall be further constrained as described in the [Location with Distance Option Profile for mCSD](StructureDefinition-IHE.mCSD.LocationDistance.html).
+When supporting the Location Distance Option, the Location Resource shall be further constrained as described in the [Location with Distance Option Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.LocationDistance.html).
 
 ###### 2:3.90.4.2.2.3 FHIR Practitioner Resource Constraints
 
-A Care Services Selective Consumer may query on Practitioner Resources. A Care Services Selective Supplier shall return a Bundle of matching Practitioner Resources. The Practitioner Resource shall be further constrained as described in the [Practitioner Profile for mCSD](StructureDefinition-IHE.mCSD.Practitioner.html).
+A Care Services Selective Consumer may query on Practitioner Resources. A Care Services Selective Supplier shall return a Bundle of matching Practitioner Resources. The Practitioner Resource shall be further constrained as described in the [Practitioner Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.Practitioner.html).
 
 ###### 2:3.90.4.2.2.4 FHIR PractitionerRole Resource Constraints
 
 A Care Services Selective Consumer may query on PractitionerRole Resources. A Care Services Selective Supplier shall return a Bundle of matching PractitionerRole Resources. The PractitionerRole Resource shall be further constrained as described in the 
-[PractitionerRole Profile for mCSD](StructureDefinition-IHE.mCSD.PractitionerRole.html).
+[PractitionerRole Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.PractitionerRole.html).
 
 ###### 2:3.90.4.2.2.5 FHIR HealthcareService Resource Constraints
 
-A Care Services Selective Consumer may query on HealthcareService Resources. A Care Services Selective Supplier shall return a Bundle of matching HealthcareService Resources. The HealthcareService Resource shall be further constrained as described in the [HealthcareService Profile for mCSD](StructureDefinition-IHE.mCSD.HealthcareService.html).
+A Care Services Selective Consumer may query on HealthcareService Resources. A Care Services Selective Supplier shall return a Bundle of matching HealthcareService Resources. The HealthcareService Resource shall be further constrained as described in the [HealthcareService Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.HealthcareService.html).
 
 ###### 2:3.90.4.2.2.6 FHIR OrganizationAffiliation Resource Constraints
 
-A Care Services Selective Consumer may query on OrganizationAffiliation Resources. A Care Services Selective Supplier shall return a Bundle of matching OrganizationAffiliation Resources. The OrganizationAffiliation Resource shall be further constrained as described in the [OrganizationAffiliation Profile for mCSD](StructureDefinition-IHE.mCSD.OrganizationAffiliation.html).
+A Care Services Selective Consumer may query on OrganizationAffiliation Resources. A Care Services Selective Supplier shall return a Bundle of matching OrganizationAffiliation Resources. The OrganizationAffiliation Resource shall be further constrained as described in the [OrganizationAffiliation Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.OrganizationAffiliation.html).
 
-When the OrganizationAffiliation contains an Endpoint to an IHE document sharing environment, it shall further be constrained as described in the [OrganizationAffiliation for Document Sharing Profile for mCSD](StructureDefinition-IHE.mCSD.OrganizationAffiliation.DocShare.html).
+When the OrganizationAffiliation contains an Endpoint to an IHE document sharing environment, it shall further be constrained as described in the [OrganizationAffiliation for Document Sharing Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.OrganizationAffiliation.DocShare.html).
 
 ###### 2:3.90.4.2.2.7 FHIR Endpoint Resource Constraints
 
-A Care Services Selective Consumer may query on Endpoint Resources. A Care Services Selective Supplier shall return a Bundle of matching Endpoint Resources. The Endpoint Resource shall be further constrained as described in the [Endpoint Profile for mCSD](StructureDefinition-IHE.mCSD.Endpoint.html).
+A Care Services Selective Consumer may query on Endpoint Resources. A Care Services Selective Supplier shall return a Bundle of matching Endpoint Resources. The Endpoint Resource shall be further constrained as described in the [Endpoint Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.Endpoint.html).
 
-When the Endpoint is to an IHE document sharing environment, it shall further be constrained as described in the [Endpoint for Document Sharing Profile for mCSD](StructureDefinition-IHE.mCSD.Endpoint.DocShare.html).
+When the Endpoint is to an IHE document sharing environment, it shall further be constrained as described in the [Endpoint for Document Sharing Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.Endpoint.DocShare.html).
 
 
 ##### 2:3.90.4.2.3 Expected Actions
@@ -326,5 +326,5 @@ difference being the Audit Source element. Both sides record to show consistency
 between the message sent by the Consumer and the action taken at the Supplier.
 
 The actors involved shall record audit events according to the
-[Audit Event for Find Matching Care Services for Read by the Care Services Selective Supplier and Consumer](StructureDefinition-IHE.mCSD.Audit.CareServices.Read.html)
-or the [Audit Event for Find Matching Care Services for Query by the Care Services Selective Supplier and Consumer](StructureDefinition-IHE.mCSD.Audit.CareServices.Query.html).
+[Audit Event for Find Matching Care Services for Read by the Care Services Selective Supplier and Consumer](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.Audit.CareServices.Read.html)
+or the [Audit Event for Find Matching Care Services for Query by the Care Services Selective Supplier and Consumer](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.Audit.CareServices.Query.html).

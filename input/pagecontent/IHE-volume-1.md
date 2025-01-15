@@ -309,8 +309,8 @@ An HIE publishes a directory that contains all of its member organizations and t
 Note: Guidance for usage of endpoints in directories is provided [here](#1468-mcsd-endpoint-usage-considerations).
 
 - Endpoints are not limited to RESTful FHIR servers; they may point to systems that implement other mechanisms. This IG provides two profiles:
-  [a general endpoint](StructureDefinition-IHE.mCSD.Endpoint.html), and
-  [an endpoint to an IHE Document Sharing actor](StructureDefinition-IHE.mCSD.Endpoint.DocShare.html).
+  [a general endpoint](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.Endpoint.html), and
+  [an endpoint to an IHE Document Sharing actor](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.Endpoint.DocShare.html).
 - Organizations might support one or many communication channels, each of which might have one or more distinct endpoints. For example, a FHIR communication channel might require only a single endpoint (i.e., a single [Service Base URL](https://www.hl7.org/fhir/http.html#general)), while an IHE XCA communication channel might require separate endpoints for each transaction.
 
 The diagram below shows an excerpt of the HIE directory, showing one participant in the HIE that implements IHE XCA with two Endpoints, and another that only uses one.
@@ -513,7 +513,7 @@ does not reflect which endpoint is the adapter or the adaptee.
 
 ##### 1:46.8.4 Endpoint Discovery Usage
 
-The following example shows the steps used by a Care Services Selective Consumer to navigate a directory to find suitable electronic service Endpoints to some desired Organizations. In this example, a "suitable" Endpoint means it supports an IHE Document Sharing profile, and is based on .connectionType, .extension:specificType, .payloadType, .payloadMimeType, and status (both Endpoint.status as well as the actual status of the electronic service). The example uses the [mCSD-profiled OrganizationAffiliation] StructureDefinition-IHE.mCSD.OrganizationAffiliation.DocShare.html) that indicates federated connectivity for Document Sharing (e.g., affiliated organizations may be addressed as intendedRecipient). The pseudocode below uses a depth-first, first-match search, and does not protect against loops.
+The following example shows the steps used by a Care Services Selective Consumer to navigate a directory to find suitable electronic service Endpoints to some desired Organizations. In this example, a "suitable" Endpoint means it supports an IHE Document Sharing profile, and is based on .connectionType, .extension:specificType, .payloadType, .payloadMimeType, and status (both Endpoint.status as well as the actual status of the electronic service). The example uses the [mCSD-profiled OrganizationAffiliation] https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.OrganizationAffiliation.DocShare.html) that indicates federated connectivity for Document Sharing (e.g., affiliated organizations may be addressed as intendedRecipient). The pseudocode below uses a depth-first, first-match search, and does not protect against loops.
 
 Until a suitable Endpoint is found or the search is complete, check the following in this order:
 - Locate the desired Organization resource.

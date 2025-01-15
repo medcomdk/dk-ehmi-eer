@@ -87,34 +87,34 @@ The Care Services Update Supplier shall support the history response message as 
 
 ###### 2:3.91.4.2.2.1 FHIR Organization Resource Constraints
 
-A Care Services Update Consumer and a Care Services Update Supplier shall query or return an Organization Resource. The Organization Resource shall be further constrained as described in the [Organization Profile for mCSD](StructureDefinition-IHE.mCSD.Organization.html).
+A Care Services Update Consumer and a Care Services Update Supplier shall query or return an Organization Resource. The Organization Resource shall be further constrained as described in the [Organization Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.Organization.html).
 
-When the Organization represents a Facility and is paired with a Location, the FHIR Organization Resource shall be further constrained as described in the [Organization for Facilities Profile for mCSD](StructureDefinition-IHE.mCSD.FacilityOrganization.html).
+When the Organization represents a Facility and is paired with a Location, the FHIR Organization Resource shall be further constrained as described in the [Organization for Facilities Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.FacilityOrganization.html).
 
-When the Organization represents a Jurisdiction and is paired with a Location, the FHIR Organization Resource shall be further constrained as described in the [Organization for Jurisdictions Profile for mCSD](StructureDefinition-IHE.mCSD.JurisdictionOrganization.html).
+When the Organization represents a Jurisdiction and is paired with a Location, the FHIR Organization Resource shall be further constrained as described in the [Organization for Jurisdictions Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.JurisdictionOrganization.html).
 
 ###### 2:3.91.4.2.2.2 FHIR Location Resource Constraints
 
-A Care Services Update Consumer and a Care Services Update Supplier shall query or return a Location Resource. The Location Resource shall be further constrained as described in the [Location Profile for mCSD](StructureDefinition-IHE.mCSD.Location.html).
+A Care Services Update Consumer and a Care Services Update Supplier shall query or return a Location Resource. The Location Resource shall be further constrained as described in the [Location Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.Location.html).
 
 When the Location represents a Facility and is paired with an Organization, the FHIR Location Resource shall be further constrained as described in the 
-[Location for Facilities Profile for mCSD](StructureDefinition-IHE.mCSD.FacilityLocation.html).
+[Location for Facilities Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.FacilityLocation.html).
 
-When the Location represents a Jurisdiction and is paired with an Organization, the FHIR Location Resource shall be further constrained as described in the [Location for Jurisdictions Profile for mCSD](StructureDefinition-IHE.mCSD.JurisdictionLocation.html).
+When the Location represents a Jurisdiction and is paired with an Organization, the FHIR Location Resource shall be further constrained as described in the [Location for Jurisdictions Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.JurisdictionLocation.html).
 
-When supporting the Location Distance Option, the FHIR Location Resource shall be further constrained as described in the [Location with Distance Option Profile for mCSD](StructureDefinition-IHE.mCSD.LocationDistance.html).
+When supporting the Location Distance Option, the FHIR Location Resource shall be further constrained as described in the [Location with Distance Option Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.LocationDistance.html).
 
 ###### 2:3.91.4.2.2.3 FHIR Practitioner Resource Constraints
 
-A Care Services Update Consumer and a Care Services Update Supplier shall query or return a Practitioner Resource. The Practitioner Resource shall be further constrained as described in the [Practitioner Profile for mCSD](StructureDefinition-IHE.mCSD.Practitioner.html).
+A Care Services Update Consumer and a Care Services Update Supplier shall query or return a Practitioner Resource. The Practitioner Resource shall be further constrained as described in the [Practitioner Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.Practitioner.html).
 
 ###### 2:3.91.4.2.2.4 FHIR PractitionerRole Resource Constraints
 
-A Care Services Update Consumer and a Care Services Update Supplier shall query or return a PractitionerRole Resource. The PractitionerRole Resource shall be further constrained as described in the [PractitionerRole Profile for mCSD](StructureDefinition-IHE.mCSD.PractitionerRole.html).
+A Care Services Update Consumer and a Care Services Update Supplier shall query or return a PractitionerRole Resource. The PractitionerRole Resource shall be further constrained as described in the [PractitionerRole Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.PractitionerRole.html).
 
 ###### 2:3.91.4.2.2.5 FHIR HealthcareService Resource Constraints
 
-A Care Services Update Consumer and a Care Services Update Supplier shall query or return a HealthcareService Resource. The HealthcareService Resource shall be further constrained as described in the [HealthcareService Profile for mCSD](StructureDefinition-IHE.mCSD.HealthcareService.html).
+A Care Services Update Consumer and a Care Services Update Supplier shall query or return a HealthcareService Resource. The HealthcareService Resource shall be further constrained as described in the [HealthcareService Profile for mCSD](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.HealthcareService.html).
 
 ##### 2:3.91.4.2.3 Expected Actions
 
@@ -133,4 +133,4 @@ difference being the Audit Source element. Both sides record to show consistency
 between the message sent by the Supplier and the action taken at the Consumer.
 
 The actors involved shall record audit events according to the
-[Audit Event for Request Care Services Updates by the Care Services Update Supplier and Consumer](StructureDefinition-IHE.mCSD.Audit.CareServices.Updates.html).
+[Audit Event for Request Care Services Updates by the Care Services Update Supplier and Consumer](https://profiles.ihe.net/ITI/mCSD/StructureDefinition-IHE.mCSD.Audit.CareServices.Updates.html).
