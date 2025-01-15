@@ -9,7 +9,7 @@ architectures and support a wide array of care workflows.
 
 <div markdown="1" class="stu-note">
 
-| [Significant Changes, Open, and Closed Issues](issues.html) |
+| [Significant Changes, Open, and Closed Issues](https://profiles.ihe.net/ITI/mCSD/issues.html) |
 {: .grid}
 
 **[Search this IG](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fprofiles.ihe.net%2FITI%2FmCSD)**
@@ -32,8 +32,8 @@ This guide is organized into the following four main sections:
 2. Volume 2: Transaction Detail
     1. [Find Matching Care Services \[IHE-ITI-90\]](IHE-ITI-90.html)
     2. [Request Care Services Updates \[IHE-ITI-91\]](IHE-ITI-91.html)
-3. [Test Plan](testplan.html)
-4. [Changes to other Profiles](other.html)
+3. [Test Plan](https://profiles.ihe.net/ITI/mCSD/testplan.html)
+4. [Changes to other Profiles](https://profiles.ihe.net/ITI/mCSD/other.html)
 
 Click on any of the links above, navigate the contents using the [table of contents](toc.html), or
 if you are looking for a specific artifact, check out the [index](artifacts.html).
