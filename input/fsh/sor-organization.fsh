@@ -47,6 +47,12 @@ Parent: MedComCoreOrganization
 Id: eas-messaging-organization
 Title: "EER Messaging Organization"
 Description: "An extension of the MedComCoreOrganization profile with a required endpoint element."
+* identifier[EAN-ID] 0..0
+* identifier[KOMBIT-ORG-ID] 0..0
+* identifier[Ydernummer] 0..0
+* identifier[Kommunekode] 0..0
+* identifier[Regionskode] 0..0
+* identifier[ProducentID] 0..0
 * endpoint 1..* MS
 
 /*
