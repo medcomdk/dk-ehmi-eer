@@ -32,7 +32,7 @@ This version of the profile supports registration of and querying for the follow
 
 The profile is based upon and inspired by the IHE mCSD profile and the use cases and solutions using mCSD are outlined in the [mCSD White Paper](https://profiles.ihe.net/ITI/papers/mCSD/index.html).
 
-Currently supported profiles of the IE MSCD profiles stated in [1:46 Mobile Care Services Discovery (mCSD)](https://profiles.ihe.net/ITI/mCSD/IHE-volume-1.html#1-46-mobile-care-services-discovery-mcsd) are:
+Currently supported profiles of the IE MSCD profiles stated in [1:46 Mobile Care Services Discovery (mCSD)](https://profiles.ihe.net/ITI/mCSD/volume-1.html#1-46-mobile-care-services-discovery-mcsd) are:
 
 **1. Organization**
 
