@@ -42,6 +42,13 @@ Description:  """ EER SOR General Organization """
 * endpoint 0..*
 * endpoint only Reference(EerEndpointMessagingEdelivery)
 
+Profile: EerMessagingOrganization
+Parent: MedComCoreOrganization
+Id: eas-messaging-organization
+Title: "EER Messaging Organization"
+Description: "An extension of the MedComCoreOrganization profile with a required endpoint element."
+* endpoint 1..* MS
+
 /*
 Profile:      EerSorIOOrganization
 Parent:       EerSorOrganization
