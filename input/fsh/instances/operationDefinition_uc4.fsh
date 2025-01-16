@@ -1,3 +1,4 @@
+/*
 Instance: eer.getReceivingOrganizationBySORId
 InstanceOf: OperationDefinition
 Description: "EER getReceivingOrganizationBySORId"
@@ -37,3 +38,4 @@ EER will in order to produce this response run through a sequence of calls from"
 * parameter[=].max = "*"
 * parameter[=].documentation = "The response is a EerMessagingOrganization corresponding to the General Practitioner of the Patient"
 * parameter[=].type = #Organization
+*/
