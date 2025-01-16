@@ -13,8 +13,8 @@ Description: "AAR EerMessaging VansEdi Endpoint Inbound"
 //* period.end = "2024-01-01"
 * address = "http://aar.dk/vans/edi/in"
 * payloadMimeType[0] = #application/EDIFACT
-* payloadType[0] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl01:c0130q	"Negativ Vans kvittering"
-* payloadType[+] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl02:c0230q	"Negativ kvittering"
-* payloadType[+] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl03:c0330q	"Positiv kvittering"
-* payloadType[+] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:meddis:dis91:d9134l	"Korrespondancebrev"
+* payloadType[0] = $EhmiMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl01:c0130q	"Negativ Vans kvittering"
+* payloadType[+] = $EhmiMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl02:c0230q	"Negativ kvittering"
+* payloadType[+] = $EhmiMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:contrl:ctl03:c0330q	"Positiv kvittering"
+* payloadType[+] = $EhmiMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:edifact:meddis:dis91:d9134l	"Korrespondancebrev"
 */

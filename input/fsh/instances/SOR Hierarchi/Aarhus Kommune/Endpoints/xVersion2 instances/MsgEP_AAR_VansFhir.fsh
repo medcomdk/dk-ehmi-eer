@@ -13,5 +13,5 @@ Description: "AAR EerEndpoint-Messaging-AAR-VansFhir.01."
 * period.end = "2024-01-01"
 * address = "http://eDeliveryAccessPoint.aar.dk/fhir"
 * payloadMimeType = #text/plain
-* payloadType = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
+* payloadType = $EhmiMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 */

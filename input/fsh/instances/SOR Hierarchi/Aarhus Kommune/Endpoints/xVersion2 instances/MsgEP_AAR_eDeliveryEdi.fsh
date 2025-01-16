@@ -14,6 +14,6 @@ Description: "AAR EereDeliveryMessagingEdiEndpoint."
 * address = "http://eDeliveryAccessPoint.aar.dk/fhir"
 * payloadMimeType[0] = #application/fhir+xml
 //* payloadMimeType[1] = #application/fhir+json
-* payloadType[0] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
-//* payloadType[1] = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
+* payloadType[0] = $EhmiMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
+//* payloadType[1] = $EhmiMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
 */
