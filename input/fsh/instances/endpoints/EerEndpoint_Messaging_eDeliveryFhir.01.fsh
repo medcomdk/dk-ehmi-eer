@@ -10,4 +10,4 @@ Description: "An example of an EerEndpointMessagingEdeliveryFhir."
 * period.end = "2024-01-01"
 * address = "http://www.eDeliveryAccessPoint.dk/fhir"
 * payloadMimeType = #text/plain
-* payloadType = $EerEerMedComMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
+* payloadType = $EerMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
