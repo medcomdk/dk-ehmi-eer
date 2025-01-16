@@ -1,5 +1,6 @@
 # EER and SOR
 
+
 Traditionally messaging metadata for a SOR unit has been placed in SOR and SOR-EDI.
 
 EER replaces and reorganizes how these messaging metadata are represented.
