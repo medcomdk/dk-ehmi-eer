@@ -2,7 +2,7 @@ Instance: eer.getReceivingOrganizationBySORId
 InstanceOf: OperationDefinition
 Description: "EER getReceivingOrganizationBySORId"
 Usage: #definition
-* url = "http://Eerbase.eer.dk/OperationDefinition/getReceivingOrganizationBySORId"
+* url = " http://medcomehmi.dk/ig/dk-ehmi-eer/OperationDefinition/getReceivingOrganizationBySORId"
 * version = "0.1.0"
 * name = "EER-getReceivingOrganizationBySORId"
 * title = "EER  getReceivingOrganizationBySORId"
