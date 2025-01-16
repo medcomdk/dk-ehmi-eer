@@ -15,8 +15,8 @@ Alias: $AuditEventTypes = http://terminology.hl7.org/CodeSystem/audit-event-type
 Alias: $AuditEventTypes2 = http://dicom.nema.org/resources/ontology/DCM
 Alias: $EdsAuditEventEntityMessageType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-auditevent-entity-message-type
 
-Alias: $EerAuditEventAgentWhoIdentifierTypes = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/ehmi-delivery-status-agent-who-identifier-types
-Alias: $EerAuditEventAgentWhoIdentifierTypesValueset = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/ehmi-delivery-status-agent-who-identifier-types-valueset
+Alias: $EerAuditEventAgentWhoIdentifierTypes = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/ehmi-delivery-status-agent-who-identifier-types
+Alias: $EerAuditEventAgentWhoIdentifierTypesValueset = http://medcomehmi.dk/ig/dk-ehmi-terminology/ValueSet/ehmi-delivery-status-agent-who-identifier-types-valueset
 
 Alias: $mCSDEndpointConnectionType = http://hl7.org/fhir/R4/valueset-endpoint-connection-type.html
 
@@ -43,9 +43,9 @@ Alias: $EerSorIOOrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSe
 //Alias: $EerMessageDefinitionUriVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-message-definition-uri-valueset
 
 
-Alias: $MedComMessageDefinitionUri = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/medcom-message-definition-uri
-Alias: $EerMessageDefinitionUri = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/eer-message-definition-uri
-Alias: $EerMessageDefinitionUriVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/eer-message-definition-uri-valueset
+Alias: $MedComMessageDefinitionUri = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/medcom-message-definition-uri
+Alias: $EerMessageDefinitionUri = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/eer-message-definition-uri
+Alias: $EerMessageDefinitionUriVS = http://medcomehmi.dk/ig/dk-ehmi-terminology/ValueSet/eer-message-definition-uri-valueset
 
 Alias: $EerMedComMessageDefinitionType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-medcom-message-definition-type
 Alias: $EerMedComMessageDefinitionTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-medcom-message-definition-type-valueset
