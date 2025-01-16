@@ -11,7 +11,7 @@ mechanism).
 """
 * identifier 1..1 MS SU
 * identifier.system = $EerAuditEventAgentWhoIdentifierTypes
-* identifier.type from $EerAuditEventAgentWhoIdentifierTypes
+* identifier.type from $EerAuditEventAgentWhoIdentifierTypesVS
 * identifier.value 1..1 MS SU
 * connectionType from eer-endpoint-connection-type-valueset
 * period 1..1 MS SU
