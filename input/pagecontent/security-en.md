@@ -15,13 +15,17 @@ There are two primary use cases for the EHMI Endpoint Register (EER):
 
 ### Enrollment/Whitelisting of System Clients in EER (for Search and Lookup)
 
-The EHMI Addressing Service (EAS), which is currently the only client performing searches and lookups in EER, is enrolled as a system client using the elements described in section 3.3 (Client Enrollment) of the general ‘Sikkerhedsmodel’. The following scope element is specified:
+The EHMI Addressing Service (EAS), which is currently the only client performing searches and lookups in EER, is enrolled as a system client using the elements described in section 3.3 (Client Enrollment) __*of the general ‘Sikkerhedsmodel’*__. The following scope element is specified:
 
-| EER system/Endpoint.rs system/Organization.rs |
-|-----------------------------------------------|
+<table border="1">
+    <tr>
+        <td>EER system/Endpoint.rs system/Organization.rs</td>
+    </tr>
+</table>
 
-**Metadata for an EER System Client  
-**No additional metadata needs to be specified beyond what is described in section 3.3.1 (Metadata for Clients) of the general ‘Sikkerhedsmodel’.
+**Metadata for an EER System Client**
+
+No additional metadata needs to be specified beyond what is described in section 3.3.1 (Metadata for Clients) __*of the general ‘Sikkerhedsmodel’*__.
 
 Example metadata document for an EER system client (i.e., the EHMI Addressing Service):
 
@@ -42,16 +46,19 @@ Example metadata document for an EER system client (i.e., the EHMI Addressing Se
 
 ### Enrollment/Whitelisting of User Clients (for Administration)
 
-User clients used by superusers to manage entries in the Endpoint Register (EER) are enrolled solely with the elements described in section 3.3 (Client Enrollment) of the general ‘Sikkerhedsmodel’.
+User clients used by superusers to manage entries in the Endpoint Register (EER) are enrolled solely with the elements described in section 3.3 (Client Enrollment) __*of the general ‘Sikkerhedsmodel’*__.
 
 The following scope element is specified during enrollment:
 
-| EER user/Endpoint.cruds user/Organization.cruds |
-|-------------------------------------------------|
+<table border="1">
+    <tr>
+        <td>EER user/Endpoint.cruds user/Organization.cruds</td>
+    </tr>
+</table>
 
 **Metadata for an EER User Client for Administration of Endpoint Register Entries**
 
-For EER user clients, only the metadata elements described in section 3.3.1 (Metadata for Clients) of the general ‘Sikkerhedsmodel’ need to be specified.
+For EER user clients, only the metadata elements described in section 3.3.1 (Metadata for Clients) __*of the general ‘Sikkerhedsmodel’*__ need to be specified.
 
 Example metadata document for an EER user client:
 
@@ -86,8 +93,9 @@ To obtain an access token for accessing EER, the following scopes are specified:
 | user/Endpoint.cruds      | (For user clients only) Specifies that the token should allow creating/reading/updating/deleting Endpoint resources (which are FHIR bundles consisting of profiles Endpoint and Organization resources). |
 | user/Organization.cruds  |                                                                                                                                                                                                          |
 
-**Validation of Calls at the Authorization Server  
-**Calls to the Token Endpoint are validated by the Authorization Server, which verifies the client’s TLS client certificate and checks that the client is enrolled/whitelisted with the specified scopes.
+**Validation of Calls at the Authorization Server**
+
+Calls to the Token Endpoint are validated by the Authorization Server, which verifies the client’s TLS client certificate and checks that the client is enrolled/whitelisted with the specified scopes.
 
 ### Calls to EER
 
@@ -116,11 +124,10 @@ Authorization: Bearer eyJhb ... Dhi6g
 }
 ```
 
-**EER Access Control  
-**The Endpoint Register (EER) enforces access control by verifying that the access token is valid and confirming the “sender-constrained” property. This involves ensuring that the TLS client certificate used by the client matches the certificate embedded within the access token. Additionally, the token must have been issued for EER as the intended recipient.
+**EER Access Control**
+
+The Endpoint Register (EER) enforces access control by verifying that the access token is valid and confirming the “sender-constrained” property. This involves ensuring that the TLS client certificate used by the client matches the certificate embedded within the access token. Additionally, the token must have been issued for EER as the intended recipient.
 
 For *searches and lookups*, the EER ensures that the access token contains the necessary scopes to authorize the client to perform the requested operations within the register.
 
 For *administering endpoint register entries*, access is restricted to entries associated with the user’s own organization, based on the CVR number. The EER first checks that the user has been assigned a superuser role, as indicated in the priv claim of the access token. It then limits access to entries where the organization’s CVR number matches the cvr claim in the token, ensuring administrative privileges are confined to the relevant organization.
-
-## 
