@@ -1,63 +1,126 @@
-## 7.3	EHMI Endpoint Register (EER)
+## EHMI Endpoint Register (EER)
 
-I Postkasseregisteret (EER) administrerer parterne i EHMI meddelelsesinfrastrukturen Endpoint-adresser for deres forskellige organisatoriske enheder, som skal kunne modtage meddelelser. 
+In the EHMI Endpoint Register (EER), the parties in the EHMI messaging infrastructure manage endpoint addresses for their various organizational units that need to receive messages.
 
-Sundhedsadresseringsservicen EAS forventes at være eneste aftager af EER-data, som er en af de autoritative kilder EAS benytter til at udstille et samlet søgeinterface til anvenderne af EHMI.
+The EHMI Addressing Service (EAS) is expected to be the sole consumer of EER data. EER serves as one of the authoritative sources that EAS uses to provide a unified search interface for EHMI users.
 
-### 7.3.1	EER usecases
+### EER usecases
 
-Der er to overordnende usecases for anvendelsen af postkasseregisteret EER.
+There are two primary use cases for the EHMI Endpoint Register (EER):
 
-1.	EER udstiller en snitflade til søgning og opslag i organisationers endpoints. I produktionspiloten (og givetvis også i det lange løb) er der udelukkende Sundhedsadresseringsservicen, der benytter denne snitflade.  
+1.  *Search and Lookup*:  
+    EER provides an interface for searching and looking up organizations’ endpoints. In the production pilot (and likely in the long term), the EHMI Addressing Service (EAS) is the sole consumer of this interface.
+2.  *Setup and Administration*:  
+    EER provides an interface for setting up and managing organizations’ endpoints. Setup and administration are performed at the superuser level for the user’s organization. Superusers can gain access via a special administrator privilege assigned through the SEB User Catalog.
 
-2.	EER stiller desuden en grænseflade til rådighed, hvor organisationers endpoints kan opsættes og administreres. Opsætning og administration foregår på superbruger-niveau for brugerens organisation. Superbrugere kan få adgang via en særlig administrator-rettighed (som tildeles gennem SEB brugerkataloget).
+### Enrollment/Whitelisting of System Clients in EER (for Search and Lookup)
 
-### 7.3.2	Indrullering/whitelisting af systemklienter i EER (til søgning og opslag)
-Sundhedsadresseringsservicen, som indtil videre er eneste klient, der foretager søgninger og opslag i EER, indrulleres som systemklient med de i afsnit 3.3 Indrullering af klienter beskrevne elementer, hvor der angives følgende som scope element:
- 
-Metadata for en EER systemklient
+The EHMI Addressing Service (EAS), which is currently the only client performing searches and lookups in EER, is enrolled as a system client using the elements described in section 3.3 (Client Enrollment) of the general ‘Sikkerhedsmodel’. The following scope element is specified:
 
-Der skal ikke angives yderligere metadata end de i afsnit 3.3.1 Metadata for klienter beskrevne.
+| EER system/Endpoint.rs system/Organization.rs |
+|-----------------------------------------------|
 
-Eksempel metadata dokument for en EER systemklient (dvs. Sundhedsadresseringsservicen):
+**Metadata for an EER System Client  
+**No additional metadata needs to be specified beyond what is described in section 3.3.1 (Metadata for Clients) of the general ‘Sikkerhedsmodel’.
 
-### 7.3.3	Indrullering/whitelisting af brugerklienter (til administration)
+Example metadata document for an EER system client (i.e., the EHMI Addressing Service):
 
-Brugerklienter som anvendes af superbrugere til at administrere indgange i Postkasseregisteret indrulleres alene med de i afsnit 3.3 Indrullering af klienter beskrevne elementer. 
+```
+{
+  "token_endpoint_auth_method": "tls_client_auth",
+  "grant_types": [
+    "client_credentials"
+  ],
+  "client_name": "Sundhedsadresseringsservice (EAS)",
+  "scope": " EER system/Endpoint.rs system/Organization.rs",
+  "contacts": [
+    "eas-support@ehmi.dk"
+  ],
+  "tls_client_auth_subject_dn": "subject=CN=Systemleverandør ABC’s systemcertifikat, serialNumber=UI:DK-O:G:7000b95d-b9bc-415d-88fe-5561859e7399, O= Systemleverandør ABC, organizationIdentifier=NTRDK-34567812, C=DK"
+}
+```
 
-Under indrullering angives følgende scope element:
- 
-Metadata for en EER brugerklient til administration af Postkasseregisterindgange
+### Enrollment/Whitelisting of User Clients (for Administration)
 
-For EER brugerklienter skal der kun angives de i afsnit 3.3.1 Metadata for klienter beskrevne metadata.
+User clients used by superusers to manage entries in the Endpoint Register (EER) are enrolled solely with the elements described in section 3.3 (Client Enrollment) of the general ‘Sikkerhedsmodel’.
 
-Eksempel metadata dokument for en EER brugerklient:
+The following scope element is specified during enrollment:
 
-### 7.3.4	Kald til Token Endpoint
+| EER user/Endpoint.cruds user/Organization.cruds |
+|-------------------------------------------------|
 
-For at få udstedt et access token til at kunne tilgå EER angives følgende scopes:
+**Metadata for an EER User Client for Administration of Endpoint Register Entries**
 
-scope 	Beskrivelse
+For EER user clients, only the metadata elements described in section 3.3.1 (Metadata for Clients) of the general ‘Sikkerhedsmodel’ need to be specified.
 
-EER	En angivelse af det er for EER, at klienten ønsker et access token.
-system/Endpoint.rs	(kun for systemklienter) En angivelse af at tokenet skal kunne benyttes til at læse og fremsøge Postkasseregister ressourcer (som er FHIR bundles bestående af profileringer af FHIR’s Endpoint og Organization ressourcer).
-system/Organization.rs	
+Example metadata document for an EER user client:
 
-user/Endpoint.cruds	(kun for brugerklienter) En angivelse af at tokenet skal kunne benyttes til at oprette/læse/opdatere/slette/fremsøge Postkasseregister ressourcer (som er FHIR bundles bestående af profileringer af FHIR’s Endpoint og Organization ressourcer).
-user/Organization.cruds	
+```
+{
+  "token_endpoint_auth_method": "tls_client_auth",
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "client_name": "Postkasseregister web-admin",
+  "scope": "EER user/Endpoint.cruds user/Organization.cruds",
+  "contacts": [
+    "eer-support@ehmi.dk"
+  ],
+  "tls_client_auth_subject_dn": " subject=CN=Systemleverandør XYZ’s systemcertifikat, serialNumber=UI:DK-O:G: c91eada9-90a7-4187-94a3-f880df10348a, O= Systemleverandør XYZ, organizationIdentifier=NTRDK-67812345, C=DK",
+  "redirect_uris": [
+    "https://eer.ehmi.dk/web-admin"
+  ]
+}
+```
 
-Valideringer af kaldet hos Authorization Server
+### Calls to the Token Endpoint
 
-Kaldet til Token Endpoint valideres hos Authorization Server, som validerer klientens TLS-klientcertifikat og tjekker at klienten er indrulleret/whitelistet med de angivne scopes. 
+To obtain an access token for accessing EER, the following scopes are specified:
 
-### 7.3.5	Kald til EER
+| **scope**                | **Description**                                                                                                                                                                                          |
+|--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| EER                      | Indicates that the client is requesting an access token for EER.                                                                                                                                         |
+| system/Endpoint.rs       | (For system clients only) Specifies that the token should allow reading/searching for EER resources (which are FHIR bundles consisting of profiles Endpoint and Organization resources).                 |
+| system/Organization.rs   |                                                                                                                                                                                                          |
+| user/Endpoint.cruds      | (For user clients only) Specifies that the token should allow creating/reading/updating/deleting Endpoint resources (which are FHIR bundles consisting of profiles Endpoint and Organization resources). |
+| user/Organization.cruds  |                                                                                                                                                                                                          |
 
-Kald til EER foretages som beskrevet i den generelle sikkerhedsmodel som REST-kald over tovejs TLS, med access tokenet (som er sender-constrained) i en HTTP header.
+**Validation of Calls at the Authorization Server  
+**Calls to the Token Endpoint are validated by the Authorization Server, which verifies the client’s TLS client certificate and checks that the client is enrolled/whitelisted with the specified scopes.
 
-EER adgangskontrol
+### Calls to EER
 
-Postkasseregisteret tjekker at access tokenet er gyldigt og validerer ’sender-contrained’ egenskaben, det vil sige validerer, at det af klientens anvendte TLS-klientcertifikat matcher certifikatet, som blev indlejret i access tokenet. Postkasseregisteret verificerer desuden, at tokenet er udstedt til EER som aftager af tokenet.
+Calls to EER are made as described in the general security model, using REST calls over mutual TLS (two-way TLS), with the access token (which is sender-constrained) included in an HTTP header.
 
-Ved søgning og opslag af postkasseregisterindgange tjekker servicen, at tokenet indeholder de nødvendige scopes til at klienten må foretage søgninger op opslag i EER. 
+Example of a system clients call …. \<TODO\>
 
-Ved administration af postkasseregisterindgange afgrænser EER tilgangen til registreringer vedrørende egen organisation på CVR niveau. Konkret validerer EER først at brugeren har fået tildelt superbruger-rollen, dvs. at den adgangsgivende rolle  fremgår af access tokenets rolle-struktur i priv claim’et. EER begrænser derefter adgangen til postkasseindgange, hvori der indgår samme organisations CVR-nummer, som fremgår af access tokenets cvr claim.
+```
+POST /base/XXXXXX HTTP/1.1
+Host: eer.ehmi.dk
+Accept: application/fhir+json
+Content-Type: application/fhir+json
+Content-Length: 6112
+Authorization: Bearer eyJhb ... Dhi6g
+
+{
+  "parameter": [
+    {
+      "name": "YYYY",
+      "resource": {
+        "resourceType": "ZZZZ",
+        // ZZZZ resource
+      }
+    }
+  ]
+}
+```
+
+**EER Access Control  
+**The Endpoint Register (EER) enforces access control by verifying that the access token is valid and confirming the “sender-constrained” property. This involves ensuring that the TLS client certificate used by the client matches the certificate embedded within the access token. Additionally, the token must have been issued for EER as the intended recipient.
+
+For *searches and lookups*, the EER ensures that the access token contains the necessary scopes to authorize the client to perform the requested operations within the register.
+
+For *administering endpoint register entries*, access is restricted to entries associated with the user’s own organization, based on the CVR number. The EER first checks that the user has been assigned a superuser role, as indicated in the priv claim of the access token. It then limits access to entries where the organization’s CVR number matches the cvr claim in the token, ensuring administrative privileges are confined to the relevant organization.
+
+## 
