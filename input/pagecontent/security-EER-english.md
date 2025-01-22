@@ -100,13 +100,28 @@ Example metadata document for an EER user client:
 
 To obtain an access token for accessing EER, the following scopes are specified:
 
-| **scope**                | **Description**                                                                                                                                                                                          |
-|--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| EER                      | Indicates that the client is requesting an access token for EER.                                                                                                                                         |
-| system/Endpoint.rs       | (For system clients only) Specifies that the token should allow reading/searching for EER resources (which are FHIR bundles consisting of profiles Endpoint and Organization resources).                 |
-| system/Organization.rs   |                                                                                                                                                                                                          |
-| user/Endpoint.cruds      | (For user clients only) Specifies that the token should allow creating/reading/updating/deleting Endpoint resources (which are FHIR bundles consisting of profiles Endpoint and Organization resources). |
-| user/Organization.cruds  |                                                                                                                                                                                                          |
+<table border="1">
+    <tr>
+        <th> <b>Scope</b> </th> <th> Description </th>
+    </tr>
+    <tr>
+        <td>EER</td><td>Indicates that the client is requesting an access token for EER.</td>
+    </tr>
+    <tr>
+        <td>system/Endpoint.rs</td><td>(For system clients only) Specifies that the token should allow reading/searching for EER resources (which are FHIR bundles consisting of profiles Endpoint and Organization resources).</td>
+    </tr>
+    <tr>
+        <td>system/Organization.rs</td><td></td>
+    </tr>
+    <tr>
+        <td>user/Endpoint.cruds</td><td>(For user clients only) Specifies that the token should allow creating/reading/updating/deleting Endpoint resources (which are FHIR bundles consisting of profiles Endpoint and Organization resources).</td>
+    </tr>
+    <tr>
+        <td>user/Organization.cruds</td><td></td>
+    </tr>
+</table>
+
+
 
 **Validation of Calls at the Authorization Server**
 
