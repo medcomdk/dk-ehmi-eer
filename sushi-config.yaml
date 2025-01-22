@@ -89,8 +89,8 @@ menu:
   Artifacts: artifacts.html
   Terminology: terminology.html
   Security: 
-    Security-en: security-en.html
-    Security-da: security-da.html
+    Security-en: security-EER-english.html
+    Security-da: security-EER-danish.html
   Use-cases: 
     EER-EAS Use case 1: eas-Use-case-1.html
   User-stories: 
