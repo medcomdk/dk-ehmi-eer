@@ -111,13 +111,13 @@ To obtain an access token for accessing EER, the following scopes are specified:
         <td>system/Endpoint.rs</td><td>(For system clients only) Specifies that the token should allow reading/searching for EER resources (which are FHIR bundles consisting of profiles Endpoint and Organization resources).</td>
     </tr>
     <tr>
-        <td>system/Organization.rs</td><td></td>
+        <td>system/Organization.rs</td><td>For system clients only) Specifies that the token should allow reading/searching for EER resources (which are FHIR bundles consisting of profiles Endpoint and Organization resources).</td>
     </tr>
     <tr>
         <td>user/Endpoint.cruds</td><td>(For user clients only) Specifies that the token should allow creating/reading/updating/deleting Endpoint resources (which are FHIR bundles consisting of profiles Endpoint and Organization resources).</td>
     </tr>
     <tr>
-        <td>user/Organization.cruds</td><td></td>
+        <td>user/Organization.cruds</td><td>(For user clients only) Specifies that the token should allow creating/reading/updating/deleting Endpoint resources (which are FHIR bundles consisting of profiles Endpoint and Organization resources).</td>
     </tr>
 </table>
 
