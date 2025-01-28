@@ -141,9 +141,9 @@ An actor from this profile (Column 1) shall implement all of the required transa
 
 The Mobile Care Services Discovery (mCSD) Profile supports queries for resources related to care services discovery. The relationship between these entities is illustrated in Figure 1:46.4.1-1.
 
-![Top-level Relationships between Care Services Entities](https://profiles.ihe.net/ITI/mCSD/mCSDRelationships.png) 
+<!--![Top-level Relationships between Care Services Entities](https://profiles.ihe.net/ITI/mCSD/mCSDRelationships.png) 
 
-**Figure 1:46.4.1-1: Top-level Relationships between Care Services Entities**
+**Figure 1:46.4.1-1: Top-level Relationships between Care Services Entities**-->
 
 #### 1:46.4.1.1 Create, Update, and Delete Services
 
@@ -389,9 +389,9 @@ The various data sources would maintain definitive data regarding one or more Ca
 
 This deployment may also have cross-jurisdictional considerations if any of the Update Suppliers have overlap in the data they manage. In this instance, the Care Services Update Consumer would need to resolve any conflicts before sharing this information as either a Care Services Update Supplier or a Care Services Selective Supplier. The way in which these conflicts are resolved is defined by the implementing jurisdiction of the Care Services Update Consumer.
 
-![Federated and Cross Jurisdictional Deployment](https://profiles.ihe.net/ITI/mCSD/FederatedDeployment.png)
+<!--![Federated and Cross Jurisdictional Deployment](https://profiles.ihe.net/ITI/mCSD/FederatedDeployment.png)
 
-**Figure 1:46.7.2-1: Federated and Cross Jurisdictional Deployment**
+**Figure 1:46.7.2-1: Federated and Cross Jurisdictional Deployment**-->
 
 The Care Services Selective Consumer is the actor that queries for information about interrelated care services. These queries are sent to the Care Services Selective Supplier who develops a response based on the content in its local data store. When a Care Services Selective Supplier is combined with a Care Services Update Consumer (Global and Country servers from Figure 1:46.7.2-1), it should maintain a cache of the aggregated information from all the configured Care Services Update Suppliers it is linked to.
 
