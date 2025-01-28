@@ -3,7 +3,7 @@
 hide empty members
 
 class "EerEndpoint" as EerEndpoint <<MCSDEndpoint>>
-class "EerSorOrganization" as EerOrganization <<MCSDOrganization>>
+class "EerMessagingOrganization" as EerOrganization <<MCSDOrganization>>
 class "EerMessageDefinition" as EerMessageDefinition <<MessageDefinition>>
 class "EerDeviceEUA" as EerDeviceEUA <<EerDevice>>
 class "EerDeviceAP" as EerDeviceAP <<EerDevice>>

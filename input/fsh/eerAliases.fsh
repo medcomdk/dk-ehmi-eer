@@ -21,8 +21,8 @@ Alias: $EerAuditEventAgentWhoIdentifierTypesVS = http://medcomehmi.dk/ig/dk-ehmi
 Alias: $mCSDEndpointConnectionType = http://hl7.org/fhir/R4/valueset-endpoint-connection-type.html
 
 
-Alias: $EerSorOrganizationIdentierType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-sor-organization-identier-type
-Alias: $EerSorOrganizationIdentierTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-sor-organization-identier-type-valueset
+Alias: $EerMessagingOrganizationIdentierType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-sor-organization-identier-type
+Alias: $EerMessagingOrganizationIdentierTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-sor-organization-identier-type-valueset
 
 Alias: $EerMessageDefinitionIdentifierSystem = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-messagedefinition-identifier-system
 Alias: $EerMessageDefinitionIdentifierSystemVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-messagedefinition-identifier-system-valueset
@@ -33,8 +33,8 @@ Alias: $EerEndpointConnectionTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueS
 Alias: $EerEndpointPayloadType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-payload-type
 Alias: $EerEndpointPayloadTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-payload-type-valueset
 
-Alias: $EerSorOrganizationType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-sor-organization-type
-Alias: $EerSorOrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-sor-organization-type-valueset
+Alias: $EerMessagingOrganizationType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-sor-organization-type
+Alias: $EerMessagingOrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-sor-organization-type-valueset
 
 Alias: $EerSorIOOrganizationType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-sor-io-organization-type
 Alias: $EerSorIOOrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-sor-io-organization-type-valueset
@@ -87,4 +87,4 @@ Alias: $EANCode = urn:oid:1.3.88
 Alias: $activityCodes = http://medcomfhir.dk/fhir/messaging/CodeSystem/medcom-messaging-activityCodes
 */
 
-Alias: $EerSorOrganizationIdentierSystem = urn:oid:1.2.208.176.1.1
+Alias: $EerMessagingOrganizationIdentierSystem = urn:oid:1.2.208.176.1.1

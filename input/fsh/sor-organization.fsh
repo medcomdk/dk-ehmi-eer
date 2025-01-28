@@ -1,4 +1,4 @@
-Profile:      EerSorOrganization
+Profile:      EerMessagingOrganization
 Parent:       MCSDOrganization
 Id:           Eer.Sor.Organization
 Title:        "EER SOR Organization"
@@ -10,16 +10,16 @@ Description:  """ EER SOR General Organization """
     SOR-ID 1..1 MS SU 
 //    and MunicipalityCode 0..1 MS SU 
 * identifier[SOR-ID].use = #official
-* identifier[SOR-ID].type from $EerSorOrganizationIdentierTypeVS
-* identifier[SOR-ID].type = $EerSorOrganizationIdentierType#SORID (exactly)
-* identifier[SOR-ID].system = $EerSorOrganizationIdentierSystem (exactly)
+* identifier[SOR-ID].type from $EerMessagingOrganizationIdentierTypeVS
+* identifier[SOR-ID].type = $EerMessagingOrganizationIdentierType#SORID (exactly)
+* identifier[SOR-ID].system = $EerMessagingOrganizationIdentierSystem (exactly)
 //* identifier.use = #official
-//* identifier.type from $EerSorOrganizationIdentierTypeVS
-//* identifier.type = $EerSorOrganizationIdentierType#SORID (exactly)
+//* identifier.type from $EerMessagingOrganizationIdentierTypeVS
+//* identifier.type = $EerMessagingOrganizationIdentierType#SORID (exactly)
 //* identifier.system = "urn:oid:1.2.208.176.1.1" (exactly)
 //* identifier[MunicipalityCode].use = #official
 //* identifier[MunicipalityCode].value from $EerSorMunicipalityCodeVS
-//* identifier[MunicipalityCode].type from $EerSorOrganizationIdentierTypeVS
+//* identifier[MunicipalityCode].type from $EerMessagingOrganizationIdentierTypeVS
 //* identifier[MunicipalityCode].system = $EerSorMunicipalityCode
 * type ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = coding.code
@@ -27,22 +27,23 @@ Description:  """ EER SOR General Organization """
 * type contains
     SOR-Hierarchy 1..1 MS SU 
     and SOR-UnitType 0..1 SU
-//    and EerSorOrganizationType 0..1 MS SU 
+//    and EerMessagingOrganizationType 0..1 MS SU 
     and EerSorIOOrganizationType 0..1 MS SU
-* type[SOR-Hierarchy].coding.code from $EerSorOrganizationTypeVS
-* type[SOR-Hierarchy].coding.system = $EerSorOrganizationType
+* type[SOR-Hierarchy].coding.code from $EerMessagingOrganizationTypeVS
+* type[SOR-Hierarchy].coding.system = $EerMessagingOrganizationType
 * type[SOR-UnitType].coding.code from $EerSorUnitTypeVS
 * type[SOR-UnitType].coding.system = $EerSorUnitType
-//* type[EerSorOrganizationType].coding.code from $EerSorOrganizationTypeVS
-//* type[EerSorOrganizationType].coding.system = $EerSorOrganizationType
+//* type[EerMessagingOrganizationType].coding.code from $EerMessagingOrganizationTypeVS
+//* type[EerMessagingOrganizationType].coding.system = $EerMessagingOrganizationType
 * type[EerSorIOOrganizationType].coding.code from $EerSorIOOrganizationTypeVS
 * type[EerSorIOOrganizationType].coding.system = $EerSorIOOrganizationType
 * extension contains eer-dk-eua-system-extension named eua-system 0..* MS 
 * endpoint 0..*
 * endpoint only Reference(EerEndpointMessagingEdelivery)
 
+/*
 Profile: EerMessagingOrganization
-Parent: EerSorOrganization
+Parent: EerMessagingOrganization
 Id: ear-messaging-organization
 Title: "EER Messaging Organization"
 Description: "An extension of the MedComCoreOrganization profile with a required endpoint element."
@@ -53,10 +54,10 @@ Description: "An extension of the MedComCoreOrganization profile with a required
 //* identifier[Regionskode] 0..0
 //* identifier[ProducentID] 0..0
 * endpoint 1..* MS
-
+*/
 /*
 Profile:      EerSorIOOrganization
-Parent:       EerSorOrganization
+Parent:       EerMessagingOrganization
 Id:           Eer.Sor.InstitutionOwner.Organization
 Title:        "EER SOR Institution Owner Organization"
 Description:  """ EER SOR Institution Owner Organization IO (DK:IE) """
@@ -64,19 +65,19 @@ Description:  """ EER SOR Institution Owner Organization IO (DK:IE) """
   * ^slicing.discriminator.path = coding.code
   * ^slicing.rules = #open //#closed eller #open 
 * type contains
-    EerSorOrganizationType 1..1 MS SU 
-* type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#IE (exactly)
-* type[EerSorOrganizationType].coding.code from $EerSorOrganizationTypeVS
-* type[EerSorOrganizationType].coding.system = $EerSorOrganizationType
+    EerMessagingOrganizationType 1..1 MS SU 
+* type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#IE (exactly)
+* type[EerMessagingOrganizationType].coding.code from $EerMessagingOrganizationTypeVS
+* type[EerMessagingOrganizationType].coding.system = $EerMessagingOrganizationType
 * partOf 0..0
 * endpoint 0..0
 
 Profile:      EerSorMunicipalityOrganization
-Parent:       EerSorOrganization
+Parent:       EerMessagingOrganization
 Id:           Eer.Sor.InstitutionOwner.Municipality.Organization
 Title:        "EER SOR Institution Owner Municipality Organization"
 Description:  """ EER SOR Institution Owner Municipality Organization IO (DK:IE) """
-//* type[SOR-Hierarchy] = $EerSorOrganizationType#IE (exactly)
+//* type[SOR-Hierarchy] = $EerMessagingOrganizationType#IE (exactly)
 * identifier ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = type
   * ^slicing.rules = #open //#closed eller #open 
@@ -84,18 +85,18 @@ Description:  """ EER SOR Institution Owner Municipality Organization IO (DK:IE)
     MunicipalityCode 1..1 MS SU 
 //* identifier[MunicipalityCode].use = #official
 //* identifier[MunicipalityCode].value from $EerSorMunicipalityCodeVS
-//* identifier[MunicipalityCode].type from $EerSorOrganizationIdentierTypeVS
+//* identifier[MunicipalityCode].type from $EerMessagingOrganizationIdentierTypeVS
 //* identifier[MunicipalityCode].system = $EerSorMunicipalityCode
-* type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#IE (exactly)
-* type[EerSorOrganizationType].coding.code = $EerSorOrganizationType#Municipality (exactly)
+* type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#IE (exactly)
+* type[EerMessagingOrganizationType].coding.code = $EerMessagingOrganizationType#Municipality (exactly)
 * type[SOR-UnitType].coding.code = $EerSorUnitType#kommune (exactly)
 
 Profile:      EerSorRegionalOrganization
-Parent:       EerSorOrganization
+Parent:       EerMessagingOrganization
 Id:           Eer.Sor.InstitutionOwner.Regional.Organization
 Title:        "EER SOR Institution Owner Regional Organization"
 Description:  """ EER SOR Institution Owner Regional Organization IO (DK:IE) """
-///* type[SOR-Hierarchy] = $EerSorOrganizationType#IE (exactly)
+///* type[SOR-Hierarchy] = $EerMessagingOrganizationType#IE (exactly)
 * identifier ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = type
   * ^slicing.rules = #open //#closed eller #open 
@@ -103,18 +104,18 @@ Description:  """ EER SOR Institution Owner Regional Organization IO (DK:IE) """
     RegionalCode 1..1 MS SU 
 * identifier[RegionalCode].use = #official
 * identifier[RegionalCode].value from $EerSorRegionalCodeVS
-* identifier[RegionalCode].type from $EerSorOrganizationIdentierTypeVS
+* identifier[RegionalCode].type from $EerMessagingOrganizationIdentierTypeVS
 * identifier[RegionalCode].system = $EerSorRegionalCode
-* type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#IE (exactly)
-* type[EerSorOrganizationType].coding.code = $EerSorOrganizationType#Region (exactly)
+* type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#IE (exactly)
+* type[EerMessagingOrganizationType].coding.code = $EerMessagingOrganizationType#Region (exactly)
 * type[SOR-UnitType].coding.code = $EerSorUnitType#region (exactly)
 
 Profile:      EerSorHIOrganization
-Parent:       EerSorOrganization
+Parent:       EerMessagingOrganization
 Id:           Eer.Sor.HealthcareInstitution.Organization
 Title:        "EER SOR Healthcare Institution Organization"
 Description:  """ EER SOR Healthcare Institution Organization HI (DK:SI) """
-* type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#SI (exactly)
+* type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#SI (exactly)
 //* partOf = Reference(Organization)
 * partOf 1..1 MS
 
@@ -127,7 +128,7 @@ Expression:  "partOf only Reference({Organization/EerSorIOOrganization})"
 */
 /*
 Profile:      EerSorHospitalOrganization
-Parent:       EerSorOrganization
+Parent:       EerMessagingOrganization
 Id:           Eer.Sor.HealthcareInstitution.Hospital.Organization
 Title:        "EER SOR Healthcare Institution Hospital Organization"
 Description:  """ EER SOR Healthcare Institution Hospital Organization HI (DK:SI) """
@@ -136,20 +137,20 @@ Description:  """ EER SOR Healthcare Institution Hospital Organization HI (DK:SI
   * ^slicing.rules = #open //#closed eller #open 
 * type contains
     ClinicalAdministrativeHierarchy 1..1 MS SU 
-* type[SOR-Hierarchy] = $EerSorOrganizationType#SI (exactly)
+* type[SOR-Hierarchy] = $EerMessagingOrganizationType#SI (exactly)
 * type[ClinicalAdministrativeHierarchy].coding.code from eer-sor-clinical-administrative-hierarchy-valueset
 * type[ClinicalAdministrativeHierarchy].coding.code = $EerSorClinicalAdministrativeHierarchy#Hospital (exactly)
 * type[ClinicalAdministrativeHierarchy].coding.system = $EerSorClinicalAdministrativeHierarchy
 
 Profile:      EerSorOUOrganization
-Parent:       EerSorOrganization
+Parent:       EerMessagingOrganization
 Id:           Eer.Sor.OrganizationalUnit.Organization
 Title:        "EER SOR Organizational Unit"
 Description:  """ EER SOR Organizational Unit OU (DK:OE) """
-* type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#OE (exactly)
+* type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#OE (exactly)
 
 Profile:      EerSorHospitalOUOrganization
-Parent:       EerSorOrganization
+Parent:       EerMessagingOrganization
 Id:           Eer.Sor.HospitalOUOrganization.Organization
 Title:        "EER SOR Organizational Unit"
 Description:  """ EER SOR Organizational Unit OU (DK:OE) """
@@ -158,6 +159,6 @@ Description:  """ EER SOR Organizational Unit OU (DK:OE) """
   * ^slicing.rules = #open //#closed eller #open 
 * type contains
     ClinicalAdministrativeHierarchy 1..1 MS SU 
-* type[SOR-Hierarchy].coding.code = $EerSorOrganizationType#OE (exactly)
+* type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#OE (exactly)
 //* type[ClinicalAdministrativeHierarchy] = $EerSorClinicalAdministrativeHierarchy#Afdeling
 */

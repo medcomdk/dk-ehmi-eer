@@ -1,4 +1,4 @@
-CodeSystem: EerSorOrganizationIdentierType
+CodeSystem: EerMessagingOrganizationIdentierType
 Id: eer-sor-organization-identier-type
 Title: "EER SOR Organization Identier Type CodeSystem"
 Description: "CodeSystem containing codes for EER SOR Organization Identier Type"
@@ -13,7 +13,7 @@ Description: "CodeSystem containing codes for EER SOR Organization Identier Type
 * #RegionCode "Region Code" "Regionskode"
 //* include codes from system http://hl7.org/fhir/ValueSet/identifier-type
 
-ValueSet: EerSorOrganizationIdentierTypeVS
+ValueSet: EerMessagingOrganizationIdentierTypeVS
 Id: eer-sor-organization-identier-type-valueset
 Title: "EER SOR Organization Identier Type Valueset"
 Description: "ValueSet containing codes for SOR Organization Identier Type"
@@ -81,7 +81,7 @@ Description: "ValueSet containing codes for EER payloadTypes"
 * ^experimental = true
 * include codes from system ehmi-payload-type
 
-CodeSystem: EerSorOrganizationType
+CodeSystem: EerMessagingOrganizationType
 Id: eer-sor-organization-type
 Title: "EER SOR Organization Types CS"
 Description: "eer-sor-organization-type for the EHMI Messaging Infrastructure"
@@ -97,7 +97,7 @@ Description: "eer-sor-organization-type for the EHMI Messaging Infrastructure"
   * #SI "SOR Organization - Healthcare Institution HI"
     * #OE "SOR Organization - Organizational Unit OU"
 
-ValueSet: EerSorOrganizationTypeVS
+ValueSet: EerMessagingOrganizationTypeVS
 Id: eer-sor-organization-type-valueset
 Title: "EER SOR Organization Types Valueset"
 Description: "ValueSet containing codes for EER eer-sor-organization-type"
@@ -105,7 +105,7 @@ Description: "ValueSet containing codes for EER eer-sor-organization-type"
 * ^status  =  #active
 * ^date  =  "2023-09-01"
 * ^experimental = true
-* ^compose.include[+].system = $EerSorOrganizationType
+* ^compose.include[+].system = $EerMessagingOrganizationType
 * ^compose.include[=].concept[+].code = #IO
 * ^compose.include[=].concept[=].display = "Institution Owner"
 * ^compose.include[=].concept[=].designation[+].language = #da

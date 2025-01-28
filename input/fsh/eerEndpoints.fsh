@@ -32,7 +32,7 @@ mechanism).
 * identifier.type = $EerAuditEventAgentWhoIdentifierTypes#GLN
 //* identifier.code = #official
 * identifier.value 1..1 MS SU
-* managingOrganization only Reference(EerSorOrganization)
+* managingOrganization only Reference(EerMessagingOrganization)
 * connectionType from eer-endpoint-connection-type-valueset
 * period 1..1 MS SU
 * payloadType from $EhmiMessageDefinitionUriVS
