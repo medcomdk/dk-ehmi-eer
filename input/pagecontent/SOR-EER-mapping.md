@@ -17,7 +17,7 @@ The following table gives and overview of how these messaging metadata are mappe
   <tr style="border: 1px solid black; border-collapse: collapse;">
     <td>SOR-Unit</td>
     <td>EER-Organization</td>
-    <td><a href="./StructureDefinition-Eer.Sor.Organization.html">EER-SOR-Organization</a></td>
+    <td><a href="./StructureDefinition-Eer.Messaging.Organization.html">EER-SOR-Organization</a></td>
     <td>Note, that this is EER-SOR-Organization representing the SOR-Unit is only carrying the most necessary information from SOR. It is not a complete representation of the SOR unit. It holds the relationship between the SOR-unit and the EER-Endpoint. <b><i>Most importantly it will not carry the GLN-identifier as it has been moved to the Endpoint ressource</i></b></td>
   </tr>
   <tr style="border: 1px solid black; border-collapse: collapse;">
