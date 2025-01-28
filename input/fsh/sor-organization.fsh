@@ -1,6 +1,6 @@
 Profile:      EerMessagingOrganization
 Parent:       MCSDOrganization
-Id:           Eer.Sor.Organization
+Id:           Eer.Messaging.Organization
 Title:        "EER SOR Organization"
 Description:  """ EER SOR General Organization """
 * identifier ^slicing.discriminator.type = #value
@@ -144,7 +144,7 @@ Description:  """ EER SOR Healthcare Institution Hospital Organization HI (DK:SI
 
 Profile:      EerSorOUOrganization
 Parent:       EerMessagingOrganization
-Id:           Eer.Sor.OrganizationalUnit.Organization
+Id:           Eer.Messaging.OrganizationalUnit.Organization
 Title:        "EER SOR Organizational Unit"
 Description:  """ EER SOR Organizational Unit OU (DK:OE) """
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#OE (exactly)
