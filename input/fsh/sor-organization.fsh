@@ -16,7 +16,7 @@ Description:  """ EER SOR General Organization """
 //* identifier[SOR-ID].use = #official
 //* identifier[SOR-ID].type from $EerMessagingOrganizationIdentierTypeVS
 //* identifier[SOR-ID].type = $EerMessagingOrganizationIdentierType#SORID (exactly)
-//* identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1" (exactly)
+//* identifier[SOR-ID].system = $EerMessagingOrganizationIdentierSystem (exactly)
 //* identifier[MunicipalityCode].use = #official
 //* identifier[MunicipalityCode].value from $EerSorMunicipalityCodeVS
 //* identifier[MunicipalityCode].type from $EerMessagingOrganizationIdentierTypeVS

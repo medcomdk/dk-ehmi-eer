@@ -3,7 +3,7 @@ InstanceOf: EerMessagingOrganization
 Description: "Sygehusadviser, AAR - SOR.OU-AAR-Kommune.1244791000016004"
 * id = "Eer.Sor.OU-AAR-Kommune.1244791000016004"
 * identifier[SOR-ID].type = $EerMessagingOrganizationIdentierType#SORID
-* identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
+* identifier[SOR-ID].system = $EerMessagingOrganizationIdentierSystem
 * identifier[SOR-ID].value = "1244791000016004"
 * name = "EER SOR OU AAR Kommune (1244791000016004)"
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#OE
