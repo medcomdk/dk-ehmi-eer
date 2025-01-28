@@ -3,21 +3,20 @@ Parent:       MCSDOrganization
 Id:           Eer.Sor.Organization
 Title:        "EER SOR Organization"
 Description:  """ EER SOR General Organization """
-/* identifier ^slicing.discriminator.type = #value
+* identifier ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = identifier.system
   * ^slicing.rules = #open //#closed eller #open 
 * identifier contains
-    SOR 1..1 MS SU 
-    and MunicipalityCode 0..1 MS SU 
-*/
-//* identifier[SOR].use = #official
-//* identifier[SOR].type from $EerSorOrganizationIdentierTypeVS
-//* identifier[SOR].type = $EerSorOrganizationIdentierType#SORID (exactly)
-//* identifier[SOR].system = "urn:oid:1.2.208.176.1.1" (exactly)
-* identifier.use = #official
-* identifier.type from $EerSorOrganizationIdentierTypeVS
-* identifier.type = $EerSorOrganizationIdentierType#SORID (exactly)
-* identifier.system = "urn:oid:1.2.208.176.1.1" (exactly)
+    SOR-ID 1..1 MS SU 
+//    and MunicipalityCode 0..1 MS SU 
+* identifier[SOR-ID].use = #official
+* identifier[SOR-ID].type from $EerSorOrganizationIdentierTypeVS
+* identifier[SOR-ID].type = $EerSorOrganizationIdentierType#SORID (exactly)
+* identifier[SOR-ID].system = $EerSorOrganizationIdentierSystem (exactly)
+//* identifier.use = #official
+//* identifier.type from $EerSorOrganizationIdentierTypeVS
+//* identifier.type = $EerSorOrganizationIdentierType#SORID (exactly)
+//* identifier.system = "urn:oid:1.2.208.176.1.1" (exactly)
 //* identifier[MunicipalityCode].use = #official
 //* identifier[MunicipalityCode].value from $EerSorMunicipalityCodeVS
 //* identifier[MunicipalityCode].type from $EerSorOrganizationIdentierTypeVS
@@ -43,16 +42,16 @@ Description:  """ EER SOR General Organization """
 * endpoint only Reference(EerEndpointMessagingEdelivery)
 
 Profile: EerMessagingOrganization
-Parent: MedComCoreOrganization
-Id: eas-messaging-organization
+Parent: EerSorOrganization
+Id: ear-messaging-organization
 Title: "EER Messaging Organization"
 Description: "An extension of the MedComCoreOrganization profile with a required endpoint element."
-* identifier[EAN-ID] 0..0
-* identifier[KOMBIT-ORG-ID] 0..0
-* identifier[Ydernummer] 0..0
-* identifier[Kommunekode] 0..0
-* identifier[Regionskode] 0..0
-* identifier[ProducentID] 0..0
+//* identifier[EAN-ID] 0..0
+//* identifier[KOMBIT-ORG-ID] 0..0
+//* identifier[Ydernummer] 0..0
+//* identifier[Kommunekode] 0..0
+//* identifier[Regionskode] 0..0
+//* identifier[ProducentID] 0..0
 * endpoint 1..* MS
 
 /*

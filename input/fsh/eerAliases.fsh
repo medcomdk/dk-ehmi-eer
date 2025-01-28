@@ -86,3 +86,5 @@ Alias: $SORCode = urn:oid:1.2.208.176.1.1
 Alias: $EANCode = urn:oid:1.3.88
 Alias: $activityCodes = http://medcomfhir.dk/fhir/messaging/CodeSystem/medcom-messaging-activityCodes
 */
+
+Alias: $EerSorOrganizationIdentierSystem = urn:oid:1.2.208.176.1.1
