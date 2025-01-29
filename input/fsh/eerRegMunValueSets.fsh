@@ -1,3 +1,4 @@
+/*
 CodeSystem: EerSorRegionType
 Id: eer-sor-region-type
 Title: "EER SOR Region Types CS"
@@ -144,3 +145,4 @@ Description: "ValueSet containing codes for EHMI eer-sor-Municipality-type for t
 * ^experimental = true
 * include codes from system http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes
 
+*/
