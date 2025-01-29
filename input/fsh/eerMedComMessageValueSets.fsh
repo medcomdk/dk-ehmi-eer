@@ -1,3 +1,4 @@
+/*
 CodeSystem: EerEhmiMessageDefinitionUri
 Id: ehmi-message-definition-uri
 Title: "MedCom Message Definition Uri CS"
@@ -132,3 +133,4 @@ Description: "ValueSet containing codes for EHMI ehmi-message-definition-uri"
 * ^date  =  "2023-09-01"
 * ^experimental = false
 * include codes from system ehmi-message-definition-uri
+*/
