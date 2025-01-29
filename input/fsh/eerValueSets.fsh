@@ -1,3 +1,4 @@
+/*
 CodeSystem: EerMessagingOrganizationIdentierType
 Id: eer-sor-organization-identier-type
 Title: "EER SOR Organization Identier Type CodeSystem"
@@ -327,3 +328,4 @@ Description: "eer-digital-signature-types for the EER Messaging Infrastructure"
 * ^date  =  "2024-09-01"
 * ^experimental = true
 * include codes from system $EerDigSigCS
+*/
