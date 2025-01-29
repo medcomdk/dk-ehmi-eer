@@ -13,7 +13,7 @@ mechanism).
 * identifier.system = $EerAuditEventAgentWhoIdentifierTypes
 * identifier.type from $EerAuditEventAgentWhoIdentifierTypesVS
 * identifier.value 1..1 MS SU
-* connectionType from eer-endpoint-connection-type-valueset
+* connectionType from $EerEndpointConnectionTypeVS
 * period 1..1 MS SU
 
 Profile:      EerEndpointMessaging
@@ -33,7 +33,7 @@ mechanism).
 //* identifier.code = #official
 * identifier.value 1..1 MS SU
 * managingOrganization only Reference(EerMessagingOrganization)
-* connectionType from eer-endpoint-connection-type-valueset
+* connectionType from $EerEndpointConnectionTypeVS
 * period 1..1 MS SU
 * payloadType from $EhmiMessageDefinitionUriVS
 * payloadType 1..* MS SU

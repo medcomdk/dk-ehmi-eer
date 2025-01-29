@@ -4,12 +4,12 @@ Description: "An example profile of the MessageDefinition resource."
 //* url from ehmi-message-definition-uri-valueset
 * identifier 1..1 MS SU
 //* identifier.system from ehmi-message-definition-uri-valueset
-* identifier.system from eer-messagedefinition-identifer-system-valueset
+* identifier.system from $EerMessagedefinitionIdentiferSystemVS
 * identifier.system 1..1 //MS SU
 //* identifier.system = $EerMessageDefinitionIdentifierSystem#MedCom
 * identifier.period.start 1..1 MS SU
 * identifier.period.end 0..1 MS SU
-* identifier.type from eer-medcom-message-definition-type-valueset
+* identifier.type from $EerMedComMessageDefinitionTypeVS
 * identifier.type 1..1 MS SU
 * identifier.type.coding.system = $EerMedComMessageDefinitionType
 * identifier.use 1..1 MS SU
