@@ -83,16 +83,15 @@ dependencies:
 menu:
   Home: index.html
   EER and SOR: SOR-EER-mapping.html
-## Table of Contents: toc.html
   Profiles: profiles.html
   Artifacts: artifacts.html
-  Terminology: terminology.html
-  Security: 
-    Security-en: security-EER-english.html
-    Security-da: security-EER-danish.html
   Use-cases/User-stories: 
     EER-EAS Use case 1: eas-Use-case-1.html
     EHMI User Stories: EHMI-User-Stories.html
+  Security: 
+    Security-en: security-EER-english.html
+    Security-da: security-EER-danish.html
+  Terminology: terminology.html
   More:
     Table of Contents: toc.html
     Downloads: downloads.html
