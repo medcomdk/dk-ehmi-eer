@@ -1,3 +1,7 @@
+Alias: $EerDeviceTypeCS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/eer-device-type
+Alias: $EerDeviceTypeVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/eer-device-type-valueset
+
+
 Alias: $EdsAuditEventTypes = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-auditevent-types
 Alias: $EdsAuditEventSubTypes = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-auditevent-sub-types
 Alias: $EdsAuditEventSubTypesValueset = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-auditevent-sub-types
