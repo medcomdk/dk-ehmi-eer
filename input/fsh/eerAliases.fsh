@@ -37,8 +37,8 @@ Alias: $EerEndpointConnectionTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueS
 Alias: $EerEndpointPayloadType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/ehmi-payload-type
 Alias: $EerEndpointPayloadTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/ehmi-payload-type-valueset
 
-Alias: $EerMessagingOrganizationType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-sor-organization-type
-Alias: $EerMessagingOrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-sor-organization-type-valueset
+Alias: $EerMessagingOrganizationType = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/eer-sor-organization-type
+Alias: $EerMessagingOrganizationTypeVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/eer-sor-organization-type-valueset
 
 Alias: $EerSorIOOrganizationType = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-sor-io-organization-type
 Alias: $EerSorIOOrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-sor-io-organization-type-valueset
@@ -67,7 +67,7 @@ Alias: $MessageEvents = http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-me
 Alias: $EerUsageContextCodeSystem = http://terminology.hl7.org/CodeSystem/usage-context-type
 Alias: $EerUsageContextCodeSystemVS = http://medcomehmi.dk/ig/dk-ehmi-eer/ValueSet/eer-messagedefinition-use-context-code-valueset
 
-Alias: $EerDigSigCS = http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-digital-signature-type
+Alias: $EerDigSigCS = http://medcomehmi.dk/ig/dk-ehmi-terminologi/CodeSystem/eer-digital-signature-type
 Alias: $EerDigSigVS = http://medcomehmi.dk/ig/dk-ehmi-terminologi/CodeSystem/eer-digital-signature-type-valueset
 
 /*
