@@ -91,7 +91,7 @@ menu:
   Security: 
     Security-en: security-EER-english.html
     Security-da: security-EER-danish.html
-  Terminology: terminology.html
+#  Terminology: terminology.html
   More:
     Table of Contents: toc.html
     Downloads: downloads.html
