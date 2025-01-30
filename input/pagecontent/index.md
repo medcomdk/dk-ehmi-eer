@@ -12,6 +12,8 @@ This version of the profile supports registration of and querying for the follow
     - registration of eDelivery Access Points (AP) as Devices for a SOR organizational unit and its EHMI Endpoint
     - registration of SMP metadata for the SMP lookup service for certain messages (documents) for a given EHMI Endpoint
 
+All registrations for EHMI Core in version 1.0 will most likely be posted manually by MedCom.
+
 <br>
 
 **EHMI Addressing Service**
@@ -23,8 +25,10 @@ This version of the profile supports registration of and querying for the follow
 <br>
 
 **EHMI Delivery Status**
-- registration of reporting Devices for a "station" in the messageflow.
+- registration of reporting Devices for a "station", EDS Client, in the messageflow.
 - getting data for reporting Devices in the messageflow.
+
+All registrations for Devices used by EDS in version 1.0 will most likely be posted manually by MedCom.
 
 <br>
 
