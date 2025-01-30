@@ -1,8 +1,8 @@
 Profile:      EerMessagingOrganization
 Parent:       MCSDOrganization
 Id:           Eer.Messaging.Organization
-Title:        "EER SOR Organization"
-Description:  """ EER SOR General Organization """
+Title:        "EerMessagingOrganization"
+Description:  """ EerMessagingOrganization """
 * identifier ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = identifier.system
   * ^slicing.rules = #open //#closed eller #open 
@@ -40,6 +40,14 @@ Description:  """ EER SOR General Organization """
 * extension contains eer-dk-eua-system-extension named eua-system 0..* MS 
 * endpoint 0..*
 * endpoint only Reference(EerEndpointMessagingEdelivery)
+
+Profile:      EerCoreOrganization
+Parent:       EerMessagingOrganization
+Id:           Eer.core.Organization
+Title:        "EER Core Organization"
+Description:  """ EER Core Organization"""
+* partOf 0..0
+* endpoint 0..0
 
 /*
 Profile: EerMessagingOrganization
