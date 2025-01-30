@@ -8,7 +8,7 @@ Description: "An example of an SOR IO Organization."
 * name = "EER-SOR-IO-Organization"
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#IE
 * type[SOR-Hierarchy].coding.system = $EerMessagingOrganizationType
-* type[EerSorIOOrganizationType].coding.code = $EerSorIOOrganizationType#Generic
-* type[EerSorIOOrganizationType].coding.system = $EerSorIOOrganizationType
+//* type[EerSorOrganizationType].coding.code = $EerSorOrganizationTypeCS#Generic
+//* type[EerSorOrganizationType].coding.system = $EerSorOrganizationType
 * type[SOR-UnitType].coding.code = $EerSorUnitType#region
 * type[SOR-UnitType].coding.system = $EerSorUnitType

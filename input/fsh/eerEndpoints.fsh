@@ -47,7 +47,7 @@ Parent:       EerEndpointMessaging
 Id:           eer.dk.messaging.edelivery
 Title:        "EER Endpoint Messaging - eDelivery"
 Description:  "EER Endpoint Messaging - eDelivery"
-* connectionType = $EerEndpointConnectionType#EerMessagingEdelivery (exactly)
+* connectionType = $EerEndpointConnectionTypeCS#EerMessagingEdelivery (exactly)
 
 Profile:      EerEndpointMessagingEdeliveryFhir
 Parent:       EerEndpointMessagingEdelivery

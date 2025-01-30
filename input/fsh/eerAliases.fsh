@@ -1,7 +1,6 @@
 Alias: $EerDeviceTypeCS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/eer-device-type
 Alias: $EerDeviceTypeVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/eer-device-type-valueset
 
-
 Alias: $EdsAuditEventTypes = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/ehmi-auditevent-types
 Alias: $EdsAuditEventSubTypes = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/ehmi-auditevent-sub-types
 Alias: $EdsAuditEventSubTypesValueset = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/ehmi-auditevent-sub-types
@@ -37,8 +36,8 @@ Alias: $EerEndpointPayloadTypeVS = http://medcomehmi.dk/ig/dk-ehmi-terminology/V
 Alias: $EerMessagingOrganizationType = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/eer-sor-organization-type
 Alias: $EerMessagingOrganizationTypeVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/eer-sor-organization-type-valueset
 
-//Alias: $EerSorOrganizationType = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/eer-sor-io-organization-type
-//Alias: $EerSorOrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-terminology/ValueSet/eer-sor-io-organization-type-valueset
+Alias: $EerSorOrganizationTypeCS = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/eer-sor-organization-type
+Alias: $EerSorOrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-terminology/ValueSet/eer-sor-organization-type-valueset
 
 Alias: $EhmiMessageDefinitionUri = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/ehmi-message-definition-uri
 Alias: $EhmiMessageDefinitionUriVS = http://medcomehmi.dk/ig/dk-ehmi-terminology/ValueSet/ehmi-message-definition-uri-valueset
@@ -72,6 +71,7 @@ Alias: $EerMessagedefinitionIdentiferSystemVS = http://medcomehmi.dk/ig/dk-ehmi-
 
 Alias: $EerEndpointConnectionTypeCS = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/eer-endpoint-connection-type
 Alias: $EerEndpointConnectionTypeVS = http://medcomehmi.dk/ig/dk-ehmi-terminology/ValueSet/eer-endpoint-connection-type-valueset
+
 
 
 /*
