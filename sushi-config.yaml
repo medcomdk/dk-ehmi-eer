@@ -85,9 +85,10 @@ menu:
   EER and SOR: SOR-EER-mapping.html
   Profiles: profiles.html
   Artifacts: artifacts.html
-  Use-cases/User-stories: 
-    EER-EAS Use case 1: eas-Use-case-1.html
-    EHMI User Stories: EHMI-User-Stories.html
+  Use-cases: 
+    EER Use case 1: eer-Use-case-1.html
+    EER-EAS Use case 4: eas-Use-case-4.html
+    # EHMI User Stories: EHMI-User-Stories.html
   Security: 
     Security-en: security-EER-english.html
     Security-da: security-EER-danish.html
