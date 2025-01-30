@@ -2,6 +2,9 @@
 
 ## User stories i scope for produktionspilot
 
+See 
+
+<!--
 ### Forretningsejer af EHMI EER Endpoint Register (FPKR)
 
 **FPKR.1**
@@ -95,3 +98,4 @@ ii.	Ønsker jeg at have så få, så ens, og så standardiserede snitfladetyper 
 iii.	Når jeg skal integrere til disse
 
 ## User stories udenfor scope for produktionspilot
+-->
