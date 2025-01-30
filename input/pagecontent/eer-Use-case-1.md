@@ -15,11 +15,11 @@ This use case is conforming to this OperationDefinition:
 
     Generated Narrative: OperationDefinition eer.eer_getDeviceDataByDeviceId
 
-    URL: [base]/eer_getDeviceDataByDeviceId/EerCoreOrganization?identifer=[Device-identifer]
+    URL: [base]/eer_getDeviceDataByDeviceId/Device?identifer=[Device-identifer]
 
     Input parameters Profile:
 
-    http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerDevice
+    http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/Device
 
     Output parameters Profile:
 
