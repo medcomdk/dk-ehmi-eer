@@ -87,6 +87,7 @@ menu:
   Artifacts: artifacts.html
   Use-cases: 
     EER Use case 1: eer-Use-case-1.html
+    EER Use case 2: eer-Use-case-2.html
     EER-EAS Use case 4: eas-Use-case-4.html
     # EHMI User Stories: EHMI-User-Stories.html
   Security: 
