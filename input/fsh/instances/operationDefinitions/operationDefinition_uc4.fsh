@@ -13,7 +13,7 @@ Usage: #definition
 * contact.telecom[0].system = #url
 * contact.telecom[=].value = "http://medcom.dk/ehmi/eer"
 * contact.telecom[+].system = #email
-* contact.telecom[=].value = "ehmi-eer@medcom.dk"
+* contact.telecom[=].value = "ehmi@medcom.dk"
 * description = "GET [EER-base]/Organization?_profile=http://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-organization&Organization?Identifier.value=[SOR_Identifier]
 This search will produce a EerMessagingOrganization as a response
 EER will in order to produce this response run through a sequence of calls from"
@@ -30,7 +30,7 @@ EER will in order to produce this response run through a sequence of calls from"
 * parameter[=].min = 1
 * parameter[=].max = "*"
 * parameter[=].documentation = "submitting the SOR-identifier of the EerCoreOrganization would evoke this search operation"
-* parameter[=].type = #string
+* parameter[=].type = #Organization
 * parameter[+].name = #return
 * parameter[=].use = #out
 * parameter[=].min = 0
