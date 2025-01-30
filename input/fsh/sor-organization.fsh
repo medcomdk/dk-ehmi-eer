@@ -28,15 +28,15 @@ Description:  """ EerMessagingOrganization """
     SOR-Hierarchy 1..1 MS SU 
     and SOR-UnitType 0..1 SU
 //    and EerMessagingOrganizationType 0..1 MS SU 
-    and EerSorIOOrganizationType 0..1 MS SU
+    and EerSorOrganizationType 0..1 MS SU
 * type[SOR-Hierarchy].coding.code from $EerMessagingOrganizationTypeVS
 * type[SOR-Hierarchy].coding.system = $EerMessagingOrganizationType
 * type[SOR-UnitType].coding.code from $EerSorUnitTypeVS
 * type[SOR-UnitType].coding.system = $EerSorUnitType
 //* type[EerMessagingOrganizationType].coding.code from $EerMessagingOrganizationTypeVS
 //* type[EerMessagingOrganizationType].coding.system = $EerMessagingOrganizationType
-* type[EerSorIOOrganizationType].coding.code from $EerSorIOOrganizationTypeVS
-* type[EerSorIOOrganizationType].coding.system = $EerSorIOOrganizationType
+* type[EerSorOrganizationType].coding.code from $EerSorOrganizationTypeVS
+* type[EerSorOrganizationType].coding.system = $EerSorOrganizationType
 * extension contains eer-dk-eua-system-extension named eua-system 0..* MS 
 * endpoint 0..*
 * endpoint only Reference(EerEndpointMessagingEdelivery)
