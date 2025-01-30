@@ -25,9 +25,6 @@ This use case is conforming to this OperationDefinition:
 
     http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerMessagingOrganization
 
-
-
-
 # Error use cases for EAS use case 1
 
 - error use case 4a - SOR-Information does not exist
