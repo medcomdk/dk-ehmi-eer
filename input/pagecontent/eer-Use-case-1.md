@@ -13,9 +13,9 @@ This use case is conforming to this OperationDefinition:
     **Be aware:** The exact name of this operation may differentiate, when it comes to the real world implementation, 
     but the intention is to implement a service that given the input parameters profile will produce the output parameters Profile.
 
-    Generated Narrative: OperationDefinition eer.eer_getDeviceDataByDeviceId
+    Generated Narrative: OperationDefinition eer.getDeviceDataByDeviceId
 
-    URL: [base]/eer_getDeviceDataByDeviceId/Device?identifer=[Device-identifer]
+    URL: [base]/getDeviceDataByDeviceId/Device?identifer=[Device-identifer]
 
     Input parameters Profile:
 
