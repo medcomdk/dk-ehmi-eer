@@ -6,7 +6,27 @@ An End User Application, EUA, calls EAS to retrieve the necessary message addres
  
 Initially, when EAS receives this request, the given organization id is validated, after which relevant organization information associated with the organization id is obtained from SOR. With this and the type of message to be sent, the EER Endpoint Register (EER) is then called to obtain the GLN number and other relevant information, and finally the response is packed and sent back to the caller of EAS. The message type is, again, needed in the second call to EAS, such that EAS can return the correct response for the given message type – it could for example be that the system of the general practitioner does not support receiving the particular type of message.
 
-This use case is conforming to this OperationDefinition: <a href="http://medcomehmi.dk/ig/dk-ehmi-eas/OperationDefinition-eas.getReceivingOrganizationBySORId.html">OperationDefinition-eas.getReceivingOrganizationBySORId</a> 
+<!--This use case is conforming to this OperationDefinition: <a href="http://medcomehmi.dk/ig/dk-ehmi-eas/OperationDefinition-eas.getReceivingOrganizationBySORId.html">OperationDefinition-eas.getReceivingOrganizationBySORId</a--> 
+
+This use case is conforming to this OperationDefinition: 
+
+    **Be aware:** The exact name of this operation may differentiate, when it comes to the real world implementation, 
+    but the intention is to implement a service that given the input parameters profile will produce the output parameters Profile.
+
+    Generated Narrative: OperationDefinition eer.getReceivingOrganizationBySORId
+
+    URL: [base]/getReceivingOrganizationBySORID/EerCoreOrganization?identifer=[SOR-identifer]&MessageType=[MessageType]
+
+    Input parameters Profile:
+
+    http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerCoreOrganization
+
+    Output parameters Profile:
+
+    http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerMessagingOrganization
+
+
+
 
 # Error use cases for EAS use case 1
 
