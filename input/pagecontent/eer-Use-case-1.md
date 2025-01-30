@@ -1,11 +1,11 @@
-# Get Receiver metadata by SORID
+# Get Device metadata by DeviceID
 
-An End User Application, EUA, calls EAS to retrieve the necessary message address metadata information for a potential receiver of a message. The sequence diagram for this is as follows:
+A MSH or AP calls EER to retrieve the necessary Device metadata information for its own use to handle the data required by EDS DeliveryStatus registrations. The data is pretty static, so it's possible to store this locally and save the infrastructure for too many calls on this.
 
-<img src="./eer_eas_1_1_getReceiverDataBySorId.png" alt="1_1_getReceiverData_getReceivingOrganizationBySORId" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
+The sequence diagram for this is as follows:
+
+<img src="./eer_getDeviceDataByDeviceId.png" alt="eer_getDeviceDataByDeviceId" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
  
-Initially, when EAS receives this request, the given organization id is validated, after which relevant organization information associated with the organization id is obtained from SOR. With this and the type of message to be sent, the EER Endpoint Register (EER) is then called to obtain the GLN number and other relevant information, and finally the response is packed and sent back to the caller of EAS. The message type is, again, needed in the second call to EAS, such that EAS can return the correct response for the given message type – it could for example be that the system of the general practitioner does not support receiving the particular type of message.
-
 <!--This use case is conforming to this OperationDefinition: <a href="http://medcomehmi.dk/ig/dk-ehmi-eas/OperationDefinition-eas.getReceivingOrganizationBySORId.html">OperationDefinition-eas.getReceivingOrganizationBySORId</a--> 
 
 This use case is conforming to this OperationDefinition: 
@@ -13,26 +13,26 @@ This use case is conforming to this OperationDefinition:
     **Be aware:** The exact name of this operation may differentiate, when it comes to the real world implementation, 
     but the intention is to implement a service that given the input parameters profile will produce the output parameters Profile.
 
-    Generated Narrative: OperationDefinition eer.getReceivingOrganizationBySORId
+    Generated Narrative: OperationDefinition eer.eer_getDeviceDataByDeviceId
 
-    URL: [base]/getReceivingOrganizationBySORID/EerCoreOrganization?identifer=[SOR-identifer]&MessageType=[MessageType]
+    URL: [base]/eer_getDeviceDataByDeviceId/EerCoreOrganization?identifer=[Device-identifer]
 
     Input parameters Profile:
 
-    http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerCoreOrganization
+    http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerDevice
 
     Output parameters Profile:
 
-    http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerMessagingOrganization
+    http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerDevice
 
-# Error use cases for EAS use case 1
+# Error use cases for EER use case 1
 
-- error use case 4a - SOR-Information does not exist
+- error use case 4a - EerDevice-Information does not exist
 
-### Error use case 1a - EER-ReceiverData does not exist
+### Error use case 1a - EER-DeviceData does not exist
 
-Should an error occur when calling EER to obtain the GLN number and other relevant information, an error response stating this is packed and returned to the caller of EAS as illustrated by:
+Should an error occur when calling EER to obtain the EerDevice metadata, an error response stating this is packed and returned to the caller of EER as illustrated by:
 
-<img src="./eer_eas_1_1_getReceiverDataBySorId_error1.png" alt="1_1_getReceiverData_error1_getReceivingOrganizationBySORId" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
+<img src="./eer_getDeviceDataByDeviceId_error1.png" alt="eer_getDeviceDataByDeviceId_error1" style="width:100%;height:auto;border=1;margin: 20px 20px 20px 0px">
 
  
