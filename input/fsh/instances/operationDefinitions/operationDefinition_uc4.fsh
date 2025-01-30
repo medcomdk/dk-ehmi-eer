@@ -23,7 +23,7 @@ EER will in order to produce this response run through a sequence of calls from"
 * system = true
 * type = false
 * instance = true
-* inputProfile = "string"
+* inputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerCoreOrganization"
 * outputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerMessagingOrganization"
 * parameter[0].name = #target
 * parameter[=].use = #in
