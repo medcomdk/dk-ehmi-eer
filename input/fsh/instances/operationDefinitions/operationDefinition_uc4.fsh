@@ -1,24 +1,24 @@
-Instance: eer.getReceivingOrganizationBySORId
+Instance: eer.getMessagingOrganizationBySORId
 InstanceOf: OperationDefinition
-Description: "EER getReceivingOrganizationBySORId"
+Description: "EER getMessagingOrganizationBySORId"
 Usage: #definition
-* url = "http://medcomehmi.dk/ig/dk-ehmi-eer/OperationDefinition/getReceivingOrganizationBySORId"
+* url = "http://medcomehmi.dk/ig/dk-ehmi-eer/OperationDefinition/getMessagingOrganizationBySORId"
 * version = "0.9.0"
-* name = "EER-getReceivingOrganizationBySORId"
-* title = "EER getReceivingOrganizationBySORId"
+* name = "EER-getMessagingOrganizationBySORId"
+* title = "EER getMessagingOrganizationBySORId"
 * status = #draft
 * kind = #query
 * date = "2025-01-01T00:00:00+01:00"
 * publisher = "EHMI EER"
 * contact.telecom[0].system = #url
-* contact.telecom[=].value = "http://sundhedsdatastyrelsen.dk/ehmi/eer"
+* contact.telecom[=].value = "http://medcom.dk/ehmi/eer"
 * contact.telecom[+].system = #email
-* contact.telecom[=].value = "ehmi-eer@sundhedsdatastyrelsen.dk"
+* contact.telecom[=].value = "ehmi-eer@medcom.dk"
 * description = "GET [EER-base]/Organization?_profile=http://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-organization&Organization?Identifier.value=[SOR_Identifier]
 This search will produce a EerMessagingOrganization as a response
 EER will in order to produce this response run through a sequence of calls from"
-* code = #getReceivingOrganizationBySORId
-* comment = "getReceivingOrganizationBySORId return EerMessagingOrganization"
+* code = #getMessagingOrganizationBySORId
+* comment = "getMessagingOrganizationBySORId return EerMessagingOrganization"
 * resource = #CapabilityStatement
 * system = true
 * type = false
@@ -29,7 +29,7 @@ EER will in order to produce this response run through a sequence of calls from"
 * parameter[=].use = #in
 * parameter[=].min = 1
 * parameter[=].max = "*"
-* parameter[=].documentation = "submitting the Id of the Patient's General Practitioner would evoke this search operation"
+* parameter[=].documentation = "submitting the SOR-identifier of the EerCoreOrganization would evoke this search operation"
 * parameter[=].type = #string
 * parameter[+].name = #return
 * parameter[=].use = #out
