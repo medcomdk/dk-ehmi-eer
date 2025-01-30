@@ -37,8 +37,8 @@ Alias: $EerEndpointPayloadTypeVS = http://medcomehmi.dk/ig/dk-ehmi-terminology/V
 Alias: $EerMessagingOrganizationType = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/CodeSystem/eer-sor-organization-type
 Alias: $EerMessagingOrganizationTypeVS = http://medcomehmi.dk/ig/dk-medcom-ehmi-terminology/ValueSet/eer-sor-organization-type-valueset
 
-Alias: $EerSorIOOrganizationType = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/eer-sor-io-organization-type
-Alias: $EerSorIOOrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-terminology/ValueSet/eer-sor-io-organization-type-valueset
+//Alias: $EerSorOrganizationType = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/eer-sor-io-organization-type
+//Alias: $EerSorOrganizationTypeVS = http://medcomehmi.dk/ig/dk-ehmi-terminology/ValueSet/eer-sor-io-organization-type-valueset
 
 Alias: $EhmiMessageDefinitionUri = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/ehmi-message-definition-uri
 Alias: $EhmiMessageDefinitionUriVS = http://medcomehmi.dk/ig/dk-ehmi-terminology/ValueSet/ehmi-message-definition-uri-valueset
@@ -70,7 +70,7 @@ Alias: $EerDigSigVS = http://medcomehmi.dk/ig/dk-ehmi-terminologi/ValueSet/eer-d
 Alias: $EerMessagedefinitionIdentiferSystemCS = http://medcomehmi.dk/ig/dk-ehmi-terminologi/CodeSystem/eer-messagedefinition-identifer-system
 Alias: $EerMessagedefinitionIdentiferSystemVS = http://medcomehmi.dk/ig/dk-ehmi-terminologi/ValueSet/eer-messagedefinition-identifer-system-valueset
 
-Alias: $EerEndpointConnectionType = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/eer-endpoint-connection-type
+Alias: $EerEndpointConnectionTypeCS = http://medcomehmi.dk/ig/dk-ehmi-terminology/CodeSystem/eer-endpoint-connection-type
 Alias: $EerEndpointConnectionTypeVS = http://medcomehmi.dk/ig/dk-ehmi-terminology/ValueSet/eer-endpoint-connection-type-valueset
 
 
