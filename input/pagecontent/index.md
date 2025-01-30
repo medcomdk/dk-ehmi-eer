@@ -53,6 +53,7 @@ Other profiles like the following will be considered supported in the coming ver
   6. Healthcare Service 
   8. OrganizationAffiliation 
 
+<!--
 ## EER actors and transactions
 
 EER will support the following MCSD actors and their transactions in this version:
@@ -67,6 +68,7 @@ Table 1: EER Profile - Actors and Transactions
 | Care Services Update Supplier	Request | Care Services Updates [IHE-ITI-91]	| Responder	| R	| ITI TF-2: 3.91
 
 While Consumer Actors (clients) will implement the Initiator transactions, EER as a Supplier Actor will implement the Responder transactions.
+-->
 
 ## EER enhancements of MCSD
 
