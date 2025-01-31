@@ -88,11 +88,9 @@ menu:
     EER Use case 1: eer-Use-case-1.html
     #EER Use case 2: eer-Use-case-2.html
     EER-EAS Use case 4: eas-Use-case-4.html
-    # EHMI User Stories: EHMI-User-Stories.html
   Security: 
-    Security-en: security-EER-english.html
-    Security-da: security-EER-danish.html
-#  Terminology: terminology.html
+    Security-en: security-english.html
+    Security-da: security-danish.html
   Artifacts: artifacts.html
   More:
     Table of Contents: toc.html
