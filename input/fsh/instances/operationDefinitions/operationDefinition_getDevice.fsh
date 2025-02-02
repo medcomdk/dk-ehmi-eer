@@ -1,4 +1,4 @@
-Instance: eer.getDeviceByDeviceId
+/*Instance: eer.getDeviceByDeviceId
 InstanceOf: OperationDefinition
 Description: "EER getDeviceByDeviceId"
 Usage: #definition
@@ -37,3 +37,4 @@ EER will in order to produce this response run through a sequence of calls from"
 * parameter[=].max = "*"
 * parameter[=].documentation = "The response is a EerMessagingOrganization corresponding to the General Practitioner of the Patient"
 * parameter[=].type = #Organization
+*/
