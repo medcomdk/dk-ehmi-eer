@@ -115,4 +115,4 @@ Message Service Handlers (eerDeviceMSH) are software solutions standing alone or
 
 The calls for EER are always produced in a security context. 
 
-[The calls for EER are described here](security-EER-english.html)
+[The calls for EER are described here](security-english.html)
