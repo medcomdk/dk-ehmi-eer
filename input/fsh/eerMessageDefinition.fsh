@@ -1,6 +1,7 @@
 Profile: EerMessageDefinition
 Parent: MessageDefinition
-Description: "An example profile of the MessageDefinition resource."
+Title: "EER MessageDefinition"
+Description: "A profile of the MessageDefinition resource."
 //* url from ehmi-message-definition-uri-valueset
 * identifier 1..1 MS SU
 //* identifier.system from ehmi-message-definition-uri-valueset
