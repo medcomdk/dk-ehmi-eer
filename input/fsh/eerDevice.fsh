@@ -1,6 +1,6 @@
 Profile: EerDevice
 Parent: Device
-Title: "EER EndpointDevice - General"
+Title: "EER Device - General"
 Description: "An EHMI profile of the Device resource."
 * udiCarrier 0..0 
 * identifier 1..1 MS
@@ -25,18 +25,18 @@ Description: "An EHMI profile of the Device resource."
 
 Profile: EerDeviceAP
 Parent: EerDevice
-Title: "EER EndpointDevice - AP"
+Title: "EER Device - AP"
 Description: "An EerDeviceAP profile of the EerDevice resource."
-//* definition = Reference(EerEndpointDeviceDefinitionAP)
+//* definition = Reference(EerDeviceDefinitionAP)
 
 Profile: EerDeviceMSH
 Parent: EerDevice
-Title: "EER EndpointDevice - MSH"
+Title: "EER Device - MSH"
 Description: "An EerDeviceMSH profile of the EerDevice resource."
-//* definition = Reference(EerEndpointDeviceDefinitionMSH)
+//* definition = Reference(EerDeviceDefinitionMSH)
 
 Profile: EerDeviceEUA
 Parent: EerDevice
-Title: "EER EndpointDevice - EUA"
+Title: "EER Device - EUA"
 Description: "An EerDeviceEUA profile of the EerDevice resource."
-//* definition = Reference(EerEndpointDeviceDefinitionEUA)
+//* definition = Reference(EerDeviceDefinitionEUA)

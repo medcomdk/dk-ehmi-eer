@@ -1,50 +1,50 @@
-Profile: EerEndpointDeviceDefinition
+Profile: EerDeviceDefinition
 Parent: DeviceDefinition
-Title: "EER EndpointDeviceDefinition"
+Title: "EER DeviceDefinition"
 Description: "An EER profile of the DeviceDefinition resource."
 * identifier 0..1 MS 
 * udiDeviceIdentifier 0..0
 * type from $EerDeviceTypeVS 
 * type 1..1 MS 
 
-Profile: EerEndpointDeviceDefinitionAP
-Parent: EerEndpointDeviceDefinition
-Title: "EER EndpointDeviceDefinition - AP"
-Description: "An EerEndpointDeviceDefinition-AP profile of the EerEndpointDeviceDefinition resource."
+Profile: EerDeviceDefinitionAP
+Parent: EerDeviceDefinition
+Title: "EER DeviceDefinition - AP"
+Description: "An EerDeviceDefinition-AP profile of the EerDeviceDefinition resource."
 * type = $EerDeviceTypeCS#AP "eDelivery Access Point" (exactly)
 
-Instance: EerEndpointDeviceDefinition4AP
-InstanceOf: EerEndpointDeviceDefinitionAP
-* identifier.value = "EerEndpointDeviceDefinition4AP"
+Instance: EerDeviceDefinition4AP
+InstanceOf: EerDeviceDefinitionAP
+* identifier.value = "EerDeviceDefinition4AP"
 
-Profile: EerEndpointDeviceDefinitionMSH
-Parent: EerEndpointDeviceDefinition
-Title: "EER EndpointDeviceDefinition - MSH"
-Description: "An EerEndpointDeviceDefinition-MSH profile of the EerEndpointDeviceDefinition resource."
+Profile: EerDeviceDefinitionMSH
+Parent: EerDeviceDefinition
+Title: "EER DeviceDefinition - MSH"
+Description: "An EerDeviceDefinition-MSH profile of the EerDeviceDefinition resource."
 * type = $EerDeviceTypeCS#MSH "Message Service Handler" (exactly)
 
-Instance: EerEndpointDeviceDefinition4MSH
-InstanceOf: EerEndpointDeviceDefinitionMSH
-* identifier.value = "EerEndpointDeviceDefinition4MSH"
+Instance: EerDeviceDefinition4MSH
+InstanceOf: EerDeviceDefinitionMSH
+* identifier.value = "EerDeviceDefinition4MSH"
 
-Profile: EerEndpointDeviceDefinitionEUA
-Parent: EerEndpointDeviceDefinition
-Title: "EER EndpointDeviceDefinition - EUA"
-Description: "An EerEndpointDeviceDefinition-EUA profile of the EerEndpointDeviceDefinition resource."
+Profile: EerDeviceDefinitionEUA
+Parent: EerDeviceDefinition
+Title: "EER DeviceDefinition - EUA"
+Description: "An EerDeviceDefinition-EUA profile of the EerDeviceDefinition resource."
 * type = $EerDeviceTypeCS#EUA "End User Application" (exactly)
 
-Instance: EerEndpointDeviceDefinition4EUA
-InstanceOf: EerEndpointDeviceDefinitionEUA
-* identifier.value = "EerEndpointDeviceDefinition4EUA"
+Instance: EerDeviceDefinition4EUA
+InstanceOf: EerDeviceDefinitionEUA
+* identifier.value = "EerDeviceDefinition4EUA"
 
 /*
-Profile: EerEndpointDeviceDefinitionLPS
-Parent: EerEndpointDeviceDefinition
-Description: "An EerEndpointDeviceDefinition-LPS profile of the EerEndpointDeviceDefinition resource."
+Profile: EerDeviceDefinitionLPS
+Parent: EerDeviceDefinition
+Description: "An EerDeviceDefinition-LPS profile of the EerDeviceDefinition resource."
 * type =  http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-device-type#LPS "General Practitioner System"
 
-Profile: EerEndpointDeviceDefinitionEOJ
-Parent: EerEndpointDeviceDefinition
-Description: "An EerEndpointDeviceDefinition-EOJ profile of the EerEndpointDeviceDefinition resource."
+Profile: EerDeviceDefinitionEOJ
+Parent: EerDeviceDefinition
+Description: "An EerDeviceDefinition-EOJ profile of the EerDeviceDefinition resource."
 * type = $EerDeviceTypeCS#EOJ "EOJ"
 */
