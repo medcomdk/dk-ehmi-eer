@@ -1,11 +1,11 @@
 {
     "package-id": "dk.ehmi.eer",
     "version": "1.0.0",
-    "path": "http://medcomehmi.dk/ig/dk.ehmi.eer",
+    "path": "http://medcomehmi.dk/ig/eer",
     "status": "release",
     "sequence": "Release",
     "first" : true,
-    "ci-build" : "https://build.fhir.org/ig/medcomdk/dk.ehmi.eer",
+    "ci-build" : "https://build.fhir.org/ig/medcomdk/dk-ehmi-eer",
     "milestone" : true,
     "title": "DK EER Endpoint Register (EER)",
     "category": "EHMI",
