@@ -1,5 +1,5 @@
 Alias: $EerDeviceTypeCS = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-device-type
-Alias: $EerDeviceTypeVS = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-device-type-valueset
+Alias: $EerDeviceTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/eer-device-type-valueset
 
 Alias: $EdsAuditEventTypes = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-auditevent-types
 Alias: $EdsAuditEventSubTypes = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-auditevent-sub-types
@@ -63,11 +63,11 @@ Alias: $MessageEvents = http://medcomfhir.dk/ig/terminology/CodeSystem/medcom-me
 Alias: $EerUsageContextCodeSystem = http://terminology.hl7.org/CodeSystem/usage-context-type
 Alias: $EerUsageContextCodeSystemVS = http://medcomehmi.dk/ig/terminology/ValueSet/eer-messagedefinition-use-context-code-valueset
 
-Alias: $EerDigSigCS = http://medcomehmi.dk/ig/dk-ehmi-terminologi/CodeSystem/eer-digital-signature-type
-Alias: $EerDigSigVS = http://medcomehmi.dk/ig/dk-ehmi-terminologi/ValueSet/eer-digital-signature-type-valueset
+Alias: $EerDigSigCS = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-digital-signature-type
+Alias: $EerDigSigVS = http://medcomehmi.dk/ig/terminology/ValueSet/eer-digital-signature-type-valueset
 
-Alias: $EerMessagedefinitionIdentiferSystemCS = http://medcomehmi.dk/ig/dk-ehmi-terminologi/CodeSystem/eer-messagedefinition-identifer-system
-Alias: $EerMessagedefinitionIdentiferSystemVS = http://medcomehmi.dk/ig/dk-ehmi-terminologi/ValueSet/eer-messagedefinition-identifer-system-valueset
+Alias: $EerMessagedefinitionIdentiferSystemCS = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-messagedefinition-identifer-system
+Alias: $EerMessagedefinitionIdentiferSystemVS = http://medcomehmi.dk/ig/terminology/ValueSet/eer-messagedefinition-identifer-system-valueset
 
 Alias: $EerEndpointConnectionTypeCS = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-endpoint-connection-type
 Alias: $EerEndpointConnectionTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/eer-endpoint-connection-type-valueset
