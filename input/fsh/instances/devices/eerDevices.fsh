@@ -3,7 +3,7 @@ InstanceOf: EerDeviceAP
 Description: "EerDeviceAP-MultiMedAP"
 * id = "EerDeviceAP-MultiMedAP"
 * identifier.value = "EerDeviceAP-MultiMedAP"
-//* definition = Reference("http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerDeviceDefinitionAP")
+//* definition = Reference("http://medcomehmi.dk/ig/eer/StructureDefinition/EerDeviceDefinitionAP")
 * definition = Reference(EerDeviceDefinition4AP)
 * status = #active
 * deviceName.name = "MultiMedAP"
@@ -26,7 +26,7 @@ Instance: EerDeviceMSH-MultiMedMSH
 InstanceOf: EerDeviceMSH
 Description: "EerDeviceMSH-MultiMedMSH"
 * identifier.value = "EerDeviceMSH-MultiMedMSH"
-//* definition = Reference("http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerDeviceDefinitionMSH")
+//* definition = Reference("http://medcomehmi.dk/ig/eer/StructureDefinition/EerDeviceDefinitionMSH")
 * definition = Reference(EerDeviceDefinition4MSH)
 * status = #active
 * deviceName.name = "MultiMedMSH"
@@ -37,7 +37,7 @@ Instance: EerDeviceMSH-NovaxEUA
 InstanceOf: EerDeviceEUA
 Description: "EerDeviceEUA-NovaxEUA"
 * identifier.value = "EerDeviceEUA-NovaxEUA"
-//* definition = Reference("http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerDeviceDefinitionEUA")
+//* definition = Reference("http://medcomehmi.dk/ig/eer/StructureDefinition/EerDeviceDefinitionEUA")
 * definition = Reference(EerDeviceDefinition4EUA)
 * status = #active
 * deviceName.name = "NovaxEUA"
@@ -48,7 +48,7 @@ Instance: EerDeviceMSH-SystematicMSH
 InstanceOf: EerDeviceMSH
 Description: "EerDeviceMSH-SystematicMSH"
 * identifier.value = "EerDeviceMSH-SystematicMSH"
-//* definition = Reference("http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerDeviceDefinitionMSH")
+//* definition = Reference("http://medcomehmi.dk/ig/eer/StructureDefinition/EerDeviceDefinitionMSH")
 * definition = Reference(EerDeviceDefinition4MSH)
 * status = #active
 * deviceName.name = "SystematicMSH"
@@ -59,7 +59,7 @@ Instance: EerDeviceMSH-SystematicCura
 InstanceOf: EerDeviceEUA
 Description: "EerDeviceEUA-SystematicCura"
 * identifier.value = "EerDeviceEUA-SystematicCura"
-//* definition = Reference("http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerDeviceDefinitionEUA")
+//* definition = Reference("http://medcomehmi.dk/ig/eer/StructureDefinition/EerDeviceDefinitionEUA")
 * definition = Reference(EerDeviceDefinition4EUA)
 * status = #active
 * deviceName.name = "Systematic Cura"

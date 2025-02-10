@@ -19,11 +19,11 @@ This use case is conforming to this OperationDefinition:
 
     Input parameters Profile:
 
-    http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerCoreOrganization
+    http://medcomehmi.dk/ig/eer/StructureDefinition/EerCoreOrganization
 
     Output parameters Profile:
 
-    http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerMessagingOrganization
+    http://medcomehmi.dk/ig/eer/StructureDefinition/EerMessagingOrganization
 
 # Error use cases for EAS use case 1
 

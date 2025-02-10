@@ -3,7 +3,7 @@ Instance: eer.getReceivingOrganizationBySORId
 InstanceOf: OperationDefinition
 Description: "EER getReceivingOrganizationBySORId"
 Usage: #definition
-* url = " http://medcomehmi.dk/ig/dk-ehmi-eer/OperationDefinition/getReceivingOrganizationBySORId"
+* url = " http://medcomehmi.dk/ig/eer/OperationDefinition/getReceivingOrganizationBySORId"
 * version = "0.1.0"
 * name = "EER-getReceivingOrganizationBySORId"
 * title = "EER  getReceivingOrganizationBySORId"
@@ -25,7 +25,7 @@ EER will in order to produce this response run through a sequence of calls from"
 * type = false
 * instance = true
 * inputProfile = "string"
-* outputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerMessagingOrganization"
+* outputProfile = "http://medcomehmi.dk/ig/eer/StructureDefinition/EerMessagingOrganization"
 * parameter[0].name = #target
 * parameter[=].use = #in
 * parameter[=].min = 1

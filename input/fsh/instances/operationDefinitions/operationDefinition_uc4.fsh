@@ -2,7 +2,7 @@ Instance: eer.getMessagingOrganizationBySORId
 InstanceOf: OperationDefinition
 Description: "EER getMessagingOrganizationBySORId"
 Usage: #definition
-* url = "http://medcomehmi.dk/ig/dk-ehmi-eer/OperationDefinition/getMessagingOrganizationBySORId"
+* url = "http://medcomehmi.dk/ig/eer/OperationDefinition/getMessagingOrganizationBySORId"
 * version = "0.9.0"
 * name = "EER-getMessagingOrganizationBySORId"
 * title = "EER getMessagingOrganizationBySORId"
@@ -23,8 +23,8 @@ EER will in order to produce this response run through a sequence of calls from"
 * system = true
 * type = false
 * instance = true
-* inputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerCoreOrganization"
-* outputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerMessagingOrganization"
+* inputProfile = "http://medcomehmi.dk/ig/eer/StructureDefinition/EerCoreOrganization"
+* outputProfile = "http://medcomehmi.dk/ig/eer/StructureDefinition/EerMessagingOrganization"
 * parameter[0].name = #target
 * parameter[=].use = #in
 * parameter[=].min = 1

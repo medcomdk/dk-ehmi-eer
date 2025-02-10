@@ -1,7 +1,7 @@
 {
     "package-id": "dk.ehmi.eer",
     "version": "1.0.0",
-    "path": "http://medcomehmi.dk/ig/eer",
+    "path": "http://medcomehmi.dk/ig/eer/1.0.0",
     "status": "release",
     "sequence": "Release",
     "first" : true,

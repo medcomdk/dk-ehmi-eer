@@ -41,7 +41,7 @@ InstanceOf: EerDeviceDefinitionEUA
 Profile: EerDeviceDefinitionLPS
 Parent: EerDeviceDefinition
 Description: "An EerDeviceDefinition-LPS profile of the EerDeviceDefinition resource."
-* type =  http://medcomehmi.dk/ig/dk-ehmi-eer/CodeSystem/eer-device-type#LPS "General Practitioner System"
+* type =  http://medcomehmi.dk/ig/eer/CodeSystem/eer-device-type#LPS "General Practitioner System"
 
 Profile: EerDeviceDefinitionEOJ
 Parent: EerDeviceDefinition

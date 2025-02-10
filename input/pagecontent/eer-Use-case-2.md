@@ -19,11 +19,11 @@ This use case is conforming to this OperationDefinition:
 
     Input parameters Profile:
 
-    http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerDevice
+    http://medcomehmi.dk/ig/eer/StructureDefinition/EerDevice
 
     Output parameters Profile:
 
-    http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerDevice
+    http://medcomehmi.dk/ig/eer/StructureDefinition/EerDevice
 
 # Error use cases for EER use case 1
 

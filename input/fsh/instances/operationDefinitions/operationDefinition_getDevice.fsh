@@ -2,7 +2,7 @@
 InstanceOf: OperationDefinition
 Description: "EER getDeviceByDeviceId"
 Usage: #definition
-* url = "http://medcomehmi.dk/ig/dk-ehmi-eer/OperationDefinition/getDeviceByDeviceId"
+* url = "http://medcomehmi.dk/ig/eer/OperationDefinition/getDeviceByDeviceId"
 * version = "0.9.0"
 * name = "EER-getDeviceByDeviceId"
 * title = "EER getDeviceByDeviceId"
@@ -24,7 +24,7 @@ EER will in order to produce this response run through a sequence of calls from"
 * type = false
 * instance = true
 * inputProfile = "string"
-* outputProfile = "http://medcomehmi.dk/ig/dk-ehmi-eer/StructureDefinition/EerMessagingOrganization"
+* outputProfile = "http://medcomehmi.dk/ig/eer/StructureDefinition/EerMessagingOrganization"
 * parameter[0].name = #target
 * parameter[=].use = #in
 * parameter[=].min = 1
