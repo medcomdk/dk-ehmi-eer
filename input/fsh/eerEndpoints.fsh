@@ -10,7 +10,7 @@ An Endpoint may be a eDelivery receiver or a vans receiver (or in the future a F
 mechanism).
 """
 * identifier 1..1 MS SU
-* identifier.system = $EerAuditEventAgentWhoIdentifierTypes
+//* identifier.system = $EerAuditEventAgentWhoIdentifierTypes
 * identifier.type from $EerAuditEventAgentWhoIdentifierTypesVS
 * identifier.value 1..1 MS SU
 * connectionType from $EerEndpointConnectionTypeVS
@@ -28,7 +28,7 @@ An Endpoint may be a eDelivery receiver or a vans receiver (or in the future a F
 mechanism).
 """
 * identifier 1..1 MS SU
-* identifier.system = $EerAuditEventAgentWhoIdentifierTypes
+* identifier.system = "https://www.gs1.org/gln" //$EerAuditEventAgentWhoIdentifierTypes
 * identifier.type = $EerAuditEventAgentWhoIdentifierTypes#GLN
 //* identifier.code = #official
 * identifier.value 1..1 MS SU
