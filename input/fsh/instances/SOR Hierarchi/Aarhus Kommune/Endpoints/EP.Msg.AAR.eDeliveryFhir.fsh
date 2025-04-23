@@ -3,7 +3,7 @@ InstanceOf: EerEndpointMessagingEdeliveryFhir
 Description: "AAR EerEndpointMessagingEdeliveryFhir."
 * id = "EerEndpoint-Messaging-AAR-eDeliveryFhir.01"
 * identifier.value = "5790002508226"
-* identifier.system = $EerAuditEventAgentWhoIdentifierTypes
+* identifier.system = "https://www.gs1.org/gln" //$EerAuditEventAgentWhoIdentifierTypes
 * identifier.type = $EerAuditEventAgentWhoIdentifierTypes#GLN
 //* identifier.use = "official"
 * status = #active
