@@ -9,13 +9,6 @@ Description: "An example instance of the EER Messaging Organization with a requi
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#IO
 //* identifier[EAN-ID].system = "https://www.gs1.org/gln"
 //* identifier[EAN-ID].value = "5790000121526"
-* telecom[0].system = #phone
-* telecom[0].value = "+123456789"
-* telecom[1].system = #email
-* telecom[1].value = "info@example.org"
-* address[0].line = "123 Example Street"
-* address[0].city = "Example City"
-* address[0].postalCode = "12345"
 * endpoint[+] = Reference(Endpoint/LaegerneStjernepladsen.8200.AarhusN.5790002401428)
 
 Instance: LaegerneStjernepladsen.8200.AarhusN.698141000016008
@@ -30,13 +23,6 @@ Description: "EER Messaging Organization - LaegerneStjernepladsen.8200.AarhusN.6
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#HI
 //* identifier[EAN-ID].system = "https://www.gs1.org/gln"
 //* identifier[EAN-ID].value = "5790000121526"
-* telecom[0].system = #phone
-* telecom[0].value = "+123456789"
-* telecom[1].system = #email
-* telecom[1].value = "info@example.org"
-* address[0].line = "123 Example Street"
-* address[0].city = "Example City"
-* address[0].postalCode = "12345"
 * endpoint[+] = Reference(Endpoint/LaegerneStjernepladsen.8200.AarhusN.5790002401428)
 
 Instance: LaegerneStjernepladsen.8200.AarhusN.698161000016009
@@ -51,13 +37,6 @@ Description: "EER Messaging Organization - LaegerneStjernepladsen.8200.AarhusN.6
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#OU
 //* identifier[EAN-ID].system = "https://www.gs1.org/gln"
 //* identifier[EAN-ID].value = "5790000121526"
-* telecom[0].system = #phone
-* telecom[0].value = "+123456789"
-* telecom[1].system = #email
-* telecom[1].value = "info@example.org"
-* address[0].line = "123 Example Street"
-* address[0].city = "Example City"
-* address[0].postalCode = "12345"
 * endpoint[+] = Reference(Endpoint/LaegerneStjernepladsen.8200.AarhusN.5790002401428)
 
 Instance: LaegerneStjernepladsen.8200.AarhusN.5790002401428
@@ -71,6 +50,7 @@ Description: "EER Messaging Endpoint - LaegerneStjernepladsen.8200.AarhusN.57900
 * connectionType.code = #EerMessagingEdelivery
 * name = "EER Messaging Endpoint - LaegerneStjernepladsen.8200.AarhusN.5790002401428 FHIR Endpoint"
 * managingOrganization.reference = "Organization/LaegerneStjernepladsen.8200.AarhusN.698131000016001"
+* extension[networkSupplySystem].valueReference = Reference(EerDeviceAP-MultiMedAP)
 * address = "https://example.org/fhir"
 * payloadMimeType[+] = #text/xml
 * payloadMimeType[+] = #application/fhir+xml
