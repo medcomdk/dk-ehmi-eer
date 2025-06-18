@@ -10,11 +10,11 @@ Description: "EerDeviceAP-MultiMedAP"
 * deviceName.type = #manufacturer-name
 * manufacturer = "MultiMed"
 
-Instance: EerDeviceAP-BizKitAP
+Instance: EerDeviceAP-KvalitetsItAP
 InstanceOf: EerDeviceAP
-Description: "EerDeviceAP-BizKitAP"
-* id = "EerDeviceAP-BizKitAP"
-* identifier.value = "EerDeviceAP-BizKitAP"
+Description: "EerDeviceAP-KvalitetsItAP"
+* id = "EerDeviceAP-KvalitetsItAP"
+* identifier.value = "EerDeviceAP-KvalitetsItAP"
 //* definition = Reference("StructureDefinition/EerDeviceDefinitionAP")
 * definition = Reference(EerDeviceDefinition4AP)
 * status = #active
