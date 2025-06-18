@@ -1,6 +1,6 @@
 Instance: EER.SOR.HI-AAR-Kommune.937961000016000
 InstanceOf: EerMessagingOrganization
-Description: "AAR SOR HI Organization - Sundhed og Omsorg"
+Description: "EER SOR HI AAR Kommune - Sundhed og Omsorg (937961000016000)"
 * id = "EER.SOR.HI-AAR-Kommune.937961000016000"
 * identifier[SOR-ID].type = $EerMessagingOrganizationIdentierType#SORID
 * identifier[SOR-ID].system = $EerMessagingOrganizationIdentierSystem
