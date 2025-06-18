@@ -5,7 +5,7 @@ Description: "LÆ- blanketter, suppl. kommunikation, AAR - SOR.OU-AAR-Kommune.10
 * identifier[SOR-ID].type = $EerMessagingOrganizationIdentierType#SORID
 * identifier[SOR-ID].system = $EerMessagingOrganizationIdentierSystem
 * identifier[SOR-ID].value = "1053851000016007"
-* name = "EER SOR OU AAR Kommune (1053851000016007)"
+* name = "LÆ- blanketter, suppl. kommunikation, AAR - SOR.OU-AAR-Kommune.1053851000016007)"
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#OE
 * type[SOR-Hierarchy].coding.system = $EerMessagingOrganizationType
 * partOf = Reference(Organization/EER.SOR.HI-AAR-Kommune.937961000016000)
