@@ -10,5 +10,7 @@ Description: "AAR SOR HI Organization - Sundhed og Omsorg"
 * partOf = Reference(Organization/Eer.Sor.IO-AAR-Kommune.311000016009)
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#SI
 * type[SOR-Hierarchy].coding.system = $EerMessagingOrganizationType
+* endpoint[+] = Reference(Endpoint/EerEndpoint-Messaging-AAR-eDeliveryFhir.5790000123117)
+
 
 
