@@ -4,7 +4,7 @@ Title: "Example EER Messaging Organization"
 Description: "An example instance of the EER Messaging Organization with a required endpoint."
 * id = "LaegerneStjernepladsen.8200.AarhusN.698131000016001"
 * name = "Lægerne Stjernepladsen I/S"
-* identifier[SOR-ID].system = $EerMessagingOrganizationIdentierSystem
+* identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * identifier[SOR-ID].value = "543210987654321"
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#IO
 //* identifier[EAN-ID].system = "https://www.gs1.org/gln"
@@ -17,7 +17,7 @@ Title: "EER Messaging Organization - LaegerneStjernepladsen.8200.AarhusN.6981410
 Description: "EER Messaging Organization - LaegerneStjernepladsen.8200.AarhusN.698141000016008"
 * id = "LaegerneStjernepladsen.8200.AarhusN.698141000016008"
 * name = "Lægerne Stjernepladsen I/S"
-* identifier[SOR-ID].system = $EerMessagingOrganizationIdentierSystem
+* identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * identifier[SOR-ID].value = "543210987654321"
 * partOf = Reference(Organization/LaegerneStjernepladsen.8200.AarhusN.698131000016001)
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#HI
@@ -31,7 +31,7 @@ Title: "EER Messaging Organization - LaegerneStjernepladsen.8200.AarhusN.6981610
 Description: "EER Messaging Organization - LaegerneStjernepladsen.8200.AarhusN.698161000016009"
 * id = "LaegerneStjernepladsen.8200.AarhusN.698161000016009"
 * name = "Tine Nørregaard Nielsen"
-* identifier[SOR-ID].system = $EerMessagingOrganizationIdentierSystem
+* identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * identifier[SOR-ID].value = "543210987654321"
 * partOf = Reference(Organization/LaegerneStjernepladsen.8200.AarhusN.698141000016008)
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#OU

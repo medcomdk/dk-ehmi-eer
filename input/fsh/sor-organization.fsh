@@ -3,16 +3,20 @@ Parent:       MCSDOrganization
 Id:           Eer.Messaging.Organization
 Title:        "EerMessagingOrganization"
 Description:  """ EerMessagingOrganization """
-* identifier ^slicing.discriminator.type = #value
-  * ^slicing.discriminator.path = identifier.system
+* meta.profile = "http://hl7.dk/fhir/core/StructureDefinition/dk-core-organization"
+* identifier 1..
+  * ^slicing.discriminator.type = #value
+  * ^slicing.discriminator.path = "system"
   * ^slicing.rules = #open //#closed eller #open 
 * identifier contains
     SOR-ID 1..1 MS SU 
 //    and MunicipalityCode 0..1 MS SU 
 * identifier[SOR-ID].use = #official
 * identifier[SOR-ID].type from $EerMessagingOrganizationIdentierTypeVS
-* identifier[SOR-ID].type = $EerMessagingOrganizationIdentierType#SORID (exactly)
-* identifier[SOR-ID].system = $EerMessagingOrganizationIdentierSystem (exactly)
+* identifier[SOR-ID].type.coding.code = $EerMessagingOrganizationIdentierType#SORID (exactly)
+* identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
+//* identifier[SOR-ID].system = $EerMessagingOrganizationIdentierSystem (exactly)
+//* system = "urn:oid:1.2.208.176.1.1" (exactly)
 //* identifier[SOR-ID].use = #official
 //* identifier[SOR-ID].type from $EerMessagingOrganizationIdentierTypeVS
 //* identifier[SOR-ID].type = $EerMessagingOrganizationIdentierType#SORID (exactly)

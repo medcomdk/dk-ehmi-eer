@@ -4,7 +4,7 @@ Description: "An example of an SOR OU Organization."
 * id = "EER.SOR-OU.01"
 * identifier[SOR-ID].value = "EER.SOR-OU.01"
 * identifier[SOR-ID].type = $EerMessagingOrganizationIdentierType#SORID
-* identifier[SOR-ID].system = $EerMessagingOrganizationIdentierSystem
+* identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * name = "EER.SOR-OU-Organization"
 * type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#OE
 * type[SOR-Hierarchy].coding.system = $EerMessagingOrganizationType

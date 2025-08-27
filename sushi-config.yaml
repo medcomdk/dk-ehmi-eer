@@ -31,6 +31,7 @@ dependencies:
   medcom.fhir.dk.messaging: dev #3.0.0
   medcom.fhir.dk.terminology: 1.8.0
   dk.ehmi.terminology: dev #1.0.0
+  hl7.fhir.uv.extensions.r4: 5.2.0
   # dk.ehmi.core: current
   # medcom.fhir.dk.core: 2.4.0
   # medcom.fhir.dk.messaging: 2.2.0

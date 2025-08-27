@@ -3,7 +3,7 @@ InstanceOf: EerMessagingOrganization
 Description: "Eer.Sor.IO-AAR-Kommune as a SOR IO Organization."
 * id = "Eer.Sor.IO-AAR-Kommune.311000016009" //SOR-Id
 * identifier[SOR-ID].type = $EerMessagingOrganizationIdentierType#SORID
-* identifier[SOR-ID].system = $EerMessagingOrganizationIdentierSystem
+* identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * identifier[SOR-ID].value = "311000016009"
 //* identifier[MunicipalityCode].system = $EerSorMunicipalityCode
 //* identifier[MunicipalityCode].type = $EerMessagingOrganizationIdentierType#MunicipalityCode
