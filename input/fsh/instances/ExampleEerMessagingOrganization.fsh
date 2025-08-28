@@ -2,12 +2,13 @@ Instance: ExampleEerMessagingOrganization
 InstanceOf: EerMessagingOrganization
 Title: "Example EER Messaging Organization"
 Description: "An example instance of the EER Messaging Organization with a required endpoint."
-* id = "example-eas-messaging-organization"
+* id = "example-eer-messaging-organization"
 * name = "Example Organization"
 * identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * identifier[SOR-ID].value = "543210987654321"
-//* type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#
+//* type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#OU
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationTypeCS#OU
+* type[SOR-Hierarchy].coding.system = $EerSorOrganizationTypeCS
 //* identifier[EAN-ID].system = "https://www.gs1.org/gln"
 //* identifier[EAN-ID].value = "5790000121526"
 * telecom[0].system = #phone
@@ -29,7 +30,7 @@ Description: "An example endpoint for the EER Messaging Organization."
 * period.start = "2025-01-01"
 * connectionType.code = #EerMessagingEdelivery
 * name = "Example FHIR Endpoint"
-* managingOrganization.reference = "Organization/example-eas-messaging-organization"
+* managingOrganization.reference = "Organization/example-eer-messaging-organization"
 * address = "https://example.org/fhir"
 * payloadMimeType[+] = #text/xml
 * payloadMimeType[+] = #application/fhir+xml
