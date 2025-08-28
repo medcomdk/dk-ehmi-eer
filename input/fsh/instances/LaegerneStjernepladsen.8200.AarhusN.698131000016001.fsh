@@ -6,7 +6,8 @@ Description: "An example instance of the EER Messaging Organization with a requi
 * name = "Lægerne Stjernepladsen I/S"
 * identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * identifier[SOR-ID].value = "543210987654321"
-* type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#IO
+//* type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#
+* type[SOR-Hierarchy].coding.code = $EerSorOrganizationTypeCS#IO
 //* identifier[EAN-ID].system = "https://www.gs1.org/gln"
 //* identifier[EAN-ID].value = "5790000121526"
 * endpoint[+] = Reference(Endpoint/LaegerneStjernepladsen.8200.AarhusN.5790002401428)
@@ -20,7 +21,8 @@ Description: "EER Messaging Organization - LaegerneStjernepladsen.8200.AarhusN.6
 * identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * identifier[SOR-ID].value = "543210987654321"
 * partOf = Reference(Organization/LaegerneStjernepladsen.8200.AarhusN.698131000016001)
-* type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#HI
+//* type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#
+* type[SOR-Hierarchy].coding.code = $EerSorOrganizationTypeCS#HI
 //* identifier[EAN-ID].system = "https://www.gs1.org/gln"
 //* identifier[EAN-ID].value = "5790000121526"
 * endpoint[+] = Reference(Endpoint/LaegerneStjernepladsen.8200.AarhusN.5790002401428)
@@ -34,7 +36,8 @@ Description: "EER Messaging Organization - LaegerneStjernepladsen.8200.AarhusN.6
 * identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * identifier[SOR-ID].value = "543210987654321"
 * partOf = Reference(Organization/LaegerneStjernepladsen.8200.AarhusN.698141000016008)
-* type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#OU
+//* type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#
+* type[SOR-Hierarchy].coding.code = $EerSorOrganizationTypeCS#OU
 //* identifier[EAN-ID].system = "https://www.gs1.org/gln"
 //* identifier[EAN-ID].value = "5790000121526"
 * endpoint[+] = Reference(Endpoint/LaegerneStjernepladsen.8200.AarhusN.5790002401428)

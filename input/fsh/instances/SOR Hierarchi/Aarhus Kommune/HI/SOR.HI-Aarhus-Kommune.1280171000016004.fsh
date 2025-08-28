@@ -10,5 +10,7 @@ Description: "AAR SOR HI Organization.1280171000016004 - Sociale Forhold og Besk
 * type[SOR-UnitType].coding.system = $EerSorUnitType
 * name = "EER SOR HI AAR Kommune - Sociale Forhold og Beskæftigelse (1280171000016004)"
 * partOf = Reference(Organization/Eer.Sor.IO-AAR-Kommune.311000016009)
-* type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#SI
-* type[SOR-Hierarchy].coding.system = $EerMessagingOrganizationType
+//* type[SOR-Hierarchy].coding.code = $EerMessagingOrganizationType#
+* type[SOR-Hierarchy].coding.code = $EerSorOrganizationTypeCS#SI
+//* type[SOR-Hierarchy].coding.system = $EerMessagingOrganizationType
+* type[SOR-Hierarchy].coding.system = $EerSorOrganizationTypeCS
