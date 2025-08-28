@@ -2,7 +2,7 @@ Instance: EER.SOR-OU.01
 InstanceOf: EerMessagingOrganization
 Description: "An example of an SOR OU Organization."
 * id = "EER.SOR-OU.01"
-* identifier[SOR-ID].value = "EER.SOR-OU.01"
+* identifier[SOR-ID].value = "000000000010101"
 * identifier[SOR-ID].type = $EerMessagingOrganizationIdentierType#SORID
 * identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
 * name = "EER.SOR-OU-Organization"
