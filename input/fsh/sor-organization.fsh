@@ -3,7 +3,8 @@ Parent:       MCSDOrganization
 Id:           Eer.Messaging.Organization
 Title:        "EerMessagingOrganization"
 Description:  """ EerMessagingOrganization """
-//* meta.profile = "http://hl7.dk/fhir/core/StructureDefinition/dk-core-organization"
+* ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-imposeProfile"
+* ^extension[=].valueCanonical = "http://hl7.dk/fhir/core/StructureDefinition/dk-core-organization|3.3.0"
 * identifier 1..
   * ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = "system"
