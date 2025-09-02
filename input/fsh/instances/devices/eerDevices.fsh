@@ -33,14 +33,14 @@ Description: "EerDeviceMSH-MultiMedMSH"
 * deviceName.type = #manufacturer-name
 * manufacturer = "MultiMed"
 
-Instance: EerDeviceMSH-NovaxEUA
+Instance: EerDeviceMSH-EGClineaEUA
 InstanceOf: EerDeviceEUA
-Description: "EerDeviceEUA-NovaxEUA"
-* identifier.value = "EerDeviceEUA-NovaxEUA"
+Description: "EerDeviceEUA-EGClineaEUA"
+* identifier.value = "EerDeviceEUA-EGClineaEUA"
 //* definition = Reference("http://medcomehmi.dk/ig/eer/StructureDefinition/EerDeviceDefinitionEUA")
 * definition = Reference(EerDeviceDefinition4EUA)
 * status = #active
-* deviceName.name = "NovaxEUA"
+* deviceName.name = "EGClineaEUA"
 * deviceName.type = #manufacturer-name
 * manufacturer = "Novax"
 
