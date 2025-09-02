@@ -31,7 +31,7 @@ Description:  """ EerMessagingOrganization """
 //* identifier[MunicipalityCode].type from $EerMessagingOrganizationIdentierTypeVS
 //* identifier[MunicipalityCode].system = $EerSorMunicipalityCode
 * type ^slicing.discriminator.type = #value
-  * ^slicing.discriminator.path = coding.code
+  * ^slicing.discriminator.path = coding.system
   * ^slicing.rules = #open //#closed eller #open 
 * type contains
     SOR-Hierarchy 1..1 MS SU 
@@ -39,10 +39,9 @@ Description:  """ EerMessagingOrganization """
 //    and EerMessagingOrganizationType 0..1 MS SU 
 //    and EerSorOrganizationType 0..1 MS SU
 //* type[SOR-Hierarchy].coding.code from $EerMessagingOrganizationTypeVS
-////* type[SOR-Hierarchy].coding.system = $EerMessagingOrganizationType
+//* type[SOR-Hierarchy].coding.system = $EerMessagingOrganizationType
 * type[SOR-Hierarchy].coding.system = $EerSorOrganizationTypeCS
 * type[SOR-Hierarchy].coding.code from $EerSorOrganizationTypeVS
-* type[SOR-Hierarchy].coding.system = $EerSorOrganizationTypeCS
 * type[SOR-UnitType].coding.code from $EerSorUnitTypeVS
 * type[SOR-UnitType].coding.system = $EerSorUnitType
 //* type[EerMessagingOrganizationType].coding.code from $EerMessagingOrganizationTypeVS
