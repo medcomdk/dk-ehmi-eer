@@ -28,16 +28,12 @@ dependencies:
   ihe.iti.mcsd: 3.9.0
   hl7.fhir.dk.core: 3.3.0
   medcom.fhir.dk.core: 2.4.0
-  medcom.fhir.dk.messaging: dev #3.0.0
-  medcom.fhir.dk.terminology: 1.8.0
+  medcom.fhir.dk.messaging: 3.0.0
+  medcom.fhir.dk.terminology: 1.8.1
   dk.ehmi.terminology: dev #1.0.0
-  hl7.fhir.uv.extensions.r4: 5.2.0
+  #hl7.fhir.uv.extensions.r4: 5.2.0
   # dk.ehmi.core: current
-  # medcom.fhir.dk.core: 2.4.0
-  # medcom.fhir.dk.messaging: 2.2.0
-  # medcom.fhir.dk.terminology: 1.7.0
-  # medcom.fhir.dk.acknowledgement: dev
-#  hl7.terminology.r4: 5.5.0
+  # hl7.terminology.r4: 5.5.0
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in
