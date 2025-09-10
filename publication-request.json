@@ -1,14 +1,15 @@
 {
     "package-id": "dk.ehmi.eer",
-    "version": "1.0.0",
-    "path": "http://medcomehmi.dk/ig/eer/1.0.0",
-    "status": "release",
-    "sequence": "Release",
-    "first" : true,
-    "ci-build" : "https://build.fhir.org/ig/medcomdk/dk-ehmi-eer",
-    "milestone" : true,
-    "title": "DK EER Endpoint Register (EER)",
-    "category": "EHMI",
-    "introduction": "DK EER Endpoint Register (EER)",
-    "descmd": "@release-notes.md"
+    "version": "1.0.0-draft",
+    "path": "http://medcomehmi.dk/ig/eer/1.0.0-draft",
+    "status": "draft",
+    "sequence": "Release 1.x.x",
+    "mode": "milestone",
+    "ci-build" : "http://build.fhir.org/ig/medcomdk/dk-ehmi-eer",
+    "title": "DK EHMI Endpoint Register (EER)",
+    "category": "Infrastructure",
+    "introduction": "DK EHMI Endpoint Register (EER)",
+    "desc": "Draft release to get started with development. Not a final release. Breaking changes may occur without the semantic versioning representing it.",
+    "descmd": "@release-notes.md",
+    "first": true
 }
