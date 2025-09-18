@@ -2,6 +2,7 @@ Profile: EerDevice
 Parent: Device
 Title: "EER Device - General"
 Description: "An EHMI profile of the Device resource."
+* ^abstract = true
 * udiCarrier 0..0 
 * identifier 1..1 MS
 * definition 1..1 MS

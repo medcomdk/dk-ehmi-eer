@@ -2,8 +2,10 @@ Profile: EerDeviceDefinition
 Parent: DeviceDefinition
 Title: "EER DeviceDefinition"
 Description: "An EER profile of the DeviceDefinition resource."
+* ^abstract = true
 * identifier 0..1 MS 
 * udiDeviceIdentifier 0..0
+* type.coding.system = $EerDeviceTypeCS
 * type from $EerDeviceTypeVS 
 * type 1..1 MS 
 
@@ -15,6 +17,7 @@ Description: "An EerDeviceDefinition-AP profile of the EerDeviceDefinition resou
 
 Instance: EerDeviceDefinition4AP
 InstanceOf: EerDeviceDefinitionAP
+Description: "An EerDeviceDefinition-AP instance of the EerDeviceDefinition-AP resource."
 * identifier.value = "EerDeviceDefinition4AP"
 
 Profile: EerDeviceDefinitionMSH
@@ -25,6 +28,7 @@ Description: "An EerDeviceDefinition-MSH profile of the EerDeviceDefinition reso
 
 Instance: EerDeviceDefinition4MSH
 InstanceOf: EerDeviceDefinitionMSH
+Description: "An EerDeviceDefinition-MSH instance of the EerDeviceDefinition-MSH resource."
 * identifier.value = "EerDeviceDefinition4MSH"
 
 Profile: EerDeviceDefinitionEUA
@@ -35,6 +39,7 @@ Description: "An EerDeviceDefinition-EUA profile of the EerDeviceDefinition reso
 
 Instance: EerDeviceDefinition4EUA
 InstanceOf: EerDeviceDefinitionEUA
+Description: "An EerDeviceDefinition-EUA instance of the EerDeviceDefinition-EUA resource."
 * identifier.value = "EerDeviceDefinition4EUA"
 
 /*

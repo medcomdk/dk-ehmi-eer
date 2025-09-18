@@ -16,14 +16,6 @@ All registrations for EHMI Core in version 1.0 will most likely be posted manual
 
 <br>
 
-**EHMI Addressing Service**
-- getReceiverDataBySORID
-  - This means that a search for Receiver Data will be a search for an organization where 
-      - the input parameter will be a SORID 
-      - the output will be an Organization ressource with its corresponding Endpoint
-
-<br>
-
 **EHMI Delivery Status**
 - registration of reporting Devices for a "station", EDS Client, in the messageflow.
 - getting data for reporting Devices in the messageflow.

@@ -1,14 +1,10 @@
 {
     "package-id": "dk.ehmi.eer",
-    "version": "1.0.0",
-    "path": "http://medcomehmi.dk/ig/eer/1.0.0",
-    "status": "release",
-    "sequence": "Release",
-    "first" : true,
-    "ci-build" : "https://build.fhir.org/ig/medcomdk/dk-ehmi-eer",
-    "milestone" : true,
-    "title": "DK EER Endpoint Register (EER)",
-    "category": "EHMI",
-    "introduction": "DK EER Endpoint Register (EER)",
-    "descmd": "@release-notes.md"
+    "version": "1.0.0-draft",
+    "path": "http://medcomehmi.dk/ig/eer/1.0.0-draft",
+    "status": "ci-build",
+    "sequence": "Release 1.x.x",
+    "mode": "milestone",
+    "descmd": "@release-notes.md",
+    "desc": "Updated dependencies and defined the GetEERReceiverDataBySORId operation"
 }
