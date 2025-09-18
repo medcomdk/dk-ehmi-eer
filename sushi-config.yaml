@@ -7,7 +7,7 @@ status: draft # draft | active | retired | unknown
 version: 1.0.0-draft
 fhirVersion: 4.0.1
 copyrightYear: 2025+
-releaseLabel: draft # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 jurisdiction: urn:iso:std:iso:3166#DK "Denmark"
 publisher:
   name: MedCom
@@ -16,12 +16,11 @@ publisher:
 
 dependencies:
   ihe.iti.mcsd: 3.9.0
-  hl7.fhir.dk.core: 3.3.0
+  hl7.fhir.dk.core: 3.4.0
   medcom.fhir.dk.core: 2.4.0
   medcom.fhir.dk.messaging: 3.0.0
   medcom.fhir.dk.terminology: 1.8.1
-  dk.ehmi.terminology: 1.0.0-draft
-  hl7.fhir.uv.extensions.r4: 5.2.0
+  dk.ehmi.terminology: 1.0.1-draft
 
 menu:
   Home: index.html

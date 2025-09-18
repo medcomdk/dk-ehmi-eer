@@ -14,5 +14,5 @@ Description: "AAR EerEndpointMessagingEdeliveryFhir."
 * extension[networkSupplySystem].valueReference = Reference(EerDeviceAP-MultiMedAP)
 * payloadMimeType[0] = #application/fhir+xml
 * payloadMimeType[+] = #application/fhir+json
-* payloadType[0] = $EhmiMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:2.0
+* payloadType[0] = $EhmiMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:1.1
 * payloadType[+] = $EhmiMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0
