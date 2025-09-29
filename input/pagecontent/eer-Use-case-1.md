@@ -1,4 +1,4 @@
-# Get Device metadata by DeviceID
+## Get Device metadata by DeviceID
 
 A MSH or AP calls EER to retrieve the necessary Device metadata information for its own use to handle the data required by EDS DeliveryStatus registrations. The data is pretty static, so it's possible to store this locally and save the infrastructure for too many calls on this.
 
@@ -25,7 +25,7 @@ This use case is conforming to this OperationDefinition:
 
     http://medcomehmi.dk/ig/eer/StructureDefinition/EerDevice
 
-# Error use cases for EER use case 1
+## Error use cases for EER use case 1
 
 - error use case 4a - EerDevice-Information does not exist
 

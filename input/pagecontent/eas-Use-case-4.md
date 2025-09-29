@@ -1,4 +1,4 @@
-# Get Receiver metadata by SORID
+## Get Receiver metadata by SORID
 
 An End User Application, EUA, calls EAS to retrieve the necessary message address metadata information for a potential receiver of a message. The sequence diagram for this is as follows:
 
@@ -25,7 +25,7 @@ This use case is conforming to this OperationDefinition:
 
     http://medcomehmi.dk/ig/eer/StructureDefinition/EerMessagingOrganization
 
-# Error use cases for EAS use case 1
+## Error use cases for EAS use case 1
 
 - error use case 4a - SOR-Information does not exist
 

@@ -5,40 +5,40 @@ The EER Endpoint Register (EER) Profile supports RESTful queries across related 
 This version of the profile supports registration of and querying for the following use cases:
 
 **EHMI Core**
-- Registration of communicating SOR Organizational units
-- Registration of Endpoints correlating with a SOR organizational unit
+- Registration of communicating SOR Organizational units.
+- Registration of Endpoints correlating with a SOR Organizational unit.
 
   **ehmiSMP**
-    - registration of eDelivery Access Points (AP) as Devices for a SOR organizational unit and its EHMI Endpoint
-    - registration of SMP metadata for the SMP lookup service for certain messages (documents) for a given EHMI Endpoint
+    - Registration of eDelivery Access Points (AP) as Devices for a SOR Organizational unit and its EHMI Endpoint.
+    - Registration of SMP metadata for the SMP lookup service for certain messages (documents) for a given EHMI Endpoint.
 
 All registrations for EHMI Core in version 1.0 will most likely be posted manually by MedCom.
 
 <br>
 
 **EHMI Delivery Status**
-- registration of reporting Devices for a "station", EDS Client, in the messageflow.
-- getting data for reporting Devices in the messageflow.
+- Registration of reporting Devices for a "station", EDS Client, in the messageflow.
+- Getting data for reporting Devices in the messageflow.
 
 All registrations for Devices used by EDS in version 1.0 will most likely be posted manually by MedCom.
 
 <br>
 
-## Relationship with and scoping to IHE MCSD
+## Relationship with and scoping to IHE mCSD
 
 The profile is based upon and inspired by the IHE mCSD profile and the use cases and solutions using mCSD are outlined in the [mCSD White Paper](https://profiles.ihe.net/ITI/papers/mCSD/index.html).
 
-Currently supported profiles of the IE MSCD profiles stated in [1:46 Mobile Care Services Discovery (mCSD)](https://profiles.ihe.net/ITI/mCSD/volume-1.html#1-46-mobile-care-services-discovery-mcsd) are:
+Currently supported profiles of the IHE mCSD profiles stated in [1:46 Mobile Care Services Discovery (mCSD)](https://profiles.ihe.net/ITI/mCSD/volume-1.html#1-46-mobile-care-services-discovery-mCSD) are:
 
 **1. Organization**
 
-Organizations are “umbrella” entities; these may be considered the administrative bodies under whose auspices care services are provided such as Healthcare Information Exchanges(HIEs), Integrated Delivery Networks (IDNs), Non-Government Organizations (NGOs), Faith-Based Organizations (FBOs) or even a one-physician family practice. An organization has a unique identifier and may have additional administrative attributes such as contact person, mailing address, etc. Departments of an institution, or other administrative units, may be represented as child Organizations of a parent Organization.
+Organizations are “umbrella” entities; these may be considered the administrative bodies under whose auspices care services are provided such as Healthcare Information Exchanges (HIEs), Integrated Delivery Networks (IDNs), Non-Government Organizations (NGOs), Faith-Based Organizations (FBOs) or even a one-physician family practice. An organization has a unique identifier and may have additional administrative attributes such as contact person, mailing address, etc. Departments of an institution, or other administrative units, may be represented as child Organizations of a parent Organization.
 
 **7. Endpoint**
 
 An Organization may be reachable for electronic data exchange through electronic Endpoint(s). An Endpoint may be a FHIR server, an IHE web services actor, or some other mechanism. If an Organization does not have an Endpoint, it may still be reachable via an Endpoint at its parent Organization or an affiliated Organization.
 
-**Other MCSD Profiles**
+**Other mCSD Profiles**
 
 Other profiles like the following will be considered supported in the coming versions of EER.
 
@@ -52,7 +52,7 @@ Other profiles like the following will be considered supported in the coming ver
 <!--
 ## EER actors and transactions
 
-EER will support the following MCSD actors and their transactions in this version:
+EER will support the following mCSD actors and their transactions in this version:
 
 Table 1: EER Profile - Actors and Transactions
 
@@ -66,16 +66,16 @@ Table 1: EER Profile - Actors and Transactions
 While Consumer Actors (clients) will implement the Initiator transactions, EER as a Supplier Actor will implement the Responder transactions.
 -->
 
-## EER enhancements of MCSD
+## EER enhancements of mCSD
 
-While MCSD is a great framework for an organizational directory of healthcare providers, it lacks a few things to be able to replace part of the Danish SOR Directory.
+While mCSD is a great framework for an organizational directory of healthcare providers, it lacks a few things to be able to replace part of the Danish SOR Directory.
 
 SOR includes:
 
 - software solutions (in FHIR: Devices) for the organizational units both as the direct end-user application (EUA) and the network access points (AP) serving a particular organizational unit
 - messages supported by the Endpoints
 
-EER enheances MCSD with what SOR includes and adds furthermore:
+EER enheances mCSD with what SOR includes and adds furthermore:
 
 - Devices and their corresponding DeviceDefinitions
   - eerDevice and its derivations:

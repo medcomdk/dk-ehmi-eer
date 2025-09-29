@@ -4,7 +4,7 @@
 # (And include comments like this justifying why)
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
 
-# SOR system definition cannaot be found
+# SOR system definition cannot be found
 %No definition could be found for URL value 'urn:oid:1.2.208.176.1.1'
 %No definition could be found for URL value 'https://www.gs1.org/gln'
 
