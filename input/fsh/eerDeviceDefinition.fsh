@@ -5,8 +5,7 @@ Description: "An EER profile of the DeviceDefinition resource."
 * ^abstract = true
 * identifier 0..1 MS 
 * udiDeviceIdentifier 0..0
-* type.coding.system = $EerDeviceTypeCS
-* type from $EerDeviceTypeVS 
+* type from $EerDeviceTypeVS
 * type 1..1 MS 
 
 Profile: EerDeviceDefinitionAP
