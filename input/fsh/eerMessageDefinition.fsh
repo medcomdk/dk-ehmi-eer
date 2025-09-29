@@ -12,7 +12,6 @@ Description: "A profile of the MessageDefinition resource."
 * identifier.period.end 0..1 MS SU
 * identifier.type from $EerMedComMessageDefinitionTypeVS
 * identifier.type 1..1 MS SU
-* identifier.type.coding.system = $EerMedComMessageDefinitionType
 * identifier.use 1..1 MS SU
 * identifier.value 1..1 MS SU
 * version 1..1 MS SU
@@ -52,7 +51,6 @@ Description: "A profile of the MessageDefinition resource."
 //* useContext 1..1 MS SU
 //* Message Context
 //* useContext.code.system from http://terminology.hl7.org/CodeSystem/usage-context-type
-* useContext.code.system = $EerUsageContextCodeSystem
 * useContext.code from $EerUsageContextCodeSystemVS
 * jurisdiction 1..1 MS SU
 * jurisdiction = #DK
