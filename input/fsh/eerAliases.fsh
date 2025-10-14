@@ -33,18 +33,12 @@ Alias: $EerMessageDefinitionIdentifierSystemVS = http://medcomehmi.dk/ig/termino
 Alias: $EerEndpointPayloadType = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-payload-type
 Alias: $EerEndpointPayloadTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/ehmi-payload-type-valueset
 
-//Alias: $EerMessagingOrganizationType = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-sor-organization-type
-//Alias: $EerMessagingOrganizationTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/eer-sor-organization-type-valueset
 Alias: $EerMessagingOrganizationType = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-sor-organization-type
 Alias: $EerMessagingOrganizationTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/eer-sor-organization-type-valueset
 
-//Alias: $EerSorOrganizationTypeCS = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-sor-organization-type
-//Alias: $EerSorOrganizationTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/eer-sor-organization-type-valueset
 Alias: $EerSorOrganizationTypeCS = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-sor-organization-type
 Alias: $EerSorOrganizationTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/eer-sor-organization-type-valueset
 
-//Alias: $EhmiMessageDefinitionUri = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-message-definition-uri
-//Alias: $EhmiMessageDefinitionUriVS = http://medcomehmi.dk/ig/terminology/ValueSet/ehmi-message-definition-uri-valueset
 Alias: $EhmiMessageDefinitionUri = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-message-definition-uri
 Alias: $EhmiMessageDefinitionUriVS = http://medcomehmi.dk/ig/terminology/ValueSet/ehmi-message-definition-uri-valueset
 
@@ -57,7 +51,6 @@ Alias: $EerSorUnitTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/eer-sor-
 Alias: $EerSorClinicalAdministrativeHierarchy = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-sor-clinical-administrative-hierarchy
 Alias: $EerSorClinicalAdministrativeHierarchyVS = http://medcomehmi.dk/ig/terminology/ValueSet/eer-sor-clinical-administrative-hierarchy-valueset
 
-//Alias: $EerSorMunicipalityCode = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-sor-municipality-type
 Alias: $EerSorMunicipalityCode = http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes
 Alias: $EerSorMunicipalityCodeVS = http://hl7.dk/fhir/core/ValueSet/dk-core-MunicipalityCodes
 
