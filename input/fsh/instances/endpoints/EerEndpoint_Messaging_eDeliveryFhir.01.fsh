@@ -3,6 +3,7 @@ InstanceOf: EerEndpointMessagingEdeliveryFhir
 Description: "An example of an EerEndpointMessagingEdeliveryFhir."
 * id = "EerEndpoint-Messaging-eDeliveryFhir.01"
 * identifier.value = "EerEndpoint-Messaging-eDeliveryFhir.01"
+//* identifier.use = "official"
 * status = #active
 * managingOrganization = Reference(Organization/EER.SOR-HI.01)
 * period.start = "2023-01-01"
