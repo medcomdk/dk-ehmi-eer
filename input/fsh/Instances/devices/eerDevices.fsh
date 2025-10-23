@@ -3,7 +3,7 @@ InstanceOf: EerDeviceAP
 Description: "EerDeviceAP-MultiMedAP"
 * id = "EerDeviceAP-MultiMedAP"
 * identifier.value = "EerDeviceAP-MultiMedAP"
-* definition = Reference(EerDeviceDefinition4AP)
+* definition = Reference(EerDeviceDefinitionAP)
 * status = #active
 * deviceName.name = "MultiMedAP"
 * deviceName.type = #manufacturer-name
@@ -14,7 +14,7 @@ InstanceOf: EerDeviceAP
 Description: "EerDeviceAP-KvalitetsItAP"
 * id = "EerDeviceAP-KvalitetsItAP"
 * identifier.value = "EerDeviceAP-KvalitetsItAP"
-* definition = Reference(EerDeviceDefinition4AP)
+* definition = Reference(EerDeviceDefinitionAP)
 * status = #active
 * deviceName.name = "BizKitAP"
 * deviceName.type = #manufacturer-name
@@ -24,7 +24,7 @@ Instance: EerDeviceMSH-MultiMedMSH
 InstanceOf: EerDeviceMSH
 Description: "EerDeviceMSH-MultiMedMSH"
 * identifier.value = "EerDeviceMSH-MultiMedMSH"
-* definition = Reference(EerDeviceDefinition4MSH)
+* definition = Reference(EerDeviceDefinitionMSH)
 * status = #active
 * deviceName.name = "MultiMedMSH"
 * deviceName.type = #manufacturer-name
@@ -34,7 +34,7 @@ Instance: EerDeviceMSH-EGClineaEUA
 InstanceOf: EerDeviceEUA
 Description: "EerDeviceEUA-EGClineaEUA"
 * identifier.value = "EerDeviceEUA-EGClineaEUA"
-* definition = Reference(EerDeviceDefinition4EUA)
+* definition = Reference(EerDeviceDefinitionEUA)
 * status = #active
 * deviceName.name = "EGClineaEUA"
 * deviceName.type = #manufacturer-name
@@ -44,7 +44,7 @@ Instance: EerDeviceMSH-SystematicMSH
 InstanceOf: EerDeviceMSH
 Description: "EerDeviceMSH-SystematicMSH"
 * identifier.value = "EerDeviceMSH-SystematicMSH"
-* definition = Reference(EerDeviceDefinition4MSH)
+* definition = Reference(EerDeviceDefinitionMSH)
 * status = #active
 * deviceName.name = "SystematicMSH"
 * deviceName.type = #manufacturer-name
@@ -54,8 +54,26 @@ Instance: EerDeviceMSH-SystematicCura
 InstanceOf: EerDeviceEUA
 Description: "EerDeviceEUA-SystematicCura"
 * identifier.value = "EerDeviceEUA-SystematicCura"
-* definition = Reference(EerDeviceDefinition4EUA)
+* definition = Reference(EerDeviceDefinitionEUA)
 * status = #active
 * deviceName.name = "Systematic Cura"
 * deviceName.type = #manufacturer-name
 * manufacturer = "Systematic"
+
+Instance: EerDeviceDefinitionAP
+InstanceOf: EerDeviceDefinition
+Description: "An EerDeviceDefinition-AP instance of the EerDeviceDefinition-AP resource."
+* identifier.value = "EerDeviceDefinitionAP"
+* type = $EerDeviceTypeCS#AP "eDelivery Access Point"
+
+Instance: EerDeviceDefinitionMSH
+InstanceOf: EerDeviceDefinition
+Description: "An EerDeviceDefinition-MSH instance of the EerDeviceDefinition-MSH resource."
+* identifier.value = "EerDeviceDefinitionMSH"
+* type = $EerDeviceTypeCS#MSH "Message Service Handler"
+
+Instance: EerDeviceDefinitionEUA
+InstanceOf: EerDeviceDefinition
+Description: "An EerDeviceDefinition-EUA instance of the EerDeviceDefinition-EUA resource."
+* identifier.value = "EerDeviceDefinitionEUA"
+* type = $EerDeviceTypeCS#EUA "End User Application"
