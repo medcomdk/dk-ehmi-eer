@@ -1,0 +1,12 @@
+Instance: Eer.Sor.OU-AAR-Kommune.937971000016005
+InstanceOf: EerMessagingOrganization
+Description: "Sygehusadviser, AAR - SOR.OU-AAR-Kommune.937971000016005"
+* id = "Eer.Sor.OU-AAR-Kommune.937971000016005"
+* identifier[SOR-ID].type = $EerMessagingOrganizationIdentierType#SORID
+* identifier[SOR-ID].system = "urn:oid:1.2.208.176.1.1"
+* identifier[SOR-ID].value = "937971000016005"
+* name = "EER SOR OU AAR Kommune (937971000016005)"
+* type[SOR-Hierarchy].coding.code = $EerSorOrganizationTypeCS#OE
+* type[SOR-Hierarchy].coding.system = $EerSorOrganizationTypeCS
+* partOf = Reference(Organization/EER.SOR.HI-AAR-Kommune.937961000016000)
+* endpoint[+] = Reference(Endpoint/EerEndpoint-Messaging-AAR-eDeliveryFhir.5790000123117)

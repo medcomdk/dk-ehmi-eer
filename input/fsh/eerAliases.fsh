@@ -23,7 +23,6 @@ Alias: $EerAuditEventAgentWhoIdentifierTypesVS = http://medcomehmi.dk/ig/termino
 
 Alias: $mCSDEndpointConnectionType = http://hl7.org/fhir/R4/valueset-endpoint-connection-type.html
 
-
 Alias: $EerMessagingOrganizationIdentierType = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-sor-organization-identier-type
 Alias: $EerMessagingOrganizationIdentierTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/eer-sor-organization-identier-type-valueset
 
@@ -33,18 +32,12 @@ Alias: $EerMessageDefinitionIdentifierSystemVS = http://medcomehmi.dk/ig/termino
 Alias: $EerEndpointPayloadType = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-payload-type
 Alias: $EerEndpointPayloadTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/ehmi-payload-type-valueset
 
-//Alias: $EerMessagingOrganizationType = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-sor-organization-type
-//Alias: $EerMessagingOrganizationTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/eer-sor-organization-type-valueset
 Alias: $EerMessagingOrganizationType = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-sor-organization-type
 Alias: $EerMessagingOrganizationTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/eer-sor-organization-type-valueset
 
-//Alias: $EerSorOrganizationTypeCS = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-sor-organization-type
-//Alias: $EerSorOrganizationTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/eer-sor-organization-type-valueset
 Alias: $EerSorOrganizationTypeCS = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-sor-organization-type
 Alias: $EerSorOrganizationTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/eer-sor-organization-type-valueset
 
-//Alias: $EhmiMessageDefinitionUri = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-message-definition-uri
-//Alias: $EhmiMessageDefinitionUriVS = http://medcomehmi.dk/ig/terminology/ValueSet/ehmi-message-definition-uri-valueset
 Alias: $EhmiMessageDefinitionUri = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-message-definition-uri
 Alias: $EhmiMessageDefinitionUriVS = http://medcomehmi.dk/ig/terminology/ValueSet/ehmi-message-definition-uri-valueset
 
@@ -57,7 +50,6 @@ Alias: $EerSorUnitTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/eer-sor-
 Alias: $EerSorClinicalAdministrativeHierarchy = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-sor-clinical-administrative-hierarchy
 Alias: $EerSorClinicalAdministrativeHierarchyVS = http://medcomehmi.dk/ig/terminology/ValueSet/eer-sor-clinical-administrative-hierarchy-valueset
 
-//Alias: $EerSorMunicipalityCode = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-sor-municipality-type
 Alias: $EerSorMunicipalityCode = http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes
 Alias: $EerSorMunicipalityCodeVS = http://hl7.dk/fhir/core/ValueSet/dk-core-MunicipalityCodes
 
@@ -77,23 +69,5 @@ Alias: $EerMessagedefinitionIdentiferSystemVS = http://medcomehmi.dk/ig/terminol
 
 Alias: $EerEndpointConnectionTypeCS = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-endpoint-connection-type
 Alias: $EerEndpointConnectionTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/eer-endpoint-connection-type-valueset
-
-
-
-/*
-Alias: $StatusCodes = http://hl7.org/fhir/encounter-status
-Alias: $ActCodes = http://terminology.hl7.org/CodeSystem/v3-ActCode 
-Alias: $EventStatus = http://hl7.org/fhir/event-status
-Alias: $CategoryCodes = http://medcomfhir.dk/fhir/carecommunication/CodeSystem/medcom-careCommunication-categoryCodes
-Alias: $ServerityCode = http://hl7.org/fhir/issue-severity
-Alias: $CodeCode = http://hl7.org/fhir/issue-type
-Alias: $AcknowledgementCode = http://hl7.org/fhir/ValueSet/Acknowledgement-code
-Alias: $BundleType = http://hl7.org/fhir/bundle-type
-Alias: $Use = http://medcomfhir.dk/fhir/messaging/CodeSystem/medcom-messaging-destinationUse
-Alias: $MessageEvents = http://medcomfhir.dk/fhir/messaging/CodeSystem/medcom-messaging-eventCodes
-Alias: $SORCode = urn:oid:1.2.208.176.1.1
-Alias: $EANCode = urn:oid:1.3.88
-Alias: $activityCodes = http://medcomfhir.dk/fhir/messaging/CodeSystem/medcom-messaging-activityCodes
-*/
 
 Alias: $EerMessagingOrganizationIdentierSystem = urn:oid:1.2.208.176.1.1
