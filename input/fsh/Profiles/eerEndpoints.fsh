@@ -27,7 +27,7 @@ An Endpoint may be a eDelivery receiver or a vans receiver (or in the future a F
 mechanism).
 """
 * identifier 1..1 MS SU
-* identifier.system = "https://www.gs1.org/gln" //$EerAuditEventAgentWhoIdentifierTypes
+* identifier.system = "http://www.gs1.org/gln" //$EerAuditEventAgentWhoIdentifierTypes
 * identifier.type = $EerAuditEventAgentWhoIdentifierTypes#GLN
 * identifier.value 1..1 MS SU
 * managingOrganization only Reference(EerMessagingOrganization)
