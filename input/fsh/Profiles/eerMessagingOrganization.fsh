@@ -31,11 +31,3 @@ Description:  """ EerMessagingOrganization """
 * extension contains eer-dk-msh-system-extension named msh-system 0..* MS 
 * endpoint 0..*
 * endpoint only Reference(EerEndpointMessagingEdelivery)
-
-Profile:      EerCoreOrganization
-Parent:       EerMessagingOrganization
-Id:           Eer.core.Organization
-Title:        "EER Core Organization"
-Description:  """ EER Core Organization"""
-* partOf 0..0
-* endpoint 0..0
