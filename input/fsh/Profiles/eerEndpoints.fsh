@@ -27,7 +27,7 @@ An Endpoint may be a eDelivery receiver or a vans receiver (or in the future a F
 mechanism).
 """
 * identifier 1..1 MS SU
-* identifier.system = "https://www.gs1.org/gln" //$EerAuditEventAgentWhoIdentifierTypes
+* identifier.system = "http://www.gs1.org/gln" //$EerAuditEventAgentWhoIdentifierTypes
 * identifier.type = $EerAuditEventAgentWhoIdentifierTypes#GLN
 * identifier.value 1..1 MS SU
 * managingOrganization only Reference(EerMessagingOrganization)
@@ -37,7 +37,7 @@ mechanism).
 * payloadType 1..* MS SU
 * payloadMimeType 1..* MS SU
 * extension contains eer-dk-msh-system-extension named msh-system 0..* MS 
-* extension contains eer-dk-network-supply-system-extension named networkSupplySystem 0..* MS 
+* extension contains eer-dk-ap-system-extension named ap-system 0..* MS 
 
 Profile:      EerEndpointMessagingEdelivery
 Parent:       EerEndpointMessaging
