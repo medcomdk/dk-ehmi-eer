@@ -15,10 +15,8 @@ This is equivalent to the SOR-element"
 * value[x] 0.. 
 * value[x] only Reference(EerDevice) 
 
-// TODO: Why is this naming so confusing instead of just called it AP? If we decice to rename it we also need 
-// TODO: rename the slice in the profiles they are used
-Extension: EerCoreNetworkSupplySystemExtension
-Id: eer-dk-network-supply-system-extension
+Extension: EerAPSystemExtension
+Id: eer-dk-ap-system-extension
 Title: "EER System Extension - AP"
 Description: "Reference to a Device that is used to specify one or more systems which an Endpoint uses"
 * value[x] 0.. 
