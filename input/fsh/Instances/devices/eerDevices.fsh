@@ -1,3 +1,4 @@
+// TODO: All these need the type element, such as "EUA" for EerDeviceEUA
 Instance: EerDeviceAP-MultiMedAP
 InstanceOf: EerDeviceAP
 Description: "EerDeviceAP-MultiMedAP"
@@ -8,6 +9,13 @@ Description: "EerDeviceAP-MultiMedAP"
 * deviceName.name = "MultiMedAP"
 * deviceName.type = #manufacturer-name
 * manufacturer = "MultiMed"
+// TODO: Currently we will then have the type both in the EerDeviceDefinition and the EerDevice instances, is that ok?
+// There are instances where you can have two different types in the definition and the instance.. That shouldn't be allowed if we keep it both places, then we need an invariant
+// actually what does the devicedefinition do? It does nothing currently.
+// the device type definition is a sort of categorization of devices. Do we need that? 
+// TODO: I'm going to suggest to just delete the DeviceDefinition entirely
+// KISS, keep it simple stupid
+* type = $EerDeviceTypeCS#AP "eDelivery Access Point"
 
 Instance: EerDeviceAP-KvalitetsItAP
 InstanceOf: EerDeviceAP
