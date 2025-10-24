@@ -8,14 +8,18 @@ Description: "An example instance of the EER Messaging Organization with a requi
 * identifier[SOR-ID].value = "543210987654321"
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationTypeCS#OU
 * type[SOR-Hierarchy].coding.system = $EerSorOrganizationTypeCS
-* telecom[0].system = #phone
-* telecom[0].value = "+123456789"
-* telecom[1].system = #email
-* telecom[1].value = "info@example.org"
-* address[0].line = "123 Example Street"
-* address[0].city = "Example City"
-* address[0].postalCode = "12345"
-* endpoint[0].reference = "Endpoint/example-endpoint"
+* telecom[+]
+  * system = #phone
+  * value = "+123456789"
+* telecom[+]
+  * system = #email
+  * value = "info@example.org"
+* address[+]
+  * line = "123 Example Street"
+  * city = "Example City"
+  * postalCode = "12345"
+* endpoint[+]
+  * reference = "Endpoint/example-endpoint"
 
 Instance: ExampleEndpoint
 InstanceOf: EerEndpointMessagingEdelivery
@@ -28,7 +32,7 @@ Description: "An example endpoint for the EER Messaging Organization."
 * connectionType.code = #EerMessagingEdelivery
 * name = "Example FHIR Endpoint"
 * managingOrganization.reference = "Organization/example-eer-messaging-organization"
-* address = "https://example.org/fhir"
+* address.value = "https://example.org/fhir"
 * payloadMimeType[+] = #text/xml
 * payloadMimeType[+] = #application/fhir+xml
 * payloadMimeType[+] = #application/fhir+json
