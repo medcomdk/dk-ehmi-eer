@@ -1,10 +1,9 @@
 Instance: EerEndpoint-Messaging-AAR-eDeliveryFhir.5790002508226
-InstanceOf: EerEndpointMessagingEdeliveryFhir
-Description: "AAR EerEndpointMessagingEdeliveryFhir."
+InstanceOf: EerEndpointMessaging
+Description: "AAR EerEndpointMessaging eDelivery FHIR"
 * id = "EerEndpoint-Messaging-AAR-eDeliveryFhir.01"
-* identifier.value = "5790002508226"
-* identifier.system = "https://www.gs1.org/gln" //$EerAuditEventAgentWhoIdentifierTypes
-* identifier.type = $EerAuditEventAgentWhoIdentifierTypes#GLN
+* connectionType = $EerEndpointConnectionTypeCS#eerMessagingEdeliveryFhir
+* identifier[GLN-ID].value = "5790002508226"
 * status = #active
 * managingOrganization = Reference(Organization/Eer.Sor.IO-AAR-Kommune.311000016009)
 * period.start = "2023-01-01"
