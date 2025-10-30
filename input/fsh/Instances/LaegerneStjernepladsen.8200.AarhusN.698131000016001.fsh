@@ -37,11 +37,11 @@ Description: "EER Messaging Organization - LaegerneStjernepladsen.8200.AarhusN.6
 * endpoint[+] = Reference(Endpoint/LaegerneStjernepladsen.8200.AarhusN.5790002401428)
 
 Instance: LaegerneStjernepladsen.8200.AarhusN.5790002401428
-InstanceOf: EerEndpointMessagingEdelivery
+InstanceOf: EerEndpointMessaging
 Title: "EER Messaging Endpoint - LaegerneStjernepladsen.8200.AarhusN.5790002401428"
 Description: "EER Messaging Endpoint - LaegerneStjernepladsen.8200.AarhusN.5790002401428"
 * id = "LaegerneStjernepladsen.8200.AarhusN.5790002401428"
-* identifier.value = "5790002401428"
+* identifier[GLN-ID].value = "5790002401428"
 * status = #active
 * period.start = "2025-01-01"
 * connectionType.code = #EerMessagingEdelivery

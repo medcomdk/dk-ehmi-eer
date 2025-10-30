@@ -18,14 +18,14 @@ Description: "An example instance of the EER Messaging Organization with a requi
 * endpoint[0].reference = "Endpoint/example-endpoint"
 
 Instance: ExampleEndpoint
-InstanceOf: EerEndpointMessagingEdelivery
+InstanceOf: EerEndpointMessaging
 Title: "Example EER Messaging Endpoint"
 Description: "An example endpoint for the EER Messaging Organization."
 * id = "example-endpoint"
-* identifier.value = "543210987654321"
+* identifier[GLN-ID].value = "543210987654321"
 * status = #active
 * period.start = "2025-01-01"
-* connectionType.code = #EerMessagingEdelivery
+* connectionType = $EerEndpointConnectionTypeCS#EerMessagingEdelivery
 * name = "Example FHIR Endpoint"
 * managingOrganization.reference = "Organization/example-eer-messaging-organization"
 * address = "https://example.org/fhir"

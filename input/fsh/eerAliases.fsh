@@ -18,9 +18,6 @@ Alias: $AuditEventTypes = http://terminology.hl7.org/CodeSystem/audit-event-type
 Alias: $AuditEventTypes2 = http://dicom.nema.org/resources/ontology/DCM
 Alias: $EdsAuditEventEntityMessageType = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-auditevent-entity-message-type
 
-Alias: $EerAuditEventAgentWhoIdentifierTypes = http://medcomehmi.dk/ig/terminology/CodeSystem/ehmi-delivery-status-agent-who-identifier-types
-Alias: $EerAuditEventAgentWhoIdentifierTypesVS = http://medcomehmi.dk/ig/terminology/ValueSet/ehmi-delivery-status-agent-who-identifier-types-valueset
-
 Alias: $mCSDEndpointConnectionType = http://hl7.org/fhir/R4/valueset-endpoint-connection-type.html
 
 Alias: $EerMessagingOrganizationIdentierType = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-sor-organization-identier-type
