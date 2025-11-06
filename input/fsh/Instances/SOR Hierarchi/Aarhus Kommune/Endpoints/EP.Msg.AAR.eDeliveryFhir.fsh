@@ -9,7 +9,7 @@ Description: "AAR EerEndpointMessagingEdeliveryFhir."
 * managingOrganization = Reference(Organization/Eer.Sor.IO-AAR-Kommune.311000016009)
 * period.start = "2023-01-01"
 * period.end = "2024-01-01"
-* address = "http://eDeliveryAccessPoint.aar.dk/fhir"
+* address.value = "http://eDeliveryAccessPoint.aar.dk/fhir"
 * extension[ap-system].valueReference = Reference(EerDeviceAP-MultiMedAP)
 * payloadMimeType[0] = #application/fhir+xml
 * payloadMimeType[+] = #application/fhir+json
