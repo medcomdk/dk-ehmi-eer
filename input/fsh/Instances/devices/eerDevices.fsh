@@ -1,60 +1,58 @@
 Instance: EerDeviceAP-MultiMedAP
-InstanceOf: EerDeviceAP
+InstanceOf: EerDevice
 Description: "EerDeviceAP-MultiMedAP"
-* id = "EerDeviceAP-MultiMedAP"
 * identifier.value = "EerDeviceAP-MultiMedAP"
-* definition = Reference(EerDeviceDefinition4AP)
+* type = $EerDeviceTypeCS#AP "eDelivery Access Point"
 * status = #active
 * deviceName.name = "MultiMedAP"
 * deviceName.type = #manufacturer-name
 * manufacturer = "MultiMed"
 
 Instance: EerDeviceAP-KvalitetsItAP
-InstanceOf: EerDeviceAP
+InstanceOf: EerDevice
 Description: "EerDeviceAP-KvalitetsItAP"
-* id = "EerDeviceAP-KvalitetsItAP"
 * identifier.value = "EerDeviceAP-KvalitetsItAP"
-* definition = Reference(EerDeviceDefinition4AP)
+* type = $EerDeviceTypeCS#AP "eDelivery Access Point"
 * status = #active
 * deviceName.name = "BizKitAP"
 * deviceName.type = #manufacturer-name
 * manufacturer = "BizKit"
 
 Instance: EerDeviceMSH-MultiMedMSH
-InstanceOf: EerDeviceMSH
+InstanceOf: EerDevice
 Description: "EerDeviceMSH-MultiMedMSH"
 * identifier.value = "EerDeviceMSH-MultiMedMSH"
-* definition = Reference(EerDeviceDefinition4MSH)
+* type = $EerDeviceTypeCS#MSH "Message Service Handler"
 * status = #active
 * deviceName.name = "MultiMedMSH"
 * deviceName.type = #manufacturer-name
 * manufacturer = "MultiMed"
 
-Instance: EerDeviceMSH-EGClineaEUA
-InstanceOf: EerDeviceEUA
+Instance: EerDeviceEUA-EGClineaEUA
+InstanceOf: EerDevice
 Description: "EerDeviceEUA-EGClineaEUA"
 * identifier.value = "EerDeviceEUA-EGClineaEUA"
-* definition = Reference(EerDeviceDefinition4EUA)
+* type = $EerDeviceTypeCS#EUA "End User Application"
 * status = #active
 * deviceName.name = "EGClineaEUA"
 * deviceName.type = #manufacturer-name
 * manufacturer = "Novax"
 
 Instance: EerDeviceMSH-SystematicMSH
-InstanceOf: EerDeviceMSH
+InstanceOf: EerDevice
 Description: "EerDeviceMSH-SystematicMSH"
 * identifier.value = "EerDeviceMSH-SystematicMSH"
-* definition = Reference(EerDeviceDefinition4MSH)
+* type = $EerDeviceTypeCS#MSH "Message Service Handler"
 * status = #active
 * deviceName.name = "SystematicMSH"
 * deviceName.type = #manufacturer-name
 * manufacturer = "Systematic"
 
-Instance: EerDeviceMSH-SystematicCura
-InstanceOf: EerDeviceEUA
+Instance: EerDeviceEUA-SystematicCura
+InstanceOf: EerDevice
 Description: "EerDeviceEUA-SystematicCura"
 * identifier.value = "EerDeviceEUA-SystematicCura"
-* definition = Reference(EerDeviceDefinition4EUA)
+* type = $EerDeviceTypeCS#EUA "End User Application"
 * status = #active
 * deviceName.name = "Systematic Cura"
 * deviceName.type = #manufacturer-name
