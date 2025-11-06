@@ -8,7 +8,7 @@ Description: "An example of an EerEndpointMessaging supporting eDelivery FHIR."
 * managingOrganization = Reference(Organization/EER.SOR-HI.01)
 * period.start = "2023-01-01"
 * period.end = "2024-01-01"
-* address = "http://www.eDeliveryAccessPoint.dk/fhir"
+* address.value = "http://www.eDeliveryAccessPoint.dk/fhir"
 * payloadMimeType[+] = #text/xml
 * payloadMimeType[+] = #application/fhir+xml
 * payloadMimeType[+] = #application/fhir+json

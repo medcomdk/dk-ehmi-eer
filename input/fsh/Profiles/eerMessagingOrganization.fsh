@@ -3,7 +3,7 @@ Parent:       MCSDOrganization
 Id:           Eer.Messaging.Organization
 Title:        "EerMessagingOrganization"
 Description:  """ EerMessagingOrganization """
-* ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-imposeProfile"
+* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-imposeProfile"
 * ^extension[=].valueCanonical = "http://hl7.dk/fhir/core/StructureDefinition/dk-core-organization|3.4.0"
 * identifier 1..
   * ^slicing.discriminator.type = #value
@@ -30,12 +30,4 @@ Description:  """ EerMessagingOrganization """
 * extension contains eer-dk-eua-system-extension named eua-system 0..* MS 
 * extension contains eer-dk-msh-system-extension named msh-system 0..* MS 
 * endpoint 0..*
-* endpoint only Reference(EerEndpointMessaging)
-
-Profile:      EerCoreOrganization
-Parent:       EerMessagingOrganization
-Id:           Eer.core.Organization
-Title:        "EER Core Organization"
-Description:  """ EER Core Organization"""
-* partOf 0..0
-* endpoint 0..0
+* endpoint only Reference(EerEndpointMessagingEdelivery)
