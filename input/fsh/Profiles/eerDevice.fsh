@@ -18,7 +18,6 @@ Description: "An EHMI profile of the Device resource."
 * specialization 0..0
 * property 0..0
 * patient 0..0
-* contact 0..0
 * location 0..0
 * url 0..0
 * safety 0..0
