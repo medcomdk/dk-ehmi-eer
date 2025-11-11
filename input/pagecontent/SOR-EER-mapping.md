@@ -23,13 +23,13 @@ The following table gives and overview of how these messaging metadata are mappe
   <tr style="border: 1px solid black; border-collapse: collapse;">
     <td>SOR-EDI</td>
     <td>EER-Endpoint with MedCom MessageDefinitions as payloadType</td>
-    <td><a href="./StructureDefinition-eer.dk.endpoint.html">EER-Endpoint</a></td>
+    <td><a href="./StructureDefinition-eer.dk.endpoint.messaging.html">EER-Endpoint</a></td>
     <td>EER-Endpoint represents or hold relationsships to all metadata regarding an endpoint in EHMI. EER-Endpoint holds relationsships to all MedCom Messages through the references of payloadTypes (MedCom MessageDefinitions). A MedCom MessageDefinition is defined together with the FHIR Message Profile and is included in an IG</td>
   </tr>
   <tr style="border: 1px solid black; border-collapse: collapse;">
     <td>SOR-GLN (attribute)</td>
     <td>EER-Endpoint</td>
-    <td><a href="./StructureDefinition-eer.dk.endpoint.html">EER-Endpoint</a></td>
+    <td><a href="./StructureDefinition-eer.dk.endpoint.messaging.html">EER-Endpoint</a></td>
     <td>In EHMI messaging it will hold  SOR-GLN is now the primary identifier of an EER-Endpoint ressource</td>
   </tr>
   <tr style="border: 1px solid black; border-collapse: collapse;">

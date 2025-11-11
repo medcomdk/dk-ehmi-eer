@@ -44,11 +44,11 @@ Description: "EER Messaging Endpoint - LaegerneStjernepladsen.8200.AarhusN.57900
 * identifier[GLN-ID].value = "5790002401428"
 * status = #active
 * period.start = "2025-01-01"
-* connectionType.code = #EerMessagingEdelivery
+* connectionType.code = $EerEndpointConnectionTypeCS#EerMessagingEdelivery
 * name = "EER Messaging Endpoint - LaegerneStjernepladsen.8200.AarhusN.5790002401428 FHIR Endpoint"
 * managingOrganization.reference = "Organization/LaegerneStjernepladsen.8200.AarhusN.698131000016001"
 * extension[ap-system].valueReference = Reference(EerDeviceAP-MultiMedAP)
-* address.value = "https://example.org/fhir"
+* address = "https://example.org/fhir"
 * payloadMimeType[+] = #text/xml
 * payloadMimeType[+] = #application/fhir+xml
 * payloadMimeType[+] = #application/fhir+json

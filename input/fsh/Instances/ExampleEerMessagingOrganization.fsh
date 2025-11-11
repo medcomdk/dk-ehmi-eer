@@ -26,13 +26,13 @@ InstanceOf: EerEndpointMessaging
 Title: "Example EER Messaging Endpoint"
 Description: "An example endpoint for the EER Messaging Organization."
 * id = "example-endpoint"
-* identifier[GLN-ID].value = "543210987654321"
+* identifier[GLN-ID].value = "0000000000000"
 * status = #active
 * period.start = "2025-01-01"
 * connectionType = $EerEndpointConnectionTypeCS#EerMessagingEdelivery
 * name = "Example FHIR Endpoint"
 * managingOrganization.reference = "Organization/example-eer-messaging-organization"
-* address.value = "https://example.org/fhir"
+* address = "https://example.org/fhir"
 * payloadMimeType[+] = #text/xml
 * payloadMimeType[+] = #application/fhir+xml
 * payloadMimeType[+] = #application/fhir+json
