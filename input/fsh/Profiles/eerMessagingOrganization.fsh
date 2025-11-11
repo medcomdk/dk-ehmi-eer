@@ -30,4 +30,4 @@ Description:  """ EerMessagingOrganization """
 * extension contains eer-dk-eua-system-extension named eua-system 0..* MS 
 * extension contains eer-dk-msh-system-extension named msh-system 0..* MS 
 * endpoint 0..*
-* endpoint only Reference(EerEndpointMessagingEdelivery)
+* endpoint only Reference(EerEndpointMessaging)

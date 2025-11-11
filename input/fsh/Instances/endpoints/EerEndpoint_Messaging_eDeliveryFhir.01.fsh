@@ -1,13 +1,14 @@
 Instance: EerEndpoint-Messaging-eDeliveryFhir.01
-InstanceOf: EerEndpointMessagingEdeliveryFhir
-Description: "An example of an EerEndpointMessagingEdeliveryFhir."
+InstanceOf: EerEndpointMessaging
+Description: "An example of an EerEndpointMessaging supporting eDelivery FHIR."
 * id = "EerEndpoint-Messaging-eDeliveryFhir.01"
-* identifier.value = "EerEndpoint-Messaging-eDeliveryFhir.01"
+* identifier[GLN-ID].value = "0000000000000"
 * status = #active
+* connectionType = $EerEndpointConnectionTypeCS#EerMessagingEdeliveryFhir
 * managingOrganization = Reference(Organization/EER.SOR-HI.01)
 * period.start = "2023-01-01"
 * period.end = "2024-01-01"
-* address.value = "http://www.eDeliveryAccessPoint.dk/fhir"
+* address = "http://www.eDeliveryAccessPoint.dk/fhir"
 * payloadMimeType[+] = #text/xml
 * payloadMimeType[+] = #application/fhir+xml
 * payloadMimeType[+] = #application/fhir+json

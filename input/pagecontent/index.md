@@ -1,4 +1,3 @@
-<!-- TODO: Update the documentation and diagrams (if needed), only after review however -->
 # EER Endpoint Register (EER)
 
 The EER Endpoint Register (EER) Profile supports RESTful queries across related care services resources and discovery of Endpoint addresses related to a SOR Organizational Unit in Danish Healthcare using a RESTful interface.
@@ -91,11 +90,8 @@ Message Service Handlers (eerDeviceMSH) are software solutions standing alone or
   <img src="eerDiagramWithoutMSH.png" alt="EER Diagram without MSH" style="vertical-align:middle;margin:50px 10px;width:40%">
   <figcaption><b>EER Diagram without MSH</b></figcaption>
 </figure>
-<!--br clear="all"-->
 
-<!--img src="hr.png" alt="HR">
 <br clear="all"-->
-<!--div include eerDiagramWithMSH.svg %} </div-->
 
 <figure>
   <img src="eerDiagramWithMSH.png" alt="EER Diagram including MSH" style="vertical-align:middle;margin:50px 10px;width:50%">  
