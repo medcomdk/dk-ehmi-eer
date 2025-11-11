@@ -11,8 +11,11 @@ Description:  """ EerMessagingOrganization """
   * ^slicing.rules = #open
 * identifier contains
     SOR-ID 1..1 MS SU 
+    and CVR-ID 0..1 MS SU 
 * identifier[SOR-ID] only SORIdentifier
   * ^short = "[DA] SOR-id"
+* identifier[CVR-ID] only CVRIdentifier
+  * ^short = "VAT identification number, [DA] CVR-nummer"
 
 * type ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = coding.system
