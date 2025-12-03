@@ -1,7 +1,7 @@
 Profile:      EerSorEndpoint
 Parent:       EerEndpointMessaging //MCSDEndpoint
 Id:           eer.dk.sor.endpoint
-Title:        "EER SOR Endpoint"
+Title:        "EerSOREndpoint"
 Description:  """
 A profile on the mCSD Endpoint.
 
