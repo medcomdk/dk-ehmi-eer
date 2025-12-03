@@ -36,7 +36,7 @@ Description:  """ EerSOROrganization """
   * ^slicing.discriminator.path = "purpose"
   * ^slicing.rules = #open
 * contact contains
-    SOR-Owner 1..1 MS 
+    SOR-Owner 0..1 MS 
 * contact[SOR-Owner].purpose.coding.code 1..1
 * contact[SOR-Owner].purpose.coding.code = #ADMIN 
 * contact[SOR-Owner].extension contains contactdetail-organization-reference-extension named sor-institution-owner 1..1 MS
