@@ -1,11 +1,11 @@
 Profile:      EerSOROrganization
-Parent:       MCSDOrganization
+Parent:       EerMessagingOrganization //MCSDOrganization
 Id:           Eer.SOR.Organization
 Title:        "EerSOROrganization"
 Description:  """ EerSOROrganization """
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-imposeProfile"
 * ^extension[=].valueCanonical = "http://hl7.dk/fhir/core/StructureDefinition/dk-core-organization|3.4.0"
-* identifier 1..
+/* identifier 1..
   * ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = "system"
   * ^slicing.rules = #open
@@ -29,7 +29,7 @@ Description:  """ EerSOROrganization """
 
 * type[SOR-UnitType].coding.code from $EerSorUnitTypeVS
 * type[SOR-UnitType].coding.system = $EerSorUnitType
-
+*/
 * contact.extension.valueReference
 * contact 1..
   * ^slicing.discriminator.type = #value
@@ -45,7 +45,7 @@ Description:  """ EerSOROrganization """
 * contact[SOR-Owner].name 0..0
 * contact[SOR-Owner].telecom 0..0
 
-* extension contains eer-dk-eua-system-extension named eua-system 0..* MS 
-* extension contains eer-dk-msh-system-extension named msh-system 0..* MS 
-* endpoint 0..*
-* endpoint only Reference(EerEndpointMessaging)
+//* extension contains eer-dk-eua-system-extension named eua-system 0..* MS 
+//* extension contains eer-dk-msh-system-extension named msh-system 0..* MS 
+//* endpoint 0..*
+* endpoint only Reference(EerSorEndpoint)
