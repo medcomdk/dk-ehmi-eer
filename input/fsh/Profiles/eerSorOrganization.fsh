@@ -34,12 +34,13 @@ Description:  """ EerSorOrganization """
 * contact.extension.valueReference
 * contact 1..
   * ^slicing.discriminator.type = #value
-  * ^slicing.discriminator.path = "purpose"
+  * ^slicing.discriminator.path = "purpose.coding.code"
   * ^slicing.rules = #open
 * contact contains
     SOR-Owner 0..1 MS 
 * contact[SOR-Owner].purpose.coding.code 1..1 MS SU
 * contact[SOR-Owner].purpose.coding.code = #ADMIN (exactly)
+* contact[SOR-Owner].purpose.coding.system = $contactentity-type
 * contact[SOR-Owner].extension contains contactdetail-organization-reference-extension named sor-institution-owner 1..1 MS 
   * ^short = "Reference to an SOR-Organizational Unit that is the InstitutionOwner unit, ie. has the type = #IE"
 * contact[SOR-Owner].address 0..0

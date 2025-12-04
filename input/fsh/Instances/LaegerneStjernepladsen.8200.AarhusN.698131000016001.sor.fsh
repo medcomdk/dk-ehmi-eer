@@ -9,7 +9,8 @@ Description: "An example instance of the EER SOR Organization with a required en
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationTypeCS#IE
 * type[SOR-Hierarchy].coding.system = $EerSorOrganizationTypeCS
 //sor-institution-owner
-* contact[SOR-Owner].purpose = #ADMIN
+* contact[SOR-Owner].purpose.coding.code = $contactentity-type#ADMIN
+* contact[SOR-Owner].purpose.coding.system = $contactentity-type
 * contact[SOR-Owner].extension.url = "http://medcomehmi.dk/ig/eer/StructureDefinition/contactdetail-organization-reference-extension"
 * contact[SOR-Owner].extension.valueReference = Reference(Organization/LaegerneStjernepladsen.SOR.698131000016001)
 * endpoint[+] = Reference(Endpoint/LaegerneStjernepladsen.SOR.5790002401428)
@@ -25,7 +26,8 @@ Description: "EER SOR Organization - LaegerneStjernepladsen.SOR.698141000016008"
 * partOf = Reference(Organization/LaegerneStjernepladsen.SOR.698131000016001)
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationTypeCS#SI
 * type[SOR-Hierarchy].coding.system = $EerSorOrganizationTypeCS
-* contact[SOR-Owner].purpose = #ADMIN
+* contact[SOR-Owner].purpose.coding.code = $contactentity-type#ADMIN
+* contact[SOR-Owner].purpose.coding.system = $contactentity-type
 * contact[SOR-Owner].extension.url = "http://medcomehmi.dk/ig/eer/StructureDefinition/contactdetail-organization-reference-extension"
 * contact[SOR-Owner].extension.valueReference = Reference(Organization/LaegerneStjernepladsen.SOR.698131000016001)
 * endpoint[+] = Reference(Endpoint/LaegerneStjernepladsen.SOR.5790002401428)
@@ -41,7 +43,8 @@ Description: "EER SOR Organization - LaegerneStjernepladsen.SOR.698161000016009"
 //* partOf = Reference(Organization/LaegerneStjernepladsen.SOR.698141000016008)
 * type[SOR-Hierarchy].coding.code = $EerSorOrganizationTypeCS#OE
 * type[SOR-Hierarchy].coding.system = $EerSorOrganizationTypeCS
-* contact[SOR-Owner].purpose = #ADMIN
+* contact[SOR-Owner].purpose.coding.code = $contactentity-type#ADMIN
+* contact[SOR-Owner].purpose.coding.system = $contactentity-type
 * contact[SOR-Owner].extension.url = "http://medcomehmi.dk/ig/eer/StructureDefinition/contactdetail-organization-reference-extension"
 * contact[SOR-Owner].extension.valueReference = Reference(Organization/LaegerneStjernepladsen.SOR.698131000016001)
 * endpoint[+] = Reference(Endpoint/LaegerneStjernepladsen.SOR.5790002401428)
