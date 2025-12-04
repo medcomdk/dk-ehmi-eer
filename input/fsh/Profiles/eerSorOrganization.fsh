@@ -1,8 +1,8 @@
-Profile:      EerSOROrganization
+Profile:      EerSorOrganization
 Parent:       EerMessagingOrganization //MCSDOrganization
 Id:           Eer.SOR.Organization
-Title:        "EerSOROrganization"
-Description:  """ EerSOROrganization """
+Title:        "EerSorOrganization"
+Description:  """ EerSorOrganization """
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-imposeProfile"
 * ^extension[=].valueCanonical = "http://hl7.dk/fhir/core/StructureDefinition/dk-core-organization|3.4.0"
 /* identifier 1..
@@ -30,6 +30,7 @@ Description:  """ EerSOROrganization """
 * type[SOR-UnitType].coding.code from $EerSorUnitTypeVS
 * type[SOR-UnitType].coding.system = $EerSorUnitType
 */
+* partOf only Reference(EerSorOrganization)
 * contact.extension.valueReference
 * contact 1..
   * ^slicing.discriminator.type = #value
@@ -37,9 +38,9 @@ Description:  """ EerSOROrganization """
   * ^slicing.rules = #open
 * contact contains
     SOR-Owner 0..1 MS 
-* contact[SOR-Owner].purpose.coding.code 1..1
-* contact[SOR-Owner].purpose.coding.code = #ADMIN 
-* contact[SOR-Owner].extension contains contactdetail-organization-reference-extension named sor-institution-owner 1..1 MS
+* contact[SOR-Owner].purpose.coding.code 1..1 MS SU
+* contact[SOR-Owner].purpose.coding.code = #ADMIN (exactly)
+* contact[SOR-Owner].extension contains contactdetail-organization-reference-extension named sor-institution-owner 1..1 MS 
   * ^short = "Reference to an SOR-Organizational Unit that is the InstitutionOwner unit, ie. has the type = #IE"
 * contact[SOR-Owner].address 0..0
 * contact[SOR-Owner].name 0..0

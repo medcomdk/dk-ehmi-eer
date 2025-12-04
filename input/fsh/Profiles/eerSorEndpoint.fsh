@@ -18,7 +18,7 @@ mechanism).
 * identifier[GLN-ID] only GLNIdentifier
   * ^short = "[DA] GLN-id"
 */
-* managingOrganization only Reference(EerSOROrganization)
+* managingOrganization only Reference(EerSorOrganization)
 /* connectionType from $EerEndpointConnectionTypeVS
 * period 1..1 MS SU
 * payloadType from $EhmiMessageDefinitionUriVS
