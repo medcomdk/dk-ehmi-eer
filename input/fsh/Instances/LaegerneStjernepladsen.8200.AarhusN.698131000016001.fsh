@@ -42,9 +42,11 @@ Title: "EER Messaging Endpoint - LaegerneStjernepladsen.8200.AarhusN.57900024014
 Description: "EER Messaging Endpoint - LaegerneStjernepladsen.8200.AarhusN.5790002401428"
 * id = "LaegerneStjernepladsen.8200.AarhusN.5790002401428"
 * identifier[GLN-ID].value = "5790002401428"
+* identifier[GLN-ID].system = "http://www.gs1.org/gln"
 * status = #active
 * period.start = "2025-01-01"
 * connectionType.code = $EerEndpointConnectionTypeCS#EerMessagingEdelivery
+* connectionType.system = $EerEndpointConnectionTypeCS
 * name = "EER Messaging Endpoint - LaegerneStjernepladsen.8200.AarhusN.5790002401428 FHIR Endpoint"
 * managingOrganization.reference = "Organization/LaegerneStjernepladsen.8200.AarhusN.698131000016001"
 * extension[ap-system].valueReference = Reference(EerDeviceAP-MultiMedAP)

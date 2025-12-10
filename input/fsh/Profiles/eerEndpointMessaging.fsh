@@ -15,9 +15,8 @@ mechanism).
   * ^slicing.rules = #open
 * identifier contains
     GLN-ID 1..1 MS SU
-* identifier[GLN-ID] only GLNIdentifier
+* identifier[GLN-ID] only GLN_Identifier
   * ^short = "[DA] GLN-id"
-
 * managingOrganization only Reference(EerMessagingOrganization)
 * connectionType from $EerEndpointConnectionTypeVS
 * period 1..1 MS SU
