@@ -1,4 +1,4 @@
-Instance: Map-Map-Org-To-Org
+Instance: CopyOrganizationToOrganization
 InstanceOf: StructureMap
 Title: "Copy Organization to Organization"
 Description: "Simple StructureMap that copies all fields from one Organization to another"
