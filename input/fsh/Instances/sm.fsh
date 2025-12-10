@@ -1,8 +1,10 @@
 Instance: Map-EerSorOrganization-To-EerMessagingOrganization
 InstanceOf: StructureMap
+Title: "Copy Organization to Organization"
+Description: "Simple StructureMap that copies all fields from one Organization to another"
 Usage: #definition
 * url = "http://medcomehmi.dk/ig/eer/StructureMap/Map-EerSorOrg-To-EerMessagingOrg"
-* name = "MapEerSorOrgToEerMessagingOrg"
+* name = "MapOrgToOrg"
 * status = #active
 
 * structure[0].url = "http://medcomehmi.dk/ig/eer/StructureDefinition/Eer.Sor.Organization"
