@@ -1,17 +1,18 @@
-Instance: CopyOrganizationToOrganization
+Instance: CopyOrganizationToEerOrganization
 InstanceOf: StructureMap
-Title: "Copy Organization to Organization"
+Title: "Copy Organization to EerMessagingOrganization"
 Description: "Simple StructureMap that copies all fields from one Organization to another"
 Usage: #definition
 
-* url = "http://medcomehmi.dk/ig/eer/StructureMap/CopyOrganizationToOrganization"
+* url = "http://medcomehmi.dk/ig/eer/StructureMap/CopyOrganizationToEerOrganization"
 * name = "CopyOrganizationToOrganization"
 * status = #active
 
-* structure[0].url = "http://medcomehmi.dk/ig/eer/StructureDefinition/Organization"
+//* structure[0].url = "http://medcomehmi.dk/ig/eer/StructureDefinition/Organization"
+* structure[0].url = "https://build.fhir.org/ig/medcomdk/dk-ehmi-eer/branches/SOR-Org/StructureDefinition-Eer.SOR.Organization"
 * structure[=].mode = #source
 * structure[=].alias = "source"
-* structure[+].url = "http://medcomehmi.dk/ig/eer/StructureDefinition/Organization"
+* structure[+].url = "http://medcomehmi.dk/ig/eer/StructureDefinition/Eer.Messaging.Organization"
 * structure[=].mode = #target
 * structure[=].alias = "target"
 
