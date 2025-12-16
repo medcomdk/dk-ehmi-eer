@@ -1,3 +1,4 @@
+/*
 Instance: CopyOrganizationToEerOrganization-old
 InstanceOf: StructureMap
 Title: "Copy Organization to EerMessagingOrganization"
@@ -104,3 +105,4 @@ Usage: #definition
 * group[0].rule[9].target[0].context = "tgt"
 * group[0].rule[9].target[0].element = "endpoint"
 * group[0].rule[9].target[0].transform = #copy
+*/
