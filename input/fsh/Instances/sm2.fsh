@@ -1,10 +1,10 @@
-Instance: CopyOrganizationToEerOrganization
+Instance: CopyOrganizationToEerOrganization-old
 InstanceOf: StructureMap
 Title: "Copy Organization to EerMessagingOrganization"
 Description: "Simple StructureMap that copies all fields from one Organization to another"
 Usage: #definition
 
-* url = "http://medcomehmi.dk/ig/eer/StructureMap/CopyOrganizationToEerOrganization"
+* url = "http://medcomehmi.dk/ig/eer/StructureMap/CopyOrganizationToEerOrganization-old"
 * name = "CopyOrganizationToOrganization"
 * status = #active
 
