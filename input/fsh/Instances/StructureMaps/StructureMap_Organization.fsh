@@ -47,7 +47,7 @@ Usage: #definition
 * group[0].rule[=].target[0].context = "tgt"
 * group[0].rule[=].target[=].element = "meta"
 * group[0].rule[=].target[=].transform = #copy
-* group[0].rule[=].target[=].parameter[0].valueString = "http://medcomehmi.dk/ig/eer/StructureDefinition/eer.dk.endpoint.messaging"
+* group[0].rule[=].target[=].parameter[0].valueString = "http://medcomehmi.dk/ig/eer/StructureDefinition/Eer.Messaging.Organization"
 
 * group[0].rule[+].name = "copyName"
 * group[0].rule[=].source.context = "src"
@@ -84,7 +84,7 @@ Usage: #definition
 * group[0].rule[=].target.variable = "tid"
 * group[0].rule[=].target.transform = #create
 * group[0].rule[=].target.parameter.valueString = "Identifier"
-* group[0].rule[=].rule[0].name = "r0"
+* group[0].rule[=].rule[0].name = "system"
 * group[0].rule[=].rule[=].source.context = "sid"
 * group[0].rule[=].rule[=].source.element = "system"
 * group[0].rule[=].rule[=].source.variable = "s"
@@ -92,7 +92,7 @@ Usage: #definition
 * group[0].rule[=].rule[=].target.element = "system"
 * group[0].rule[=].rule[=].target.transform = #copy
 * group[0].rule[=].rule[=].target.parameter.valueId = "s"
-* group[0].rule[=].rule[+].name = "r1"
+* group[0].rule[=].rule[+].name = "value"
 * group[0].rule[=].rule[=].source.context = "sid"
 * group[0].rule[=].rule[=].source.element = "value"
 * group[0].rule[=].rule[=].source.variable = "v"
@@ -110,7 +110,7 @@ Usage: #definition
 * group[0].rule[=].target.variable = "tt"
 * group[0].rule[=].target.transform = #create
 * group[0].rule[=].target.parameter.valueString = "CodeableConcept"
-* group[0].rule[=].rule[0].name = "CopyTypeR0"
+* group[0].rule[=].rule[0].name = "CopyTypeCoding"
 * group[0].rule[=].rule[=].source.context = "st"
 * group[0].rule[=].rule[=].source.element = "coding"
 * group[0].rule[=].rule[=].source.variable = "sc"
@@ -119,7 +119,7 @@ Usage: #definition
 * group[0].rule[=].rule[=].target.variable = "tc"
 * group[0].rule[=].rule[=].target.transform = #create
 * group[0].rule[=].rule[=].target.parameter.valueString = "Coding"
-* group[0].rule[=].rule[0].rule[0].name = "CopyTypeR0R0"
+* group[0].rule[=].rule[0].rule[0].name = "CopyTypeCodingSystem"
 * group[0].rule[=].rule[=].rule[=].source.context = "sc"
 * group[0].rule[=].rule[=].rule[=].source.element = "system"
 * group[0].rule[=].rule[=].rule[=].source.variable = "sys"
@@ -127,7 +127,7 @@ Usage: #definition
 * group[0].rule[=].rule[=].rule[=].target.element = "system"
 * group[0].rule[=].rule[=].rule[=].target.transform = #copy
 * group[0].rule[=].rule[=].rule[=].target.parameter.valueId = "sys"
-* group[0].rule[=].rule[0].rule[+].name = "CopyTypeR0R1"
+* group[0].rule[=].rule[0].rule[+].name = "CopyTypeCodingCode"
 * group[0].rule[=].rule[=].rule[=].source.context = "sc"
 * group[0].rule[=].rule[=].rule[=].source.element = "code"
 * group[0].rule[=].rule[=].rule[=].source.variable = "code"
