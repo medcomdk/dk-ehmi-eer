@@ -18,7 +18,38 @@ Usage: #definition
 * group.input[=].type = "Organization"
 * group.input[=].mode = #target
 
-* group[0].rule[0].name = "copyName"
+/*
+* group[0].rule[0].name = "copyMeta"
+* group[0].rule[=].source.context = "src"
+* group[0].rule[=].source.element = "meta"
+* group[0].rule[=].source.variable = "m"
+* group[0].rule[=].target[0].context = "tgt"
+* group[0].rule[=].target[=].element = "meta"
+* group[0].rule[=].target[=].transform = #create
+* group[0].rule[=].target[=].parameter.valueString = "string"
+* group[0].rule[=].target[+].context = "tgt"
+* group[0].rule[=].target[=].element = "meta"
+* group[0].rule[=].target[=].transform = #copy
+* group[0].rule[=].target[=].parameter.valueId = "m"
+* group[0].rule[=].rule[0].name = "r0"
+* group[0].rule[=].rule[=].source.context = "prof"
+* group[0].rule[=].rule[=].source.element = "profile"
+* group[0].rule[=].rule[=].source.variable = "p"
+* group[0].rule[=].rule[=].target.context = "prof"
+* group[0].rule[=].rule[=].target.element = "profile"
+* group[0].rule[=].rule[=].target.transform = #copy
+* group[0].rule[=].rule[=].target.parameter.valueId = "p"
+*/
+
+* group[0].rule[0].name = "copyMeta"
+* group[0].rule[=].source.context = "src"
+* group[0].rule[=].source.element = "meta"
+* group[0].rule[=].target[0].context = "tgt"
+* group[0].rule[=].target[=].element = "meta"
+* group[0].rule[=].target[=].transform = #copy
+* group[0].rule[=].target[=].parameter[0].valueString = "http://medcomehmi.dk/ig/eer/StructureDefinition/eer.dk.endpoint.messaging"
+
+* group[0].rule[+].name = "copyName"
 * group[0].rule[=].source.context = "src"
 * group[0].rule[=].source.element = "name"
 * group[0].rule[=].source.variable = "n"
@@ -105,6 +136,7 @@ Usage: #definition
 * group[0].rule[=].rule[=].rule[=].target.transform = #copy
 * group[0].rule[=].rule[=].rule[=].target.parameter.valueId = "code"
 
+/*
 * group[0].rule[+].name = "copyAddress"
 * group[0].rule[=].source.context = "src"
 * group[0].rule[=].source.element = "address"
@@ -122,7 +154,8 @@ Usage: #definition
 * group[0].rule[=].rule[=].target.element = "text"
 * group[0].rule[=].rule[=].target.transform = #copy
 * group[0].rule[=].rule[=].target.parameter.valueId = "t"
-
+*/
+/*
 * group[0].rule[+].name = "copyTelecom"
 * group[0].rule[=].source.context = "src"
 * group[0].rule[=].source.element = "telecom"
@@ -148,7 +181,8 @@ Usage: #definition
 * group[0].rule[=].rule[=].target.element = "value"
 * group[0].rule[=].rule[=].target.transform = #copy
 * group[0].rule[=].rule[=].target.parameter.valueId = "v"
-
+*/
+/*
 * group[0].rule[+].name = "copyPartOf"
 * group[0].rule[=].source.context = "src"
 * group[0].rule[=].source.element = "partOf"
@@ -157,6 +191,7 @@ Usage: #definition
 * group[0].rule[=].target.element = "partOf"
 * group[0].rule[=].target.transform = #copy
 * group[0].rule[=].target.parameter.valueId = "p"
+*/
 
 * group[0].rule[+].name = "copyEndpoint"
 * group[0].rule[=].source.context = "src"
