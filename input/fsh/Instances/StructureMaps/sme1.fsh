@@ -117,6 +117,18 @@ Usage: #definition
 * group[=].rule[=].rule[=].target.parameter.valueId = "c"
 
 // -----------------------------------------------------
+// ManagingOrganization (Reference)
+// -----------------------------------------------------
+* group[=].rule[+].name = "copyManagingOrganization"
+* group[=].rule[=].source.context = "src"
+* group[=].rule[=].source.element = "managingOrganization"
+* group[=].rule[=].source.variable = "smo"
+* group[=].rule[=].target.context = "tgt"
+* group[=].rule[=].target.element = "managingOrganization"
+* group[=].rule[=].target.transform = #copy
+* group[=].rule[=].target.parameter.valueId = "smo"
+
+// -----------------------------------------------------
 // period (Element/dateTimes)
 // -----------------------------------------------------
 * group[=].rule[+].name = "copyperiod"
@@ -209,13 +221,4 @@ Usage: #definition
 * group[=].rule[=].target.variable = "ta"
 * group[=].rule[=].target.transform = #create
 * group[=].rule[=].target.parameter.valueString = "sa"
-/*
-* group[=].rule[=].rule[0].name = "copyAddressR0"
-* group[=].rule[=].rule[=].source.context = "sa"
-* group[=].rule[=].rule[=].source.element = "text"
-* group[=].rule[=].rule[=].source.variable = "t"
-* group[=].rule[=].rule[=].target.context = "ta"
-* group[=].rule[=].rule[=].target.element = "text"
-* group[=].rule[=].rule[=].target.transform = #copy
-* group[=].rule[=].rule[=].target.parameter.valueId = "t"
-*/
+
