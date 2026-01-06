@@ -182,7 +182,7 @@ Usage: #definition
 * group[0].rule[=].rule[=].target.transform = #copy
 * group[0].rule[=].rule[=].target.parameter.valueId = "v"
 */
-/*
+
 * group[0].rule[+].name = "copyPartOf"
 * group[0].rule[=].source.context = "src"
 * group[0].rule[=].source.element = "partOf"
@@ -191,7 +191,6 @@ Usage: #definition
 * group[0].rule[=].target.element = "partOf"
 * group[0].rule[=].target.transform = #copy
 * group[0].rule[=].target.parameter.valueId = "p"
-*/
 
 * group[0].rule[+].name = "copyEndpoint"
 * group[0].rule[=].source.context = "src"
