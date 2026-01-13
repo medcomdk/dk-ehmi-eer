@@ -45,6 +45,7 @@ Usage: #definition
 * group.rule[=].target.element = "status"
 * group.rule[=].target.transform = #copy
 * group.rule[=].target.parameter.valueId = "s"
+
 * group.rule[+].name = "copyConnectionType"
 * group.rule[=].source.context = "src"
 * group.rule[=].source.element = "connectionType"
@@ -70,6 +71,27 @@ Usage: #definition
 * group.rule[=].rule[=].target.element = "code"
 * group.rule[=].rule[=].target.transform = #copy
 * group.rule[=].rule[=].target.parameter.valueId = "c"
+
+/*
+
+* group.rule[=].target.parameter.valueString = "Period"
+* group.rule[=].rule[0].name = "start"
+* group.rule[=].rule[=].source.context = "sp"
+* group.rule[=].rule[=].source.element = "start"
+* group.rule[=].rule[=].source.variable = "ss"
+* group.rule[=].rule[=].target.context = "tp"
+* group.rule[=].rule[=].target.element = "start"
+* group.rule[=].rule[=].target.transform = #copy
+* group.rule[=].rule[=].target.parameter.valueId = "ss"
+* group.rule[=].rule[+].name = "end"
+* group.rule[=].rule[=].source.context = "sp"
+* group.rule[=].rule[=].source.element = "end"
+* group.rule[=].rule[=].source.variable = "se"
+* group.rule[=].rule[=].target.context = "tp"
+* group.rule[=].rule[=].target.element = "end"
+* group.rule[=].rule[=].target.transform = #copy
+* group.rule[=].rule[=].target.parameter.valueId = "se"
+*/
 * group.rule[+].name = "copyPeriod"
 * group.rule[=].source.context = "src"
 * group.rule[=].source.element = "period"
@@ -78,8 +100,7 @@ Usage: #definition
 * group.rule[=].target.element = "period"
 * group.rule[=].target.variable = "tp"
 * group.rule[=].target.transform = #create
-* group.rule[=].target.parameter.valueString = "sp"
-
+* group.rule[=].target.parameter.valueString = "Period"
 * group.rule[=].rule[0].name = "start"
 * group.rule[=].rule[=].source.context = "sp"
 * group.rule[=].rule[=].source.element = "start"
@@ -127,6 +148,7 @@ Usage: #definition
 * group.rule[=].rule.target.variable = "tc"
 * group.rule[=].rule.target.transform = #create
 * group.rule[=].rule.target.parameter.valueString = "Coding"
+
 * group.rule[=].rule.rule[0].name = "system"
 * group.rule[=].rule.rule[=].source.context = "sc"
 * group.rule[=].rule.rule[=].source.element = "system"
@@ -143,6 +165,7 @@ Usage: #definition
 * group.rule[=].rule.rule[=].target.element = "code"
 * group.rule[=].rule.rule[=].target.transform = #copy
 * group.rule[=].rule.rule[=].target.parameter.valueId = "cde"
+
 * group.rule[+].name = "copyPayloadMimeType"
 * group.rule[=].source.context = "src"
 * group.rule[=].source.element = "payloadMimeType"
