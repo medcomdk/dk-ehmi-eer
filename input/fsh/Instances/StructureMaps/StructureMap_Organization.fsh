@@ -41,6 +41,7 @@ Usage: #definition
 * group[0].rule[=].rule[=].target.parameter.valueId = "p"
 */
 
+/*
 * group[0].rule[0].name = "copyMeta"
 * group[0].rule[=].source.context = "src"
 * group[0].rule[=].source.element = "meta"
@@ -48,6 +49,7 @@ Usage: #definition
 * group[0].rule[=].target[=].element = "meta"
 * group[0].rule[=].target[=].transform = #copy
 * group[0].rule[=].target[=].parameter[0].valueString = "http://medcomehmi.dk/ig/eer/StructureDefinition/Eer.Messaging.Organization"
+*/
 
 * group[0].rule[+].name = "copyName"
 * group[0].rule[=].source.context = "src"
