@@ -1,3 +1,4 @@
+Alias: $contactentity-type = http://terminology.hl7.org/CodeSystem/contactentity-type
 Alias: $EerDeviceTypeCS = http://medcomehmi.dk/ig/terminology/CodeSystem/eer-device-type
 Alias: $EerDeviceTypeVS = http://medcomehmi.dk/ig/terminology/ValueSet/eer-device-type-valueset
 

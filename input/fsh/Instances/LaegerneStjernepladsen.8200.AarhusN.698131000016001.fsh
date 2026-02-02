@@ -42,9 +42,11 @@ Title: "EER Messaging Endpoint - LaegerneStjernepladsen.8200.AarhusN.57900024014
 Description: "EER Messaging Endpoint - LaegerneStjernepladsen.8200.AarhusN.5790002401428"
 * id = "LaegerneStjernepladsen.8200.AarhusN.5790002401428"
 * identifier[GLN-ID].value = "5790002401428"
+* identifier[GLN-ID].system = "http://www.gs1.org/gln"
 * status = #active
 * period.start = "2025-01-01"
 * connectionType.code = $EerEndpointConnectionTypeCS#EerMessagingEdelivery
+* connectionType.system = $EerEndpointConnectionTypeCS
 * name = "EER Messaging Endpoint - LaegerneStjernepladsen.8200.AarhusN.5790002401428 FHIR Endpoint"
 * managingOrganization.reference = "Organization/LaegerneStjernepladsen.8200.AarhusN.698131000016001"
 * extension[ap-system].valueReference = Reference(EerDeviceAP-MultiMedAP)
@@ -52,7 +54,6 @@ Description: "EER Messaging Endpoint - LaegerneStjernepladsen.8200.AarhusN.57900
 * payloadMimeType[+] = #text/xml
 * payloadMimeType[+] = #application/fhir+xml
 * payloadMimeType[+] = #application/fhir+json
-* payloadType[+] = $EhmiMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:homecareobservation:1.0
-* payloadType[+] = $EhmiMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0	
-* payloadType[+] = $EhmiMessageDefinitionUri#urn:dk:healthcare:ehmi:messaging:envelope:xml:sbdh:1.0
-* payloadType[+] = $EhmiMessageDefinitionUri#urn:dk:healthcare:ehmi:messaging:envelope:xml:sbdhacknowledgement:1.0
+* payloadType[+] = $EhmiMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition::homecareobservation-message##urn:dk:medcom:fhir:homecareobservation-message::1.2
+* payloadType[+] = $EhmiMessageDefinitionUri#urn:dk:healthcare:medcom:messaging:fhir:structuredefinition::acknowledgement-message##urn:dk:medcom:fhir:acknowledgement-message::2.0
+* payloadType[+] = $EhmiMessageDefinitionUri#urn:dk:healthcare:messaging:oasis:ebxml:schema:xsd::ehmisbdh-acknowledgement##urn:dk:ehmi:sbdh:ehmisbdh-acknowledgement::1.0

@@ -18,6 +18,7 @@ Id: eer-dk-msh-system-extension
 Title: "EER System Extension - MSH"
 Description: "Reference to a Device that is used to specify one or more systems which an Endpoint uses
 This is equivalent to the SOR-element"
+//Context: "Organization and Endpoint"
 * value[x] 0.. 
 * value[x] only Reference(EerDevice) 
 * obeys eer-msh-type-requirement
@@ -31,6 +32,7 @@ Extension: EerAPSystemExtension
 Id: eer-dk-ap-system-extension
 Title: "EER System Extension - AP"
 Description: "Reference to a Device that is used to specify one or more systems which an Endpoint uses"
+Context: "Endpoint"
 * value[x] 0.. 
 * value[x] only Reference(EerDevice)
 * obeys eer-ap-type-requirement
