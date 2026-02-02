@@ -21,5 +21,4 @@ Description:  """ EerSorOrganization """
 * contact[SOR-Owner].address 0..0
 * contact[SOR-Owner].name 0..0
 * contact[SOR-Owner].telecom 0..0
-* contact[SOR-Owner].extension contains eer-certificate-binary-string-extension named EER-PKI-PublicKey 0..1 MS 
 * endpoint only Reference(EerSorEndpoint)
