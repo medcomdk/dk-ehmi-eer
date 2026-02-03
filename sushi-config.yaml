@@ -4,7 +4,7 @@ name: EHMI Endpoint Register (EER) IG
 title: "DK EHMI Endpoint Register (EER)"
 description: The EHMI Endpoint Register (EER) IG
 status: draft # draft | active | retired | unknown
-version: 2.0.0-draft
+version: 2.0.1-draft
 fhirVersion: 4.0.1
 copyrightYear: 2025+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
