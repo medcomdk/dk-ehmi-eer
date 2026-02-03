@@ -47,3 +47,4 @@ parameters:
   default-publisher: true
   pin-canonicals: pin-multiples
   excludettl: true
+#  specialUrl: {http://cvr.dk}
