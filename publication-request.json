@@ -1,7 +1,7 @@
 {
     "package-id": "dk.ehmi.eer",
-    "version": "2.0.0-draft",
-    "path": "http://medcomehmi.dk/ig/eer/2.0.0-draft",
+    "version": "2.0.1-draft",
+    "path": "http://medcomehmi.dk/ig/eer/2.0.1-draft",
     "status": "ci-build",
     "sequence": "Release 2.x.x",
     "mode": "milestone",
