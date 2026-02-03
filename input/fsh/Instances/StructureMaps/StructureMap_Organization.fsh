@@ -1,13 +1,12 @@
 Instance: CopyOrganizationToEerOrganization
 InstanceOf: StructureMap
-Title: "Copy Organization to EerMessagingOrganization"
-Description: "Simple StructureMap that copies all fields from one Organization to another"
+Title: "Map SOR Organization to EerMessagingOrganization"
+Description: "StructureMap that copies all fields from a SOR Organization to a EerMessagingOrganization"
 Usage: #definition
 
 * url = "http://medcomehmi.dk/ig/eer/StructureMap/CopyOrganizationToEerOrganization"
 * name = "CopyOrganizationToOrganization"
 * status = #active
-
 
 * group[0].name = "CopyOrgDetailed"
 * group.typeMode = #types
@@ -17,39 +16,6 @@ Usage: #definition
 * group.input[+].name = "tgt"
 * group.input[=].type = "Organization"
 * group.input[=].mode = #target
-
-/*
-* group[0].rule[0].name = "copyMeta"
-* group[0].rule[=].source.context = "src"
-* group[0].rule[=].source.element = "meta"
-* group[0].rule[=].source.variable = "m"
-* group[0].rule[=].target[0].context = "tgt"
-* group[0].rule[=].target[=].element = "meta"
-* group[0].rule[=].target[=].transform = #create
-* group[0].rule[=].target[=].parameter.valueString = "string"
-* group[0].rule[=].target[+].context = "tgt"
-* group[0].rule[=].target[=].element = "meta"
-* group[0].rule[=].target[=].transform = #copy
-* group[0].rule[=].target[=].parameter.valueId = "m"
-* group[0].rule[=].rule[0].name = "r0"
-* group[0].rule[=].rule[=].source.context = "prof"
-* group[0].rule[=].rule[=].source.element = "profile"
-* group[0].rule[=].rule[=].source.variable = "p"
-* group[0].rule[=].rule[=].target.context = "prof"
-* group[0].rule[=].rule[=].target.element = "profile"
-* group[0].rule[=].rule[=].target.transform = #copy
-* group[0].rule[=].rule[=].target.parameter.valueId = "p"
-*/
-
-/*
-* group[0].rule[0].name = "copyMeta"
-* group[0].rule[=].source.context = "src"
-* group[0].rule[=].source.element = "meta"
-* group[0].rule[=].target[0].context = "tgt"
-* group[0].rule[=].target[=].element = "meta"
-* group[0].rule[=].target[=].transform = #copy
-* group[0].rule[=].target[=].parameter[0].valueString = "http://medcomehmi.dk/ig/eer/StructureDefinition/Eer.Messaging.Organization"
-*/
 
 * group[0].rule[+].name = "copyName"
 * group[0].rule[=].source.context = "src"
