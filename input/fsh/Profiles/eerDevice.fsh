@@ -8,6 +8,7 @@ Description: "An EHMI profile of the Device resource."
 * status 1..1 MS
 * identifier 1..1 MS
 * deviceName 1..1 MS
+  * ^short = "Should follow this format: [owner of device] [type of device] e.g. 'Aarhus Kommune AP'"
 * owner MS
 * udiCarrier 0..0 
 * definition 0..0
