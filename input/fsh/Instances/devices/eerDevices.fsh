@@ -1,22 +1,15 @@
 Instance: EerDeviceAP-MultiMedAP
-InstanceOf: EerDevice
+InstanceOf: EER_AP_Technical_Details
 Description: "EerDeviceAP-MultiMedAP"
-* identifier.value = "EerDeviceAP-MultiMedAP"
-* type = $EerDeviceTypeCS#AP "eDelivery Access Point"
 * status = #active
-* deviceName.name = "MultiMedAP"
-* deviceName.type = #manufacturer-name
-* manufacturer = "MultiMed"
-
-Instance: EerDeviceAP-KvalitetsItAP
-InstanceOf: EerDevice
-Description: "EerDeviceAP-KvalitetsItAP"
-* identifier.value = "EerDeviceAP-KvalitetsItAP"
-* type = $EerDeviceTypeCS#AP "eDelivery Access Point"
-* status = #active
-* deviceName.name = "BizKitAP"
-* deviceName.type = #manufacturer-name
-* manufacturer = "BizKit"
+* deviceName.name = "MultiMed AP"
+* contact[+]
+  * system = #phone
+  * value = "+123456789"
+* url = "https://eDelivery.MultiMed.com/endpoint"
+* owner = Reference(ExampleEerMessagingOrganization)
+* extension[smpCertificate].valueString = "-----BEGIN CERTIFICATE-----..."
+* extension[smpMTLSCertificate].valueString = "CVR:11111111-UID:UI:DK-O:G:f9fa19ef-e64e-4c25-bf37-fdc14970daf5"
 
 Instance: EerDeviceMSH-MultiMedMSH
 InstanceOf: EerDevice

@@ -4,7 +4,7 @@ name: EHMI Endpoint Register (EER) IG
 title: "DK EHMI Endpoint Register (EER)"
 description: The EHMI Endpoint Register (EER) IG
 status: draft # draft | active | retired | unknown
-version: 2.0.1-draft
+version: 3.0.0-draft
 fhirVersion: 4.0.1
 copyrightYear: 2025+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
@@ -16,7 +16,7 @@ publisher:
 
 dependencies:
   ihe.iti.mcsd: 3.9.0
-  hl7.fhir.dk.core: 3.4.0
+  hl7.fhir.dk.core: 3.6.0
   medcom.fhir.dk.core: 2.4.0
   medcom.fhir.dk.messaging: 3.0.0
   medcom.fhir.dk.terminology: 1.8.1

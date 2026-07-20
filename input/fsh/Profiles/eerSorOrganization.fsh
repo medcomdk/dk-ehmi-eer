@@ -4,7 +4,7 @@ Id:           Eer.SOR.Organization
 Title:        "EerSorOrganization"
 Description:  """ EerSorOrganization """
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-imposeProfile"
-* ^extension[=].valueCanonical = "http://hl7.dk/fhir/core/StructureDefinition/dk-core-organization|3.4.0"
+* ^extension[=].valueCanonical = "http://hl7.dk/fhir/core/StructureDefinition/dk-core-organization|3.6.0"
 * partOf only Reference(EerSorOrganization)
 * contact.extension.valueReference 0..1
 * contact 1..
