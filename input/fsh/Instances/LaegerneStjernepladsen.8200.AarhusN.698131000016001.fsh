@@ -42,7 +42,6 @@ Title: "EER Messaging Endpoint - LaegerneStjernepladsen.8200.AarhusN.57900024014
 Description: "EER Messaging Endpoint - LaegerneStjernepladsen.8200.AarhusN.5790002401428"
 * id = "LaegerneStjernepladsen.8200.AarhusN.5790002401428"
 * identifier[GLN-ID].value = "5790002401428"
-* identifier[GLN-ID].system = "http://www.gs1.org/gln"
 * status = #active
 * period.start = "2025-01-01"
 * connectionType.code = $EerEndpointConnectionTypeCS#EerMessagingEdelivery

@@ -31,8 +31,9 @@ Description: "An example endpoint for the EER Messaging Organization."
 * period.start = "2025-01-01"
 * connectionType = $EerEndpointConnectionTypeCS#EerMessagingEdelivery
 * name = "Example FHIR Endpoint"
+* extension[ap-system].valueReference = Reference(EerDeviceAP-MultiMedAP)
+* address = "https://placeholder.dk/find-it-in-the-ap-system-extension"
 * managingOrganization.reference = "Organization/example-eer-messaging-organization"
-* address = "https://example.org/fhir"
 * payloadMimeType[+] = #text/xml
 * payloadMimeType[+] = #application/fhir+xml
 * payloadMimeType[+] = #application/fhir+json

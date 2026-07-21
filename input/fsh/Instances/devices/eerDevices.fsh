@@ -1,27 +1,22 @@
 Instance: EerDeviceAP-MultiMedAP
-InstanceOf: EerDevice
+InstanceOf: EER_AP_Technical_Details
 Description: "EerDeviceAP-MultiMedAP"
-* identifier.value = "EerDeviceAP-MultiMedAP"
-* type = $EerDeviceTypeCS#AP "eDelivery Access Point"
+* identifier[0].value = "MultiMedAP"
 * status = #active
-* deviceName.name = "MultiMedAP"
-* deviceName.type = #manufacturer-name
+* deviceName.name = "MultiMed AP"
 * manufacturer = "MultiMed"
-
-Instance: EerDeviceAP-KvalitetsItAP
-InstanceOf: EerDevice
-Description: "EerDeviceAP-KvalitetsItAP"
-* identifier.value = "EerDeviceAP-KvalitetsItAP"
-* type = $EerDeviceTypeCS#AP "eDelivery Access Point"
-* status = #active
-* deviceName.name = "BizKitAP"
-* deviceName.type = #manufacturer-name
-* manufacturer = "BizKit"
+* contact[+]
+  * system = #phone
+  * value = "+123456789"
+* url = "https://eDelivery.MultiMed.com/endpoint"
+* owner = Reference(ExampleEerMessagingOrganization)
+* extension[smpCertificate].valueString = "-----BEGIN CERTIFICATE-----..."
+* extension[smpMTLSCertificate].valueString = "CVR:11111111-UID:UI:DK-O:G:f9fa19ef-e64e-4c25-bf37-fdc14970daf5"
 
 Instance: EerDeviceMSH-MultiMedMSH
 InstanceOf: EerDevice
 Description: "EerDeviceMSH-MultiMedMSH"
-* identifier.value = "EerDeviceMSH-MultiMedMSH"
+* identifier[0].value = "EerDeviceMSH-MultiMedMSH"
 * type = $EerDeviceTypeCS#MSH "Message Service Handler"
 * status = #active
 * deviceName.name = "MultiMedMSH"
@@ -31,7 +26,7 @@ Description: "EerDeviceMSH-MultiMedMSH"
 Instance: EerDeviceEUA-EGClineaEUA
 InstanceOf: EerDevice
 Description: "EerDeviceEUA-EGClineaEUA"
-* identifier.value = "EerDeviceEUA-EGClineaEUA"
+* identifier[0].value = "EerDeviceEUA-EGClineaEUA"
 * type = $EerDeviceTypeCS#EUA "End User Application"
 * status = #active
 * deviceName.name = "EGClineaEUA"
@@ -41,7 +36,7 @@ Description: "EerDeviceEUA-EGClineaEUA"
 Instance: EerDeviceMSH-SystematicMSH
 InstanceOf: EerDevice
 Description: "EerDeviceMSH-SystematicMSH"
-* identifier.value = "EerDeviceMSH-SystematicMSH"
+* identifier[0].value = "EerDeviceMSH-SystematicMSH"
 * type = $EerDeviceTypeCS#MSH "Message Service Handler"
 * status = #active
 * deviceName.name = "SystematicMSH"
@@ -51,7 +46,7 @@ Description: "EerDeviceMSH-SystematicMSH"
 Instance: EerDeviceEUA-SystematicCura
 InstanceOf: EerDevice
 Description: "EerDeviceEUA-SystematicCura"
-* identifier.value = "EerDeviceEUA-SystematicCura"
+* identifier[0].value = "EerDeviceEUA-SystematicCura"
 * type = $EerDeviceTypeCS#EUA "End User Application"
 * status = #active
 * deviceName.name = "Systematic Cura"

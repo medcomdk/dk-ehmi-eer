@@ -6,7 +6,7 @@ Description: "An EHMI profile of the Device resource."
 * type from $EerDeviceTypeVS
 * manufacturer 1..1 MS
 * status 1..1 MS
-* identifier 1..1 MS
+* identifier 1..* MS
 * deviceName 1..1 MS
   * ^short = "Should follow this format: [owner of device] [type of device] e.g. 'Aarhus Kommune AP'"
 * owner MS
@@ -20,6 +20,5 @@ Description: "An EHMI profile of the Device resource."
 * property 0..0
 * patient 0..0
 * location 0..0
-* url 0..0
 * safety 0..0
 * parent 0..0

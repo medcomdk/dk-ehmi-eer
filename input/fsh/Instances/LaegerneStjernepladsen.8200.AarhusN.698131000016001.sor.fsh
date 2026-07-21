@@ -55,7 +55,6 @@ Title: "EER SOR Endpoint - LaegerneStjernepladsen.SOR.5790002401428"
 Description: "EER SOR Endpoint - LaegerneStjernepladsen.SOR.5790002401428"
 * id = "LaegerneStjernepladsen.SOR.5790002401428"
 * identifier[GLN-ID].value = "5790002401428"
-* identifier[GLN-ID].system = "http://www.gs1.org/gln"
 * status = #active
 * period.start = "2025-01-01"
 * connectionType.code = $EerEndpointConnectionTypeCS#EerMessagingEdelivery
