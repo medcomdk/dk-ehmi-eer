@@ -13,6 +13,8 @@ Description: "PEM encoded mutual TLS certificate for use in the eDelivery networ
 Profile: EER_AP_Technical_Details
 Parent: Device
 Id: eer-ap-technical-details
+Title: "EER AP Technical Details"
+Description: "Technical details of an eDelivery Access Point (AP) for registration in the SMP/PORS API"
 * identifier 0..3
   * ^slicing.discriminator.type = #value
   * ^slicing.discriminator.path = "system"
@@ -23,13 +25,13 @@ Id: eer-ap-technical-details
     SMP-mTLS-Certificate-Id 0..1
 
 * identifier[SMP-Org-Id] only EDeliveryIdentifier
-  * type = #smp-org-id
+  * type = EDeliveryIdentifiersCS#smp-org-id
   * ^short = "The organization ID of the AP in the SMP/PORS API."
 * identifier[SMP-PEM-Certificate-Id] only EDeliveryIdentifier
-  * type = #smp-pem-certificate-id
+  * type = EDeliveryIdentifiersCS#smp-pem-certificate-id
   * ^short = "The PEM certificate ID of the AP in the SMP/PORS API."
 * identifier[SMP-mTLS-Certificate-Id] only EDeliveryIdentifier
-  * type = #smp-mtls-certificate-id
+  * type = EDeliveryIdentifiersCS#smp-mtls-certificate-id
   * ^short = "The mTLS certificate ID of the AP in the SMP/PORS API."
 
 * status 1..1
@@ -84,7 +86,8 @@ Title: "eDelivery Identifier"
 Description: "Unique id associated with some resource within the eDelivery SMP network"
 * value 1..
 * type 1..1
-* type from EDeliveryIdentifiersVS
+  * coding from EDeliveryIdentifiersVS (required)
+  * text 0..0
 
 * use 0..0
 * system 0..0
