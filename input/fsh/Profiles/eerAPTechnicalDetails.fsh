@@ -11,14 +11,14 @@ Description: "PEM encoded mutual TLS certificate for use in the eDelivery networ
 * value[x] only string
 
 Profile: EER_AP_Technical_Details
-Parent: Device
+Parent: EerDevice
 Id: eer-ap-technical-details
 Title: "EER AP Technical Details"
 Description: "Technical details of an eDelivery Access Point (AP) for registration in the SMP/PORS API"
-* identifier 0..3
+* identifier 1..*
   * ^slicing.discriminator.type = #value
-  * ^slicing.discriminator.path = "system"
-  * ^slicing.rules = #closed
+  * ^slicing.discriminator.path = "type"
+  * ^slicing.rules = #open
 * identifier contains
     SMP-Org-Id 0..1 and
     SMP-PEM-Certificate-Id 0..1 and
@@ -34,6 +34,7 @@ Description: "Technical details of an eDelivery Access Point (AP) for registrati
   * type = EDeliveryIdentifiersCS#smp-mtls-certificate-id
   * ^short = "The mTLS certificate ID of the AP in the SMP/PORS API."
 
+* type = $EerDeviceTypeCS#AP
 * status 1..1
   * ^short = "If the AP is not 'active' it won't be registered in the SMP"
 * deviceName 1..1
@@ -58,19 +59,16 @@ Description: "Technical details of an eDelivery Access Point (AP) for registrati
 * extension[smpMTLSCertificate]
   * ^short = "The p.12 public MitId System Certificate modifier. Can be found by calling https://registrationservice-demo.nemhandel.dk/nemhandelpors/rest/business/isAgreementAccepted with your MitId system certificate. The output looks something like 'Current certificate or sector9 user ID (sub) (CVR:11111111-UID:UI:DK-O:G:f9fa19ef-e64e-4c25-bf37-fdc14970daf5)' and the public modifier is everything in the parentheses. Example: 'CVR:11111111-UID:UI:DK-O:G:f9fa19ef-e64e-4c25-bf37-fdc14970daf5'"
 
-
 * definition 0..0
 * udiCarrier 0..0
 * statusReason 0..0
 * distinctIdentifier 0..0
-* manufacturer 0..0
 * manufactureDate 0..0
 * expirationDate 0..0
 * lotNumber 0..0
 * serialNumber 0..0
 * modelNumber 0..0
 * partNumber 0..0
-* type 0..0
 * specialization 0..0
 * version 0..0
 * property 0..0

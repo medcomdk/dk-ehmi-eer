@@ -1,8 +1,10 @@
 Instance: EerDeviceAP-MultiMedAP
 InstanceOf: EER_AP_Technical_Details
 Description: "EerDeviceAP-MultiMedAP"
+* identifier[0].value = "MultiMedAP"
 * status = #active
 * deviceName.name = "MultiMed AP"
+* manufacturer = "MultiMed"
 * contact[+]
   * system = #phone
   * value = "+123456789"
@@ -14,7 +16,7 @@ Description: "EerDeviceAP-MultiMedAP"
 Instance: EerDeviceMSH-MultiMedMSH
 InstanceOf: EerDevice
 Description: "EerDeviceMSH-MultiMedMSH"
-* identifier.value = "EerDeviceMSH-MultiMedMSH"
+* identifier[0].value = "EerDeviceMSH-MultiMedMSH"
 * type = $EerDeviceTypeCS#MSH "Message Service Handler"
 * status = #active
 * deviceName.name = "MultiMedMSH"
@@ -24,7 +26,7 @@ Description: "EerDeviceMSH-MultiMedMSH"
 Instance: EerDeviceEUA-EGClineaEUA
 InstanceOf: EerDevice
 Description: "EerDeviceEUA-EGClineaEUA"
-* identifier.value = "EerDeviceEUA-EGClineaEUA"
+* identifier[0].value = "EerDeviceEUA-EGClineaEUA"
 * type = $EerDeviceTypeCS#EUA "End User Application"
 * status = #active
 * deviceName.name = "EGClineaEUA"
@@ -34,7 +36,7 @@ Description: "EerDeviceEUA-EGClineaEUA"
 Instance: EerDeviceMSH-SystematicMSH
 InstanceOf: EerDevice
 Description: "EerDeviceMSH-SystematicMSH"
-* identifier.value = "EerDeviceMSH-SystematicMSH"
+* identifier[0].value = "EerDeviceMSH-SystematicMSH"
 * type = $EerDeviceTypeCS#MSH "Message Service Handler"
 * status = #active
 * deviceName.name = "SystematicMSH"
@@ -44,7 +46,7 @@ Description: "EerDeviceMSH-SystematicMSH"
 Instance: EerDeviceEUA-SystematicCura
 InstanceOf: EerDevice
 Description: "EerDeviceEUA-SystematicCura"
-* identifier.value = "EerDeviceEUA-SystematicCura"
+* identifier[0].value = "EerDeviceEUA-SystematicCura"
 * type = $EerDeviceTypeCS#EUA "End User Application"
 * status = #active
 * deviceName.name = "Systematic Cura"
