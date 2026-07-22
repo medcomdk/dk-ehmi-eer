@@ -10,8 +10,12 @@ Description: "EerDeviceAP-MultiMedAP"
   * value = "+123456789"
 * url = "https://eDelivery.MultiMed.com/endpoint"
 * owner = Reference(ExampleEerMessagingOrganization)
-* extension[smpCertificate].valueString = "-----BEGIN CERTIFICATE-----..."
-* extension[smpMTLSCertificate].valueString = "CVR:11111111-UID:UI:DK-O:G:f9fa19ef-e64e-4c25-bf37-fdc14970daf5"
+
+* extension[smpPublicKey].extension[certificate].valueBase64Binary = "TUlJQkNnS0NBUUVB"
+
+* extension[smpMTLSKey][+].extension[certificateSubject].valueString = "CVR:11111111-UID:UI:DK-O:G:f9fa19ef-e64e-4c25-bf37-fdc14970daf5"
+* extension[smpMTLSKey][=].extension[certificateId].valueString = "14"
+* extension[smpMTLSKey][+].extension[certificateSubject].valueString = "CVR:11111111-UID:UI:DK-O:G:f9a27671-971f-4e3a-a3b6-cd5864a69cc0"
 
 Instance: EerDeviceMSH-MultiMedMSH
 InstanceOf: EerDevice

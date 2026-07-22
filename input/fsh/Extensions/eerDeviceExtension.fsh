@@ -32,5 +32,5 @@ Extension: EerAPSystemExtension
 Id: eer-dk-ap-system-extension
 Title: "EER System Extension - AP"
 Description: "Reference to a Device that is used to specify one or more systems which an Endpoint uses"
-Context: "Endpoint"
+Context: Endpoint
 * value[x] only Reference(EER_AP_Technical_Details)
