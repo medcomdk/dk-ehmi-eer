@@ -1,3 +1,29 @@
+Profile: EER_AP_Organization_Owner
+Parent: Organization
+Id: eer-ap-organization-owner
+Title: "EER AP Organization Owner"
+Description: "The organization owner of an AP"
+* identifier 1..
+  * ^slicing.discriminator.type = #value
+  * ^slicing.discriminator.path = "system"
+  * ^slicing.rules = #open
+* identifier contains
+    CVR-ID 1..1
+* identifier[CVR-ID] only CVRIdentifier
+  * ^short = "VAT identification number, [DA] CVR-nummer"
+* name 1..1
+  * ^short = "The name of the organization. This is the name that will be displayed in the SMP"
+* extension contains
+    SmpOrganizationIdExtension named smpOrgId 0..1 MS and
+    SmpMTLSKeyExtension named smpMTLSKey 1..* MS
+
+* type 0..0
+* telecom 0..0
+* address 0..0
+* partOf 0..0
+* contact 0..0
+* endpoint 0..0
+
 Profile: EER_AP_Technical_Details
 Parent: EerDevice
 Id: eer-ap-technical-details
@@ -17,15 +43,10 @@ Description: "Technical details of an eDelivery Access Point (AP) for registrati
   * value 1..1
 * url 1..1
   * ^short = "The technical eDelivery URL address of the endpoint. This is the address that is used in the SMP"
+* owner only Reference(EER_AP_Organization_Owner)
 * owner 1..1
-* owner only Reference(EerMessagingOrganization)
-  * ^short = "The organization that owns the AP. This is used to create the organization in the SMP and associate the certificates with it"
-
 * extension contains
-    SmpOrganizationIdExtension named smpOrgId 0..1 MS and
-    SmpPublicKeyExtension named smpPublicKey 1..1 MS and
-    SmpMTLSKeyExtension named smpMTLSKey 1..* MS
-
+    SmpPublicKeyExtension named smpPublicKey 1..1 MS
 
 * definition 0..0
 * udiCarrier 0..0

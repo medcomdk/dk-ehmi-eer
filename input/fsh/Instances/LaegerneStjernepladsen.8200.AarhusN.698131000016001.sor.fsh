@@ -61,7 +61,7 @@ Description: "EER SOR Endpoint - LaegerneStjernepladsen.SOR.5790002401428"
 * connectionType.system = $EerEndpointConnectionTypeCS
 * name = "EER SOR Endpoint - LaegerneStjernepladsen.SOR.5790002401428 FHIR Endpoint"
 * managingOrganization.reference = "Organization/LaegerneStjernepladsen.SOR.698131000016001"
-* extension[ap-system].valueReference = Reference(EerDeviceAP-MultiMedAP)
+* extension[ap-system].valueReference = Reference(EerDeviceAP-Example)
 * address = "https://example.org/fhir"
 * payloadMimeType[+] = #text/xml
 * payloadMimeType[+] = #application/fhir+xml

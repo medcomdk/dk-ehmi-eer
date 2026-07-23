@@ -48,7 +48,7 @@ Description: "EER Messaging Endpoint - LaegerneStjernepladsen.8200.AarhusN.57900
 * connectionType.system = $EerEndpointConnectionTypeCS
 * name = "EER Messaging Endpoint - LaegerneStjernepladsen.8200.AarhusN.5790002401428 FHIR Endpoint"
 * managingOrganization.reference = "Organization/LaegerneStjernepladsen.8200.AarhusN.698131000016001"
-* extension[ap-system].valueReference = Reference(EerDeviceAP-MultiMedAP)
+* extension[ap-system].valueReference = Reference(EerDeviceAP-Example)
 * address = "https://example.org/fhir"
 * payloadMimeType[+] = #text/xml
 * payloadMimeType[+] = #application/fhir+xml
