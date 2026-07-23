@@ -1,3 +1,3 @@
-Trial use release of a new way to struture EER devices. It now contains an EER AP Technical Details Device which is used in the EerEndpointMessaging.
+Trial use release of a new way to struture EER devices. It now contains an EER AP Technical Details Device which is used in the EerEndpointMessaging. The AP Technical Details Device also references a new AP Organization which is the owners of the AP.
 
-Furthermore new eDelivery identifers has been added to keep track of synchronize EER with the SMP/SML.
+Furthermore new SMP extensions has been added to keep track of identifiers within the PORS/SMP/SML NHR eDelivery network in order to synchronize EER with it.
