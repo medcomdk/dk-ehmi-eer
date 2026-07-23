@@ -8,18 +8,10 @@ Description:  "An endpoint for healthcare systems to receive messages in the EHM
   * ^slicing.discriminator.path = "system"
   * ^slicing.rules = #open
 * identifier contains
-    GLN-ID 1..1 and
-    SMP-Participant-Id 0..1 and
-    SMP-Receiver-Service-Id 0..1
+    GLN-ID 1..1
 
 * identifier[GLN-ID] only GLNIdentifier
   * ^short = "GLN is what senders will use to send supported messages (according to payloadTypes) to this endpoint"
-* identifier[SMP-Participant-Id] only EDeliveryIdentifier
-  * type = EDeliveryIdentifiersCS#smp-participant-id
-  * ^short = "The participant ID of the endpoint in the SMP/PORS API. This is used to create the participant in the SMP and associate the receiver service with it"
-* identifier[SMP-Receiver-Service-Id] only EDeliveryIdentifier
-  * type = EDeliveryIdentifiersCS#smp-receiver-service-id
-  * ^short = "The receiver service ID of the endpoint in the SMP/PORS API. This is used to create the receiver service in the SMP and associate it with the participant"
 
 * managingOrganization only Reference(EerMessagingOrganization)
   * ^short = "The responsible organization that will be contacted in case of issues with the messages sent to this endpoint."
@@ -38,6 +30,9 @@ Description:  "An endpoint for healthcare systems to receive messages in the EHM
 
 * extension contains EerMSHSystemExtension named msh-system 0..*
 * extension contains EerAPSystemExtension named ap-system 0..1
+* extension contains
+  SmpParticipantIdExtension named smpParticipantId 0..1 MS and
+  SmpReceiverServiceIdExtension named smpReceiverServiceId 0..1 MS
 
 * address
   * ^short = "The address of the endpoint is inside the ap-system extension"
