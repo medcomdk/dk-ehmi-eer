@@ -1,1 +1,1 @@
-Searchparameters on SMP/PORS data
+Change to hl7 dk core 3.5.0 which has a GLN identifier system that is http rather than https which is the proper canonical scheme to use
